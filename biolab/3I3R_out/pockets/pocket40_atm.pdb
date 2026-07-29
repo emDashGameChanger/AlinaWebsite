@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    40:
+HEADER 0  - Pocket Score                      : -0.0533
+HEADER 1  - Drug Score                        : 0.0049
+HEADER 2  - Number of alpha spheres           :    31
+HEADER 3  - Mean alpha-sphere radius          : 3.7743
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4294
+HEADER 5  - Mean B-factor of pocket residues  : 0.2747
+HEADER 6  - Hydrophobicity Score              : 36.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 240.2480
+HEADER 10 - Pocket volume (convex hull)       : 11.3600
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.5161
+ATOM   7260    N VAL B 463     -22.246  51.009  17.183  0.00  0.00           N 0
+ATOM   7289  NE2 GLN B 466     -26.871  49.811  14.801  0.68  3.28           N 0
+ATOM   7259   CB ALA B 462     -21.016  52.456  14.688  0.00  0.00           C 0
+ATOM   7266  CG2 VAL B 463     -22.607  48.053  16.597  0.00  0.00           C 0
+ATOM   6933    O GLY B 418     -24.280  47.630  10.846  0.64  4.29           O 0
+ATOM   5779   NZ LYS B 275     -26.091  49.384  10.465  0.82  6.56           N 0
+ATOM   7605   CB ILE B 505     -24.234  54.856  12.730  0.00  0.00           C 0
+ATOM   7604    O ILE B 505     -21.835  55.592  10.468  0.00  0.00           O 0
+ATOM   6940  CD1 LEU B 419     -22.595  48.751   6.993  0.00  0.00           C 0
+ATOM   6941  CD2 LEU B 419     -20.228  47.886   7.003  0.00  0.00           C 0
+ATOM   7239  NE2 HIS B 459     -17.644  48.278  10.685  0.83  8.75           N 0
+ATOM   7237  CD2 HIS B 459     -17.759  48.888  11.910  0.00  0.00           C 0
+ATOM   7238  CE1 HIS B 459     -18.272  47.115  10.725  0.00  0.00           C 0
+ATOM   6932    C GLY B 418     -23.576  46.627  10.949  0.00  0.00           C 0
+ATOM   7603    C ILE B 505     -22.912  55.035  10.655  0.00  0.00           C 0
+ATOM   5777   CD LYS B 275     -27.339  51.431  11.139  0.00  0.00           C 0
+ATOM   7236  ND1 HIS B 459     -18.769  46.949  11.937  0.00  0.00           N 0
+ATOM   7608  CD1 ILE B 505     -25.860  54.363  14.619  0.00  0.00           C 0
+ATOM   6931   CA GLY B 418     -23.072  46.188  12.301  0.00  0.00           C 0
+ATOM   7234   CB HIS B 459     -18.868  48.163  14.140  0.00  0.00           C 0
+ATOM   7235   CG HIS B 459     -18.457  48.047  12.711  0.00  0.00           C 0
+TER
+END

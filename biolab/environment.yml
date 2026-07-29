@@ -1,0 +1,6 @@
+name: biolab
+channels:
+  - conda-forge
+dependencies:
+  - pymol-open-source
+  - openbabel

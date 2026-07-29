@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    49:
+HEADER 0  - Pocket Score                      : -0.0879
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.0692
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6290
+HEADER 5  - Mean B-factor of pocket residues  : 0.3280
+HEADER 6  - Hydrophobicity Score              : 7.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 272.5745
+HEADER 10 - Pocket volume (convex hull)       : 7.5436
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4737
+ATOM   5209   CD GLN B 200     -38.452  36.739  39.461  0.00  0.00           C 0
+ATOM   1546  CG1 ILE A 223     -39.210  31.520  40.267  0.00  0.00           C 0
+ATOM   5208   CG GLN B 200     -37.744  35.562  40.115  0.00  0.00           C 0
+ATOM   5211  NE2 GLN B 200     -39.713  36.937  39.808  0.71  6.56           N 0
+ATOM   1539    O ARG A 222     -42.099  31.113  37.213  0.63  5.36           O 0
+ATOM   5210  OE1 GLN B 200     -37.866  37.456  38.650  0.00  0.00           O 0
+ATOM   1542   CA ILE A 223     -39.824  30.036  38.368  0.00  0.00           C 0
+ATOM   1547  CG2 ILE A 223     -37.427  30.244  39.015  0.00  0.00           C 0
+ATOM   1566  OD1 ASN A 225     -35.337  30.152  35.307  0.66  9.64           O 0
+ATOM   1549    N ARG A 224     -39.070  29.013  36.316  0.57  4.37           N 0
+ATOM   5207   CB GLN B 200     -36.230  35.734  40.137  0.00  0.00           C 0
+ATOM   5242  CG2 THR B 204     -31.133  32.884  37.654  0.00  0.00           C 0
+ATOM   5206    O GLN B 200     -33.549  34.176  39.498  0.68  7.50           O 0
+ATOM   1567  ND2 ASN A 225     -34.081  29.939  37.163  0.00  0.00           N 0
+ATOM   5204   CA GLN B 200     -35.502  34.577  40.809  0.00  0.00           C 0
+TER
+END

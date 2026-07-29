@@ -1,0 +1,202 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  aspect-ratio: 16 / 9;
+  background-image: url('./images/purple2.jpg');
+  background-color: #1f1f1f;
+  background-size: 100% 100%;
+  background-position: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #FFFFFF;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.mainDiv{
+  background: #0000008F;
+  min-width: none;
+  max-width: 65%;
+  min-height: none;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #6b5cae;
+  text-align: center;
+}
+.titleDiv{
+  background: #0000002F;
+  width: 95%;
+  height: 8%;
+  margin: 5px auto;
+  padding: 5px;
+  border-radius: 15px;
+  border: 2px solid #6b5cae; 
+}
+.topLinksDiv{
+  background: #0000002F;
+  width: 75%;
+  height: 7%;
+  margin: 15px auto;
+  padding: 3px;
+  border-radius: 15px;
+  border: 2px solid #6b5cae;
+  display: flex;
+  align-items: center;    /* Vertically centers the children */
+  justify-content: center; /* Horizontally centers the children */
+  gap: 10px;
+}
+.links{
+  background: #0000002F;
+  width: 120px;
+  border: 1px solid #6b5cae;
+  border-radius: 5px;
+  padding: 5px 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.links:hover{
+  background: #0000006F;
+}
+.links a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.topSplashDiv{
+  text-align: left;
+  background: #0000002F;
+  width: 95%;
+  height: 6%;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #6b5cae;
+}
+.cardContainer{
+  text-align: left;
+  /* align-items: center;    /* Vertically centers the children */
+  /* justify-content: center; /* Horizontally centers the children */
+  /* display: flex;
+  justify-content: space-between;
+  color: inherit;
+  gap: 10px; */
+}
+.cardImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 95%;
+  border-radius: 5px;
+}
+
+.indexCard{
+  background-color: #0000002F;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  vertical-align: top;
+  display: inline-block;
+  width: 31%;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid #6b5cae;
+  border-radius: 10px;
+}
+
+.indexCard:hover{
+  background-color: #0000006F
+}
+.summary{
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #6b5cae;
+  border-radius: 10px;
+  padding: 5px;
+  max-height: 250px;
+  min-height: 250px;
+  width: 95%;
+  overflow: hidden;
+}
+.footer{
+  background-color: #0000001F;
+  margin-top: 5px;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #6b5cae;
+  border-radius: 10px;
+}
+/*--------------------------------*/
+.reviewDiv{
+  text-align: left;
+  margin: 20px;
+}
+.reviewCardDiv{
+  background-color: #0000001F;
+  margin-top: 10x;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  color: #ffffff;
+  width: 90%;
+  padding: 5px;
+  text-align: left;
+  border: 2px solid #6b5cae;
+  border-radius: 10px;
+}
+.reviewCardDiv:hover{
+  background-color: #0000006F;
+}
+.reviewCardImage{
+  display: inline;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  width: 15%;
+  border-radius: 5px;
+
+}
+.reviewSummaryDiv{
+  flex: 1;
+  color: #ffffff;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 5px;
+  max-height: 95%;
+  min-height: 95%;
+  overflow: hidden;
+}
+.reviewCardDiv h4 {
+  width: 100%; 
+  margin-top: 0;
+}
+.pageBodyDiv{
+  text-align: left;
+  background-color: #0000002F;
+  border: 2px solid #6b5cae;
+  border-radius: 10px;
+  padding: 15px;
+}
+.code{
+  background-color: #0000006F;
+  border: 2px solid #6b5cae;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+  white-space: pre;
+  overflow-x: auto;
+}
+.pageImage {
+  display: block;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+}

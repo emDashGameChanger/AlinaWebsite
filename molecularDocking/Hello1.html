@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles.css">
+  <title>PyMOL & AutoDock Vina-GPU Hello World</title>
+</head>
+<body>
+  <div class="mainDiv">
+    <div class="titleDiv">
+      <h1>Hello PyMOL, AutoDock Vina-GPU and Open Babel</h1>
+      <h2>Run a basic molecular docking simulation using Human Serum Albumin (HSA) and Warfarin as a test case.</h2>
+    </div>
+
+    <div class="topLinksDiv">
+      <!-- Navigation Links -->
+      <div class="links">
+        <a href="../index.html">BioMedBound Landing Page</a>
+      </div>
+      <div class="links">
+        <a href="../toys.html">Educational Toy Reviews</a>
+      </div>
+      <div class="links">
+        <a href="../index.html">Science Book Reviews</a>
+      </div>
+      <div class="links">
+        <a href="../MolecularDocking.html">Molecular Docking</a>
+      </div>
+    </div>
+
+    <div id="helloWorldSplash" class="topSplashDiv">
+      This is a basic sanity check to make sure the software we installed in step one is working. 
+      PyMOL - for visualizing molecules <br>
+      AutoDock Vina-GPU - for performing fast, GPU-accelerated docking <br>
+      Open Babel - for converting file formats br
+
+      Prerequisites:You’ve already installed the required software (see <a href="softwareInstall.html">Software Installation Guide</a>) and set up your environment.</p>
+    </div>
+    <div class="pageBodyDiv">
+      <h3>Step 1: Create and Activate Your Conda Environment</h3>
+      <pre class="code">
+        conda create -n biolab -c conda-forge pymol-open-source openbabel -y
+        conda activate biolab
+      </pre>
+
+      <h3>Step 2: Set Up Your Project Directory</h3>
+      <pre class="code">
+        cd ~/Documents
+        mkdir MolecularBonding
+        cd MolecularBonding
+        mkdir locks keys
+      </pre>
+
+      <h3>Step 3: Download the Protein and Ligand</h3>
+      <p>Get Human Serum Albumin (PDB ID: <code>1H9Z</code>) and Warfarin (from PubChem).</p>
+      <pre class="code">
+        cd locks
+        wget https://files.rcsb.org/download/1H9Z.pdb
+        cd ..
+        cd keys
+        wget -O warfarin.sdf "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6691/SDF?record_type=3d"
+        cd ..
+      </pre>
+
+      <h3>Step 4: Open PyMOL to View the Molecules</h3>
+      <pre class="code">
+        pymol
+      </pre>
+      <p>Once PyMOL launches, type the following in the terminal window:</p>
+      <pre class="code">
+        load locks/1H9Z.pdb
+        load keys/warfarin.sdf
+      </pre>
+
+      <h3>Step 5: Convert Files to PDBQT Format</h3>
+      <p>Open a new terminal and activate the environment:</p>
+      <pre class="code">
+        cd ~/Documents/MolecularBonding
+        conda activate biolab
+        cd keys
+        obabel warfarin.sdf -O warfarin.pdbqt --gen3d
+        cd ..
+        cd locks
+        obabel 1H9Z.pdb -O receptor.pdbqt -xr
+      </pre>
+      <p><em>Note: You may see warnings about aromatic bonds. These can be ignored for this test, but should be fixed in real research using ADFR Suite.</em></p>
+
+      <h3>Step 6: Create the Configuration File</h3>
+      <pre class="code">
+        geany config.txt
+      </pre>
+      <p>Enter the following text into the file:</p>
+      <pre class="code">
+        receptor = ./locks/receptor.pdbqt
+        ligand = ./keys/warfarin.pdbqt
+
+        center_x = 29.0
+        center_y = 31.8
+        center_z = 23.4
+
+        size_x = 20.0
+        size_y = 20.0
+        size_z = 20.0
+
+        thread = 8000
+        search_depth = 10
+      </pre>
+
+      <h3>Step 7: Create a Symbolic Link to the GPU Binary</h3>
+      <pre class="code">
+        ln -s ~/software/Vina-GPU-2.1/AutoDock-Vina-GPU-2.1/OpenCL ./OpenCL
+      </pre>
+
+      <h3>Step 8: Run the Docking Simulation</h3>
+      <pre class="code">
+        ~/software/Vina-GPU-2.1/AutoDock-Vina-GPU-2.1/AutoDock-Vina-GPU-2.1 --config config.txt
+      </pre>
+      <p><strong>Output Example:</strong></p>
+      <pre class="code">
+        #################################################################
+        # If you used AutoDockVina-GPU 2.1 in your work, please cite:   #
+        #                                                               #
+        # Ding, Ji, et al. Vina-GPU 2.0: Further Accelerating AutoDock  #
+        # Vina and Its Derivatives with Graphics Processing Units.      #
+        # Journal of Chemical Information and Modeling (2023).          #
+        #                                                               #
+        # DOI https://doi.org/10.1021/acs.jcim.2c01504                  #
+        #                                                               #
+        # Shidi, Tang, Chen Ruiqi, Lin Mengru, Lin Qingde,              #
+        # Zhu Yanxiang, Wu Jiansheng, Hu Haifeng, and Ling Ming.        #
+        # Accelerating AutoDock Vina with GPUs.                         #
+        # Molecules 27.9 (2022): 3041.                                  #
+        #                                                               #
+        # DOI https://doi.org/10.3390/molecules27093041                 #
+        #                                                               #
+        # And also the origin AutoDock Vina paper:                      #
+        # O. Trott, A. J. Olson,                                        #
+        # AutoDock Vina: improving the speed and accuracy of docking    #
+        # with a new scoring function, efficient optimization and       #
+        # multithreading, Journal of Computational Chemistry 31 (2010)  #
+        # 455-461                                                       #
+        #                                                               #
+        # DOI 10.1002/jcc.21334                                         #
+        #                                                               #
+        #################################################################
+
+        Using single ligand docking mode
+        Output will be ./keys/warfarin_out.pdbqt
+        Reading input ... done.
+        Setting up the scoring function ... done.
+        Search_depth is fixed to 10
+        Analyzing the binding site ... done.
+        GPU Platform: NVIDIA CUDA
+        GPU Device: NVIDIA GeForce RTX 3090 Ti
+        Using random seed: 1295178484
+        Build kernel 1 from source
+        OpenCL version: 3.0
+        Build kernel 2 from source
+        OpenCL version: 3.0
+        Perform docking|================done=================|
+        Refining ligand ./keys/warfarin results...done.
+        mode |   affinity | dist from best mode
+             | (kcal/mol) | rmsd l.b.| rmsd u.b.
+        -----+------------+----------+----------
+           1         -5.3      0.000      0.000
+           2         -5.2      1.613      6.221
+           3         -5.1      0.710      1.270
+           4         -5.1      1.726      5.767
+           5         -5.1      1.826      5.814
+           6         -5.1      1.694      6.126
+           7         -5.1      1.847      5.875
+           8         -5.0      3.245      6.233
+           9         -5.0      1.370      1.738
+        Writing ligand ./keys/warfarin output...done.
+      </pre>
+
+      <p><strong>Interpreting the Output:</strong></p>
+      <ul>
+        <li><strong>Mode 1</strong> has the best affinity (-5.3 kcal/mol), meaning it’s the most stable binding configuration.</li>
+        <li>The <em>dist from best mode</em> (rmsd) values show how different the poses are from the top-scoring one. A low rmsd (like 0.000) means the pose is very similar to the best one.</li>
+        <li>Higher affinity (more negative) = stronger binding.</li>
+        <li>Multiple modes are returned because the algorithm explores different possible binding orientations.</li>
+      </ul>
+
+      <p><strong>Viewing the Results in PyMOL:</strong></p>
+      <ol>
+        <li>Start PyMOL: <code>pymol</code></li>
+        <li>In the PyMOL terminal:
+          <pre class="code">
+            load ./locks/1H9Z.pdb, protein
+            load ./keys/warfarin_out.pdbqt, docking_results
+            hide everything
+            show cartoon, protein
+            color white, protein
+            show sticks, docking_results
+            color marine, docking_results
+            set all_states, off
+            center docking_results
+            zoom docking_results, 10
+          </pre>
+        </li>
+        <li>Observe the marine-colored ligand (warfarin) bound in the protein’s binding pocket.</li>
+      </ol>
+
+      <p><strong>Summary:</strong></p>
+      <p>This "Hello World" example demonstrates this full workflow:</p>
+      <ul>
+        <li>Using <strong>PyMOL</strong> to visualize molecular structures.</li>
+        <li>Using <strong>Open Babel</strong> to convert file formats (SDF to PDBQT).</li>
+        <li>Using <strong>AutoDock Vina-GPU</strong> to perform molecular docking.</li>
+        <li>Using <strong>conda</strong> to manage software environments.</li>
+      </ul>
+
+      <p>Step 3 is to show how to use fPocket to determine where to try to place the ligand. We will also explain some of the theory behind what we are doing as well as waht these numbers we see in the output mean.</p>
+    </div>
+      <div class="footer">
+        Contact: <a class="link" href="mailto: alinaren@biomedbound.com">AlinaRen@biomedbound.com</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

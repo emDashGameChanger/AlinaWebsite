@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    29:
+HEADER 0  - Pocket Score                      : -0.0208
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    31
+HEADER 3  - Mean alpha-sphere radius          : 3.9298
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5672
+HEADER 5  - Mean B-factor of pocket residues  : 0.3187
+HEADER 6  - Hydrophobicity Score              : 17.7000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 231.7526
+HEADER 10 - Pocket volume (convex hull)       : 12.9403
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.3226
+ATOM   6465   CA ALA B 360     -40.200  27.982  -9.437  0.00  0.00           C 0
+ATOM   7462  OE2 GLU B 487     -40.367  32.709 -13.877  0.00  0.00           O 0
+ATOM   7452  CG2 ILE B 486     -40.703  34.381  -9.592  0.00  0.00           C 0
+ATOM   6300  NH2 ARG B 338     -37.286  30.731 -12.477  0.04  2.19           N 0
+ATOM   6493  CD1 ILE B 363     -41.996  31.827  -7.104  0.00  0.00           C 0
+ATOM   6492  CG2 ILE B 363     -44.904  30.616  -7.144  0.00  0.00           C 0
+ATOM   6468   CB ALA B 360     -39.834  27.693 -10.894  0.00  0.00           C 0
+ATOM   7461  OE1 GLU B 487     -41.696  34.395 -13.307  0.88  5.36           O 0
+ATOM   6529   NZ LYS B 367     -48.083  30.859  -9.644  0.00  0.00           N 0
+ATOM   6490   CB ILE B 363     -43.611  29.910  -6.731  0.00  0.00           C 0
+ATOM   6467    O ALA B 360     -42.219  26.883  -8.785  0.66  5.36           O 0
+ATOM   6494    N ASN B 364     -44.814  27.069  -7.203  0.00  0.00           N 0
+ATOM   7439   CA ASN B 485     -45.111  36.331 -11.779  0.00  0.00           C 0
+ATOM   7444  OD1 ASN B 485     -46.626  34.676 -13.900  0.64  9.64           O 0
+ATOM   6498   CB ASN B 364     -45.284  25.260  -8.800  0.00  0.00           C 0
+ATOM   6500  OD1 ASN B 364     -47.163  25.294 -10.262  0.11  9.64           O 0
+ATOM   7077   CB VAL B 438     -46.538  35.436  -7.431  0.00  0.00           C 0
+ATOM   7079  CG2 VAL B 438     -45.763  34.517  -6.520  0.00  0.00           C 0
+ATOM   7442   CB ASN B 485     -44.758  36.035 -13.235  0.00  0.00           C 0
+ATOM   7446    N ILE B 486     -43.176  36.107 -10.321  0.86  1.09           N 0
+ATOM   6495   CA ASN B 364     -45.837  26.169  -7.701  0.00  0.00           C 0
+ATOM   7430    O ARG B 484     -47.703  35.792 -10.867  0.00  0.00           O 0
+TER
+END

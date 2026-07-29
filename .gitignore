@@ -1,0 +1,15 @@
+# BioLab machine-specific / generated build artifacts — reproduce via biolab/setup.sh
+biolab/AutoDock-Vina-GPU-2-1
+biolab/OpenCL
+biolab/Kernel1_Opt.bin
+biolab/Kernel2_Opt.bin
+biolab/vendor/
+
+# Conda/venv (if ever created locally inside the repo tree)
+biolab/.conda/
+**/*.egg-info/
+__pycache__/
+
+# OS/editor cruft
+.DS_Store
+*.swp

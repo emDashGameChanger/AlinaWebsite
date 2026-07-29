@@ -1,0 +1,51 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    56:
+HEADER 0  - Pocket Score                      : -0.1506
+HEADER 1  - Drug Score                        : 0.0351
+HEADER 2  - Number of alpha spheres           :    40
+HEADER 3  - Mean alpha-sphere radius          : 4.0480
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5673
+HEADER 5  - Mean B-factor of pocket residues  : 0.2730
+HEADER 6  - Hydrophobicity Score              : 21.0000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 514.3426
+HEADER 10 - Pocket volume (convex hull)       : 66.6867
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 23.8400
+HEADER 13 - Number of apolar alpha sphere     :    25
+HEADER 14 - Proportion of apolar alpha sphere : 0.6250
+ATOM   5871    O LEU B 287     -33.411  39.257 -10.052  0.47  4.29           O 0
+ATOM   5877   CA TRP B 288     -30.669  39.687  -9.645  0.00  0.00           C 0
+ATOM   5913   CB LYS B 291     -32.527  37.497 -13.256  0.00  0.00           C 0
+ATOM   5987   CE LYS B 302     -30.817  46.507 -13.506  0.00  0.00           C 0
+ATOM   5849  OE1 GLU B 284     -32.150  46.443  -9.980  0.51  2.14           O 0
+ATOM   5845    O GLU B 284     -30.919  42.956  -7.878  0.00  0.00           O 0
+ATOM   5876    N TRP B 288     -31.772  40.340  -8.946  0.00  0.00           N 0
+ATOM   5986   CD LYS B 302     -29.759  46.824 -12.453  0.00  0.00           C 0
+ATOM   5954    O ASP B 298     -26.534  45.127 -13.144  0.67  4.29           O 0
+ATOM   5979   CB ALA B 301     -25.085  47.546 -15.711  0.00  0.00           C 0
+ATOM   5952   CA ASP B 298     -25.444  43.254 -14.111  0.00  0.00           C 0
+ATOM   5957  OD1 ASP B 298     -25.580  41.409 -16.137  0.00  0.00           O 0
+ATOM   5882  CD1 TRP B 288     -27.527  40.109 -11.122  0.00  0.00           C 0
+ATOM   5880   CB TRP B 288     -29.411  40.522  -9.396  0.00  0.00           C 0
+ATOM   5966  CD2 LEU B 299     -27.202  43.421  -9.067  0.00  0.00           C 0
+ATOM   5955   CB ASP B 298     -26.302  42.005 -13.936  0.00  0.00           C 0
+ATOM   5958  OD2 ASP B 298     -26.841  39.965 -15.059  0.48  6.43           O 0
+ATOM   5956   CG ASP B 298     -26.231  41.060 -15.130  0.00  0.00           C 0
+ATOM   5922   CB SER B 293     -27.690  37.218 -12.857  0.00  0.00           C 0
+ATOM   5872   CB LEU B 287     -34.308  42.212  -9.089  0.00  0.00           C 0
+ATOM   5870    C LEU B 287     -33.047  40.077  -9.208  0.00  0.00           C 0
+ATOM   5874  CD1 LEU B 287     -35.501  44.411  -9.311  0.00  0.00           C 0
+ATOM   5988   NZ LYS B 302     -31.934  47.498 -13.453  0.74  7.66           N 0
+ATOM   7486   CB THR B 490     -38.904  46.221 -12.484  0.00  0.00           C 0
+ATOM   7488  CG2 THR B 490     -38.910  45.281 -13.693  0.00  0.00           C 0
+ATOM   7483   CA THR B 490     -38.699  45.431 -11.183  0.00  0.00           C 0
+ATOM   7495  CG2 ILE B 491     -35.846  49.824 -10.009  0.00  0.00           C 0
+ATOM   7504  OD2 ASP B 492     -39.334  51.870 -12.659  0.00  0.00           O 0
+ATOM   7489    N ILE B 491     -37.532  47.220  -9.995  0.00  0.00           N 0
+TER
+END

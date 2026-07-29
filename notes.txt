@@ -1,0 +1,11 @@
+toy review
+  education value (printed materials, webstie, tools)
+  entertainment value
+  inspirational value
+books that are hobby med lab related - do some of the expiriments
+  Make: The Annotated Build-It-Yourself Science Laboratory - Print
+  Forrest M Mims books
+When will I use this?
+  Math in the real world
+
+   ~/software/Vina-GPU-2.1/AutoDock-Vina-GPU-2.1/AutoDock-Vina-GPU-2-1 --config config.txt

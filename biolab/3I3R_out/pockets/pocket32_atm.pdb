@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : -0.0310
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0182
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6378
+HEADER 5  - Mean B-factor of pocket residues  : 0.9178
+HEADER 6  - Hydrophobicity Score              : 20.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 228.5218
+HEADER 10 - Pocket volume (convex hull)       : 5.5993
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3810
+ATOM   4410    O VAL B  92     -68.994  78.332  27.813  0.68  4.29           O 0
+ATOM   4392    O ARG B  90     -66.442  83.390  26.734  0.00  0.00           O 0
+ATOM   4409    C VAL B  92     -70.076  78.739  27.379  0.00  0.00           C 0
+ATOM   4418   CB LYS B  93     -71.678  79.118  30.489  0.00  0.00           C 0
+ATOM   4461  CG1 VAL B 100     -68.266  75.680  29.522  0.00  0.00           C 0
+ATOM   4465    C TYR B 101     -64.488  77.089  31.775  0.00  0.00           C 0
+ATOM   4459    O VAL B 100     -67.710  75.016  33.357  0.42  5.36           O 0
+ATOM   4390   CA ARG B  90     -64.931  81.683  27.519  0.00  0.00           C 0
+ATOM   4464   CA TYR B 101     -65.212  76.068  32.648  0.00  0.00           C 0
+ATOM   4475    N GLU B 102     -64.111  78.206  32.386  0.73  2.19           N 0
+ATOM   4394   CG ARG B  90     -63.076  82.579  29.030  0.00  0.00           C 0
+ATOM   4479   CB GLU B 102     -63.821  80.639  32.268  0.00  0.00           C 0
+ATOM   4391    C ARG B  90     -66.034  82.232  26.593  0.00  0.00           C 0
+ATOM   4458    C VAL B 100     -67.247  74.753  32.244  0.00  0.00           C 0
+ATOM   4386    O SER B  89     -64.906  79.265  28.913  0.00  0.00           O 0
+ATOM   4407    N VAL B  92     -68.973  80.186  25.799  0.58  3.28           N 0
+ATOM   4414    N LYS B  93     -71.207  78.726  28.090  0.65  1.09           N 0
+TER
+END

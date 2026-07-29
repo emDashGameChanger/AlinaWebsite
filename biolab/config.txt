@@ -1,0 +1,13 @@
+receptor = receptor.pdbqt
+ligand = ligand.pdbqt
+
+center_x = -51.722999572753906
+center_y = 16.770999908447266
+center_z = 6.224999904632568
+
+size_x = 20
+size_y = 20
+size_z = 20
+
+search_depth = 100
+
