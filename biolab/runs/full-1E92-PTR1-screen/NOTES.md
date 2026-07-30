@@ -52,10 +52,15 @@ unrelated to the pterin-mimetic/benzothiazole chemotypes known from the
 published PTR1-inhibitor literature (see `../../targets/PTR1.md`) — novel
 scaffolds if they hold up, not a red flag on their own.
 
-**Not yet done** (follow-ups worth doing before writing this up further):
-visually sanity-check a few top binding poses (physically plausible
-orientation vs. junk pose), and a literature check for any existing
-antiparasitic/PTR1 activity on the top hits.
+**Pose sanity check (done)**: rendered the best docked pose for all top 10
+in PyMOL from one fixed camera/pocket view (see
+`../../molecularDocking/images/ptr1TopPoses.png`, also embedded in the
+website write-up). All 10 land in the same pocket, adjacent to the NADP+
+cofactor, rather than being scattered across the protein surface — a real
+plausibility signal beyond the raw affinity numbers.
+
+**Not yet done**: a literature check for any existing antiparasitic/PTR1
+activity on the top hits.
 
 **Scope note**: hypothesis-generation only — no docking score here is a
 therapeutic claim, per project-wide scope rules.

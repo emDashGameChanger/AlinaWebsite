@@ -65,9 +65,21 @@ or benzothiazole chemotypes known from the PTR1-inhibitor literature —
 interesting as novel-scaffold candidates rather than a red flag, since
 hypothesis-generation doesn't require matching known chemistry.
 
-Not yet done: a visual sanity-check of a few top binding poses, and a
-literature check for any existing antiparasitic activity on the top hits.
-Good candidate for the next `website-tutorial-page` once that follow-up
-happens — this is the first result substantial enough to be worth writing
-up. Per project scope, none of this is a therapeutic claim: these are
-computational hits worth investigating further, not proof of anything.
+Wrote this up as the site's first PTR1 tutorial page
+(`molecularDocking/PTR1Screen.html`), wired into the index and Molecular
+Docking hub cards.
+
+## 2026-07-30 (later)
+
+Ran the visual pose sanity-check that was left open above: rendered the
+best docked pose for all top 10 hits in PyMOL from one fixed camera/pocket
+view (`molecularDocking/images/ptr1TopPoses.png`) so they're directly
+comparable side by side. Result: all 10 land in the same pocket, right up
+against the NADP+ cofactor, instead of being scattered across the protein
+surface — a real physically-grounded plausibility signal on top of the raw
+affinity numbers. Added the render grid to the PTR1Screen.html write-up.
+
+Still not yet done: a literature check for any existing antiparasitic
+activity on the top hits. Per project scope, none of this is a therapeutic
+claim: these are computational hits worth investigating further, not proof
+of anything.

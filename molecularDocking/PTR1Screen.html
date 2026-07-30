@@ -93,12 +93,23 @@
       known from the published PTR1-inhibitor literature. That's not a red flag by itself; it just means these
       would be novel-scaffold candidates rather than "expected" ones, if they hold up to closer scrutiny.</p>
 
+      <h3>Step 6: Do the poses actually make sense?</h3>
+      <p>A predicted affinity score by itself doesn't mean much — Vina can hand back a great-looking number for a
+      pose that's actually nonsense (a ligand clipping through the protein, or sitting half outside the pocket).
+      So before trusting this list at all, I rendered the best docked pose for all 10 top hits in PyMOL, using the
+      exact same camera angle and pocket view for every one, so they're directly comparable side by side.</p>
+      <img src="images/ptr1TopPoses.png" alt="Grid of the top 10 candidates' docked poses, all shown from the same fixed camera angle in the PTR1 pocket" class="pageImage">
+      <p>This is exactly the sanity check I wanted to see: <strong>every single one of the top 10 lands in the same
+      pocket</strong>, right up against the NADP+ cofactor (blue), instead of being scattered randomly across the
+      protein surface. That's a real, physically-grounded reason to trust these scores a bit more than the number
+      alone would justify — Vina consistently found the known biopterin-binding site as the best place to put a
+      completely different set of drug-sized molecules, run after run.</p>
+
       <h3>What's next</h3>
-      <p>A predicted affinity score isn't a finding by itself — the next steps are a visual sanity check on a few
-      of the top binding poses (does the drug actually sit in the pocket in a physically reasonable way, or did Vina
-      find a weird pose that happens to score well?) and a literature check for any existing antiparasitic activity
-      on the top hits. <em>None of this is a therapeutic claim</em> — these are computational predictions worth
-      investigating further, not proof that any of these drugs actually work against leishmaniasis.</p>
+      <p>The remaining open item is a literature check for any existing antiparasitic activity on the top hits —
+      the pose sanity check says these are physically plausible binders, not that they're already known to work.
+      <em>None of this is a therapeutic claim</em> — these are computational predictions worth investigating
+      further, not proof that any of these drugs actually work against leishmaniasis.</p>
 
       <h3>A quick note on how this got built</h3>
       <p>I built this target research and the docking run working with Claude Code, same as the rest of the
