@@ -10,6 +10,17 @@ biolab/.conda/
 **/*.egg-info/
 __pycache__/
 
+# Drug library: raw downloaded source files and generated ligand PDBQTs are
+# regenerable (biolab/scripts/fetch_drug_library.py, prepare_ligand_library.py)
+# -- keep only the small, committed drug_library.csv / failures record.
+biolab/data/drugcentral_raw/
+biolab/ligands/
+
+# Docking run outputs (config/log/results per run) are regenerable and can
+# be large -- not committed by default. Promote a specific run's results.csv
+# by hand if it becomes a real finding worth keeping in version control.
+biolab/runs/
+
 # OS/editor cruft
 .DS_Store
 *.swp

@@ -1,0 +1,90 @@
+drugcentral_id,name,smiles,error
+5429,gallium (68Ga) gozetotide,[H+].C1=CC(=C(C=C1CCC(=O)NCCCCCC(=O)NCCCC[C@@H](C(=O)O)NC(=O)N[C@@H](CCC(=O)O)C(=O)O)CN(CCN(CC2=C(C=CC(=C2)CCC(=O)O)[O-])CC(=O)[O-])CC(=O)[O-])[O-].[68Ga+3],Meeko exception: RDKit molecule has 3 fragments. Must have 1.
+244,arsenic trioxide,O=[As]O[As]=O,"Meeko PDBQT write failed: atom number 1 has None type, mol name: None
+atom number 3 has None type, mol name: None
+atom number 0 has non finite charge, mol name: None, charge: nan
+atom number 1 has None type, mol name: None
+atom number 1 has non finite charge, mol name: None, charge: nan
+atom number 2 has non finite charge, mol name: None, charge: nan
+atom number 3 has None type, mol name: None
+atom number 3 has non finite charge, mol name: None, charge: nan
+atom number 4 has non finite charge, mol name: None, charge: nan
+"
+2346,quinidine,COC1=CC=C2N=CC=C([C@H](O)[C@H]3C[C@@H]4CC[N@]3C[C@@H]4C=C)C2=C1,3D embedding failed
+4523,quinine,COC1=CC=C2N=CC=C([C@@H](O)[C@@H]3C[C@@H]4CC[N@]3C[C@@H]4C=C)C2=C1,3D embedding failed
+4800,radium Ra 223 dichloride,Cl[223Ra]Cl,"Meeko PDBQT write failed: atom number 1 has None type, mol name: None
+atom number 0 has non finite charge, mol name: None, charge: nan
+atom number 1 has None type, mol name: None
+atom number 1 has non finite charge, mol name: None, charge: nan
+atom number 2 has non finite charge, mol name: None, charge: nan
+"
+5095,thallous chloride Tl-201,Cl[201Tl],"Meeko PDBQT write failed: atom number 1 has None type, mol name: None
+atom number 0 has non finite charge, mol name: None, charge: nan
+atom number 1 has None type, mol name: None
+atom number 1 has non finite charge, mol name: None, charge: nan
+"
+4250,algeldrate,O[Al](O)O,"Meeko PDBQT write failed: atom number 1 has None type, mol name: None
+atom number 1 has None type, mol name: None
+"
+5411,copper dotatate Cu-64,C[C@H]([C@H]1C(=O)N[C@@H](CSSC[C@@H](C(=O)N[C@H](C(=O)N[C@@H](C(=O)N[C@H](C(=O)N1)CCCCN)CC2=CNC3=CC=CC=C32)CC4=CC=C(C=C4)O)NC(=O)[C@@H](CC5=CC=CC=C5)NC(=O)CN6CCN(CCN(CCN(CC6)CC(=O)[O-])CC(=O)[O-])CC(=O)O)C(=O)N[C@@H]([C@@H](C)O)C(=O)O)O.[64Cu+2],Meeko exception: RDKit molecule has 2 fragments. Must have 1.
+4530,cupric chloride,Cl[Cu]Cl,"Meeko PDBQT write failed: atom number 1 has None type, mol name: None
+atom number 0 has non finite charge, mol name: None, charge: nan
+atom number 1 has None type, mol name: None
+atom number 1 has non finite charge, mol name: None, charge: nan
+atom number 2 has non finite charge, mol name: None, charge: nan
+"
+4370,xenon (127Xe) gas,[127Xe],"Meeko PDBQT write failed: atom number 0 has None type, mol name: None
+atom number 0 has None type, mol name: None
+"
+4291,cupric oxide,O=[Cu],"Meeko PDBQT write failed: atom number 1 has None type, mol name: None
+atom number 0 has non finite charge, mol name: None, charge: nan
+atom number 1 has None type, mol name: None
+atom number 1 has non finite charge, mol name: None, charge: nan
+"
+3544,selenomethionine,C[Se]CC[C@H](N)C(O)=O,"Meeko PDBQT write failed: atom number 1 has None type, mol name: None
+atom number 1 has None type, mol name: None
+"
+4274,selenium sulfide,S=[Se]=S,"Meeko PDBQT write failed: atom number 1 has None type, mol name: None
+atom number 1 has None type, mol name: None
+"
+4273,stannous fluoride,F[SnH2]F,"Meeko PDBQT write failed: atom number 1 has None type, mol name: None
+atom number 0 has non finite charge, mol name: None, charge: nan
+atom number 1 has None type, mol name: None
+atom number 1 has non finite charge, mol name: None, charge: nan
+atom number 2 has non finite charge, mol name: None, charge: nan
+"
+4237,titanium dioxide,O=[Ti]=O,"Meeko PDBQT write failed: atom number 1 has None type, mol name: None
+atom number 0 has non finite charge, mol name: None, charge: nan
+atom number 1 has None type, mol name: None
+atom number 1 has non finite charge, mol name: None, charge: nan
+atom number 2 has non finite charge, mol name: None, charge: nan
+"
+4262,helium,[He],"Meeko PDBQT write failed: atom number 0 has None type, mol name: None
+atom number 0 has None type, mol name: None
+"
+5118,chromic chloride,Cl[Cr](Cl)Cl,"Meeko PDBQT write failed: atom number 1 has None type, mol name: None
+atom number 0 has non finite charge, mol name: None, charge: nan
+atom number 1 has None type, mol name: None
+atom number 1 has non finite charge, mol name: None, charge: nan
+atom number 2 has non finite charge, mol name: None, charge: nan
+atom number 3 has non finite charge, mol name: None, charge: nan
+"
+4257,bismuth subsalicylate,O[Bi]1OC(=O)C2=CC=CC=C2O1,"Meeko PDBQT write failed: atom number 1 has None type, mol name: None
+atom number 0 has non finite charge, mol name: None, charge: nan
+atom number 1 has None type, mol name: None
+atom number 1 has non finite charge, mol name: None, charge: nan
+atom number 2 has non finite charge, mol name: None, charge: nan
+atom number 3 has non finite charge, mol name: None, charge: nan
+atom number 4 has non finite charge, mol name: None, charge: nan
+atom number 5 has non finite charge, mol name: None, charge: nan
+atom number 6 has non finite charge, mol name: None, charge: nan
+atom number 7 has non finite charge, mol name: None, charge: nan
+atom number 8 has non finite charge, mol name: None, charge: nan
+atom number 9 has non finite charge, mol name: None, charge: nan
+atom number 10 has non finite charge, mol name: None, charge: nan
+atom number 11 has non finite charge, mol name: None, charge: nan
+atom number 12 has non finite charge, mol name: None, charge: nan
+"
+4371,xenon (133Xe) gas,[133Xe],"Meeko PDBQT write failed: atom number 0 has None type, mol name: None
+atom number 0 has None type, mol name: None
+"

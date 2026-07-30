@@ -86,6 +86,14 @@ from these records (see `molecularDocking/Hello2.html`'s -5.1 → -7.8 kcal/mol
 before/after comparison as the pattern to follow). Use the `docking-run` and
 `lab-notebook` skills for this.
 
+**Batch screening the FDA-approved drug library**: `biolab/data/drug_library.csv`
+(~1,859 approved drugs, sourced from DrugCentral) and `biolab/scripts/batch_dock.py`
+are the standard entry point for screening the whole library against a
+receptor — see `biolab/README.md`'s "Drug library" section for the full
+pipeline (`fetch_drug_library.py` → `prepare_ligand_library.py` →
+`batch_dock.py`). Always `--limit` to a small smoke-test batch against a new
+receptor/box before committing to a full-library run.
+
 ## Website update conventions
 
 - **Relative paths only.** Never use a leading `/` in `href`/`src` — it
@@ -100,9 +108,8 @@ before/after comparison as the pattern to follow). Use the `docking-run` and
   (contact mailto).
 - The `topLinksDiv` nav block is duplicated across every page — if you add a
   new top-level page, update the nav in *all* existing pages to keep them in
-  sync. (Note: "Science Book Reviews" currently points at `index.html`
-  instead of `books.html` on purpose, since `books.html` has no real content
-  yet — repoint it to `books.html` once that section has actual reviews.)
+  sync. All nav links (including "Science Book Reviews" → `books.html`) are
+  correct sitewide as of this writing.
 - Contact footer always uses `alinaren@biomedbound.com`.
 
 ## House style / tone

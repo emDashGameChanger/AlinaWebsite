@@ -4,3 +4,11 @@ channels:
 dependencies:
   - pymol-open-source
   - openbabel
+  - rdkit
+  - pandas
+  - requests
+  - scipy
+  - gemmi
+  - pip
+  - pip:
+      - meeko
