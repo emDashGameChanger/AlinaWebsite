@@ -73,11 +73,14 @@ Docking hub cards.
 
 Ran the visual pose sanity-check that was left open above: rendered the
 best docked pose for all top 10 hits in PyMOL from one fixed camera/pocket
-view (`molecularDocking/images/ptr1TopPoses.png`) so they're directly
-comparable side by side. Result: all 10 land in the same pocket, right up
-against the NADP+ cofactor, instead of being scattered across the protein
-surface — a real physically-grounded plausibility signal on top of the raw
-affinity numbers. Added the render grid to the PTR1Screen.html write-up.
+view (`molecularDocking/images/ptr1poses/`) so they're directly comparable
+side by side. Result: all 10 land in the same pocket, right up against the
+NADP+ cofactor, instead of being scattered across the protein surface — a
+real physically-grounded plausibility signal on top of the raw affinity
+numbers. Added a clickable HTML/CSS grid (each pose links to its own
+full-size render) to the PTR1Screen.html write-up; ligand carbons are
+rendered magenta for contrast against the gray pocket surface and blue
+NADP+.
 
 Still not yet done: a literature check for any existing antiparasitic
 activity on the top hits. Per project scope, none of this is a therapeutic

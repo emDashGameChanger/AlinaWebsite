@@ -54,10 +54,13 @@ scaffolds if they hold up, not a red flag on their own.
 
 **Pose sanity check (done)**: rendered the best docked pose for all top 10
 in PyMOL from one fixed camera/pocket view (see
-`../../molecularDocking/images/ptr1TopPoses.png`, also embedded in the
-website write-up). All 10 land in the same pocket, adjacent to the NADP+
-cofactor, rather than being scattered across the protein surface — a real
-plausibility signal beyond the raw affinity numbers.
+`../../molecularDocking/images/ptr1poses/`, embedded as a clickable
+HTML/CSS grid in the website write-up -- no JS, each thumbnail links to
+its own full-size render). Ligand carbons rendered magenta for contrast
+against the gray pocket surface and blue NADP+. All 10 land in the same
+pocket, adjacent to the NADP+ cofactor, rather than being scattered across
+the protein surface — a real plausibility signal beyond the raw affinity
+numbers.
 
 **Not yet done**: a literature check for any existing antiparasitic/PTR1
 activity on the top hits.
