@@ -98,69 +98,121 @@
       pose that's actually nonsense (a ligand clipping through the protein, or sitting half outside the pocket).
       So before trusting this list at all, I rendered the best docked pose for all 10 top hits in PyMOL, using the
       exact same camera angle and pocket view for every one, so they're directly comparable side by side. Gray is
-      the PTR1 pocket surface, blue is the NADP+ cofactor, and magenta is the docked drug — click any image to open
-      the full-size render in a new tab.</p>
+      the PTR1 pocket surface and blue is the NADP+ cofactor. Each drug gets two renders of the same pose side by
+      side: a stick view (magenta) and a surface/"blob" view (pink, #E03FD8) in the same solid style as the pocket
+      itself, so you can see both the atom-level detail and the overall shape the drug fills. Click any image to
+      open the full-size render in a new tab.</p>
       <div class="poseGrid">
-        <a href="images/ptr1poses/alectinib.png" target="_blank">
-          <div class="poseCard">
-            <img src="images/ptr1poses/alectinib.png" alt="Alectinib docked pose in the PTR1 pocket" class="poseCardImage">
-            <div class="poseCaption"><span>alectinib</span><span>-12.1 kcal/mol</span></div>
+        <div class="poseCard">
+          <div class="posePair">
+            <a href="images/ptr1poses/alectinib.png" target="_blank">
+              <img src="images/ptr1poses/alectinib.png" alt="Alectinib docked pose, stick representation" class="poseCardImage">
+            </a>
+            <a href="images/ptr1posesSurface/alectinib.png" target="_blank">
+              <img src="images/ptr1posesSurface/alectinib.png" alt="Alectinib docked pose, surface representation" class="poseCardImage">
+            </a>
           </div>
-        </a>
-        <a href="images/ptr1poses/risdiplam.png" target="_blank">
-          <div class="poseCard">
-            <img src="images/ptr1poses/risdiplam.png" alt="Risdiplam docked pose in the PTR1 pocket" class="poseCardImage">
-            <div class="poseCaption"><span>risdiplam</span><span>-11.7 kcal/mol</span></div>
+          <div class="poseCaption"><span>alectinib</span><span>-12.1 kcal/mol</span></div>
+        </div>
+        <div class="poseCard">
+          <div class="posePair">
+            <a href="images/ptr1poses/risdiplam.png" target="_blank">
+              <img src="images/ptr1poses/risdiplam.png" alt="Risdiplam docked pose, stick representation" class="poseCardImage">
+            </a>
+            <a href="images/ptr1posesSurface/risdiplam.png" target="_blank">
+              <img src="images/ptr1posesSurface/risdiplam.png" alt="Risdiplam docked pose, surface representation" class="poseCardImage">
+            </a>
           </div>
-        </a>
-        <a href="images/ptr1poses/eltrombopag.png" target="_blank">
-          <div class="poseCard">
-            <img src="images/ptr1poses/eltrombopag.png" alt="Eltrombopag docked pose in the PTR1 pocket" class="poseCardImage">
-            <div class="poseCaption"><span>eltrombopag</span><span>-11.6 kcal/mol</span></div>
+          <div class="poseCaption"><span>risdiplam</span><span>-11.7 kcal/mol</span></div>
+        </div>
+        <div class="poseCard">
+          <div class="posePair">
+            <a href="images/ptr1poses/eltrombopag.png" target="_blank">
+              <img src="images/ptr1poses/eltrombopag.png" alt="Eltrombopag docked pose, stick representation" class="poseCardImage">
+            </a>
+            <a href="images/ptr1posesSurface/eltrombopag.png" target="_blank">
+              <img src="images/ptr1posesSurface/eltrombopag.png" alt="Eltrombopag docked pose, surface representation" class="poseCardImage">
+            </a>
           </div>
-        </a>
-        <a href="images/ptr1poses/conivaptan.png" target="_blank">
-          <div class="poseCard">
-            <img src="images/ptr1poses/conivaptan.png" alt="Conivaptan docked pose in the PTR1 pocket" class="poseCardImage">
-            <div class="poseCaption"><span>conivaptan</span><span>-11.6 kcal/mol</span></div>
+          <div class="poseCaption"><span>eltrombopag</span><span>-11.6 kcal/mol</span></div>
+        </div>
+        <div class="poseCard">
+          <div class="posePair">
+            <a href="images/ptr1poses/conivaptan.png" target="_blank">
+              <img src="images/ptr1poses/conivaptan.png" alt="Conivaptan docked pose, stick representation" class="poseCardImage">
+            </a>
+            <a href="images/ptr1posesSurface/conivaptan.png" target="_blank">
+              <img src="images/ptr1posesSurface/conivaptan.png" alt="Conivaptan docked pose, surface representation" class="poseCardImage">
+            </a>
           </div>
-        </a>
-        <a href="images/ptr1poses/entrectinib.png" target="_blank">
-          <div class="poseCard">
-            <img src="images/ptr1poses/entrectinib.png" alt="Entrectinib docked pose in the PTR1 pocket" class="poseCardImage">
-            <div class="poseCaption"><span>entrectinib</span><span>-11.5 kcal/mol</span></div>
+          <div class="poseCaption"><span>conivaptan</span><span>-11.6 kcal/mol</span></div>
+        </div>
+        <div class="poseCard">
+          <div class="posePair">
+            <a href="images/ptr1poses/entrectinib.png" target="_blank">
+              <img src="images/ptr1poses/entrectinib.png" alt="Entrectinib docked pose, stick representation" class="poseCardImage">
+            </a>
+            <a href="images/ptr1posesSurface/entrectinib.png" target="_blank">
+              <img src="images/ptr1posesSurface/entrectinib.png" alt="Entrectinib docked pose, surface representation" class="poseCardImage">
+            </a>
           </div>
-        </a>
-        <a href="images/ptr1poses/dihydroergotamine.png" target="_blank">
-          <div class="poseCard">
-            <img src="images/ptr1poses/dihydroergotamine.png" alt="Dihydroergotamine docked pose in the PTR1 pocket" class="poseCardImage">
-            <div class="poseCaption"><span>dihydroergotamine</span><span>-11.5 kcal/mol</span></div>
+          <div class="poseCaption"><span>entrectinib</span><span>-11.5 kcal/mol</span></div>
+        </div>
+        <div class="poseCard">
+          <div class="posePair">
+            <a href="images/ptr1poses/dihydroergotamine.png" target="_blank">
+              <img src="images/ptr1poses/dihydroergotamine.png" alt="Dihydroergotamine docked pose, stick representation" class="poseCardImage">
+            </a>
+            <a href="images/ptr1posesSurface/dihydroergotamine.png" target="_blank">
+              <img src="images/ptr1posesSurface/dihydroergotamine.png" alt="Dihydroergotamine docked pose, surface representation" class="poseCardImage">
+            </a>
           </div>
-        </a>
-        <a href="images/ptr1poses/bexarotene.png" target="_blank">
-          <div class="poseCard">
-            <img src="images/ptr1poses/bexarotene.png" alt="Bexarotene docked pose in the PTR1 pocket" class="poseCardImage">
-            <div class="poseCaption"><span>bexarotene</span><span>-11.4 kcal/mol</span></div>
+          <div class="poseCaption"><span>dihydroergotamine</span><span>-11.5 kcal/mol</span></div>
+        </div>
+        <div class="poseCard">
+          <div class="posePair">
+            <a href="images/ptr1poses/bexarotene.png" target="_blank">
+              <img src="images/ptr1poses/bexarotene.png" alt="Bexarotene docked pose, stick representation" class="poseCardImage">
+            </a>
+            <a href="images/ptr1posesSurface/bexarotene.png" target="_blank">
+              <img src="images/ptr1posesSurface/bexarotene.png" alt="Bexarotene docked pose, surface representation" class="poseCardImage">
+            </a>
           </div>
-        </a>
-        <a href="images/ptr1poses/capmatinib.png" target="_blank">
-          <div class="poseCard">
-            <img src="images/ptr1poses/capmatinib.png" alt="Capmatinib docked pose in the PTR1 pocket" class="poseCardImage">
-            <div class="poseCaption"><span>capmatinib</span><span>-11.4 kcal/mol</span></div>
+          <div class="poseCaption"><span>bexarotene</span><span>-11.4 kcal/mol</span></div>
+        </div>
+        <div class="poseCard">
+          <div class="posePair">
+            <a href="images/ptr1poses/capmatinib.png" target="_blank">
+              <img src="images/ptr1poses/capmatinib.png" alt="Capmatinib docked pose, stick representation" class="poseCardImage">
+            </a>
+            <a href="images/ptr1posesSurface/capmatinib.png" target="_blank">
+              <img src="images/ptr1posesSurface/capmatinib.png" alt="Capmatinib docked pose, surface representation" class="poseCardImage">
+            </a>
           </div>
-        </a>
-        <a href="images/ptr1poses/tolvaptan.png" target="_blank">
-          <div class="poseCard">
-            <img src="images/ptr1poses/tolvaptan.png" alt="Tolvaptan docked pose in the PTR1 pocket" class="poseCardImage">
-            <div class="poseCaption"><span>tolvaptan</span><span>-11.3 kcal/mol</span></div>
+          <div class="poseCaption"><span>capmatinib</span><span>-11.4 kcal/mol</span></div>
+        </div>
+        <div class="poseCard">
+          <div class="posePair">
+            <a href="images/ptr1poses/tolvaptan.png" target="_blank">
+              <img src="images/ptr1poses/tolvaptan.png" alt="Tolvaptan docked pose, stick representation" class="poseCardImage">
+            </a>
+            <a href="images/ptr1posesSurface/tolvaptan.png" target="_blank">
+              <img src="images/ptr1posesSurface/tolvaptan.png" alt="Tolvaptan docked pose, surface representation" class="poseCardImage">
+            </a>
           </div>
-        </a>
-        <a href="images/ptr1poses/olaparib.png" target="_blank">
-          <div class="poseCard">
-            <img src="images/ptr1poses/olaparib.png" alt="Olaparib docked pose in the PTR1 pocket" class="poseCardImage">
-            <div class="poseCaption"><span>olaparib</span><span>-11.3 kcal/mol</span></div>
+          <div class="poseCaption"><span>tolvaptan</span><span>-11.3 kcal/mol</span></div>
+        </div>
+        <div class="poseCard">
+          <div class="posePair">
+            <a href="images/ptr1poses/olaparib.png" target="_blank">
+              <img src="images/ptr1poses/olaparib.png" alt="Olaparib docked pose, stick representation" class="poseCardImage">
+            </a>
+            <a href="images/ptr1posesSurface/olaparib.png" target="_blank">
+              <img src="images/ptr1posesSurface/olaparib.png" alt="Olaparib docked pose, surface representation" class="poseCardImage">
+            </a>
           </div>
-        </a>
+          <div class="poseCaption"><span>olaparib</span><span>-11.3 kcal/mol</span></div>
+        </div>
       </div>
       <p>This is exactly the sanity check I wanted to see: <strong>every single one of the top 10 lands in the same
       pocket</strong>, right up against the NADP+ cofactor, instead of being scattered randomly across the protein
