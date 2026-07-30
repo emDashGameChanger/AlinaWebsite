@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    38:
+HEADER 0  - Pocket Score                      : -0.0612
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8932
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4967
+HEADER 5  - Mean B-factor of pocket residues  : 0.2166
+HEADER 6  - Hydrophobicity Score              : -7.7143
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 181.6710
+HEADER 10 - Pocket volume (convex hull)       : 4.2453
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM   5916  CG2 THR D   5      32.903  59.117  96.855  0.00  0.00           C 0
+ATOM   5928   CB PRO D   7      28.162  59.209  95.318  0.00  0.00           C 0
+ATOM   6577  NH2 ARG D 102      32.432  60.684  93.561  0.61  2.19           N 0
+ATOM   7018  OG1 THR D 172      33.975  54.613  92.091  0.62  9.64           O 0
+ATOM   5929   CG PRO D   7      27.621  58.445  96.542  0.00  0.00           C 0
+ATOM   6590  OD1 ASP D 104      30.514  60.512  91.597  0.55  1.07           O 0
+ATOM   7013    N THR D 172      33.961  56.876  90.397  0.21  1.09           N 0
+ATOM   7020    N ASN D 173      31.634  55.662  89.535  0.53  1.09           N 0
+ATOM   7027  ND2 ASN D 173      27.688  53.473  91.319  0.67  6.56           N 0
+ATOM   6101   OH TYR D  31      25.181  56.062  93.141  0.63  3.21           O 0
+ATOM   5930   CD PRO D   7      28.523  58.873  97.663  0.00  0.00           C 0
+ATOM   5913    O THR D   5      31.233  58.184  99.235  0.38  6.43           O 0
+ATOM   6588   CB ASP D 104      28.147  60.368  91.239  0.00  0.00           C 0
+ATOM   7023    O ASN D 173      28.408  56.526  89.409  0.48  1.07           O 0
+ATOM   7024   CB ASN D 173      29.787  54.399  90.515  0.00  0.00           C 0
+TER
+END

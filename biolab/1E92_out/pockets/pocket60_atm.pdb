@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    60:
+HEADER 0  - Pocket Score                      : -0.1282
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.2904
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7170
+HEADER 5  - Mean B-factor of pocket residues  : 0.1188
+HEADER 6  - Hydrophobicity Score              : -3.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 2.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 292.0334
+HEADER 10 - Pocket volume (convex hull)       : 4.3025
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   4104   OG SER C  21      13.153  57.356  43.707  0.52  6.43           O 0
+ATOM   5663   CB ALA C 255      14.187  53.301  42.317  0.00  0.00           C 0
+ATOM   5685   OG SER C 258      11.505  55.532  44.757  0.56  1.07           O 0
+ATOM   5692  OD1 ASP C 259       9.697  52.143  42.847  0.00  0.00           O 0
+ATOM   4128   CA GLY C  25       7.226  57.287  41.948  0.00  0.00           C 0
+ATOM   4102    O SER C  21      10.244  58.641  43.557  0.00  0.00           O 0
+ATOM   4127    N GLY C  25       7.964  58.536  41.840  0.76  1.09           N 0
+ATOM   4125  OE1 GLU C  24      12.748  60.189  40.122  0.00  0.00           O 0
+ATOM   4347  NH1 ARG C  54       8.972  61.473  34.780  0.00  0.00           N 0
+ATOM   4122   CB GLU C  24       9.966  60.337  40.263  0.00  0.00           C 0
+ATOM   4124   CD GLU C  24      12.278  61.262  39.656  0.00  0.00           C 0
+ATOM   4121    O GLU C  24       6.951  59.070  39.890  0.27  6.43           O 0
+ATOM   4153   CB ALA C  28       5.419  56.711  37.853  0.00  0.00           C 0
+ATOM   4120    C GLU C  24       7.749  59.349  40.800  0.00  0.00           C 0
+ATOM   4126  OE2 GLU C  24      12.979  62.068  38.998  0.00  0.00           O 0
+ATOM   4348  NH2 ARG C  54      10.664  61.597  33.211  0.54  9.84           N 0
+TER
+END

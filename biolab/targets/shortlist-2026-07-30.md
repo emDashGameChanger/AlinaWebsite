@@ -67,11 +67,14 @@ than cruzain — more room to actually find something interesting rather than mo
 Chagas/cruzain is a strong backup, and specifically a good target to validate the pipeline against, since there's
 enough published data to sanity-check whether our docking scores land in a sane range compared to known results.
 
-## Open questions before committing
+## Decision (2026-07-30)
 
-- Confirm a properly liganded/cofactor-bound PTR1 structure (not 2XOX) before building `config.txt`.
-- Decide whether to run *L. donovani* or *L. major* PTR1 — sequences are similar but not identical; pick one and
-  be consistent.
+**Going with Candidate B: visceral leishmaniasis / PTR1.** Structure question resolved: using PDB **1E92**
+(*L. major* PTR1, NADP+ + dihydrobiopterin ternary complex, 2.20 Å) rather than *L. donovani* 2XOX — see
+`PTR1.md` for the full deep dive (other PTR1 structures surveyed, inhibitor chemotypes, and a directly relevant
+published in-silico benzothiazole screen against LmPTR1 that validates the planned receptor-prep approach:
+keep the NADP+ cofactor, dock into the pocket the natural substrate occupies).
+
 - No claims of therapeutic efficacy should be made from any docking score here — this is hypothesis generation,
   per `CLAUDE.md`'s safety/scope note. A strong predicted affinity is a reason to investigate further, not a
   result.

@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    39:
+HEADER 0  - Pocket Score                      : -0.0690
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 4.1056
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5655
+HEADER 5  - Mean B-factor of pocket residues  : 0.1953
+HEADER 6  - Hydrophobicity Score              : 2.8889
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 351.0801
+HEADER 10 - Pocket volume (convex hull)       : 19.6489
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1481
+ATOM   2450  OD2 ASP B  65      20.351  14.324  76.703  0.00  0.00           O 0
+ATOM   2894  OD1 ASP B 142      21.813  19.578  73.915  0.57  4.29           O 0
+ATOM   2268  NH2 ARG B  39      25.907  14.221  76.334  0.00  0.00           N 0
+ATOM   2893   CG ASP B 142      22.105  19.724  72.730  0.00  0.00           C 0
+ATOM   2895  OD2 ASP B 142      23.182  20.221  72.387  0.00  0.00           O 0
+ATOM   2265   NE ARG B  39      27.457  15.601  77.294  0.00  0.00           N 0
+ATOM   2254  ND1 HIS B  38      24.119  17.326  78.912  0.43  2.19           N 0
+ATOM   2749   CB SER B 112      23.497  23.111  73.734  0.00  0.00           C 0
+ATOM   2256  CE1 HIS B  38      23.886  16.239  78.197  0.00  0.00           C 0
+ATOM   2449  OD1 ASP B  65      20.328  16.429  77.285  0.47  1.07           O 0
+ATOM   2463   CB SER B  67      18.778  17.106  74.650  0.00  0.00           C 0
+ATOM   2868   CB THR B 138      21.643  14.886  68.184  0.00  0.00           C 0
+ATOM   2464   OG SER B  67      18.398  16.840  73.314  0.60  3.21           O 0
+ATOM   2478  CG1 VAL B  69      16.630  13.931  71.915  0.00  0.00           C 0
+ATOM   2870  CG2 THR B 138      21.287  13.393  68.063  0.00  0.00           C 0
+ATOM   2479  CG2 VAL B  69      17.124  13.211  74.269  0.00  0.00           C 0
+ATOM   2892   CB ASP B 142      21.112  19.249  71.665  0.00  0.00           C 0
+ATOM   2867    O THR B 138      20.316  17.736  69.059  0.55  1.07           O 0
+ATOM   2869  OG1 THR B 138      22.802  15.171  67.390  0.00  0.00           O 0
+ATOM   2773   OH TYR B 114      23.556  20.505  69.704  0.54  7.50           O 0
+TER
+END

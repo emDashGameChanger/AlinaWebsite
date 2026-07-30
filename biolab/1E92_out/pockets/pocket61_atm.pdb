@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    61:
+HEADER 0  - Pocket Score                      : -0.1282
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.3406
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7341
+HEADER 5  - Mean B-factor of pocket residues  : 0.0640
+HEADER 6  - Hydrophobicity Score              : -2.8333
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 220.8520
+HEADER 10 - Pocket volume (convex hull)       : 1.5138
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   1729   CZ ARG A 250     -11.486  45.534  56.069  0.00  0.00           C 0
+ATOM   1730  NH1 ARG A 250     -10.755  44.500  56.452  0.33  4.37           N 0
+ATOM   1728   NE ARG A 250     -12.672  45.781  56.645  0.00  0.00           N 0
+ATOM   1750   CB SER A 253      -9.884  40.663  52.914  0.00  0.00           C 0
+ATOM   1747   CA SER A 253      -9.432  40.006  54.221  0.00  0.00           C 0
+ATOM   1743    O SER A 252      -9.361  39.599  56.961  0.57  1.07           O 0
+ATOM   1662  NH2 ARG A 242     -15.556  41.706  59.663  0.00  0.00           N 0
+ATOM   1739  OD2 ASP A 251     -11.881  38.639  59.764  0.00  0.00           O 0
+ATOM   1548  CG1 VAL A 228      -9.992  36.062  55.634  0.00  0.00           C 0
+ATOM   1735    O ASP A 251     -10.839  42.482  58.683  0.53  1.07           O 0
+ATOM   1738  OD1 ASP A 251     -12.820  40.500  60.493  0.48  1.07           O 0
+ATOM   1746    N SER A 253      -9.081  41.020  55.219  0.00  0.00           N 0
+ATOM   1742    C SER A 252      -9.002  40.709  56.508  0.00  0.00           C 0
+ATOM   1727   CD ARG A 250     -13.282  44.992  57.714  0.00  0.00           C 0
+TER
+END

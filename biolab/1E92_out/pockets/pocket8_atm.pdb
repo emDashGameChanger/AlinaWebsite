@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.1379
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.4870
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3425
+HEADER 5  - Mean B-factor of pocket residues  : 0.0729
+HEADER 6  - Hydrophobicity Score              : 22.1111
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 102.0182
+HEADER 10 - Pocket volume (convex hull)       : 1.2125
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2105
+ATOM   1319  OG1 THR A 195       1.966  33.037  71.907  0.87  2.14           O 0
+ATOM   1259   CB LEU A 188      -3.000  34.696  72.269  0.00  0.00           C 0
+ATOM   1230  CG2 THR A 184       2.805  35.507  68.395  0.00  0.00           C 0
+ATOM   1311  CE2 TYR A 194       0.461  32.317  67.705  0.00  0.00           C 0
+ATOM   1210  OD2 ASP A 181       0.017  35.445  66.288  0.53  1.07           O 0
+ATOM   7809  NH2 ARG D 287      -2.177  38.286  70.899  0.85  3.28           N 0
+ATOM   1262  CD2 LEU A 188      -4.485  33.772  70.568  0.00  0.00           C 0
+ATOM   1255    N LEU A 188      -1.344  35.912  73.470  0.52  1.09           N 0
+ATOM   1225   CA THR A 184       2.748  37.643  69.710  0.00  0.00           C 0
+HETATM 7877   C9 HBI A1290      -5.579  35.338  65.552  0.00  0.00           C 0
+HETATM 7874   C7 HBI A1290      -3.209  34.092  65.444  0.00  0.00           C 0
+ATOM   7808  NH1 ARG D 287      -4.315  38.724  70.158  0.85  2.19           N 0
+HETATM 7880  O10 HBI A1290      -6.586  36.116  67.765  0.82  4.29           O 0
+ATOM   1220   CB MET A 183      -1.112  39.868  68.178  0.00  0.00           C 0
+ATOM   1528    O GLY A 225      -4.026  38.658  63.872  0.62  1.07           O 0
+ATOM   1209  OD1 ASP A 181       0.099  37.558  65.684  0.58  1.07           O 0
+TER
+END

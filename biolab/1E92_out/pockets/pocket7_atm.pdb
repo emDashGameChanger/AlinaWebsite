@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : 0.1389
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.4778
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3060
+HEADER 5  - Mean B-factor of pocket residues  : 0.0706
+HEADER 6  - Hydrophobicity Score              : 22.1111
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 97.6975
+HEADER 10 - Pocket volume (convex hull)       : 1.3268
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM   3196  OD2 ASP B 181      23.082  35.198  72.306  0.57  1.07           O 0
+ATOM   3248  CD2 LEU B 188      27.502  33.716  67.863  0.00  0.00           C 0
+ATOM   3245   CB LEU B 188      26.053  34.748  66.205  0.00  0.00           C 0
+ATOM   5902  NH2 ARG C 287      25.215  38.282  67.910  0.73  3.28           N 0
+HETATM 7939   C7 HBI B1290      26.216  33.815  72.979  0.00  0.00           C 0
+HETATM 7945  O10 HBI B1290      29.617  35.900  70.684  0.90  6.43           O 0
+ATOM   5901  NH1 ARG C 287      27.398  38.609  68.627  0.87  1.09           N 0
+ATOM   3195  OD1 ASP B 181      22.919  37.288  72.885  0.00  0.00           O 0
+ATOM   3206   CB MET B 183      24.184  39.736  70.621  0.00  0.00           C 0
+HETATM 7942   C9 HBI B1290      28.624  35.000  72.858  0.00  0.00           C 0
+ATOM   3514    O GLY B 225      27.102  38.232  74.879  0.57  1.07           O 0
+ATOM   3297  CE2 TYR B 194      22.638  32.109  70.690  0.00  0.00           C 0
+ATOM   3216  CG2 THR B 184      20.268  35.425  70.089  0.00  0.00           C 0
+ATOM   3305  OG1 THR B 195      21.081  33.119  66.562  0.84  2.14           O 0
+ATOM   3241    N LEU B 188      24.391  36.003  65.054  0.00  0.00           N 0
+TER
+END

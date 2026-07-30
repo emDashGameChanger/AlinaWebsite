@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : -0.0034
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7802
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6162
+HEADER 5  - Mean B-factor of pocket residues  : 0.4792
+HEADER 6  - Hydrophobicity Score              : 4.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 179.4401
+HEADER 10 - Pocket volume (convex hull)       : 1.6295
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   5025  NE2 HIS C 160      -6.680  69.612  64.186  0.68  1.09           N 0
+ATOM   6712   CG ARG D 120     -10.960  70.791  67.646  0.00  0.00           C 0
+ATOM   4994   NZ LYS C 156      -3.463  71.341  67.322  0.36  8.75           N 0
+ATOM   6714   NE ARG D 120      -9.987  72.295  65.945  0.50  8.75           N 0
+ATOM   6713   CD ARG D 120     -10.589  70.987  66.190  0.00  0.00           C 0
+ATOM   6687    O PRO D 117      -4.657  67.639  68.748  0.60  2.14           O 0
+ATOM   4993   CE LYS C 156      -3.721  70.583  66.079  0.00  0.00           C 0
+ATOM   6707    N ARG D 120     -10.379  67.754  67.165  0.67  2.19           N 0
+ATOM   6688   CB PRO D 117      -6.644  66.409  70.834  0.00  0.00           C 0
+ATOM   6702    O LEU D 119      -9.266  66.361  68.547  0.53  4.29           O 0
+ATOM   6690   CD PRO D 117      -5.186  67.502  72.345  0.00  0.00           C 0
+ATOM   6708   CA ARG D 120     -11.228  68.301  68.248  0.00  0.00           C 0
+ATOM   5024  CE1 HIS C 160      -6.441  70.900  63.995  0.00  0.00           C 0
+ATOM   6689   CG PRO D 117      -6.529  66.832  72.298  0.00  0.00           C 0
+ATOM   6709    C ARG D 120     -12.333  67.372  68.785  0.00  0.00           C 0
+ATOM   6701    C LEU D 119      -9.448  66.826  67.410  0.00  0.00           C 0
+TER
+END

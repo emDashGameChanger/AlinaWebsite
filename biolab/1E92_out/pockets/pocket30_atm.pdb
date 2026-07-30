@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0418
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6310
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3704
+HEADER 5  - Mean B-factor of pocket residues  : 0.2179
+HEADER 6  - Hydrophobicity Score              : 9.7500
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 106.5881
+HEADER 10 - Pocket volume (convex hull)       : 1.5071
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   6590  OD1 ASP D 104      30.514  60.512  91.597  0.55  1.07           O 0
+ATOM   7039   OH TYR D 174      33.413  61.974  87.715  0.50  6.43           O 0
+ATOM   6571   CB ARG D 102      31.386  65.298  92.826  0.00  0.00           C 0
+ATOM   6577  NH2 ARG D 102      32.432  60.684  93.561  0.61  2.19           N 0
+ATOM   6566    O GLY D 101      33.197  67.615  92.778  0.65  9.64           O 0
+ATOM   6991    O HIS D 169      37.476  62.909  90.711  0.50  8.57           O 0
+ATOM   6576  NH1 ARG D 102      33.657  62.140  94.850  0.57  7.66           N 0
+ATOM   7009    N GLY D 171      34.855  60.268  89.605  0.62  1.09           N 0
+ATOM   6575   CZ ARG D 102      32.519  61.825  94.222  0.00  0.00           C 0
+ATOM   6966  CG2 THR D 165      37.352  65.242  87.740  0.00  0.00           C 0
+ATOM   6965  OG1 THR D 165      35.583  66.457  86.675  0.84  8.57           O 0
+ATOM   6529  CE2 TYR D  97      31.818  67.977  88.936  0.00  0.00           C 0
+ATOM   6531   OH TYR D  97      30.872  66.273  87.548  0.65  2.14           O 0
+TER
+END

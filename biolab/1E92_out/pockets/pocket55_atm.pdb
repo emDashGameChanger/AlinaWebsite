@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    55:
+HEADER 0  - Pocket Score                      : -0.1104
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0103
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6525
+HEADER 5  - Mean B-factor of pocket residues  : 0.0467
+HEADER 6  - Hydrophobicity Score              : 47.7500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 222.2441
+HEADER 10 - Pocket volume (convex hull)       : 5.5369
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   3976    N ARG B 287      26.942  48.680  65.240  0.00  0.00           N 0
+ATOM   7304  CD2 LEU D 210      26.925  54.479  69.270  0.00  0.00           C 0
+ATOM   3979    O ARG B 287      28.993  48.400  63.739  0.55  7.50           O 0
+ATOM   3981   CG ARG B 287      26.710  50.747  63.077  0.00  0.00           C 0
+ATOM   3973   CB THR B 286      28.091  48.057  67.971  0.00  0.00           C 0
+ATOM   5907   CB ALA C 288      31.045  46.833  66.426  0.00  0.00           C 0
+ATOM   3975  CG2 THR B 286      28.648  48.535  69.358  0.00  0.00           C 0
+ATOM   5226    O PRO C 187      25.539  54.916  66.658  0.45  2.14           O 0
+ATOM   3964    O LEU B 285      24.866  50.693  68.250  0.00  0.00           O 0
+ATOM   3982   CD ARG B 287      26.074  51.822  62.153  0.00  0.00           C 0
+ATOM   5236  CD1 LEU C 188      26.783  56.721  61.967  0.00  0.00           C 0
+ATOM   3983   NE ARG B 287      24.996  52.591  62.778  0.00  0.00           N 0
+ATOM   3970   CA THR B 286      26.761  48.797  67.632  0.00  0.00           C 0
+ATOM   7303  CD1 LEU D 210      27.919  52.806  70.876  0.00  0.00           C 0
+ATOM   5238    N LEU C 189      27.572  57.650  66.037  0.67  2.19           N 0
+ATOM   5242   CB LEU C 189      29.747  57.935  67.119  0.00  0.00           C 0
+ATOM   5231   CA LEU C 188      25.612  56.965  64.766  0.00  0.00           C 0
+TER
+END

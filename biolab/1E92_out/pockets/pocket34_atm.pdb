@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    34:
+HEADER 0  - Pocket Score                      : -0.0514
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1178
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6012
+HEADER 5  - Mean B-factor of pocket residues  : 0.4449
+HEADER 6  - Hydrophobicity Score              : 42.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 231.6505
+HEADER 10 - Pocket volume (convex hull)       : 2.2572
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1765
+ATOM   7438  CD1 LEU D 229      -4.018  53.958  88.231  0.00  0.00           C 0
+ATOM   7451    N HIS D 241      -8.010  52.027  84.480  0.47  1.09           N 0
+ATOM   7447    N GLY D 240      -8.758  54.273  85.860  0.00  0.00           N 0
+ATOM   7439  CD2 LEU D 229      -2.609  55.801  87.360  0.00  0.00           C 0
+ATOM   7456   CG HIS D 241      -7.363  51.428  81.375  0.00  0.00           C 0
+ATOM   7455   CB HIS D 241      -6.538  51.318  82.627  0.00  0.00           C 0
+ATOM   7458  CD2 HIS D 241      -8.660  51.111  81.131  0.00  0.00           C 0
+ATOM   7448   CA GLY D 240      -9.696  53.165  85.838  0.00  0.00           C 0
+ATOM   7418  CD2 LEU D 226      -1.302  53.279  83.677  0.00  0.00           C 0
+ATOM   7417  CD1 LEU D 226      -2.566  51.358  84.700  0.00  0.00           C 0
+ATOM   7457  ND1 HIS D 241      -6.858  51.904  80.180  0.65  5.47           N 0
+ATOM   7459  CE1 HIS D 241      -7.805  51.874  79.256  0.00  0.00           C 0
+ATOM   7460  NE2 HIS D 241      -8.910  51.397  79.808  0.70  3.28           N 0
+HETATM 8087  O10 HBI D1290      -2.053  56.091  81.767  0.80  2.14           O 0
+HETATM 8088  C11 HBI D1290      -2.306  57.982  83.279  0.00  0.00           C 0
+TER
+END

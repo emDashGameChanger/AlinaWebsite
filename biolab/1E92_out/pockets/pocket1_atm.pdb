@@ -1,0 +1,101 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 1.2075
+HEADER 1  - Drug Score                        : 0.8951
+HEADER 2  - Number of alpha spheres           :   147
+HEADER 3  - Mean alpha-sphere radius          : 3.9913
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5140
+HEADER 5  - Mean B-factor of pocket residues  : 0.0649
+HEADER 6  - Hydrophobicity Score              : 9.1333
+HEADER 7  - Polarity Score                    :    19
+HEADER 8  - Amino Acid based volume Score     : 3.5667
+HEADER 9  - Pocket volume (Monte Carlo)       : 941.3656
+HEADER 10 - Pocket volume (convex hull)       : 359.4943
+HEADER 11 - Charge Score                      :     4
+HEADER 12 - Local hydrophobic density Score   : 18.7692
+HEADER 13 - Number of apolar alpha sphere     :    39
+HEADER 14 - Proportion of apolar alpha sphere : 0.2653
+ATOM   4231   CB HIS C  38      14.254  74.240  52.680  0.00  0.00           C 0
+ATOM   4912   CB SER C 146      13.673  69.198  59.292  0.00  0.00           C 0
+ATOM   4233  ND1 HIS C  38      15.813  75.041  54.503  0.28  3.28           N 0
+ATOM   4430    N LEU C  66      11.259  74.231  57.490  0.00  0.00           N 0
+ATOM   4715    O SER C 111      17.363  66.588  56.220  0.50  2.14           O 0
+ATOM   4714    C SER C 111      16.621  66.785  57.168  0.00  0.00           C 0
+ATOM   4722   CB SER C 112      18.480  69.288  59.091  0.00  0.00           C 0
+ATOM   4434   CB LEU C  66      10.328  72.007  57.894  0.00  0.00           C 0
+ATOM   5503    O GLY C 225      20.810  54.209  56.072  0.00  0.00           O 0
+HETATM 8015   N8 HBI C1290      20.063  59.748  58.039  0.00  0.00           N 0
+ATOM   5496    O PRO C 224      17.526  53.624  57.029  0.00  0.00           O 0
+HETATM 8016   C7 HBI C1290      21.165  58.672  58.087  0.00  0.00           C 0
+ATOM   4718    N SER C 112      16.997  67.461  58.247  0.00  0.00           N 0
+ATOM   4719   CA SER C 112      18.377  67.931  58.372  0.00  0.00           C 0
+ATOM   4045    O GLY C  13      12.989  66.151  49.348  0.00  0.00           O 0
+ATOM   4061   CG LYS C  16      18.163  67.007  46.322  0.00  0.00           C 0
+ATOM   4253   OG SER C  40      18.068  71.880  47.249  0.00  0.00           O 0
+ATOM   4063   CE LYS C  16      19.950  68.560  47.307  0.00  0.00           C 0
+ATOM   4055   CB ALA C  15      14.607  69.731  45.523  0.00  0.00           C 0
+ATOM   4242   CG ARG C  39      18.309  76.324  51.764  0.00  0.00           C 0
+ATOM   4237    N ARG C  39      15.847  75.126  50.396  0.00  0.00           N 0
+ATOM   4241   CB ARG C  39      18.231  75.721  50.366  0.00  0.00           C 0
+ATOM   4711   CB ALA C 110      11.795  67.949  54.543  0.00  0.00           C 0
+HETATM 8018   N5 HBI C1290      22.141  59.572  55.939  0.00  0.00           N 0
+ATOM   5512    N SER C 227      21.453  54.910  51.837  0.00  0.00           N 0
+HETATM 8020   O9 HBI C1290      23.356  57.181  55.320  0.00  0.00           O 0
+ATOM   4071   CD ARG C  17      20.660  63.809  48.267  0.00  0.00           C 0
+ATOM   4059    O LYS C  16      15.618  64.050  46.701  0.54  1.07           O 0
+ATOM   4081   CG LEU C  18      16.294  58.754  49.793  0.00  0.00           C 0
+HETATM 8010   N3 HBI C1290      20.309  62.729  55.056  0.57  1.09           N 0
+ATOM   4080   CB LEU C  18      15.027  59.570  49.420  0.00  0.00           C 0
+HETATM 8008   N2 HBI C1290      18.436  63.746  56.155  0.58  1.09           N 0
+ATOM   4705  OD1 ASN C 109      12.575  61.581  51.939  0.00  0.00           O 0
+ATOM   4438    N SER C  67      12.173  74.279  60.005  0.00  0.00           N 0
+ATOM   4883  OD1 ASP C 142      16.960  72.757  59.889  0.62  4.29           O 0
+ATOM   4428  OD1 ASP C  65      13.764  75.967  58.145  0.56  1.07           O 0
+ATOM   4706  ND2 ASN C 109      12.708  63.755  51.345  0.00  0.00           N 0
+ATOM   4712    N SER C 111      14.466  66.538  55.913  0.00  0.00           N 0
+HETATM 8017   C6 HBI C1290      22.165  58.620  56.860  0.00  0.00           C 0
+ATOM   4082  CD1 LEU C  18      16.067  58.049  51.108  0.00  0.00           C 0
+ATOM   5167   CB MET C 179      11.481  59.550  55.507  0.00  0.00           C 0
+ATOM   5170   CE MET C 179      11.880  57.324  53.098  0.00  0.00           C 0
+ATOM   5497   CB PRO C 224      16.661  54.712  54.093  0.00  0.00           C 0
+ATOM   5516   CB SER C 227      19.422  55.368  50.516  0.00  0.00           C 0
+ATOM   4084    N GLY C  19      13.513  62.136  48.265  0.00  0.00           N 0
+ATOM   4076    N LEU C  18      16.165  61.018  47.759  0.00  0.00           N 0
+ATOM   4056    N LYS C  16      15.442  66.568  45.559  0.00  0.00           N 0
+ATOM   4051    N ALA C  15      13.015  68.014  46.259  0.00  0.00           N 0
+ATOM   4044    C GLY C  13      12.197  67.096  49.451  0.00  0.00           C 0
+ATOM   4708   CA ALA C 110      12.454  66.567  54.568  0.00  0.00           C 0
+ATOM   4702    O ASN C 109      12.968  63.842  54.573  0.00  0.00           O 0
+HETATM 8007   N1 HBI C1290      19.313  61.785  57.012  0.00  0.00           N 0
+ATOM   5317   NZ LYS C 198      14.137  61.343  59.098  0.00  0.00           N 0
+ATOM   4213  CE1 HIS C  36      10.374  71.479  52.646  0.00  0.00           C 0
+ATOM   4435   CG LEU C  66       9.510  71.985  56.585  0.00  0.00           C 0
+ATOM   4420    O ALA C  64      10.891  74.840  53.992  0.00  0.00           O 0
+ATOM   4072   NE ARG C  17      20.801  63.002  49.475  0.00  0.00           N 0
+HETATM 8013  C4A HBI C1290      21.208  60.665  55.960  0.00  0.00           C 0
+HETATM 8011   C4 HBI C1290      21.208  61.731  54.988  0.00  0.00           C 0
+HETATM 8014  C8A HBI C1290      20.181  60.765  56.993  0.00  0.00           C 0
+HETATM 8009   C2 HBI C1290      19.400  62.712  56.061  0.00  0.00           C 0
+ATOM   5515    O SER C 227      21.777  57.340  50.372  0.54  1.07           O 0
+HETATM 8012   O4 HBI C1290      22.132  61.730  53.994  0.00  0.00           O 0
+ATOM   5499   CD PRO C 224      14.838  55.310  55.458  0.00  0.00           C 0
+ATOM   5183   CG ASP C 181      18.303  56.264  60.370  0.00  0.00           C 0
+ATOM   4227    N HIS C  38      13.210  73.764  50.506  0.00  0.00           N 0
+ATOM   4248    N SER C  40      16.582  74.279  47.824  0.00  0.00           N 0
+ATOM   4252   CB SER C  40      16.874  72.235  46.540  0.00  0.00           C 0
+ATOM   4043   CA GLY C  13      12.142  67.947  50.697  0.00  0.00           C 0
+ATOM   4716   CB SER C 111      15.252  64.721  57.298  0.00  0.00           C 0
+ATOM   4717   OG SER C 111      16.373  64.301  58.037  0.00  0.00           O 0
+ATOM   4069   CB ARG C  17      18.492  62.585  47.509  0.00  0.00           C 0
+ATOM   4075  NH2 ARG C  17      21.708  61.303  50.725  0.56  1.09           N 0
+ATOM   5498   CG PRO C 224      15.357  55.480  54.028  0.00  0.00           C 0
+ATOM   5174    O VAL C 180      14.348  57.056  58.147  0.00  0.00           O 0
+ATOM   5288   OH TYR C 194      18.449  59.679  60.123  0.00  0.00           O 0
+ATOM   5316   CE LYS C 198      15.103  60.764  60.094  0.00  0.00           C 0
+ATOM   4216   CA TYR C  37      11.640  72.583  49.104  0.00  0.00           C 0
+ATOM   4219   CB TYR C  37      12.194  72.890  47.703  0.00  0.00           C 0
+TER
+END

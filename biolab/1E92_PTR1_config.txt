@@ -1,0 +1,17 @@
+receptor = 1E92_receptor.pdbqt
+ligand = ligand.pdbqt
+
+# Box centered on the crystallized dihydrobiopterin (HBI) substrate position
+# in chain A, cross-checked against fpocket pocket 4 (druggability 0.886,
+# contacts Ser111/Phe113 -- see biolab/targets/PTR1.md). Sized to also cover
+# the adjacent NADP+-proximal subpocket (fpocket pocket 36: Met183, Leu188,
+# Leu226, His241).
+center_x = -4.650
+center_y = 32.833
+center_z = 64.336
+
+size_x = 22
+size_y = 22
+size_z = 22
+
+search_depth = 100

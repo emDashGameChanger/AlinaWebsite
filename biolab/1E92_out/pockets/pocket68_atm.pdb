@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    68:
+HEADER 0  - Pocket Score                      : -0.1797
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9224
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5843
+HEADER 5  - Mean B-factor of pocket residues  : 0.5408
+HEADER 6  - Hydrophobicity Score              : -5.5000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 240.8450
+HEADER 10 - Pocket volume (convex hull)       : 5.8571
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2381
+ATOM   3035  CE1 HIS B 160       0.978  21.170  84.621  0.00  0.00           C 0
+ATOM    803   CD ARG A 120      -3.202  20.816  86.265  0.00  0.00           C 0
+ATOM   3036  NE2 HIS B 160       0.435  22.376  84.652  0.00  0.00           N 0
+ATOM    801   CB ARG A 120      -4.921  21.900  84.824  0.00  0.00           C 0
+ATOM   3005   NZ LYS B 156       0.995  20.869  80.239  0.82  6.56           N 0
+ATOM    797    N ARG A 120      -3.730  23.972  84.436  0.69  1.09           N 0
+ATOM    798   CA ARG A 120      -4.961  23.251  84.128  0.00  0.00           C 0
+ATOM    806  NH1 ARG A 120      -2.430  18.116  86.514  0.68  9.84           N 0
+ATOM    834  OD1 ASP A 132      -1.957  15.331  79.647  0.00  0.00           O 0
+ATOM    835  OD2 ASP A 132      -2.620  14.449  81.563  0.56  4.29           O 0
+ATOM   3004   CE LYS B 156       1.506  21.658  81.369  0.00  0.00           C 0
+ATOM    792    O LEU A 119      -3.913  25.301  82.640  0.31  3.21           O 0
+ATOM    779   CG PRO A 117      -4.275  25.370  78.117  0.00  0.00           C 0
+ATOM    800    O ARG A 120      -7.241  24.058  83.988  0.53  7.50           O 0
+ATOM    777    O PRO A 117      -0.669  24.589  79.854  0.38  3.21           O 0
+ATOM    791    C LEU A 119      -3.309  24.954  83.656  0.00  0.00           C 0
+ATOM    778   CB PRO A 117      -3.508  25.742  79.347  0.00  0.00           C 0
+ATOM    780   CD PRO A 117      -3.237  24.696  77.281  0.00  0.00           C 0
+TER
+END

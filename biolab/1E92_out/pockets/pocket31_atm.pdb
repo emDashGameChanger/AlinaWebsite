@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : -0.0466
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9329
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4756
+HEADER 5  - Mean B-factor of pocket residues  : 0.1029
+HEADER 6  - Hydrophobicity Score              : 1.2857
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 232.2353
+HEADER 10 - Pocket volume (convex hull)       : 7.8719
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM     12   CB PRO A   7       9.588  33.176  38.866  0.00  0.00           C 0
+ATOM    667  NH2 ARG A 102      14.049  31.794  37.745  0.60  9.84           N 0
+ATOM     14   CD PRO A   7       8.518  33.482  36.734  0.00  0.00           C 0
+ATOM   1136  OG1 THR A 172      16.105  37.801  38.035  0.30  6.43           O 0
+ATOM     13   CG PRO A   7       8.446  33.935  38.210  0.00  0.00           C 0
+ATOM   1145  ND2 ASN A 173      11.545  38.904  42.432  0.72  9.84           N 0
+ATOM    191   OH TYR A  31       8.502  36.317  42.464  0.68  2.14           O 0
+ATOM   1141    O ASN A 173      13.321  35.920  43.522  0.56  1.07           O 0
+ATOM    680  OD1 ASP A 104      13.769  31.923  40.501  0.48  2.14           O 0
+ATOM    678   CB ASP A 104      12.064  32.021  42.183  0.00  0.00           C 0
+ATOM      8    N PRO A   7       9.050  32.103  36.839  0.00  0.00           N 0
+ATOM      1    N VAL A   6       9.716  31.530  33.479  0.00  0.00           N 0
+ATOM   1131    N THR A 172      17.153  35.537  39.394  0.52  2.19           N 0
+ATOM   1138    N ASN A 173      15.812  36.767  41.443  0.00  0.00           N 0
+ATOM   1142   CB ASN A 173      13.744  38.034  41.796  0.00  0.00           C 0
+TER
+END

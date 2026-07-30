@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    64:
+HEADER 0  - Pocket Score                      : -0.1445
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.1129
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5095
+HEADER 5  - Mean B-factor of pocket residues  : 0.2417
+HEADER 6  - Hydrophobicity Score              : 35.3750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 273.8603
+HEADER 10 - Pocket volume (convex hull)       : 9.4346
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5625
+ATOM   2766   CB TYR B 114      27.675  24.345  68.805  0.00  0.00           C 0
+ATOM   2763   CA TYR B 114      27.167  25.791  68.611  0.00  0.00           C 0
+ATOM   2754    O PHE B 113      27.697  26.187  71.272  0.00  0.00           O 0
+ATOM   2780   CD PRO B 115      28.784  25.966  66.225  0.00  0.00           C 0
+ATOM   3272   OH TYR B 191      29.839  29.474  67.390  0.00  0.00           O 0
+ATOM   3549  CG1 VAL B 230      35.611  29.551  73.976  0.00  0.00           C 0
+ATOM   3565  OD1 ASP B 232      37.202  29.544  71.186  0.00  0.00           O 0
+ATOM   3566  OD2 ASP B 232      37.099  27.398  70.614  0.62  9.64           O 0
+ATOM   3548   CB VAL B 230      34.650  30.643  74.464  0.00  0.00           C 0
+ATOM   3550  CG2 VAL B 230      33.551  30.037  75.346  0.00  0.00           C 0
+ATOM   2758  CD2 PHE B 113      27.929  29.389  71.947  0.00  0.00           C 0
+ATOM   3574   CE MET B 233      37.308  33.129  70.571  0.00  0.00           C 0
+ATOM   3547    O VAL B 230      36.361  32.798  73.319  0.54  3.21           O 0
+HETATM 7946  C11 HBI B1290      30.658  33.864  71.674  0.00  0.00           C 0
+ATOM   2760  CE2 PHE B 113      28.493  30.460  71.234  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.0284
+HEADER 1  - Drug Score                        : 0.0021
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 4.0023
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5108
+HEADER 5  - Mean B-factor of pocket residues  : 0.2962
+HEADER 6  - Hydrophobicity Score              : 12.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 425.6255
+HEADER 10 - Pocket volume (convex hull)       : 35.5322
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3214
+ATOM   2377   NE ARG B  55      22.382  29.495 103.802  0.89  2.19           N 0
+ATOM   2020  CG1 VAL B   6      16.682  28.516 103.109  0.00  0.00           C 0
+ATOM   2391    O ASN B  57      20.109  23.126 103.140  0.41  5.36           O 0
+ATOM   2384    O PRO B  56      22.273  23.710 105.609  0.41  8.57           O 0
+ATOM   2375   CG ARG B  55      23.465  28.141 105.601  0.00  0.00           C 0
+ATOM   2018    O VAL B   6      13.678  28.321 101.973  0.40  1.07           O 0
+ATOM   2656    O TRP B 100      11.339  22.608 101.883  0.00  0.00           O 0
+ATOM   2657   CB TRP B 100      13.899  22.462 100.496  0.00  0.00           C 0
+ATOM   2659  CD1 TRP B 100      16.051  22.276 101.901  0.00  0.00           C 0
+ATOM   2400   CB SER B  58      22.595  25.925 102.045  0.00  0.00           C 0
+ATOM   2021  CG2 VAL B   6      16.212  29.090 105.539  0.00  0.00           C 0
+ATOM   2376   CD ARG B  55      22.958  29.534 105.141  0.00  0.00           C 0
+ATOM   2661  NE1 TRP B 100      17.408  22.282 101.684  0.00  0.00           N 0
+ATOM   2204   CB ALA B  32      18.071  26.131 100.151  0.00  0.00           C 0
+ATOM   2397   CA SER B  58      21.801  24.695 101.594  0.00  0.00           C 0
+ATOM   2680  NH1 ARG B 102       8.844  28.652 102.340  0.52  4.37           N 0
+ATOM   2670    O GLY B 101       7.888  23.281 100.200  0.56  7.50           O 0
+ATOM   2677   CD ARG B 102      10.522  26.846 100.969  0.00  0.00           C 0
+ATOM   2019   CB VAL B   6      15.598  28.674 104.184  0.00  0.00           C 0
+ATOM   2395  ND2 ASN B  57      18.411  20.579 104.704  0.00  0.00           N 0
+ATOM   2008    N THR B   5      11.964  29.492 106.864  0.00  0.00           N 0
+ATOM   2015    N VAL B   6      13.459  29.767 104.703  0.00  0.00           N 0
+TER
+END

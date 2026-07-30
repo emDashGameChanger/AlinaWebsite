@@ -1,0 +1,25 @@
+drugcentral_id,name,best_affinity_kcal_mol,output_pdbqt
+1043,ergotamine,-11.0,runs/smoke-test-1E92-PTR1/docked/1043_out.pdbqt
+1027,epinastine,-10.8,runs/smoke-test-1E92-PTR1/docked/1027_out.pdbqt
+102,alatrofloxacin,-9.9,runs/smoke-test-1E92-PTR1/docked/102_out.pdbqt
+1013,enoxacin,-9.1,runs/smoke-test-1E92-PTR1/docked/1013_out.pdbqt
+1030,epirubicin,-8.9,runs/smoke-test-1E92-PTR1/docked/1030_out.pdbqt
+1040,eptifibatide,-8.6,runs/smoke-test-1E92-PTR1/docked/1040_out.pdbqt
+1046,ertapenem,-8.6,runs/smoke-test-1E92-PTR1/docked/1046_out.pdbqt
+1018,entacapone,-8.5,runs/smoke-test-1E92-PTR1/docked/1018_out.pdbqt
+1032,eplerenone,-8.5,runs/smoke-test-1E92-PTR1/docked/1032_out.pdbqt
+1045,erlotinib,-8.4,runs/smoke-test-1E92-PTR1/docked/1045_out.pdbqt
+1037,eprosartan,-8.2,runs/smoke-test-1E92-PTR1/docked/1037_out.pdbqt
+1005,enalapril,-8.1,runs/smoke-test-1E92-PTR1/docked/1005_out.pdbqt
+103,albendazole,-8.1,runs/smoke-test-1E92-PTR1/docked/103_out.pdbqt
+105,salbutamol,-8.1,runs/smoke-test-1E92-PTR1/docked/105_out.pdbqt
+1006,enalaprilat,-8.0,runs/smoke-test-1E92-PTR1/docked/1006_out.pdbqt
+1019,entecavir,-7.9,runs/smoke-test-1E92-PTR1/docked/1019_out.pdbqt
+101,alacepril,-7.7,runs/smoke-test-1E92-PTR1/docked/101_out.pdbqt
+1034,epoprostenol,-7.7,runs/smoke-test-1E92-PTR1/docked/1034_out.pdbqt
+1028,epinephrine,-7.1,runs/smoke-test-1E92-PTR1/docked/1028_out.pdbqt
+1003,emtricitabine,-7.0,runs/smoke-test-1E92-PTR1/docked/1003_out.pdbqt
+1024,ephedrine,-6.9,runs/smoke-test-1E92-PTR1/docked/1024_out.pdbqt
+1048,erythromycin,-6.5,runs/smoke-test-1E92-PTR1/docked/1048_out.pdbqt
+1051,erythromycin ethyl succinate,-6.2,runs/smoke-test-1E92-PTR1/docked/1051_out.pdbqt
+1009,enflurane,-4.9,runs/smoke-test-1E92-PTR1/docked/1009_out.pdbqt

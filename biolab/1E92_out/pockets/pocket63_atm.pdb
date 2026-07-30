@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    63:
+HEADER 0  - Pocket Score                      : -0.1386
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8053
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4966
+HEADER 5  - Mean B-factor of pocket residues  : 0.1101
+HEADER 6  - Hydrophobicity Score              : 8.7143
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 246.8113
+HEADER 10 - Pocket volume (convex hull)       : 8.6484
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1364
+ATOM   4290   CB ALA C  46      14.797  71.256  37.248  0.00  0.00           C 0
+ATOM   4097  NH1 ARG C  20      16.963  64.837  39.478  0.00  0.00           N 0
+ATOM   4315  OG1 THR C  50      12.051  67.263  34.345  0.59  7.50           O 0
+ATOM   4098  NH2 ARG C  20      16.062  63.363  37.960  0.00  0.00           N 0
+ATOM   4297  CD1 LEU C  47      11.084  65.639  39.566  0.00  0.00           C 0
+ATOM   4316  CG2 THR C  50      10.663  65.296  34.141  0.00  0.00           C 0
+ATOM   4126  OE2 GLU C  24      12.979  62.068  38.998  0.00  0.00           O 0
+ATOM   4288    C ALA C  46      12.466  70.285  37.345  0.00  0.00           C 0
+ATOM   4289    O ALA C  46      11.984  69.768  36.332  0.58  1.07           O 0
+ATOM   4292   CA LEU C  47      11.558  68.508  38.709  0.00  0.00           C 0
+ATOM   4096   CZ ARG C  20      16.057  63.894  39.172  0.00  0.00           C 0
+ATOM   4268   CB GLU C  43      16.966  70.656  42.447  0.00  0.00           C 0
+ATOM   4265   CA GLU C  43      16.163  71.555  41.495  0.00  0.00           C 0
+ATOM   4269   CG GLU C  43      18.459  70.756  42.185  0.00  0.00           C 0
+ATOM   4267    O GLU C  43      14.203  70.410  40.836  0.58  2.14           O 0
+ATOM   4291    N LEU C  47      12.318  69.753  38.559  0.73  1.09           N 0
+ATOM   4295   CB LEU C  47      11.633  68.007  40.155  0.00  0.00           C 0
+ATOM   4348  NH2 ARG C  54      10.664  61.597  33.211  0.54  9.84           N 0
+TER
+END
