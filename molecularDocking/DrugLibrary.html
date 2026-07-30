@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles.css">
+  <title>Building a Drug Library</title>
+</head>
+<body>
+  <div class="mainDiv">
+    <div class="titleDiv">
+      <h1>Building an FDA-Approved Drug Library</h1>
+      <h2>Going from docking one ligand at a time to screening almost two thousand real drugs in a single run.</h2>
+    </div>
+
+    <div class="topLinksDiv">
+      <!-- Navigation Links -->
+      <div class="links">
+        <a href="../index.html">BioMedBound Landing Page</a>
+      </div>
+      <div class="links">
+        <a href="../toys.html">Educational Toy Reviews</a>
+      </div>
+      <div class="links">
+        <a href="../books.html">Science Book Reviews</a>
+      </div>
+      <div class="links">
+        <a href="../MolecularDocking.html">Molecular Docking</a>
+      </div>
+    </div>
+
+    <div id="drugLibrarySplash" class="topSplashDiv">
+      The whole point of this project is drug repurposing — finding new uses for medicine that's already FDA
+      approved. Everything so far (Hello Tools 1 and 2) proved the tools work on one protein and one ligand at a
+      time. That's not enough to actually go looking for a new use of an existing drug. For that, I need to screen
+      an entire library of approved drugs against a target and see which ones stick. Today was about building that
+      library and the pipeline to screen it.
+    </div>
+
+    <div class="pageBodyDiv">
+      <h3>Step 1: Why one ligand isn't enough</h3>
+      <p>Drug repurposing works by testing a target protein against a huge number of existing drugs and seeing
+      which ones bind well. Hand-picking a few candidates and docking them one at a time (like Warfarin in Hello
+      Tools 1) doesn't scale to that. I needed a real library of FDA-approved drugs, converted into a format
+      AutoDock Vina-GPU can actually dock, and a way to screen the whole thing against a target in one run.</p>
+
+      <h3>Step 2: Getting the data</h3>
+      <p>I'm using <a href="https://drugcentral.org/download" target="_blank" rel="noopener">DrugCentral</a> as the source — it's
+      open access, needs no login, and publishes an official "FDA Approved Drugs" list alongside a structures file
+      with SMILES for each one (it's licensed CC BY-SA 4.0, so it gets a citation here). A script pulls both files
+      and joins them into one clean table:</p>
+      <pre class="code">python3 biolab/scripts/fetch_drug_library.py</pre>
+      <p>That produced <strong>1,859 FDA-approved drugs</strong> with usable SMILES out of 2,331 total approved
+      entries — the rest are mostly biologics, peptides, and other things that don't reduce down to a simple
+      small-molecule structure.</p>
+
+      <h3>Step 3: Turning SMILES into structures Vina can dock</h3>
+      <p>A SMILES string is just a 1D text description of a molecule — Vina needs an actual 3D structure with
+      hydrogens, charges, and a defined set of rotatable bonds. I used <strong>RDKit</strong> to embed a 3D
+      conformer for each drug and optimize it (fixed random seed, so the results are reproducible), then
+      <strong>Meeko</strong> — the official AutoDock ligand-prep tool — to write it out as a PDBQT file:</p>
+      <pre class="code">python3 biolab/scripts/prepare_ligand_library.py</pre>
+      <p>This ran into a couple of real problems along the way. A handful of drugs have macrocyclic rings that
+      Meeko normally handles by breaking them open with special "glue" atom types — but Vina-GPU's atom table
+      doesn't know those types, so those ligands were failing outright. Fixing it meant telling Meeko to keep
+      macrocycles rigid instead. After that fix, <strong>1,840 of the 1,859 drugs</strong> converted cleanly into
+      dockable PDBQT files.</p>
+
+      <h3>Step 4: Screening the whole library at once</h3>
+      <p>AutoDock Vina-GPU-2.1 has a built-in virtual screening mode — point it at a folder of ligands instead of
+      a single file, and it docks every one of them against the receptor in a single run. I wrote a script that
+      builds the config, runs the screen, and collects the results into a ranked list by predicted binding
+      affinity:</p>
+      <pre class="code">python3 biolab/scripts/batch_dock.py --run-name &lt;name&gt; --receptor &lt;target.pdbqt&gt;</pre>
+      <p>I also learned Vina-GPU hard-caps ligands at 130 atoms — anything bigger gets rejected. Rather than let
+      the run crash partway through on a random oversized drug, the script now checks ligand size up front and
+      cleanly logs anything too big to dock, instead of it just failing.</p>
+
+      <h3>Step 5: A first test run</h3>
+      <p><em>This is a pipeline check, not a real result</em> — it's docked against the 3I3R structure I used for
+      the Hello Tools demos, which isn't an actual disease target, and it only covers 30 of the 1,840 prepared
+      drugs. The point was making sure the whole pipeline — download, convert, screen, rank — actually works
+      end to end before trusting it with a real target.</p>
+      <img src="images/drugLibraryResults.svg" alt="Bar chart of top predicted binding affinities from the pipeline smoke test" class="pageImage">
+      <p>29 of the 30 test ligands docked successfully; the 30th was correctly caught and skipped by the new
+      130-atom check instead of crashing the run. That's exactly the outcome I wanted from a pipeline test.</p>
+
+      <h3>What's next</h3>
+      <p>The library and the screening pipeline are ready. What's still missing is the actual target — a specific
+      disease and protein worth investigating, chosen because it's rare or doesn't get much research attention.
+      That's the next real step, and it's a research question, not an engineering one.</p>
+
+      <h3>A quick note on how this got built</h3>
+      <p>I built this pipeline working with Claude Code, and I think that's worth saying outright rather than
+      quietly leaving out. Part of the point of this whole project, for me, is seeing how far current AI tools
+      can actually stretch a high schooler's reach on something like this — if I can run three miles on my own,
+      and a bike gets me thirty, the bike is worth talking about, not hiding. The science and the decisions are
+      still mine; the tooling just got built a lot faster than it would have otherwise.</p>
+    </div>
+
+    <div class="footer">
+      Contact: <a class="link" href="mailto: alinaren@biomedbound.com">AlinaRen@biomedbound.com</a>
+    </div>
+  </div>
+</body>
+</html>

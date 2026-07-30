@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="420" viewBox="0 0 680 420" font-family="Verdana, Geneva, Tahoma, sans-serif">
+<rect x="1" y="1" width="678" height="418" rx="15" ry="15" fill="#141220" stroke="#6b5cae" stroke-width="2"/>
+<text x="340.0" y="28" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="bold">Top predicted affinities — pipeline smoke test (3I3R demo receptor)</text>
+<text x="340.0" y="46" text-anchor="middle" fill="#b9b3d6" font-size="12">kcal/mol, more negative = stronger predicted binding</text>
+<line x1="190.0" y1="55" x2="190.0" y2="385" stroke="#3a3550" stroke-width="1"/>
+<text x="190.0" y="400" text-anchor="middle" fill="#8b84ab" font-size="11">0</text>
+<line x1="295.0" y1="55" x2="295.0" y2="385" stroke="#3a3550" stroke-width="1"/>
+<text x="295.0" y="400" text-anchor="middle" fill="#8b84ab" font-size="11">-2</text>
+<line x1="400.0" y1="55" x2="400.0" y2="385" stroke="#3a3550" stroke-width="1"/>
+<text x="400.0" y="400" text-anchor="middle" fill="#8b84ab" font-size="11">-4</text>
+<line x1="505.0" y1="55" x2="505.0" y2="385" stroke="#3a3550" stroke-width="1"/>
+<text x="505.0" y="400" text-anchor="middle" fill="#8b84ab" font-size="11">-6</text>
+<line x1="610.0" y1="55" x2="610.0" y2="385" stroke="#3a3550" stroke-width="1"/>
+<text x="610.0" y="400" text-anchor="middle" fill="#8b84ab" font-size="11">-8</text>
+<text x="178" y="80.0" text-anchor="end" fill="#ffffff" font-size="13">epirubicin</text>
+<rect x="190" y="66" width="378.0" height="20" rx="4" ry="4" fill="#8f7fd1"/>
+<text x="576.0" y="80.0" fill="#e4e0f5" font-size="12">-7.2</text>
+<text x="178" y="112.0" text-anchor="end" fill="#ffffff" font-size="13">eptifibatide</text>
+<rect x="190" y="98" width="367.5" height="20" rx="4" ry="4" fill="#8f7fd1"/>
+<text x="565.5" y="112.0" fill="#e4e0f5" font-size="12">-7.0</text>
+<text x="178" y="144.0" text-anchor="end" fill="#ffffff" font-size="13">ergotamine</text>
+<rect x="190" y="130" width="362.2" height="20" rx="4" ry="4" fill="#8f7fd1"/>
+<text x="560.2" y="144.0" fill="#e4e0f5" font-size="12">-6.9</text>
+<text x="178" y="176.0" text-anchor="end" fill="#ffffff" font-size="13">ertapenem</text>
+<rect x="190" y="162" width="330.8" height="20" rx="4" ry="4" fill="#8f7fd1"/>
+<text x="528.8" y="176.0" fill="#e4e0f5" font-size="12">-6.3</text>
+<text x="178" y="208.0" text-anchor="end" fill="#ffffff" font-size="13">alatrofloxacin</text>
+<rect x="190" y="194" width="309.8" height="20" rx="4" ry="4" fill="#8f7fd1"/>
+<text x="507.8" y="208.0" fill="#e4e0f5" font-size="12">-5.9</text>
+<text x="178" y="240.0" text-anchor="end" fill="#ffffff" font-size="13">erythromycin</text>
+<rect x="190" y="226" width="304.5" height="20" rx="4" ry="4" fill="#8f7fd1"/>
+<text x="502.5" y="240.0" fill="#e4e0f5" font-size="12">-5.8</text>
+<text x="178" y="272.0" text-anchor="end" fill="#ffffff" font-size="13">esomeprazole</text>
+<rect x="190" y="258" width="294.0" height="20" rx="4" ry="4" fill="#8f7fd1"/>
+<text x="492.0" y="272.0" fill="#e4e0f5" font-size="12">-5.6</text>
+<text x="178" y="304.0" text-anchor="end" fill="#ffffff" font-size="13">estazolam</text>
+<rect x="190" y="290" width="294.0" height="20" rx="4" ry="4" fill="#8f7fd1"/>
+<text x="492.0" y="304.0" fill="#e4e0f5" font-size="12">-5.6</text>
+<text x="178" y="336.0" text-anchor="end" fill="#ffffff" font-size="13">enoxacin</text>
+<rect x="190" y="322" width="288.8" height="20" rx="4" ry="4" fill="#8f7fd1"/>
+<text x="486.8" y="336.0" fill="#e4e0f5" font-size="12">-5.5</text>
+<text x="178" y="368.0" text-anchor="end" fill="#ffffff" font-size="13">eplerenone</text>
+<rect x="190" y="354" width="288.8" height="20" rx="4" ry="4" fill="#8f7fd1"/>
+<text x="486.8" y="368.0" fill="#e4e0f5" font-size="12">-5.5</text>
+</svg>
