@@ -84,9 +84,9 @@ before/after comparison as the pattern to follow). Use the `docking-run` and
   (contact mailto).
 - The `topLinksDiv` nav block is duplicated across every page — if you add a
   new top-level page, update the nav in *all* existing pages to keep them in
-  sync. (Note: as of this writing, several pages' "Science Book Reviews" nav
-  link incorrectly points at `index.html` instead of `books.html` — worth
-  fixing site-wide next time nav is touched.)
+  sync. (Note: "Science Book Reviews" currently points at `index.html`
+  instead of `books.html` on purpose, since `books.html` has no real content
+  yet — repoint it to `books.html` once that section has actual reviews.)
 - Contact footer always uses `alinaren@biomedbound.com`.
 
 ## House style / tone
