@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.1651
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.8559
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5338
+HEADER 5  - Mean B-factor of pocket residues  : 0.5195
+HEADER 6  - Hydrophobicity Score              : 19.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 357.7938
+HEADER 10 - Pocket volume (convex hull)       : 40.7644
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.3333
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2609
+ATOM   4384   CG GLU B  82     -40.018 -23.704  -5.270  0.00  0.00           C 0
+ATOM   4380   CA GLU B  82     -38.218 -22.661  -3.752  0.00  0.00           C 0
+ATOM   4411   NE ARG B  85     -35.754 -18.821  -8.330  0.00  0.00           N 0
+ATOM   4414  NH2 ARG B  85     -37.883 -17.995  -8.632  0.42  5.47           N 0
+ATOM   4383   CB GLU B  82     -39.701 -22.734  -4.129  0.00  0.00           C 0
+ATOM   4343   CA GLY B  77     -33.954 -24.853  -6.748  0.00  0.00           C 0
+ATOM   4311    O ILE B  73     -30.212 -22.439  -4.656  0.35  1.07           O 0
+ATOM   4410   CD ARG B  85     -34.367 -18.824  -7.833  0.00  0.00           C 0
+ATOM   4368    O TRP B  81     -35.575 -23.473  -3.504  0.40  2.14           O 0
+ATOM   4319    O ARG B  74     -30.518 -23.622  -7.842  0.00  0.00           O 0
+ATOM   4345    O GLY B  77     -35.755 -26.250  -7.473  0.44  8.57           O 0
+ATOM   4397   CA ASP B  84     -36.630 -15.697  -3.460  0.00  0.00           C 0
+ATOM   4391    O MET B  83     -36.477 -18.292  -4.382  0.69  1.07           O 0
+ATOM   4396    N ASP B  84     -36.934 -16.890  -2.667  0.59  3.28           N 0
+ATOM   4413  NH1 ARG B  85     -36.383 -16.766  -7.423  0.41  2.19           N 1
+ATOM   4402  OD1 ASP B  84     -37.526 -13.393  -4.983  0.16  8.57           O 0
+ATOM   4400   CB ASP B  84     -37.194 -14.413  -2.844  0.00  0.00           C 0
+ATOM   4389   CA MET B  83     -37.165 -19.293  -2.323  0.00  0.00           C 0
+ATOM   4382    O GLU B  82     -38.359 -21.719  -1.550  0.64  7.50           O 0
+ATOM   4381    C GLU B  82     -37.989 -21.569  -2.716  0.00  0.00           C 0
+ATOM   4393   CG MET B  83     -34.638 -19.626  -1.894  0.00  0.00           C 0
+ATOM   4408   CB ARG B  85     -33.060 -17.297  -6.300  0.00  0.00           C 0
+ATOM   4390    C MET B  83     -36.832 -18.104  -3.212  0.00  0.00           C 0
+ATOM   4388    N MET B  83     -37.363 -20.481  -3.154  0.58  2.19           N 0
+TER
+END

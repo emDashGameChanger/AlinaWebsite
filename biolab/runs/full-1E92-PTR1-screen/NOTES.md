@@ -62,8 +62,13 @@ pocket, adjacent to the NADP+ cofactor, rather than being scattered across
 the protein surface — a real plausibility signal beyond the raw affinity
 numbers.
 
-**Not yet done**: a literature check for any existing antiparasitic/PTR1
-activity on the top hits.
+**Literature check (done)**: see `literature-check.md` for the full
+write-up and citations. Short version: 9 of the 10 hits have no published
+antiparasitic activity found (genuinely novel, not a red flag). Olaparib is
+the exception — confirmed potent activity against *Trypanosoma cruzi* via
+PARP inhibition (Vilchez Larrea et al., PLOS ONE 2012), a different
+parasite and a mechanism unrelated to PTR1, so it's an interesting
+data point rather than a confirmation of the PTR1 docking result.
 
 **Scope note**: hypothesis-generation only — no docking score here is a
 therapeutic claim, per project-wide scope rules.

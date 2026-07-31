@@ -1,0 +1,22 @@
+receptor = 3L4D_receptor.pdbqt
+ligand = ligand.pdbqt
+
+# Box centered on fpocket pocket 1 of chain A (druggability 0.993, the
+# single best-scoring pocket found on either receptor prepped this
+# session) -- directly above the heme iron, matching the crystallized
+# fluconazole position (which coordinates the iron and fills this same
+# channel, ~8 A pocket-centroid-to-ligand-centroid, consistent given
+# fpocket centroids describe the whole cavity while fluconazole only
+# occupies part of it). Sized larger than the TR/PTR1 boxes because this
+# pocket is an elongated substrate-access channel (11x21x21 A extent),
+# not a compact enclosed pocket -- see
+# biolab/targets/attack-vectors-shortlist-2026-07-30.md.
+center_x = 33.192
+center_y = -24.058
+center_z = -7.177
+
+size_x = 20
+size_y = 28
+size_z = 28
+
+search_depth = 100

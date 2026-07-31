@@ -1,0 +1,11 @@
+receptor = /home/kidwidget/Documents/projects/Alina/AlinaWebsite/biolab/2YAU_receptor.pdbqt
+ligand_directory = /home/kidwidget/Documents/projects/Alina/AlinaWebsite/biolab/runs/full-2YAU-TR-screen/ligands_filtered
+output_directory = /home/kidwidget/Documents/projects/Alina/AlinaWebsite/biolab/runs/full-2YAU-TR-screen/docked
+center_x = -18.258
+center_y = -30.263
+center_z = -2.880
+size_x = 22
+size_y = 22
+size_z = 22
+search_depth = 100
+thread = 8000

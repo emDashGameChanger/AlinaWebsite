@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    39:
+HEADER 0  - Pocket Score                      : -0.0333
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0656
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5892
+HEADER 5  - Mean B-factor of pocket residues  : 0.4105
+HEADER 6  - Hydrophobicity Score              : 30.1250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 266.6969
+HEADER 10 - Pocket volume (convex hull)       : 5.3598
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4667
+ATOM   4092   CB PRO B  42      -4.462  -5.297   8.625  0.00  0.00           C 0
+ATOM   5146   CG GLU B 180      -2.637  -5.864   1.658  0.00  0.00           C 0
+ATOM   4091    O PRO B  42      -1.332  -5.298   7.678  0.00  0.00           O 0
+ATOM   4120   CZ PHE B  45      -1.389  -6.799   4.777  0.00  0.00           C 0
+ATOM   5144    O GLU B 180      -6.605  -7.721   2.071  0.55  3.21           O 0
+ATOM   5194  OE2 GLU B 185     -10.455  -2.089   1.526  0.00  0.00           O 1
+ATOM   5183   CG LEU B 184      -9.927  -6.402  -0.088  0.00  0.00           C 0
+ATOM   5179   CA LEU B 184     -10.654  -5.921   2.392  0.00  0.00           C 0
+ATOM   5169    O TYR B 183      -9.717  -5.643   5.023  0.00  0.00           O 0
+ATOM   5185  CD2 LEU B 184     -10.114  -5.117  -0.866  0.00  0.00           C 0
+ATOM   4119  CE2 PHE B  45      -2.337  -7.710   5.248  0.00  0.00           C 0
+ATOM   5142   CA GLU B 180      -4.213  -7.931   1.942  0.00  0.00           C 0
+ATOM   5145   CB GLU B 180      -3.765  -6.736   1.079  0.00  0.00           C 0
+ATOM   5170   CB TYR B 183      -7.842  -7.441   6.158  0.00  0.00           C 0
+ATOM   5118  CG2 ILE B 176      -5.019  -4.690  -2.527  0.00  0.00           C 0
+ATOM   5931  NE2 GLN B 280      -9.451  -2.359  -3.421  0.48  7.66           N 0
+TER
+END

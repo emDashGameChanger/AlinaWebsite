@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    49:
+HEADER 0  - Pocket Score                      : -0.1010
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.2010
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4815
+HEADER 5  - Mean B-factor of pocket residues  : 0.4199
+HEADER 6  - Hydrophobicity Score              : 4.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 237.2202
+HEADER 10 - Pocket volume (convex hull)       : 1.4587
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1053
+ATOM   5521    N GLY B 229       2.059 -27.456 -14.322  0.09  1.09           N 0
+ATOM   5522   CA GLY B 229       2.468 -28.559 -13.449  0.00  0.00           C 0
+ATOM   6662  OE1 GLU B 380       1.289 -33.727 -18.749  0.83  1.07           O 0
+ATOM   6660   CG GLU B 380       3.130 -33.202 -20.223  0.00  0.00           C 0
+ATOM   6644  CG2 THR B 378       2.440 -33.515 -14.098  0.00  0.00           C 0
+ATOM   6645  OG1 THR B 378       3.626 -34.487 -15.942  0.63  5.36           O 0
+ATOM   6671  OE1 GLU B 381       7.164 -34.638 -12.420  0.15  9.64           O 0
+ATOM   6668   CB GLU B 381       6.693 -35.412 -15.265  0.00  0.00           C 0
+ATOM   5576  NH1 ARG B 235       0.136 -27.449 -18.043  0.77  4.37           N 1
+ATOM   5519  NH1 ARG B 228       5.447 -26.105 -17.961  0.00  0.00           N 1
+ATOM   5549  CG2 THR B 232      -0.439 -30.642 -19.501  0.00  0.00           C 0
+ATOM   5524    O GLY B 229       1.492 -30.087 -11.894  0.27  5.36           O 0
+ATOM   6659   CB GLU B 380       4.259 -33.806 -19.355  0.00  0.00           C 0
+ATOM   5528    O PHE B 230      -0.911 -30.832 -15.687  0.00  0.00           O 0
+TER
+END

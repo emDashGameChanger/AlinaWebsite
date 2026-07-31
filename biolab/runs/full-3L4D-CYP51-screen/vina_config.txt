@@ -1,0 +1,11 @@
+receptor = /home/kidwidget/Documents/projects/Alina/AlinaWebsite/biolab/3L4D_receptor.pdbqt
+ligand_directory = /home/kidwidget/Documents/projects/Alina/AlinaWebsite/biolab/runs/full-3L4D-CYP51-screen/ligands_filtered
+output_directory = /home/kidwidget/Documents/projects/Alina/AlinaWebsite/biolab/runs/full-3L4D-CYP51-screen/docked
+center_x = 33.192
+center_y = -24.058
+center_z = -7.177
+size_x = 20
+size_y = 28
+size_z = 28
+search_depth = 100
+thread = 8000

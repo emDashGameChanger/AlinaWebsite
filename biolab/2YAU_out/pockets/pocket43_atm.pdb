@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    43:
+HEADER 0  - Pocket Score                      : -0.0419
+HEADER 1  - Drug Score                        : 0.1597
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.8835
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4902
+HEADER 5  - Mean B-factor of pocket residues  : 0.4967
+HEADER 6  - Hydrophobicity Score              : 59.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 6.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 349.8390
+HEADER 10 - Pocket volume (convex hull)       : 32.1694
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 14.3750
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM   4407    O ARG B  85     -32.328 -14.637  -7.159  0.00  0.00           O 0
+ATOM   4320   CB ARG B  74     -28.057 -21.393  -8.152  0.00  0.00           C 0
+ATOM   4408   CB ARG B  85     -33.060 -17.297  -6.300  0.00  0.00           C 0
+ATOM   4321   CG ARG B  74     -28.674 -21.176  -9.523  0.00  0.00           C 0
+ATOM   4433    O LEU B  88     -27.444 -13.531  -4.470  0.00  0.00           O 0
+ATOM   4434   CB LEU B  88     -30.233 -13.444  -3.336  0.00  0.00           C 0
+ATOM   4409   CG ARG B  85     -33.773 -17.428  -7.649  0.00  0.00           C 0
+ATOM   4287    O MET B  70     -25.354 -20.444  -5.668  0.00  0.00           O 0
+ATOM   4289   CG MET B  70     -23.244 -17.740  -6.105  0.00  0.00           C 0
+ATOM   4317   CA ARG B  74     -29.010 -21.921  -7.084  0.00  0.00           C 0
+ATOM   4325  NH1 ARG B  74     -25.005 -21.236  -9.446  0.62  3.28           N 1
+ATOM   4322   CD ARG B  74     -27.607 -20.842 -10.567  0.00  0.00           C 0
+ATOM    582  CZ3 TRP A  81     -24.916 -15.680  -2.134  0.00  0.00           C 0
+ATOM   4290   SD MET B  70     -21.938 -17.165  -7.187  0.00  0.00           S 0
+ATOM   4291   CE MET B  70     -21.559 -18.652  -8.128  0.00  0.00           C 0
+ATOM   4314  CG2 ILE B  73     -29.255 -19.930  -3.007  0.00  0.00           C 0
+ATOM   4405   CA ARG B  85     -33.412 -16.024  -5.496  0.00  0.00           C 0
+ATOM   4316    N ARG B  74     -28.360 -21.872  -5.794  0.59  1.09           N 0
+ATOM    600   CE MET A  83     -29.494 -17.243  -0.623  0.00  0.00           C 0
+ATOM   4393   CG MET B  83     -34.638 -19.626  -1.894  0.00  0.00           C 0
+ATOM   4312   CB ILE B  73     -27.987 -20.769  -2.827  0.00  0.00           C 0
+TER
+END

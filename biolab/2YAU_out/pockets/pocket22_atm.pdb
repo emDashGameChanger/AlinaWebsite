@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : 0.0487
+HEADER 1  - Drug Score                        : 0.0319
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.9473
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5286
+HEADER 5  - Mean B-factor of pocket residues  : 0.5274
+HEADER 6  - Hydrophobicity Score              : 16.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 236.6665
+HEADER 10 - Pocket volume (convex hull)       : 7.1759
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   1053  OE2 GLU A 141     -42.807 -62.984  -6.461  0.67  4.29           O 1
+ATOM   2224   CB GLN A 292     -41.191 -66.956  -1.883  0.00  0.00           C 0
+ATOM   2208   CG ARG A 290     -38.329 -61.397  -4.779  0.00  0.00           C 0
+ATOM   1220  CD1 TRP A 163     -41.191 -58.258  -0.585  0.00  0.00           C 0
+ATOM   1224  NE1 TRP A 163     -42.274 -57.563  -1.073  0.68  5.47           N 0
+ATOM   1222  CE2 TRP A 163     -41.927 -56.965  -2.257  0.00  0.00           C 0
+ATOM   1052  OE1 GLU A 141     -44.469 -61.617  -6.918  0.00  0.00           O 0
+ATOM   1225  CZ2 TRP A 163     -42.684 -56.155  -3.120  0.00  0.00           C 0
+ATOM   2213  NH2 ARG A 290     -41.290 -58.358  -6.895  0.71  5.47           N 0
+ATOM   2204   CA ARG A 290     -36.882 -63.026  -3.425  0.00  0.00           C 0
+ATOM   2205    C ARG A 290     -37.109 -64.380  -4.126  0.00  0.00           C 0
+ATOM   1219   CG TRP A 163     -40.129 -58.132  -1.433  0.00  0.00           C 0
+ATOM   2210   NE ARG A 290     -39.692 -59.702  -5.930  0.78  1.09           N 0
+ATOM   1221  CD2 TRP A 163     -40.578 -57.301  -2.519  0.00  0.00           C 0
+ATOM   2229    N ALA A 293     -41.039 -67.344  -4.913  0.00  0.00           N 0
+ATOM   2206    O ARG A 290     -37.524 -64.431  -5.286  0.61  2.14           O 0
+ATOM   2195  CG2 VAL A 288     -38.081 -61.620   2.722  0.00  0.00           C 0
+ATOM   2199    O PRO A 289     -36.561 -63.702  -0.721  0.52  4.29           O 0
+ATOM   1218   CB TRP A 163     -38.762 -58.732  -1.259  0.00  0.00           C 0
+TER
+END

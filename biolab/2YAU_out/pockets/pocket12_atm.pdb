@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0976
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6436
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4587
+HEADER 5  - Mean B-factor of pocket residues  : 0.2253
+HEADER 6  - Hydrophobicity Score              : 35.1429
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 169.7025
+HEADER 10 - Pocket volume (convex hull)       : 3.7239
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0625
+HETATM 3774  O3X NDP A 550     -30.264 -55.335  15.103  0.82  1.07           O 0
+ATOM   1720   CG ARG A 228     -26.744 -55.673  15.419  0.00  0.00           C 0
+ATOM   1721   CD ARG A 228     -27.591 -56.704  16.156  0.00  0.00           C 0
+HETATM 3766  O2X NDP A 550     -31.701 -57.368  14.312  0.00  0.00           O 1
+HETATM 3785  O5B NDP A 550     -31.498 -54.814   9.659  0.00  0.00           O 0
+ATOM   1738  CE1 PHE A 230     -24.605 -50.252  10.316  0.00  0.00           C 0
+ATOM   1481    N TYR A 198     -29.847 -49.672   7.694  0.00  0.00           N 0
+ATOM   1487  CD1 TYR A 198     -27.396 -51.324   6.244  0.00  0.00           C 0
+HETATM 3755  O1A NDP A 550     -29.629 -54.013   8.074  0.56  6.43           O 1
+ATOM   1718    O ARG A 228     -25.694 -53.802  12.902  0.00  0.00           O 0
+HETATM 3772  O3B NDP A 550     -31.696 -52.985  13.239  0.00  0.00           O 0
+HETATM 3767  C3B NDP A 550     -32.144 -54.128  12.494  0.00  0.00           C 0
+ATOM   1476    O GLY A 196     -30.463 -50.071  12.266  0.00  0.00           O 0
+ATOM   1708   CA LEU A 227     -27.502 -49.790  13.604  0.00  0.00           C 0
+ATOM   1489  CE1 TYR A 198     -26.142 -51.959   6.310  0.00  0.00           C 0
+ATOM   1714  CD2 LEU A 227     -27.981 -48.274  10.878  0.00  0.00           C 0
+ATOM   1478   CA GLY A 197     -31.126 -50.522   9.578  0.00  0.00           C 0
+TER
+END

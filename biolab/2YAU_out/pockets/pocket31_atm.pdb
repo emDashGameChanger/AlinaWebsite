@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    31:
+HEADER 0  - Pocket Score                      : 0.0096
+HEADER 1  - Drug Score                        : 0.0015
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8032
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4924
+HEADER 5  - Mean B-factor of pocket residues  : 0.4091
+HEADER 6  - Hydrophobicity Score              : 33.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 141.9128
+HEADER 10 - Pocket volume (convex hull)       : 1.6711
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.3889
+ATOM   5388   NZ LYS B 211     -20.939 -13.979  -9.597  0.74  5.47           N 1
+ATOM   5387   CE LYS B 211     -20.528 -12.708 -10.248  0.00  0.00           C 0
+ATOM   5402    N GLY B 214     -23.948  -7.963  -9.938  0.40  9.84           N 0
+ATOM   4443   SG CYS B  89     -25.405 -10.150  -5.689  0.00  0.00           S 0
+ATOM   5385   CG LYS B 211     -19.905 -11.636  -8.060  0.00  0.00           C 0
+ATOM   5383    O LYS B 211     -21.507 -10.457  -5.498  0.64  1.07           O 0
+ATOM   5397   CA CYS B 213     -24.703  -7.972  -7.649  0.00  0.00           C 0
+ATOM   4450   CD PRO B  90     -23.147 -12.401  -2.542  0.00  0.00           C 0
+ATOM   5367    O GLY B 209     -20.444 -14.441  -4.380  0.79  1.07           O 0
+ATOM   4433    O LEU B  88     -27.444 -13.531  -4.470  0.00  0.00           O 0
+ATOM   4439   CA CYS B  89     -25.859 -11.504  -3.292  0.00  0.00           C 0
+ATOM   4289   CG MET B  70     -23.244 -17.740  -6.105  0.00  0.00           C 0
+ATOM    583  CH2 TRP A  81     -23.636 -16.068  -2.555  0.00  0.00           C 0
+ATOM   4290   SD MET B  70     -21.938 -17.165  -7.187  0.00  0.00           S 0
+TER
+END

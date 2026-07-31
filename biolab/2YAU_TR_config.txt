@@ -1,0 +1,25 @@
+receptor = 2YAU_receptor.pdbqt
+ligand = ligand.pdbqt
+
+# Box centered on fpocket pocket 1 of the full A+B homodimer (druggability
+# 0.731, the highest-scoring pocket in the whole structure) -- an
+# inter-subunit cavity lined by residues from BOTH chains (A61/A72/A400/
+# A433/A436 + B61-75/B367-464), matching the published description of the
+# trypanothione-binding cavity: "formed by residues of the FAD binding
+# domain of one subunit and the interface domain of the other" (see
+# biolab/targets/attack-vectors-shortlist-2026-07-30.md). This is the
+# "mepacrine binding site" region at the cavity entrance, where most
+# reversible small-molecule TR inhibitors from HTS/repurposing screens
+# actually bind -- NOT the crystallized auranofin/gold position in this
+# structure, which sits ~17 A away and represents a covalent reaction with
+# the deep catalytic cysteine pair (Cys52/Cys57-equivalent), a different
+# and much less library-screen-relevant binding mode.
+center_x = -18.258
+center_y = -30.263
+center_z = -2.880
+
+size_x = 22
+size_y = 22
+size_z = 22
+
+search_depth = 100

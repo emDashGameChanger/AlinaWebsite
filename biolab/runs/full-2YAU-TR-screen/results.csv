@@ -1,0 +1,1796 @@
+drugcentral_id,name,best_affinity_kcal_mol,output_pdbqt
+1043,ergotamine,-10.5,runs/full-2YAU-TR-screen/docked/1043_out.pdbqt
+5430,berotralstat,-10.1,runs/full-2YAU-TR-screen/docked/5430_out.pdbqt
+1932,nilotinib,-10.0,runs/full-2YAU-TR-screen/docked/1932_out.pdbqt
+4721,lomitapide,-10.0,runs/full-2YAU-TR-screen/docked/4721_out.pdbqt
+5231,midostaurin,-10.0,runs/full-2YAU-TR-screen/docked/5231_out.pdbqt
+2422,saquinavir,-9.9,runs/full-2YAU-TR-screen/docked/2422_out.pdbqt
+5220,naldemedine,-9.9,runs/full-2YAU-TR-screen/docked/5220_out.pdbqt
+5381,rimegepant,-9.9,runs/full-2YAU-TR-screen/docked/5381_out.pdbqt
+732,conivaptan,-9.9,runs/full-2YAU-TR-screen/docked/732_out.pdbqt
+3031,bisoctrizole,-9.8,runs/full-2YAU-TR-screen/docked/3031_out.pdbqt
+2855,zafirlukast,-9.6,runs/full-2YAU-TR-screen/docked/2855_out.pdbqt
+5412,pralsetinib,-9.6,runs/full-2YAU-TR-screen/docked/5412_out.pdbqt
+5441,umbralisib,-9.6,runs/full-2YAU-TR-screen/docked/5441_out.pdbqt
+888,dihydroergotamine,-9.6,runs/full-2YAU-TR-screen/docked/888_out.pdbqt
+2172,pimozide,-9.5,runs/full-2YAU-TR-screen/docked/2172_out.pdbqt
+4470,fosaprepitant,-9.5,runs/full-2YAU-TR-screen/docked/4470_out.pdbqt
+5424,tepotinib,-9.5,runs/full-2YAU-TR-screen/docked/5424_out.pdbqt
+973,dutasteride,-9.5,runs/full-2YAU-TR-screen/docked/973_out.pdbqt
+351,betamethasone benzoate,-9.4,runs/full-2YAU-TR-screen/docked/351_out.pdbqt
+4148,epicriptine,-9.4,runs/full-2YAU-TR-screen/docked/4148_out.pdbqt
+5010,lumacaftor,-9.4,runs/full-2YAU-TR-screen/docked/5010_out.pdbqt
+5274,bictegravir,-9.4,runs/full-2YAU-TR-screen/docked/5274_out.pdbqt
+5345,entrectinib,-9.4,runs/full-2YAU-TR-screen/docked/5345_out.pdbqt
+102,alatrofloxacin,-9.3,runs/full-2YAU-TR-screen/docked/102_out.pdbqt
+1893,nelfinavir,-9.3,runs/full-2YAU-TR-screen/docked/1893_out.pdbqt
+403,bromocriptine,-9.3,runs/full-2YAU-TR-screen/docked/403_out.pdbqt
+4812,simeprevir,-9.3,runs/full-2YAU-TR-screen/docked/4812_out.pdbqt
+5286,moxidectin,-9.3,runs/full-2YAU-TR-screen/docked/5286_out.pdbqt
+5372,elexacaftor,-9.3,runs/full-2YAU-TR-screen/docked/5372_out.pdbqt
+5389,tucatinib,-9.3,runs/full-2YAU-TR-screen/docked/5389_out.pdbqt
+5414,lonafarnib,-9.3,runs/full-2YAU-TR-screen/docked/5414_out.pdbqt
+1300,glimepiride,-9.2,runs/full-2YAU-TR-screen/docked/1300_out.pdbqt
+3184,dihydroergocornine,-9.2,runs/full-2YAU-TR-screen/docked/3184_out.pdbqt
+4168,lurasidone,-9.2,runs/full-2YAU-TR-screen/docked/4168_out.pdbqt
+4399,eltrombopag,-9.2,runs/full-2YAU-TR-screen/docked/4399_out.pdbqt
+4410,plerixafor,-9.2,runs/full-2YAU-TR-screen/docked/4410_out.pdbqt
+4907,olaparib,-9.2,runs/full-2YAU-TR-screen/docked/4907_out.pdbqt
+5283,fosnetupitant,-9.2,runs/full-2YAU-TR-screen/docked/5283_out.pdbqt
+1437,indinavir,-9.1,runs/full-2YAU-TR-screen/docked/1437_out.pdbqt
+4173,telaprevir,-9.1,runs/full-2YAU-TR-screen/docked/4173_out.pdbqt
+4801,dabrafenib,-9.1,runs/full-2YAU-TR-screen/docked/4801_out.pdbqt
+5251,enasidenib,-9.1,runs/full-2YAU-TR-screen/docked/5251_out.pdbqt
+633,ciclesonide,-9.1,runs/full-2YAU-TR-screen/docked/633_out.pdbqt
+1314,glibenclamide,-9.0,runs/full-2YAU-TR-screen/docked/1314_out.pdbqt
+1445,inositol nicotinate,-9.0,runs/full-2YAU-TR-screen/docked/1445_out.pdbqt
+2583,telmisartan,-9.0,runs/full-2YAU-TR-screen/docked/2583_out.pdbqt
+2805,valrubicin,-9.0,runs/full-2YAU-TR-screen/docked/2805_out.pdbqt
+4110,tolvaptan,-9.0,runs/full-2YAU-TR-screen/docked/4110_out.pdbqt
+4881,suvorexant,-9.0,runs/full-2YAU-TR-screen/docked/4881_out.pdbqt
+4976,triamcinolone hexacetonide,-9.0,runs/full-2YAU-TR-screen/docked/4976_out.pdbqt
+5292,ivosidenib,-9.0,runs/full-2YAU-TR-screen/docked/5292_out.pdbqt
+5352,cefiderocol,-9.0,runs/full-2YAU-TR-screen/docked/5352_out.pdbqt
+1635,maraviroc,-8.9,runs/full-2YAU-TR-screen/docked/1635_out.pdbqt
+3300,indocyanine green,-8.9,runs/full-2YAU-TR-screen/docked/3300_out.pdbqt
+4169,ceftaroline fosamil,-8.9,runs/full-2YAU-TR-screen/docked/4169_out.pdbqt
+4322,azilsartan medoxomil,-8.9,runs/full-2YAU-TR-screen/docked/4322_out.pdbqt
+4810,ibrutinib,-8.9,runs/full-2YAU-TR-screen/docked/4810_out.pdbqt
+4898,netupitant,-8.9,runs/full-2YAU-TR-screen/docked/4898_out.pdbqt
+508,carindacillin,-8.9,runs/full-2YAU-TR-screen/docked/508_out.pdbqt
+5259,abemaciclib,-8.9,runs/full-2YAU-TR-screen/docked/5259_out.pdbqt
+5276,tezacaftor,-8.9,runs/full-2YAU-TR-screen/docked/5276_out.pdbqt
+5291,tecovirimat,-8.9,runs/full-2YAU-TR-screen/docked/5291_out.pdbqt
+5348,lefamulin,-8.9,runs/full-2YAU-TR-screen/docked/5348_out.pdbqt
+939,docetaxel,-8.9,runs/full-2YAU-TR-screen/docked/939_out.pdbqt
+1414,idarubicin,-8.8,runs/full-2YAU-TR-screen/docked/1414_out.pdbqt
+230,aprepitant,-8.8,runs/full-2YAU-TR-screen/docked/230_out.pdbqt
+254,atazanavir,-8.8,runs/full-2YAU-TR-screen/docked/254_out.pdbqt
+2553,tadalafil,-8.8,runs/full-2YAU-TR-screen/docked/2553_out.pdbqt
+3520,rapacuronium,-8.8,runs/full-2YAU-TR-screen/docked/3520_out.pdbqt
+5271,macimorelin,-8.8,runs/full-2YAU-TR-screen/docked/5271_out.pdbqt
+5380,tazemetostat,-8.8,runs/full-2YAU-TR-screen/docked/5380_out.pdbqt
+552,cefpiramide,-8.8,runs/full-2YAU-TR-screen/docked/552_out.pdbqt
+87,adapalene,-8.8,runs/full-2YAU-TR-screen/docked/87_out.pdbqt
+957,doxercalciferol,-8.8,runs/full-2YAU-TR-screen/docked/957_out.pdbqt
+960,doxorubicin,-8.8,runs/full-2YAU-TR-screen/docked/960_out.pdbqt
+1205,fluocinonide,-8.7,runs/full-2YAU-TR-screen/docked/1205_out.pdbqt
+1601,lopinavir,-8.7,runs/full-2YAU-TR-screen/docked/1601_out.pdbqt
+2351,raloxifene,-8.7,runs/full-2YAU-TR-screen/docked/2351_out.pdbqt
+5022,flibanserin,-8.7,runs/full-2YAU-TR-screen/docked/5022_out.pdbqt
+5027,rolapitant,-8.7,runs/full-2YAU-TR-screen/docked/5027_out.pdbqt
+5300,talazoparib tosylate,-8.7,runs/full-2YAU-TR-screen/docked/5300_out.pdbqt
+5301,baloxavir marboxil,-8.7,runs/full-2YAU-TR-screen/docked/5301_out.pdbqt
+5302,lorlatinib,-8.7,runs/full-2YAU-TR-screen/docked/5302_out.pdbqt
+5361,ubrogepant,-8.7,runs/full-2YAU-TR-screen/docked/5361_out.pdbqt
+5392,capmatinib,-8.7,runs/full-2YAU-TR-screen/docked/5392_out.pdbqt
+5394,ripretinib,-8.7,runs/full-2YAU-TR-screen/docked/5394_out.pdbqt
+150,amcinonide,-8.6,runs/full-2YAU-TR-screen/docked/150_out.pdbqt
+2777,trovafloxacin,-8.6,runs/full-2YAU-TR-screen/docked/2777_out.pdbqt
+3944,etoposide phosphate,-8.6,runs/full-2YAU-TR-screen/docked/3944_out.pdbqt
+4606,clocortolone pivalate,-8.6,runs/full-2YAU-TR-screen/docked/4606_out.pdbqt
+475,candesartan cilexetil,-8.6,runs/full-2YAU-TR-screen/docked/475_out.pdbqt
+5305,larotrectinib,-8.6,runs/full-2YAU-TR-screen/docked/5305_out.pdbqt
+5353,zanubrutinib,-8.6,runs/full-2YAU-TR-screen/docked/5353_out.pdbqt
+692,clofazimine,-8.6,runs/full-2YAU-TR-screen/docked/692_out.pdbqt
+1198,flumetasone pivalate,-8.5,runs/full-2YAU-TR-screen/docked/1198_out.pdbqt
+1548,lapatinib,-8.5,runs/full-2YAU-TR-screen/docked/1548_out.pdbqt
+1564,levocabastine,-8.5,runs/full-2YAU-TR-screen/docked/1564_out.pdbqt
+1887,nebivolol,-8.5,runs/full-2YAU-TR-screen/docked/1887_out.pdbqt
+1985,olmesartan medoxomil,-8.5,runs/full-2YAU-TR-screen/docked/1985_out.pdbqt
+2251,prednisolone tebutate,-8.5,runs/full-2YAU-TR-screen/docked/2251_out.pdbqt
+2352,raltegravir,-8.5,runs/full-2YAU-TR-screen/docked/2352_out.pdbqt
+2391,ritonavir,-8.5,runs/full-2YAU-TR-screen/docked/2391_out.pdbqt
+239,argatroban,-8.5,runs/full-2YAU-TR-screen/docked/239_out.pdbqt
+2590,teniposide,-8.5,runs/full-2YAU-TR-screen/docked/2590_out.pdbqt
+4137,paliperidone,-8.5,runs/full-2YAU-TR-screen/docked/4137_out.pdbqt
+4175,linagliptin,-8.5,runs/full-2YAU-TR-screen/docked/4175_out.pdbqt
+4184,ticagrelor,-8.5,runs/full-2YAU-TR-screen/docked/4184_out.pdbqt
+4715,cabozantinib,-8.5,runs/full-2YAU-TR-screen/docked/4715_out.pdbqt
+4805,dolutegravir,-8.5,runs/full-2YAU-TR-screen/docked/4805_out.pdbqt
+4870,vorapaxar,-8.5,runs/full-2YAU-TR-screen/docked/4870_out.pdbqt
+4903,nintedanib,-8.5,runs/full-2YAU-TR-screen/docked/4903_out.pdbqt
+5008,sonidegib,-8.5,runs/full-2YAU-TR-screen/docked/5008_out.pdbqt
+5214,telotristat ethyl,-8.5,runs/full-2YAU-TR-screen/docked/5214_out.pdbqt
+5262,letermovir,-8.5,runs/full-2YAU-TR-screen/docked/5262_out.pdbqt
+5280,fostamatinib,-8.5,runs/full-2YAU-TR-screen/docked/5280_out.pdbqt
+5297,dacomitinib,-8.5,runs/full-2YAU-TR-screen/docked/5297_out.pdbqt
+5393,selpercatinib,-8.5,runs/full-2YAU-TR-screen/docked/5393_out.pdbqt
+1030,epirubicin,-8.4,runs/full-2YAU-TR-screen/docked/1030_out.pdbqt
+1112,etoposide,-8.4,runs/full-2YAU-TR-screen/docked/1112_out.pdbqt
+1204,fluocinolone acetonide,-8.4,runs/full-2YAU-TR-screen/docked/1204_out.pdbqt
+1301,glipizide,-8.4,runs/full-2YAU-TR-screen/docked/1301_out.pdbqt
+1423,imatinib,-8.4,runs/full-2YAU-TR-screen/docked/1423_out.pdbqt
+2371,retapamulin,-8.4,runs/full-2YAU-TR-screen/docked/2371_out.pdbqt
+2481,streptomycin,-8.4,runs/full-2YAU-TR-screen/docked/2481_out.pdbqt
+3128,deferasirox,-8.4,runs/full-2YAU-TR-screen/docked/3128_out.pdbqt
+3542,saralasin,-8.4,runs/full-2YAU-TR-screen/docked/3542_out.pdbqt
+384,bitolterol,-8.4,runs/full-2YAU-TR-screen/docked/384_out.pdbqt
+4140,nadide,-8.4,runs/full-2YAU-TR-screen/docked/4140_out.pdbqt
+434,buprenorphine,-8.4,runs/full-2YAU-TR-screen/docked/434_out.pdbqt
+4483,carfilzomib,-8.4,runs/full-2YAU-TR-screen/docked/4483_out.pdbqt
+4866,ceritinib,-8.4,runs/full-2YAU-TR-screen/docked/4866_out.pdbqt
+5258,tivozanib,-8.4,runs/full-2YAU-TR-screen/docked/5258_out.pdbqt
+5272,angiotensin II,-8.4,runs/full-2YAU-TR-screen/docked/5272_out.pdbqt
+5299,omadacycline,-8.4,runs/full-2YAU-TR-screen/docked/5299_out.pdbqt
+5306,gilteritinib,-8.4,runs/full-2YAU-TR-screen/docked/5306_out.pdbqt
+5401,fostemsavir,-8.4,runs/full-2YAU-TR-screen/docked/5401_out.pdbqt
+968,drospirenone,-8.4,runs/full-2YAU-TR-screen/docked/968_out.pdbqt
+1046,ertapenem,-8.3,runs/full-2YAU-TR-screen/docked/1046_out.pdbqt
+1201,flunisolide,-8.3,runs/full-2YAU-TR-screen/docked/1201_out.pdbqt
+1212,fluphenazine,-8.3,runs/full-2YAU-TR-screen/docked/1212_out.pdbqt
+1599,loperamide,-8.3,runs/full-2YAU-TR-screen/docked/1599_out.pdbqt
+2269,probucol,-8.3,runs/full-2YAU-TR-screen/docked/2269_out.pdbqt
+3135,desonide,-8.3,runs/full-2YAU-TR-screen/docked/3135_out.pdbqt
+4172,boceprevir,-8.3,runs/full-2YAU-TR-screen/docked/4172_out.pdbqt
+4185,vemurafenib,-8.3,runs/full-2YAU-TR-screen/docked/4185_out.pdbqt
+4187,crizotinib,-8.3,runs/full-2YAU-TR-screen/docked/4187_out.pdbqt
+4225,axitinib,-8.3,runs/full-2YAU-TR-screen/docked/4225_out.pdbqt
+4575,indigo carmine,-8.3,runs/full-2YAU-TR-screen/docked/4575_out.pdbqt
+4639,oftasceine,-8.3,runs/full-2YAU-TR-screen/docked/4639_out.pdbqt
+4667,betamethasone phosphate,-8.3,runs/full-2YAU-TR-screen/docked/4667_out.pdbqt
+4684,perampanel,-8.3,runs/full-2YAU-TR-screen/docked/4684_out.pdbqt
+4741,bedaquiline,-8.3,runs/full-2YAU-TR-screen/docked/4741_out.pdbqt
+4802,trametinib,-8.3,runs/full-2YAU-TR-screen/docked/4802_out.pdbqt
+4922,ceftolozane,-8.3,runs/full-2YAU-TR-screen/docked/4922_out.pdbqt
+4937,alectinib,-8.3,runs/full-2YAU-TR-screen/docked/4937_out.pdbqt
+5046,cobimetinib,-8.3,runs/full-2YAU-TR-screen/docked/5046_out.pdbqt
+5062,osimertinib,-8.3,runs/full-2YAU-TR-screen/docked/5062_out.pdbqt
+5174,lifitegrast,-8.3,runs/full-2YAU-TR-screen/docked/5174_out.pdbqt
+5203,rucaparib,-8.3,runs/full-2YAU-TR-screen/docked/5203_out.pdbqt
+5303,revefenacin,-8.3,runs/full-2YAU-TR-screen/docked/5303_out.pdbqt
+5304,glasdegib,-8.3,runs/full-2YAU-TR-screen/docked/5304_out.pdbqt
+5328,alpelisib,-8.3,runs/full-2YAU-TR-screen/docked/5328_out.pdbqt
+5376,remdesivir,-8.3,runs/full-2YAU-TR-screen/docked/5376_out.pdbqt
+5432,relugolix,-8.3,runs/full-2YAU-TR-screen/docked/5432_out.pdbqt
+765,cyproheptadine,-8.3,runs/full-2YAU-TR-screen/docked/765_out.pdbqt
+785,dasatinib,-8.3,runs/full-2YAU-TR-screen/docked/785_out.pdbqt
+786,daunorubicin,-8.3,runs/full-2YAU-TR-screen/docked/786_out.pdbqt
+793,deflazacort,-8.3,runs/full-2YAU-TR-screen/docked/793_out.pdbqt
+1527,ketoconazole,-8.2,runs/full-2YAU-TR-screen/docked/1527_out.pdbqt
+1605,loratadine,-8.2,runs/full-2YAU-TR-screen/docked/1605_out.pdbqt
+1727,metacycline,-8.2,runs/full-2YAU-TR-screen/docked/1727_out.pdbqt
+1795,mezlocillin,-8.2,runs/full-2YAU-TR-screen/docked/1795_out.pdbqt
+1890,nefazodone,-8.2,runs/full-2YAU-TR-screen/docked/1890_out.pdbqt
+2041,oxytetracycline,-8.2,runs/full-2YAU-TR-screen/docked/2041_out.pdbqt
+2044,paclitaxel,-8.2,runs/full-2YAU-TR-screen/docked/2044_out.pdbqt
+2066,paricalcitol,-8.2,runs/full-2YAU-TR-screen/docked/2066_out.pdbqt
+2342,quinestrol,-8.2,runs/full-2YAU-TR-screen/docked/2342_out.pdbqt
+2389,risperidone,-8.2,runs/full-2YAU-TR-screen/docked/2389_out.pdbqt
+257,atorvastatin,-8.2,runs/full-2YAU-TR-screen/docked/257_out.pdbqt
+2581,telithromycin,-8.2,runs/full-2YAU-TR-screen/docked/2581_out.pdbqt
+2639,thiothixene,-8.2,runs/full-2YAU-TR-screen/docked/2639_out.pdbqt
+2726,triamcinolone acetonide,-8.2,runs/full-2YAU-TR-screen/docked/2726_out.pdbqt
+2767,troglitazone,-8.2,runs/full-2YAU-TR-screen/docked/2767_out.pdbqt
+3333,meclocycline,-8.2,runs/full-2YAU-TR-screen/docked/3333_out.pdbqt
+4117,pralatrexate,-8.2,runs/full-2YAU-TR-screen/docked/4117_out.pdbqt
+4143,darunavir,-8.2,runs/full-2YAU-TR-screen/docked/4143_out.pdbqt
+4947,isavuconazonium,-8.2,runs/full-2YAU-TR-screen/docked/4947_out.pdbqt
+5278,apalutamide,-8.2,runs/full-2YAU-TR-screen/docked/5278_out.pdbqt
+5293,elagolix,-8.2,runs/full-2YAU-TR-screen/docked/5293_out.pdbqt
+5294,eravacycline dihydrochloride,-8.2,runs/full-2YAU-TR-screen/docked/5294_out.pdbqt
+5407,risdiplam,-8.2,runs/full-2YAU-TR-screen/docked/5407_out.pdbqt
+5439,vericiguat,-8.2,runs/full-2YAU-TR-screen/docked/5439_out.pdbqt
+5440,cabotegravir,-8.2,runs/full-2YAU-TR-screen/docked/5440_out.pdbqt
+597,chlorhexidine,-8.2,runs/full-2YAU-TR-screen/docked/597_out.pdbqt
+722,clozapine,-8.2,runs/full-2YAU-TR-screen/docked/722_out.pdbqt
+784,darifenacin,-8.2,runs/full-2YAU-TR-screen/docked/784_out.pdbqt
+810,deserpidine,-8.2,runs/full-2YAU-TR-screen/docked/810_out.pdbqt
+878,difenoxin,-8.2,runs/full-2YAU-TR-screen/docked/878_out.pdbqt
+1191,fludrocortisone acetate,-8.1,runs/full-2YAU-TR-screen/docked/1191_out.pdbqt
+1217,fludroxycortide,-8.1,runs/full-2YAU-TR-screen/docked/1217_out.pdbqt
+1613,loxapine,-8.1,runs/full-2YAU-TR-screen/docked/1613_out.pdbqt
+1649,meclozine,-8.1,runs/full-2YAU-TR-screen/docked/1649_out.pdbqt
+1770,methylprednisolone acetate,-8.1,runs/full-2YAU-TR-screen/docked/1770_out.pdbqt
+1813,minocycline,-8.1,runs/full-2YAU-TR-screen/docked/1813_out.pdbqt
+1836,montelukast,-8.1,runs/full-2YAU-TR-screen/docked/1836_out.pdbqt
+191,amoxapine,-8.1,runs/full-2YAU-TR-screen/docked/191_out.pdbqt
+2187,piperacillin,-8.1,runs/full-2YAU-TR-screen/docked/2187_out.pdbqt
+2247,prednisolone acetate,-8.1,runs/full-2YAU-TR-screen/docked/2247_out.pdbqt
+2369,rescinnamine,-8.1,runs/full-2YAU-TR-screen/docked/2369_out.pdbqt
+2396,rocuronium,-8.1,runs/full-2YAU-TR-screen/docked/2396_out.pdbqt
+2776,trospium,-8.1,runs/full-2YAU-TR-screen/docked/2776_out.pdbqt
+2811,vecuronium,-8.1,runs/full-2YAU-TR-screen/docked/2811_out.pdbqt
+3096,cholic acid,-8.1,runs/full-2YAU-TR-screen/docked/3096_out.pdbqt
+316,bentiromide,-8.1,runs/full-2YAU-TR-screen/docked/316_out.pdbqt
+349,betamethasone acetate,-8.1,runs/full-2YAU-TR-screen/docked/349_out.pdbqt
+353,betamethasone dipropionate,-8.1,runs/full-2YAU-TR-screen/docked/353_out.pdbqt
+3609,tipranavir,-8.1,runs/full-2YAU-TR-screen/docked/3609_out.pdbqt
+4118,pazopanib,-8.1,runs/full-2YAU-TR-screen/docked/4118_out.pdbqt
+416,buclizine,-8.1,runs/full-2YAU-TR-screen/docked/416_out.pdbqt
+4178,vandetanib,-8.1,runs/full-2YAU-TR-screen/docked/4178_out.pdbqt
+4228,ivacaftor,-8.1,runs/full-2YAU-TR-screen/docked/4228_out.pdbqt
+4318,afatinib,-8.1,runs/full-2YAU-TR-screen/docked/4318_out.pdbqt
+4384,levofolinic acid,-8.1,runs/full-2YAU-TR-screen/docked/4384_out.pdbqt
+4485,diflorasone diacetate,-8.1,runs/full-2YAU-TR-screen/docked/4485_out.pdbqt
+4621,levomefolic acid,-8.1,runs/full-2YAU-TR-screen/docked/4621_out.pdbqt
+4654,regorafenib,-8.1,runs/full-2YAU-TR-screen/docked/4654_out.pdbqt
+465,calcipotriene,-8.1,runs/full-2YAU-TR-screen/docked/465_out.pdbqt
+4677,omacetaxine mepesuccinate,-8.1,runs/full-2YAU-TR-screen/docked/4677_out.pdbqt
+4758,canagliflozin,-8.1,runs/full-2YAU-TR-screen/docked/4758_out.pdbqt
+4878,idelalisib,-8.1,runs/full-2YAU-TR-screen/docked/4878_out.pdbqt
+4941,palbociclib,-8.1,runs/full-2YAU-TR-screen/docked/4941_out.pdbqt
+5001,eluxadoline,-8.1,runs/full-2YAU-TR-screen/docked/5001_out.pdbqt
+5142,pimavanserin,-8.1,runs/full-2YAU-TR-screen/docked/5142_out.pdbqt
+5238,delafloxacin,-8.1,runs/full-2YAU-TR-screen/docked/5238_out.pdbqt
+5260,acalabrutinib,-8.1,runs/full-2YAU-TR-screen/docked/5260_out.pdbqt
+5311,vibegron,-8.1,runs/full-2YAU-TR-screen/docked/5311_out.pdbqt
+5330,selinexor,-8.1,runs/full-2YAU-TR-screen/docked/5330_out.pdbqt
+543,cefoperazone,-8.1,runs/full-2YAU-TR-screen/docked/543_out.pdbqt
+918,diphenoxylate,-8.1,runs/full-2YAU-TR-screen/docked/918_out.pdbqt
+1115,etravirine,-8.0,runs/full-2YAU-TR-screen/docked/1115_out.pdbqt
+1170,fexofenadine,-8.0,runs/full-2YAU-TR-screen/docked/1170_out.pdbqt
+1208,fluorometholone,-8.0,runs/full-2YAU-TR-screen/docked/1208_out.pdbqt
+1232,leucovorin,-8.0,runs/full-2YAU-TR-screen/docked/1232_out.pdbqt
+1365,hexafluronium,-8.0,runs/full-2YAU-TR-screen/docked/1365_out.pdbqt
+1390,hydrocortisone cypionate,-8.0,runs/full-2YAU-TR-screen/docked/1390_out.pdbqt
+1832,mometasone furoate,-8.0,runs/full-2YAU-TR-screen/docked/1832_out.pdbqt
+1903,netilmicin,-8.0,runs/full-2YAU-TR-screen/docked/1903_out.pdbqt
+2088,pentagastrin,-8.0,runs/full-2YAU-TR-screen/docked/2088_out.pdbqt
+2441,sildenafil,-8.0,runs/full-2YAU-TR-screen/docked/2441_out.pdbqt
+2457,solifenacin,-8.0,runs/full-2YAU-TR-screen/docked/2457_out.pdbqt
+2475,spironolactone,-8.0,runs/full-2YAU-TR-screen/docked/2475_out.pdbqt
+247,artesunate,-8.0,runs/full-2YAU-TR-screen/docked/247_out.pdbqt
+2599,terconazole,-8.0,runs/full-2YAU-TR-screen/docked/2599_out.pdbqt
+2752,trimetaphan,-8.0,runs/full-2YAU-TR-screen/docked/2752_out.pdbqt
+2809,vardenafil,-8.0,runs/full-2YAU-TR-screen/docked/2809_out.pdbqt
+2958,gonadorelin,-8.0,runs/full-2YAU-TR-screen/docked/2958_out.pdbqt
+3920,dexamethasone phosphate,-8.0,runs/full-2YAU-TR-screen/docked/3920_out.pdbqt
+419,budesonide,-8.0,runs/full-2YAU-TR-screen/docked/419_out.pdbqt
+4223,vilazodone,-8.0,runs/full-2YAU-TR-screen/docked/4223_out.pdbqt
+4298,apixaban,-8.0,runs/full-2YAU-TR-screen/docked/4298_out.pdbqt
+4299,cobicistat,-8.0,runs/full-2YAU-TR-screen/docked/4299_out.pdbqt
+4334,bazedoxifene,-8.0,runs/full-2YAU-TR-screen/docked/4334_out.pdbqt
+4493,alclometasone dipropionate,-8.0,runs/full-2YAU-TR-screen/docked/4493_out.pdbqt
+4507,halcinonide,-8.0,runs/full-2YAU-TR-screen/docked/4507_out.pdbqt
+4616,methylnaltrexone,-8.0,runs/full-2YAU-TR-screen/docked/4616_out.pdbqt
+4716,ponatinib,-8.0,runs/full-2YAU-TR-screen/docked/4716_out.pdbqt
+4807,riociguat,-8.0,runs/full-2YAU-TR-screen/docked/4807_out.pdbqt
+4914,dasabuvir,-8.0,runs/full-2YAU-TR-screen/docked/4914_out.pdbqt
+5193,hydrocortisone phosphate,-8.0,runs/full-2YAU-TR-screen/docked/5193_out.pdbqt
+5222,niraparib,-8.0,runs/full-2YAU-TR-screen/docked/5222_out.pdbqt
+5241,betrixaban,-8.0,runs/full-2YAU-TR-screen/docked/5241_out.pdbqt
+5256,copanlisib,-8.0,runs/full-2YAU-TR-screen/docked/5256_out.pdbqt
+5326,siponimod,-8.0,runs/full-2YAU-TR-screen/docked/5326_out.pdbqt
+5343,pexidartinib,-8.0,runs/full-2YAU-TR-screen/docked/5343_out.pdbqt
+534,cefditoren pivoxil,-8.0,runs/full-2YAU-TR-screen/docked/534_out.pdbqt
+5360,lemborexant,-8.0,runs/full-2YAU-TR-screen/docked/5360_out.pdbqt
+5442,trilaciclib,-8.0,runs/full-2YAU-TR-screen/docked/5442_out.pdbqt
+5459,infigratinib,-8.0,runs/full-2YAU-TR-screen/docked/5459_out.pdbqt
+559,ceftazidime,-8.0,runs/full-2YAU-TR-screen/docked/559_out.pdbqt
+624,chlortetracycline,-8.0,runs/full-2YAU-TR-screen/docked/624_out.pdbqt
+802,demeclocycline,-8.0,runs/full-2YAU-TR-screen/docked/802_out.pdbqt
+818,desogestrel,-8.0,runs/full-2YAU-TR-screen/docked/818_out.pdbqt
+882,digoxin,-8.0,runs/full-2YAU-TR-screen/docked/882_out.pdbqt
+1282,gefitinib,-7.9,runs/full-2YAU-TR-screen/docked/1282_out.pdbqt
+1764,methylergometrine,-7.9,runs/full-2YAU-TR-screen/docked/1764_out.pdbqt
+1771,methylprednisolone succinate,-7.9,runs/full-2YAU-TR-screen/docked/1771_out.pdbqt
+1797,mibefradil,-7.9,runs/full-2YAU-TR-screen/docked/1797_out.pdbqt
+1874,nalbuphine,-7.9,runs/full-2YAU-TR-screen/docked/1874_out.pdbqt
+1876,nalmefene,-7.9,runs/full-2YAU-TR-screen/docked/1876_out.pdbqt
+2060,paramethasone acetate,-7.9,runs/full-2YAU-TR-screen/docked/2060_out.pdbqt
+2466,sparfloxacin,-7.9,runs/full-2YAU-TR-screen/docked/2466_out.pdbqt
+249,astemizole,-7.9,runs/full-2YAU-TR-screen/docked/249_out.pdbqt
+2528,sulfinpyrazone,-7.9,runs/full-2YAU-TR-screen/docked/2528_out.pdbqt
+2611,tetracycline,-7.9,runs/full-2YAU-TR-screen/docked/2611_out.pdbqt
+268,azatadine,-7.9,runs/full-2YAU-TR-screen/docked/268_out.pdbqt
+271,azelastine,-7.9,runs/full-2YAU-TR-screen/docked/271_out.pdbqt
+2740,trifluoperazine,-7.9,runs/full-2YAU-TR-screen/docked/2740_out.pdbqt
+277,azlocillin,-7.9,runs/full-2YAU-TR-screen/docked/277_out.pdbqt
+2838,ergocalciferol,-7.9,runs/full-2YAU-TR-screen/docked/2838_out.pdbqt
+305,bendroflumethiazide,-7.9,runs/full-2YAU-TR-screen/docked/305_out.pdbqt
+3171,ecamsule,-7.9,runs/full-2YAU-TR-screen/docked/3171_out.pdbqt
+354,betamethasone valerate,-7.9,runs/full-2YAU-TR-screen/docked/354_out.pdbqt
+3578,tafenoquine,-7.9,runs/full-2YAU-TR-screen/docked/3578_out.pdbqt
+4174,rilpivirine,-7.9,runs/full-2YAU-TR-screen/docked/4174_out.pdbqt
+4213,hydrocortisone acetate,-7.9,runs/full-2YAU-TR-screen/docked/4213_out.pdbqt
+4226,ingenol mebutate,-7.9,runs/full-2YAU-TR-screen/docked/4226_out.pdbqt
+4420,dihydroergocryptine,-7.9,runs/full-2YAU-TR-screen/docked/4420_out.pdbqt
+4454,testosterone cypionate,-7.9,runs/full-2YAU-TR-screen/docked/4454_out.pdbqt
+4554,fluticasone furoate,-7.9,runs/full-2YAU-TR-screen/docked/4554_out.pdbqt
+4628,enzalutamide,-7.9,runs/full-2YAU-TR-screen/docked/4628_out.pdbqt
+466,calcitriol,-7.9,runs/full-2YAU-TR-screen/docked/466_out.pdbqt
+4897,edoxaban,-7.9,runs/full-2YAU-TR-screen/docked/4897_out.pdbqt
+5133,venetoclax,-7.9,runs/full-2YAU-TR-screen/docked/5133_out.pdbqt
+5155,obeticholic acid,-7.9,runs/full-2YAU-TR-screen/docked/5155_out.pdbqt
+5298,sarecycline,-7.9,runs/full-2YAU-TR-screen/docked/5298_out.pdbqt
+542,cefonicid,-7.9,runs/full-2YAU-TR-screen/docked/542_out.pdbqt
+5444,fosdenopterin,-7.9,runs/full-2YAU-TR-screen/docked/5444_out.pdbqt
+821,desoxycorticosterone acetate,-7.9,runs/full-2YAU-TR-screen/docked/821_out.pdbqt
+826,dexamethasone acetate,-7.9,runs/full-2YAU-TR-screen/docked/826_out.pdbqt
+866,dicloxacillin,-7.9,runs/full-2YAU-TR-screen/docked/866_out.pdbqt
+954,doxazosin,-7.9,runs/full-2YAU-TR-screen/docked/954_out.pdbqt
+961,doxycycline,-7.9,runs/full-2YAU-TR-screen/docked/961_out.pdbqt
+1032,eplerenone,-7.8,runs/full-2YAU-TR-screen/docked/1032_out.pdbqt
+1082,ethinylestradiol,-7.8,runs/full-2YAU-TR-screen/docked/1082_out.pdbqt
+1214,fluphenazine enanthate,-7.8,runs/full-2YAU-TR-screen/docked/1214_out.pdbqt
+1229,fluvastatin,-7.8,runs/full-2YAU-TR-screen/docked/1229_out.pdbqt
+1327,goserelin,-7.8,runs/full-2YAU-TR-screen/docked/1327_out.pdbqt
+1350,halofantrine,-7.8,runs/full-2YAU-TR-screen/docked/1350_out.pdbqt
+1363,hetacillin,-7.8,runs/full-2YAU-TR-screen/docked/1363_out.pdbqt
+1481,irbesartan,-7.8,runs/full-2YAU-TR-screen/docked/1481_out.pdbqt
+1612,lovastatin,-7.8,runs/full-2YAU-TR-screen/docked/1612_out.pdbqt
+1982,olanzapine,-7.8,runs/full-2YAU-TR-screen/docked/1982_out.pdbqt
+2052,pancuronium,-7.8,runs/full-2YAU-TR-screen/docked/2052_out.pdbqt
+2384,rimexolone,-7.8,runs/full-2YAU-TR-screen/docked/2384_out.pdbqt
+2451,sitosterol,-7.8,runs/full-2YAU-TR-screen/docked/2451_out.pdbqt
+2459,sorafenib,-7.8,runs/full-2YAU-TR-screen/docked/2459_out.pdbqt
+2707,topotecan,-7.8,runs/full-2YAU-TR-screen/docked/2707_out.pdbqt
+2725,triamcinolone,-7.8,runs/full-2YAU-TR-screen/docked/2725_out.pdbqt
+294,beclometasone dipropionate,-7.8,runs/full-2YAU-TR-screen/docked/294_out.pdbqt
+3142,difluprednate,-7.8,runs/full-2YAU-TR-screen/docked/3142_out.pdbqt
+367,bicalutamide,-7.8,runs/full-2YAU-TR-screen/docked/367_out.pdbqt
+39,acarbose,-7.8,runs/full-2YAU-TR-screen/docked/39_out.pdbqt
+4452,clobetasol propionate,-7.8,runs/full-2YAU-TR-screen/docked/4452_out.pdbqt
+4456,hydrocortisone succinate,-7.8,runs/full-2YAU-TR-screen/docked/4456_out.pdbqt
+4498,paliperidone palmitate,-7.8,runs/full-2YAU-TR-screen/docked/4498_out.pdbqt
+464,calcifediol,-7.8,runs/full-2YAU-TR-screen/docked/464_out.pdbqt
+4830,empagliflozin,-7.8,runs/full-2YAU-TR-screen/docked/4830_out.pdbqt
+5252,neratinib,-7.8,runs/full-2YAU-TR-screen/docked/5252_out.pdbqt
+5269,netarsudil,-7.8,runs/full-2YAU-TR-screen/docked/5269_out.pdbqt
+5270,ertugliflozin,-7.8,runs/full-2YAU-TR-screen/docked/5270_out.pdbqt
+5295,doravirine,-7.8,runs/full-2YAU-TR-screen/docked/5295_out.pdbqt
+5296,duvelisib,-7.8,runs/full-2YAU-TR-screen/docked/5296_out.pdbqt
+5347,fedratinib,-7.8,runs/full-2YAU-TR-screen/docked/5347_out.pdbqt
+5351,lasmiditan,-7.8,runs/full-2YAU-TR-screen/docked/5351_out.pdbqt
+5383,ozanimod,-7.8,runs/full-2YAU-TR-screen/docked/5383_out.pdbqt
+564,ceftriaxone,-7.8,runs/full-2YAU-TR-screen/docked/564_out.pdbqt
+734,cortisone acetate,-7.8,runs/full-2YAU-TR-screen/docked/734_out.pdbqt
+799,delavirdine,-7.8,runs/full-2YAU-TR-screen/docked/799_out.pdbqt
+822,desoxycorticosterone pivalate,-7.8,runs/full-2YAU-TR-screen/docked/822_out.pdbqt
+966,droperidol,-7.8,runs/full-2YAU-TR-screen/docked/966_out.pdbqt
+1048,erythromycin,-7.7,runs/full-2YAU-TR-screen/docked/1048_out.pdbqt
+1059,estradiol cypionate,-7.7,runs/full-2YAU-TR-screen/docked/1059_out.pdbqt
+1175,flavoxate,-7.7,runs/full-2YAU-TR-screen/docked/1175_out.pdbqt
+1231,folic acid,-7.7,runs/full-2YAU-TR-screen/docked/1231_out.pdbqt
+1349,ulobetasol propionate,-7.7,runs/full-2YAU-TR-screen/docked/1349_out.pdbqt
+1387,hydrocortamate,-7.7,runs/full-2YAU-TR-screen/docked/1387_out.pdbqt
+1398,hydroxystilbamidine,-7.7,runs/full-2YAU-TR-screen/docked/1398_out.pdbqt
+143,alvimopan,-7.7,runs/full-2YAU-TR-screen/docked/143_out.pdbqt
+157,amikacin,-7.7,runs/full-2YAU-TR-screen/docked/157_out.pdbqt
+1842,moracizine,-7.7,runs/full-2YAU-TR-screen/docked/1842_out.pdbqt
+2067,paromomycin,-7.7,runs/full-2YAU-TR-screen/docked/2067_out.pdbqt
+2186,piperacetazine,-7.7,runs/full-2YAU-TR-screen/docked/2186_out.pdbqt
+2214,pitavastatin,-7.7,runs/full-2YAU-TR-screen/docked/2214_out.pdbqt
+2241,praziquantel,-7.7,runs/full-2YAU-TR-screen/docked/2241_out.pdbqt
+2335,pyrvinium,-7.7,runs/full-2YAU-TR-screen/docked/2335_out.pdbqt
+2448,sitagliptin,-7.7,runs/full-2YAU-TR-screen/docked/2448_out.pdbqt
+2717,trazodone,-7.7,runs/full-2YAU-TR-screen/docked/2717_out.pdbqt
+332,benzthiazide,-7.7,runs/full-2YAU-TR-screen/docked/332_out.pdbqt
+361,bexarotene,-7.7,runs/full-2YAU-TR-screen/docked/361_out.pdbqt
+4176,abiraterone acetate,-7.7,runs/full-2YAU-TR-screen/docked/4176_out.pdbqt
+4227,vismodegib,-7.7,runs/full-2YAU-TR-screen/docked/4227_out.pdbqt
+4300,elvitegravir,-7.7,runs/full-2YAU-TR-screen/docked/4300_out.pdbqt
+4451,prednisolone sodium phosphate,-7.7,runs/full-2YAU-TR-screen/docked/4451_out.pdbqt
+460,cabergoline,-7.7,runs/full-2YAU-TR-screen/docked/460_out.pdbqt
+4620,diacetyl benzoyl lathyrol,-7.7,runs/full-2YAU-TR-screen/docked/4620_out.pdbqt
+4647,fluorometholone acetate,-7.7,runs/full-2YAU-TR-screen/docked/4647_out.pdbqt
+4942,lenvatinib,-7.7,runs/full-2YAU-TR-screen/docked/4942_out.pdbqt
+5059,lusutrombopag,-7.7,runs/full-2YAU-TR-screen/docked/5059_out.pdbqt
+5077,selexipag,-7.7,runs/full-2YAU-TR-screen/docked/5077_out.pdbqt
+5218,ribociclib,-7.7,runs/full-2YAU-TR-screen/docked/5218_out.pdbqt
+5289,encorafenib,-7.7,runs/full-2YAU-TR-screen/docked/5289_out.pdbqt
+5327,erdafitinib,-7.7,runs/full-2YAU-TR-screen/docked/5327_out.pdbqt
+5448,serdexmethylphenidate,-7.7,runs/full-2YAU-TR-screen/docked/5448_out.pdbqt
+5460,samidorphan,-7.7,runs/full-2YAU-TR-screen/docked/5460_out.pdbqt
+741,cromoglicic acid,-7.7,runs/full-2YAU-TR-screen/docked/741_out.pdbqt
+779,danazol,-7.7,runs/full-2YAU-TR-screen/docked/779_out.pdbqt
+82,acrivastine,-7.7,runs/full-2YAU-TR-screen/docked/82_out.pdbqt
+965,drostanolone propionate,-7.7,runs/full-2YAU-TR-screen/docked/965_out.pdbqt
+1125,ezetimibe,-7.6,runs/full-2YAU-TR-screen/docked/1125_out.pdbqt
+1171,finasteride,-7.6,runs/full-2YAU-TR-screen/docked/1171_out.pdbqt
+1176,flecainide,-7.6,runs/full-2YAU-TR-screen/docked/1176_out.pdbqt
+1225,fluticasone propionate,-7.6,runs/full-2YAU-TR-screen/docked/1225_out.pdbqt
+1240,fosamprenavir,-7.6,runs/full-2YAU-TR-screen/docked/1240_out.pdbqt
+1482,irinotecan,-7.6,runs/full-2YAU-TR-screen/docked/1482_out.pdbqt
+1530,ketotifen,-7.6,runs/full-2YAU-TR-screen/docked/1530_out.pdbqt
+1662,medrysone,-7.6,runs/full-2YAU-TR-screen/docked/1662_out.pdbqt
+1702,meprednisone,-7.6,runs/full-2YAU-TR-screen/docked/1702_out.pdbqt
+1768,methylprednisolone,-7.6,runs/full-2YAU-TR-screen/docked/1768_out.pdbqt
+1882,nandrolone phenpropionate,-7.6,runs/full-2YAU-TR-screen/docked/1882_out.pdbqt
+1933,nilutamide,-7.6,runs/full-2YAU-TR-screen/docked/1933_out.pdbqt
+2033,oxymetholone,-7.6,runs/full-2YAU-TR-screen/docked/2033_out.pdbqt
+2073,pemetrexed,-7.6,runs/full-2YAU-TR-screen/docked/2073_out.pdbqt
+2243,prednicarbate,-7.6,runs/full-2YAU-TR-screen/docked/2243_out.pdbqt
+2359,ranolazine,-7.6,runs/full-2YAU-TR-screen/docked/2359_out.pdbqt
+2362,regadenoson,-7.6,runs/full-2YAU-TR-screen/docked/2362_out.pdbqt
+2366,repaglinide,-7.6,runs/full-2YAU-TR-screen/docked/2366_out.pdbqt
+2374,riboflavin phosphate,-7.6,runs/full-2YAU-TR-screen/docked/2374_out.pdbqt
+2708,torsemide,-7.6,runs/full-2YAU-TR-screen/docked/2708_out.pdbqt
+2727,triamcinolone diacetate,-7.6,runs/full-2YAU-TR-screen/docked/2727_out.pdbqt
+2781,tubocurarine,-7.6,runs/full-2YAU-TR-screen/docked/2781_out.pdbqt
+2840,colecalciferol,-7.6,runs/full-2YAU-TR-screen/docked/2840_out.pdbqt
+348,betamethasone,-7.6,runs/full-2YAU-TR-screen/docked/348_out.pdbqt
+392,bosentan,-7.6,runs/full-2YAU-TR-screen/docked/392_out.pdbqt
+4165,alcaftadine,-7.6,runs/full-2YAU-TR-screen/docked/4165_out.pdbqt
+4209,prazosin,-7.6,runs/full-2YAU-TR-screen/docked/4209_out.pdbqt
+4305,avanafil,-7.6,runs/full-2YAU-TR-screen/docked/4305_out.pdbqt
+4613,polydatin,-7.6,runs/full-2YAU-TR-screen/docked/4613_out.pdbqt
+5014,brexpiprazole,-7.6,runs/full-2YAU-TR-screen/docked/5014_out.pdbqt
+5181,etelcalcetide,-7.6,runs/full-2YAU-TR-screen/docked/5181_out.pdbqt
+5233,brigatinib,-7.6,runs/full-2YAU-TR-screen/docked/5233_out.pdbqt
+5285,avatrombopag,-7.6,runs/full-2YAU-TR-screen/docked/5285_out.pdbqt
+5346,upadacitinib,-7.6,runs/full-2YAU-TR-screen/docked/5346_out.pdbqt
+5350,trifarotene,-7.6,runs/full-2YAU-TR-screen/docked/5350_out.pdbqt
+5358,lumateperone,-7.6,runs/full-2YAU-TR-screen/docked/5358_out.pdbqt
+5450,estetrol,-7.6,runs/full-2YAU-TR-screen/docked/5450_out.pdbqt
+67,acetyldigitoxin,-7.6,runs/full-2YAU-TR-screen/docked/67_out.pdbqt
+711,clorazepate,-7.6,runs/full-2YAU-TR-screen/docked/711_out.pdbqt
+720,cloxacillin,-7.6,runs/full-2YAU-TR-screen/docked/720_out.pdbqt
+776,dabigatran etexilate,-7.6,runs/full-2YAU-TR-screen/docked/776_out.pdbqt
+819,desoximetasone,-7.6,runs/full-2YAU-TR-screen/docked/819_out.pdbqt
+867,dicoumarol,-7.6,runs/full-2YAU-TR-screen/docked/867_out.pdbqt
+1045,erlotinib,-7.5,runs/full-2YAU-TR-screen/docked/1045_out.pdbqt
+1064,estradiol valerate,-7.5,runs/full-2YAU-TR-screen/docked/1064_out.pdbqt
+1068,eszopiclone,-7.5,runs/full-2YAU-TR-screen/docked/1068_out.pdbqt
+1110,etonogestrel,-7.5,runs/full-2YAU-TR-screen/docked/1110_out.pdbqt
+1210,fluoxymesterone,-7.5,runs/full-2YAU-TR-screen/docked/1210_out.pdbqt
+1569,levofloxacin,-7.5,runs/full-2YAU-TR-screen/docked/1569_out.pdbqt
+1606,lorazepam,-7.5,runs/full-2YAU-TR-screen/docked/1606_out.pdbqt
+1665,mefloquine,-7.5,runs/full-2YAU-TR-screen/docked/1665_out.pdbqt
+1714,mestranol,-7.5,runs/full-2YAU-TR-screen/docked/1714_out.pdbqt
+1751,methotrexate,-7.5,runs/full-2YAU-TR-screen/docked/1751_out.pdbqt
+1765,naltrexone,-7.5,runs/full-2YAU-TR-screen/docked/1765_out.pdbqt
+1805,mifepristone,-7.5,runs/full-2YAU-TR-screen/docked/1805_out.pdbqt
+1878,naloxone,-7.5,runs/full-2YAU-TR-screen/docked/1878_out.pdbqt
+2038,oxyphenisatine,-7.5,runs/full-2YAU-TR-screen/docked/2038_out.pdbqt
+2102,perflubron,-7.5,runs/full-2YAU-TR-screen/docked/2102_out.pdbqt
+2239,pravastatin,-7.5,runs/full-2YAU-TR-screen/docked/2239_out.pdbqt
+2245,prednisolone,-7.5,runs/full-2YAU-TR-screen/docked/2245_out.pdbqt
+2253,prednisone,-7.5,runs/full-2YAU-TR-screen/docked/2253_out.pdbqt
+2316,protirelin,-7.5,runs/full-2YAU-TR-screen/docked/2316_out.pdbqt
+2336,quazepam,-7.5,runs/full-2YAU-TR-screen/docked/2336_out.pdbqt
+2337,quetiapine,-7.5,runs/full-2YAU-TR-screen/docked/2337_out.pdbqt
+242,aripiprazole,-7.5,runs/full-2YAU-TR-screen/docked/242_out.pdbqt
+2661,tigecycline,-7.5,runs/full-2YAU-TR-screen/docked/2661_out.pdbqt
+2834,riboflavin,-7.5,runs/full-2YAU-TR-screen/docked/2834_out.pdbqt
+2865,ziprasidone,-7.5,runs/full-2YAU-TR-screen/docked/2865_out.pdbqt
+2873,zopiclone,-7.5,runs/full-2YAU-TR-screen/docked/2873_out.pdbqt
+341,bepotastine,-7.5,runs/full-2YAU-TR-screen/docked/341_out.pdbqt
+3931,dolasetron,-7.5,runs/full-2YAU-TR-screen/docked/3931_out.pdbqt
+4361,chenodiol,-7.5,runs/full-2YAU-TR-screen/docked/4361_out.pdbqt
+4569,hydrocortisone probutate,-7.5,runs/full-2YAU-TR-screen/docked/4569_out.pdbqt
+4601,diosmetin,-7.5,runs/full-2YAU-TR-screen/docked/4601_out.pdbqt
+4920,finafloxacin,-7.5,runs/full-2YAU-TR-screen/docked/4920_out.pdbqt
+4988,deoxycholic acid,-7.5,runs/full-2YAU-TR-screen/docked/4988_out.pdbqt
+5037,cariprazine,-7.5,runs/full-2YAU-TR-screen/docked/5037_out.pdbqt
+5334,darolutamide,-7.5,runs/full-2YAU-TR-screen/docked/5334_out.pdbqt
+5431,tirbanibulin,-7.5,runs/full-2YAU-TR-screen/docked/5431_out.pdbqt
+5446,ponesimod,-7.5,runs/full-2YAU-TR-screen/docked/5446_out.pdbqt
+568,celecoxib,-7.5,runs/full-2YAU-TR-screen/docked/568_out.pdbqt
+629,cianidanol,-7.5,runs/full-2YAU-TR-screen/docked/629_out.pdbqt
+1095,etynodiol,-7.4,runs/full-2YAU-TR-screen/docked/1095_out.pdbqt
+1216,fluprednisolone,-7.4,runs/full-2YAU-TR-screen/docked/1216_out.pdbqt
+1245,fosinopril,-7.4,runs/full-2YAU-TR-screen/docked/1245_out.pdbqt
+1247,fosphenytoin,-7.4,runs/full-2YAU-TR-screen/docked/1247_out.pdbqt
+1348,halazepam,-7.4,runs/full-2YAU-TR-screen/docked/1348_out.pdbqt
+1422,iloprost,-7.4,runs/full-2YAU-TR-screen/docked/1422_out.pdbqt
+1513,itraconazole,-7.4,runs/full-2YAU-TR-screen/docked/1513_out.pdbqt
+1667,megestrol acetate,-7.4,runs/full-2YAU-TR-screen/docked/1667_out.pdbqt
+1712,mesoridazine,-7.4,runs/full-2YAU-TR-screen/docked/1712_out.pdbqt
+1775,methysergide,-7.4,runs/full-2YAU-TR-screen/docked/1775_out.pdbqt
+1854,moxifloxacin,-7.4,runs/full-2YAU-TR-screen/docked/1854_out.pdbqt
+1963,norethindrone acetate,-7.4,runs/full-2YAU-TR-screen/docked/1963_out.pdbqt
+1986,olopatadine,-7.4,runs/full-2YAU-TR-screen/docked/1986_out.pdbqt
+2068,paroxetine,-7.4,runs/full-2YAU-TR-screen/docked/2068_out.pdbqt
+2356,ramipril,-7.4,runs/full-2YAU-TR-screen/docked/2356_out.pdbqt
+2434,sertaconazole,-7.4,runs/full-2YAU-TR-screen/docked/2434_out.pdbqt
+258,atovaquone,-7.4,runs/full-2YAU-TR-screen/docked/258_out.pdbqt
+2600,terfenadine,-7.4,runs/full-2YAU-TR-screen/docked/2600_out.pdbqt
+2742,triflupromazine,-7.4,runs/full-2YAU-TR-screen/docked/2742_out.pdbqt
+2830,viomycin,-7.4,runs/full-2YAU-TR-screen/docked/2830_out.pdbqt
+3531,roflumilast,-7.4,runs/full-2YAU-TR-screen/docked/3531_out.pdbqt
+3630,triclocarban,-7.4,runs/full-2YAU-TR-screen/docked/3630_out.pdbqt
+4146,testosterone propionate,-7.4,runs/full-2YAU-TR-screen/docked/4146_out.pdbqt
+4182,rivaroxaban,-7.4,runs/full-2YAU-TR-screen/docked/4182_out.pdbqt
+4304,dapagliflozin,-7.4,runs/full-2YAU-TR-screen/docked/4304_out.pdbqt
+4337,ambrisentan,-7.4,runs/full-2YAU-TR-screen/docked/4337_out.pdbqt
+4340,alogliptin,-7.4,runs/full-2YAU-TR-screen/docked/4340_out.pdbqt
+4484,aclidinium bromide,-7.4,runs/full-2YAU-TR-screen/docked/4484_out.pdbqt
+454,butorphanol,-7.4,runs/full-2YAU-TR-screen/docked/454_out.pdbqt
+4811,sofosbuvir,-7.4,runs/full-2YAU-TR-screen/docked/4811_out.pdbqt
+4876,belinostat,-7.4,runs/full-2YAU-TR-screen/docked/4876_out.pdbqt
+5052,aripiprazole lauroxil,-7.4,runs/full-2YAU-TR-screen/docked/5052_out.pdbqt
+5058,ozenoxacin,-7.4,runs/full-2YAU-TR-screen/docked/5058_out.pdbqt
+5143,opicapone,-7.4,runs/full-2YAU-TR-screen/docked/5143_out.pdbqt
+518,carprofen,-7.4,runs/full-2YAU-TR-screen/docked/518_out.pdbqt
+5406,oliceridine,-7.4,runs/full-2YAU-TR-screen/docked/5406_out.pdbqt
+5410,clascoterone,-7.4,runs/full-2YAU-TR-screen/docked/5410_out.pdbqt
+547,cefotetan,-7.4,runs/full-2YAU-TR-screen/docked/547_out.pdbqt
+556,cefprozil,-7.4,runs/full-2YAU-TR-screen/docked/556_out.pdbqt
+761,cyclothiazide,-7.4,runs/full-2YAU-TR-screen/docked/761_out.pdbqt
+814,desloratadine,-7.4,runs/full-2YAU-TR-screen/docked/814_out.pdbqt
+871,dienogest,-7.4,runs/full-2YAU-TR-screen/docked/871_out.pdbqt
+1037,eprosartan,-7.3,runs/full-2YAU-TR-screen/docked/1037_out.pdbqt
+1122,exemestane,-7.3,runs/full-2YAU-TR-screen/docked/1122_out.pdbqt
+1329,granisetron,-7.3,runs/full-2YAU-TR-screen/docked/1329_out.pdbqt
+1330,grepafloxacin,-7.3,runs/full-2YAU-TR-screen/docked/1330_out.pdbqt
+1517,ixabepilone,-7.3,runs/full-2YAU-TR-screen/docked/1517_out.pdbqt
+1566,levocetirizine,-7.3,runs/full-2YAU-TR-screen/docked/1566_out.pdbqt
+1572,levonorgestrel,-7.3,runs/full-2YAU-TR-screen/docked/1572_out.pdbqt
+176,amiodarone,-7.3,runs/full-2YAU-TR-screen/docked/176_out.pdbqt
+1851,latamoxef,-7.3,runs/full-2YAU-TR-screen/docked/1851_out.pdbqt
+1962,norethisterone,-7.3,runs/full-2YAU-TR-screen/docked/1962_out.pdbqt
+1971,nortriptyline,-7.3,runs/full-2YAU-TR-screen/docked/1971_out.pdbqt
+1974,novobiocin,-7.3,runs/full-2YAU-TR-screen/docked/1974_out.pdbqt
+2046,palonosetron,-7.3,runs/full-2YAU-TR-screen/docked/2046_out.pdbqt
+2406,rosuvastatin,-7.3,runs/full-2YAU-TR-screen/docked/2406_out.pdbqt
+2445,simvastatin,-7.3,runs/full-2YAU-TR-screen/docked/2445_out.pdbqt
+2477,stanozolol,-7.3,runs/full-2YAU-TR-screen/docked/2477_out.pdbqt
+2525,sulfasalazine,-7.3,runs/full-2YAU-TR-screen/docked/2525_out.pdbqt
+2544,sunitinib,-7.3,runs/full-2YAU-TR-screen/docked/2544_out.pdbqt
+2571,tazarotene,-7.3,runs/full-2YAU-TR-screen/docked/2571_out.pdbqt
+2637,thioridazine,-7.3,runs/full-2YAU-TR-screen/docked/2637_out.pdbqt
+2684,tobramycin,-7.3,runs/full-2YAU-TR-screen/docked/2684_out.pdbqt
+2694,tolazamide,-7.3,runs/full-2YAU-TR-screen/docked/2694_out.pdbqt
+2722,tretinoin,-7.3,runs/full-2YAU-TR-screen/docked/2722_out.pdbqt
+2746,trilostane,-7.3,runs/full-2YAU-TR-screen/docked/2746_out.pdbqt
+2806,valsartan,-7.3,runs/full-2YAU-TR-screen/docked/2806_out.pdbqt
+3959,hydrocortisone butyrate,-7.3,runs/full-2YAU-TR-screen/docked/3959_out.pdbqt
+4109,dronabinol,-7.3,runs/full-2YAU-TR-screen/docked/4109_out.pdbqt
+4111,besifloxacin,-7.3,runs/full-2YAU-TR-screen/docked/4111_out.pdbqt
+4162,dexlansoprazole,-7.3,runs/full-2YAU-TR-screen/docked/4162_out.pdbqt
+4359,bosutinib,-7.3,runs/full-2YAU-TR-screen/docked/4359_out.pdbqt
+4497,estradiol acetate,-7.3,runs/full-2YAU-TR-screen/docked/4497_out.pdbqt
+4813,luliconazole,-7.3,runs/full-2YAU-TR-screen/docked/4813_out.pdbqt
+5227,valbenazine,-7.3,runs/full-2YAU-TR-screen/docked/5227_out.pdbqt
+5287,plazomicin,-7.3,runs/full-2YAU-TR-screen/docked/5287_out.pdbqt
+5396,flortaucipir F 18,-7.3,runs/full-2YAU-TR-screen/docked/5396_out.pdbqt
+5400,remimazolam,-7.3,runs/full-2YAU-TR-screen/docked/5400_out.pdbqt
+5458,piflufolastat F-18,-7.3,runs/full-2YAU-TR-screen/docked/5458_out.pdbqt
+824,dexamethasone,-7.3,runs/full-2YAU-TR-screen/docked/824_out.pdbqt
+1094,ethylestrenol,-7.2,runs/full-2YAU-TR-screen/docked/1094_out.pdbqt
+1388,hydrocortisone,-7.2,runs/full-2YAU-TR-screen/docked/1388_out.pdbqt
+1400,hydroxyzine,-7.2,runs/full-2YAU-TR-screen/docked/1400_out.pdbqt
+1433,indapamide,-7.2,runs/full-2YAU-TR-screen/docked/1433_out.pdbqt
+1455,adipiodone,-7.2,runs/full-2YAU-TR-screen/docked/1455_out.pdbqt
+1519,kanamycin,-7.2,runs/full-2YAU-TR-screen/docked/1519_out.pdbqt
+1547,lansoprazole,-7.2,runs/full-2YAU-TR-screen/docked/1547_out.pdbqt
+1610,losartan,-7.2,runs/full-2YAU-TR-screen/docked/1610_out.pdbqt
+1641,mebendazole,-7.2,runs/full-2YAU-TR-screen/docked/1641_out.pdbqt
+1676,meloxicam,-7.2,runs/full-2YAU-TR-screen/docked/1676_out.pdbqt
+1802,midazolam,-7.2,runs/full-2YAU-TR-screen/docked/1802_out.pdbqt
+186,amodiaquine,-7.2,runs/full-2YAU-TR-screen/docked/186_out.pdbqt
+1981,ofloxacin,-7.2,runs/full-2YAU-TR-screen/docked/1981_out.pdbqt
+2006,oxacillin,-7.2,runs/full-2YAU-TR-screen/docked/2006_out.pdbqt
+200,amprenavir,-7.2,runs/full-2YAU-TR-screen/docked/200_out.pdbqt
+2210,piroxicam,-7.2,runs/full-2YAU-TR-screen/docked/2210_out.pdbqt
+2370,reserpine,-7.2,runs/full-2YAU-TR-screen/docked/2370_out.pdbqt
+2468,spectinomycin,-7.2,runs/full-2YAU-TR-screen/docked/2468_out.pdbqt
+2729,triazolam,-7.2,runs/full-2YAU-TR-screen/docked/2729_out.pdbqt
+2797,ursodiol,-7.2,runs/full-2YAU-TR-screen/docked/2797_out.pdbqt
+2823,vinblastine,-7.2,runs/full-2YAU-TR-screen/docked/2823_out.pdbqt
+299,benazepril,-7.2,runs/full-2YAU-TR-screen/docked/299_out.pdbqt
+3294,iloperidone,-7.2,runs/full-2YAU-TR-screen/docked/3294_out.pdbqt
+3356,methyltestosterone,-7.2,runs/full-2YAU-TR-screen/docked/3356_out.pdbqt
+3617,tolnaftate,-7.2,runs/full-2YAU-TR-screen/docked/3617_out.pdbqt
+4114,saxagliptin,-7.2,runs/full-2YAU-TR-screen/docked/4114_out.pdbqt
+4115,asenapine,-7.2,runs/full-2YAU-TR-screen/docked/4115_out.pdbqt
+4153,cabazitaxel,-7.2,runs/full-2YAU-TR-screen/docked/4153_out.pdbqt
+4166,ulipristal,-7.2,runs/full-2YAU-TR-screen/docked/4166_out.pdbqt
+4181,retigabine,-7.2,runs/full-2YAU-TR-screen/docked/4181_out.pdbqt
+4183,indacaterol,-7.2,runs/full-2YAU-TR-screen/docked/4183_out.pdbqt
+4190,ruxolitinib,-7.2,runs/full-2YAU-TR-screen/docked/4190_out.pdbqt
+4191,fesoterodine,-7.2,runs/full-2YAU-TR-screen/docked/4191_out.pdbqt
+437,buspirone,-7.2,runs/full-2YAU-TR-screen/docked/437_out.pdbqt
+4746,pomalidomide,-7.2,runs/full-2YAU-TR-screen/docked/4746_out.pdbqt
+4814,olodaterol,-7.2,runs/full-2YAU-TR-screen/docked/4814_out.pdbqt
+4829,apremilast,-7.2,runs/full-2YAU-TR-screen/docked/4829_out.pdbqt
+4834,eliglustat,-7.2,runs/full-2YAU-TR-screen/docked/4834_out.pdbqt
+4857,estrone sulphate,-7.2,runs/full-2YAU-TR-screen/docked/4857_out.pdbqt
+4873,tedizolid phosphate,-7.2,runs/full-2YAU-TR-screen/docked/4873_out.pdbqt
+5395,fluoroestradiol F 18,-7.2,runs/full-2YAU-TR-screen/docked/5395_out.pdbqt
+57,acetohexamide,-7.2,runs/full-2YAU-TR-screen/docked/57_out.pdbqt
+594,chlordiazepoxide,-7.2,runs/full-2YAU-TR-screen/docked/594_out.pdbqt
+59,acetophenazine,-7.2,runs/full-2YAU-TR-screen/docked/59_out.pdbqt
+625,chlortalidone,-7.2,runs/full-2YAU-TR-screen/docked/625_out.pdbqt
+632,cyclacillin,-7.2,runs/full-2YAU-TR-screen/docked/632_out.pdbqt
+644,cilostazol,-7.2,runs/full-2YAU-TR-screen/docked/644_out.pdbqt
+726,colchicine,-7.2,runs/full-2YAU-TR-screen/docked/726_out.pdbqt
+795,prasterone,-7.2,runs/full-2YAU-TR-screen/docked/795_out.pdbqt
+915,diphemanil,-7.2,runs/full-2YAU-TR-screen/docked/915_out.pdbqt
+953,doxapram,-7.2,runs/full-2YAU-TR-screen/docked/953_out.pdbqt
+1056,estazolam,-7.1,runs/full-2YAU-TR-screen/docked/1056_out.pdbqt
+1066,estramustine phosphate,-7.1,runs/full-2YAU-TR-screen/docked/1066_out.pdbqt
+1153,fenoldopam,-7.1,runs/full-2YAU-TR-screen/docked/1153_out.pdbqt
+1164,fentanyl,-7.1,runs/full-2YAU-TR-screen/docked/1164_out.pdbqt
+1213,fluphenazine decanoate,-7.1,runs/full-2YAU-TR-screen/docked/1213_out.pdbqt
+1218,flurazepam,-7.1,runs/full-2YAU-TR-screen/docked/1218_out.pdbqt
+1251,frovatriptan,-7.1,runs/full-2YAU-TR-screen/docked/1251_out.pdbqt
+1280,gatifloxacin,-7.1,runs/full-2YAU-TR-screen/docked/1280_out.pdbqt
+1286,gemifloxacin,-7.1,runs/full-2YAU-TR-screen/docked/1286_out.pdbqt
+1659,medroxyprogesterone,-7.1,runs/full-2YAU-TR-screen/docked/1659_out.pdbqt
+1709,meropenem,-7.1,runs/full-2YAU-TR-screen/docked/1709_out.pdbqt
+1780,metixene,-7.1,runs/full-2YAU-TR-screen/docked/1780_out.pdbqt
+1816,mirtazapine,-7.1,runs/full-2YAU-TR-screen/docked/1816_out.pdbqt
+1886,nateglinide,-7.1,runs/full-2YAU-TR-screen/docked/1886_out.pdbqt
+192,amoxicillin,-7.1,runs/full-2YAU-TR-screen/docked/192_out.pdbqt
+1959,norelgestromin,-7.1,runs/full-2YAU-TR-screen/docked/1959_out.pdbqt
+1965,norethynodrel,-7.1,runs/full-2YAU-TR-screen/docked/1965_out.pdbqt
+2011,oxandrolone,-7.1,runs/full-2YAU-TR-screen/docked/2011_out.pdbqt
+2013,oxaprozin,-7.1,runs/full-2YAU-TR-screen/docked/2013_out.pdbqt
+2113,perphenazine,-7.1,runs/full-2YAU-TR-screen/docked/2113_out.pdbqt
+2138,phenprocoumon,-7.1,runs/full-2YAU-TR-screen/docked/2138_out.pdbqt
+2240,prazepam,-7.1,runs/full-2YAU-TR-screen/docked/2240_out.pdbqt
+2274,prochlorperazine,-7.1,runs/full-2YAU-TR-screen/docked/2274_out.pdbqt
+2279,progesterone,-7.1,runs/full-2YAU-TR-screen/docked/2279_out.pdbqt
+237,arbutamine,-7.1,runs/full-2YAU-TR-screen/docked/237_out.pdbqt
+2523,sulfaphenazole,-7.1,runs/full-2YAU-TR-screen/docked/2523_out.pdbqt
+2606,testolactone,-7.1,runs/full-2YAU-TR-screen/docked/2606_out.pdbqt
+2630,thiethylperazine,-7.1,runs/full-2YAU-TR-screen/docked/2630_out.pdbqt
+2648,tiagabine,-7.1,runs/full-2YAU-TR-screen/docked/2648_out.pdbqt
+2743,trifluridine,-7.1,runs/full-2YAU-TR-screen/docked/2743_out.pdbqt
+2870,zolpidem,-7.1,runs/full-2YAU-TR-screen/docked/2870_out.pdbqt
+311,benoxaprofen,-7.1,runs/full-2YAU-TR-screen/docked/311_out.pdbqt
+3408,oxiconazole,-7.1,runs/full-2YAU-TR-screen/docked/3408_out.pdbqt
+3424,pentazocine,-7.1,runs/full-2YAU-TR-screen/docked/3424_out.pdbqt
+3584,terazosin,-7.1,runs/full-2YAU-TR-screen/docked/3584_out.pdbqt
+375,bisacodyl,-7.1,runs/full-2YAU-TR-screen/docked/375_out.pdbqt
+3909,clindamycin phosphate,-7.1,runs/full-2YAU-TR-screen/docked/3909_out.pdbqt
+4149,doripenem,-7.1,runs/full-2YAU-TR-screen/docked/4149_out.pdbqt
+4186,icatibant,-7.1,runs/full-2YAU-TR-screen/docked/4186_out.pdbqt
+4229,tafluprost,-7.1,runs/full-2YAU-TR-screen/docked/4229_out.pdbqt
+4496,haloperidol decanoate,-7.1,runs/full-2YAU-TR-screen/docked/4496_out.pdbqt
+450,butoconazole,-7.1,runs/full-2YAU-TR-screen/docked/450_out.pdbqt
+4609,testosterone enantate,-7.1,runs/full-2YAU-TR-screen/docked/4609_out.pdbqt
+4627,sincalide,-7.1,runs/full-2YAU-TR-screen/docked/4627_out.pdbqt
+4665,brilliant green,-7.1,runs/full-2YAU-TR-screen/docked/4665_out.pdbqt
+4806,vortioxetine,-7.1,runs/full-2YAU-TR-screen/docked/4806_out.pdbqt
+4874,efinaconazole,-7.1,runs/full-2YAU-TR-screen/docked/4874_out.pdbqt
+492,carbenicillin,-7.1,runs/full-2YAU-TR-screen/docked/492_out.pdbqt
+4944,tenofovir alafenamide,-7.1,runs/full-2YAU-TR-screen/docked/4944_out.pdbqt
+5006,cangrelor,-7.1,runs/full-2YAU-TR-screen/docked/5006_out.pdbqt
+5012,sacubitril,-7.1,runs/full-2YAU-TR-screen/docked/5012_out.pdbqt
+5290,binimetinib,-7.1,runs/full-2YAU-TR-screen/docked/5290_out.pdbqt
+5344,pretomanid,-7.1,runs/full-2YAU-TR-screen/docked/5344_out.pdbqt
+5390,pemigatinib,-7.1,runs/full-2YAU-TR-screen/docked/5390_out.pdbqt
+566,cefuroxime axetil,-7.1,runs/full-2YAU-TR-screen/docked/566_out.pdbqt
+581,cetirizine,-7.1,runs/full-2YAU-TR-screen/docked/581_out.pdbqt
+703,clonazepam,-7.1,runs/full-2YAU-TR-screen/docked/703_out.pdbqt
+751,cyclobenzaprine,-7.1,runs/full-2YAU-TR-screen/docked/751_out.pdbqt
+924,dipyridamole,-7.1,runs/full-2YAU-TR-screen/docked/924_out.pdbqt
+975,dydrogesterone,-7.1,runs/full-2YAU-TR-screen/docked/975_out.pdbqt
+989,efavirenz,-7.1,runs/full-2YAU-TR-screen/docked/989_out.pdbqt
+995,eletriptan,-7.1,runs/full-2YAU-TR-screen/docked/995_out.pdbqt
+1027,epinastine,-7.0,runs/full-2YAU-TR-screen/docked/1027_out.pdbqt
+1152,fenofibrate,-7.0,runs/full-2YAU-TR-screen/docked/1152_out.pdbqt
+1189,fludarabine phosphate,-7.0,runs/full-2YAU-TR-screen/docked/1189_out.pdbqt
+1255,fulvestrant,-7.0,runs/full-2YAU-TR-screen/docked/1255_out.pdbqt
+129,alosetron,-7.0,runs/full-2YAU-TR-screen/docked/129_out.pdbqt
+136,alprazolam,-7.0,runs/full-2YAU-TR-screen/docked/136_out.pdbqt
+1386,hydrocodone,-7.0,runs/full-2YAU-TR-screen/docked/1386_out.pdbqt
+1393,hydromorphone,-7.0,runs/full-2YAU-TR-screen/docked/1393_out.pdbqt
+1560,levallorphan,-7.0,runs/full-2YAU-TR-screen/docked/1560_out.pdbqt
+1584,linezolid,-7.0,runs/full-2YAU-TR-screen/docked/1584_out.pdbqt
+1594,lomefloxacin,-7.0,runs/full-2YAU-TR-screen/docked/1594_out.pdbqt
+1689,mepenzolate,-7.0,runs/full-2YAU-TR-screen/docked/1689_out.pdbqt
+180,amitriptyline,-7.0,runs/full-2YAU-TR-screen/docked/180_out.pdbqt
+1869,nafcillin,-7.0,runs/full-2YAU-TR-screen/docked/1869_out.pdbqt
+1909,nicardipine,-7.0,runs/full-2YAU-TR-screen/docked/1909_out.pdbqt
+1944,nitisinone,-7.0,runs/full-2YAU-TR-screen/docked/1944_out.pdbqt
+2029,oxycodone,-7.0,runs/full-2YAU-TR-screen/docked/2029_out.pdbqt
+2034,oxymorphone,-7.0,runs/full-2YAU-TR-screen/docked/2034_out.pdbqt
+2078,penbutolol,-7.0,runs/full-2YAU-TR-screen/docked/2078_out.pdbqt
+2145,phenylbutazone,-7.0,runs/full-2YAU-TR-screen/docked/2145_out.pdbqt
+220,anileridine,-7.0,runs/full-2YAU-TR-screen/docked/220_out.pdbqt
+2424,scopolamine,-7.0,runs/full-2YAU-TR-screen/docked/2424_out.pdbqt
+2607,testosterone,-7.0,runs/full-2YAU-TR-screen/docked/2607_out.pdbqt
+2716,travoprost,-7.0,runs/full-2YAU-TR-screen/docked/2716_out.pdbqt
+2728,triamterene,-7.0,runs/full-2YAU-TR-screen/docked/2728_out.pdbqt
+2757,trimetrexate,-7.0,runs/full-2YAU-TR-screen/docked/2757_out.pdbqt
+2799,valdecoxib,-7.0,runs/full-2YAU-TR-screen/docked/2799_out.pdbqt
+279,aztreonam,-7.0,runs/full-2YAU-TR-screen/docked/279_out.pdbqt
+280,bacampicillin,-7.0,runs/full-2YAU-TR-screen/docked/280_out.pdbqt
+2847,warfarin,-7.0,runs/full-2YAU-TR-screen/docked/2847_out.pdbqt
+2857,zaleplon,-7.0,runs/full-2YAU-TR-screen/docked/2857_out.pdbqt
+3014,bemotrizinol,-7.0,runs/full-2YAU-TR-screen/docked/3014_out.pdbqt
+333,benzatropine,-7.0,runs/full-2YAU-TR-screen/docked/333_out.pdbqt
+3481,podophyllotoxin,-7.0,runs/full-2YAU-TR-screen/docked/3481_out.pdbqt
+374,biperiden,-7.0,runs/full-2YAU-TR-screen/docked/374_out.pdbqt
+4192,tafamidis,-7.0,runs/full-2YAU-TR-screen/docked/4192_out.pdbqt
+4280,tocofersolan,-7.0,runs/full-2YAU-TR-screen/docked/4280_out.pdbqt
+480,capecitabine,-7.0,runs/full-2YAU-TR-screen/docked/480_out.pdbqt
+5075,lesinurad,-7.0,runs/full-2YAU-TR-screen/docked/5075_out.pdbqt
+516,carfenazine,-7.0,runs/full-2YAU-TR-screen/docked/516_out.pdbqt
+526,cefadroxil,-7.0,runs/full-2YAU-TR-screen/docked/526_out.pdbqt
+535,cefepime,-7.0,runs/full-2YAU-TR-screen/docked/535_out.pdbqt
+5379,avapritinib,-7.0,runs/full-2YAU-TR-screen/docked/5379_out.pdbqt
+5388,selumetinib,-7.0,runs/full-2YAU-TR-screen/docked/5388_out.pdbqt
+544,ceforanide,-7.0,runs/full-2YAU-TR-screen/docked/544_out.pdbqt
+562,ceftibuten,-7.0,runs/full-2YAU-TR-screen/docked/562_out.pdbqt
+572,cefaloglycin,-7.0,runs/full-2YAU-TR-screen/docked/572_out.pdbqt
+577,cerivastatin,-7.0,runs/full-2YAU-TR-screen/docked/577_out.pdbqt
+661,cisatracurium,-7.0,runs/full-2YAU-TR-screen/docked/661_out.pdbqt
+676,clidinium,-7.0,runs/full-2YAU-TR-screen/docked/676_out.pdbqt
+700,clomifene,-7.0,runs/full-2YAU-TR-screen/docked/700_out.pdbqt
+781,dapiprazole,-7.0,runs/full-2YAU-TR-screen/docked/781_out.pdbqt
+886,dihydrocodeine,-7.0,runs/full-2YAU-TR-screen/docked/886_out.pdbqt
+946,donepezil,-7.0,runs/full-2YAU-TR-screen/docked/946_out.pdbqt
+1057,estradiol,-6.9,runs/full-2YAU-TR-screen/docked/1057_out.pdbqt
+1195,flumazenil,-6.9,runs/full-2YAU-TR-screen/docked/1195_out.pdbqt
+1209,fluoxetine,-6.9,runs/full-2YAU-TR-screen/docked/1209_out.pdbqt
+1440,indomethacin,-6.9,runs/full-2YAU-TR-screen/docked/1440_out.pdbqt
+1559,leuprorelin,-6.9,runs/full-2YAU-TR-screen/docked/1559_out.pdbqt
+1611,loteprednol etabonate,-6.9,runs/full-2YAU-TR-screen/docked/1611_out.pdbqt
+1783,metolazone,-6.9,runs/full-2YAU-TR-screen/docked/1783_out.pdbqt
+1800,miconazole,-6.9,runs/full-2YAU-TR-screen/docked/1800_out.pdbqt
+1821,mitoxantrone,-6.9,runs/full-2YAU-TR-screen/docked/1821_out.pdbqt
+1845,morphine,-6.9,runs/full-2YAU-TR-screen/docked/1845_out.pdbqt
+1859,mycophenolate mofetil,-6.9,runs/full-2YAU-TR-screen/docked/1859_out.pdbqt
+1889,nedocromil,-6.9,runs/full-2YAU-TR-screen/docked/1889_out.pdbqt
+1968,norgestimate,-6.9,runs/full-2YAU-TR-screen/docked/1968_out.pdbqt
+1992,ondansetron,-6.9,runs/full-2YAU-TR-screen/docked/1992_out.pdbqt
+2015,oxazepam,-6.9,runs/full-2YAU-TR-screen/docked/2015_out.pdbqt
+2054,pantoprazole,-6.9,runs/full-2YAU-TR-screen/docked/2054_out.pdbqt
+2083,phenoxymethylpenicillin,-6.9,runs/full-2YAU-TR-screen/docked/2083_out.pdbqt
+2318,protokylol,-6.9,runs/full-2YAU-TR-screen/docked/2318_out.pdbqt
+2495,sulconazole,-6.9,runs/full-2YAU-TR-screen/docked/2495_out.pdbqt
+2534,sulindac,-6.9,runs/full-2YAU-TR-screen/docked/2534_out.pdbqt
+2579,tegaserod,-6.9,runs/full-2YAU-TR-screen/docked/2579_out.pdbqt
+259,atracurium,-6.9,runs/full-2YAU-TR-screen/docked/259_out.pdbqt
+2608,testosterone undecanoate,-6.9,runs/full-2YAU-TR-screen/docked/2608_out.pdbqt
+2745,trihexyphenidyl,-6.9,runs/full-2YAU-TR-screen/docked/2745_out.pdbqt
+2763,triprolidine,-6.9,runs/full-2YAU-TR-screen/docked/2763_out.pdbqt
+2846,voriconazole,-6.9,runs/full-2YAU-TR-screen/docked/2846_out.pdbqt
+2968,triptorelin,-6.9,runs/full-2YAU-TR-screen/docked/2968_out.pdbqt
+3179,ensulizole,-6.9,runs/full-2YAU-TR-screen/docked/3179_out.pdbqt
+3188,estrone,-6.9,runs/full-2YAU-TR-screen/docked/3188_out.pdbqt
+3317,lenalidomide,-6.9,runs/full-2YAU-TR-screen/docked/3317_out.pdbqt
+401,bromfenac,-6.9,runs/full-2YAU-TR-screen/docked/401_out.pdbqt
+4112,dronedarone,-6.9,runs/full-2YAU-TR-screen/docked/4112_out.pdbqt
+4113,prasugrel,-6.9,runs/full-2YAU-TR-screen/docked/4113_out.pdbqt
+4292,enzacamene,-6.9,runs/full-2YAU-TR-screen/docked/4292_out.pdbqt
+4301,Flutemetamol (18F),-6.9,runs/full-2YAU-TR-screen/docked/4301_out.pdbqt
+4460,menthyl salicylate,-6.9,runs/full-2YAU-TR-screen/docked/4460_out.pdbqt
+4607,ubidecarenone,-6.9,runs/full-2YAU-TR-screen/docked/4607_out.pdbqt
+489,carbamazepine,-6.9,runs/full-2YAU-TR-screen/docked/489_out.pdbqt
+4921,safinamide,-6.9,runs/full-2YAU-TR-screen/docked/4921_out.pdbqt
+5359,brilliant Blue G,-6.9,runs/full-2YAU-TR-screen/docked/5359_out.pdbqt
+537,cefixime,-6.9,runs/full-2YAU-TR-screen/docked/537_out.pdbqt
+555,cefpodoxime proxetil,-6.9,runs/full-2YAU-TR-screen/docked/555_out.pdbqt
+571,cefalexin,-6.9,runs/full-2YAU-TR-screen/docked/571_out.pdbqt
+719,clotrimazole,-6.9,runs/full-2YAU-TR-screen/docked/719_out.pdbqt
+725,codeine,-6.9,runs/full-2YAU-TR-screen/docked/725_out.pdbqt
+780,dantrolene,-6.9,runs/full-2YAU-TR-screen/docked/780_out.pdbqt
+852,diazepam,-6.9,runs/full-2YAU-TR-screen/docked/852_out.pdbqt
+1019,entecavir,-6.8,runs/full-2YAU-TR-screen/docked/1019_out.pdbqt
+115,alfuzosin,-6.8,runs/full-2YAU-TR-screen/docked/115_out.pdbqt
+1272,galantamine,-6.8,runs/full-2YAU-TR-screen/docked/1272_out.pdbqt
+1380,methylhomatropine,-6.8,runs/full-2YAU-TR-screen/docked/1380_out.pdbqt
+146,ambenonium,-6.8,runs/full-2YAU-TR-screen/docked/146_out.pdbqt
+1490,isocarboxazid,-6.8,runs/full-2YAU-TR-screen/docked/1490_out.pdbqt
+1508,isotretinoin,-6.8,runs/full-2YAU-TR-screen/docked/1508_out.pdbqt
+1510,isoxsuprine,-6.8,runs/full-2YAU-TR-screen/docked/1510_out.pdbqt
+1536,lactulose,-6.8,runs/full-2YAU-TR-screen/docked/1536_out.pdbqt
+1582,lincomycin,-6.8,runs/full-2YAU-TR-screen/docked/1582_out.pdbqt
+1603,loracarbef,-6.8,runs/full-2YAU-TR-screen/docked/1603_out.pdbqt
+1617,lumefantrine,-6.8,runs/full-2YAU-TR-screen/docked/1617_out.pdbqt
+1640,mazindol,-6.8,runs/full-2YAU-TR-screen/docked/1640_out.pdbqt
+1744,meticillin,-6.8,runs/full-2YAU-TR-screen/docked/1744_out.pdbqt
+1788,metrizamide,-6.8,runs/full-2YAU-TR-screen/docked/1788_out.pdbqt
+182,amlexanox,-6.8,runs/full-2YAU-TR-screen/docked/182_out.pdbqt
+1912,niclosamide,-6.8,runs/full-2YAU-TR-screen/docked/1912_out.pdbqt
+198,ampicillin,-6.8,runs/full-2YAU-TR-screen/docked/198_out.pdbqt
+2028,oxybutynin,-6.8,runs/full-2YAU-TR-screen/docked/2028_out.pdbqt
+2142,phentolamine,-6.8,runs/full-2YAU-TR-screen/docked/2142_out.pdbqt
+2228,polythiazide,-6.8,runs/full-2YAU-TR-screen/docked/2228_out.pdbqt
+228,apomorphine,-6.8,runs/full-2YAU-TR-screen/docked/228_out.pdbqt
+2293,propantheline,-6.8,runs/full-2YAU-TR-screen/docked/2293_out.pdbqt
+2372,retinol acetate,-6.8,runs/full-2YAU-TR-screen/docked/2372_out.pdbqt
+2561,tamoxifen,-6.8,runs/full-2YAU-TR-screen/docked/2561_out.pdbqt
+2597,terbinafine,-6.8,runs/full-2YAU-TR-screen/docked/2597_out.pdbqt
+2612,sapropterin,-6.8,runs/full-2YAU-TR-screen/docked/2612_out.pdbqt
+2696,tolbutamide,-6.8,runs/full-2YAU-TR-screen/docked/2696_out.pdbqt
+2697,tolcapone,-6.8,runs/full-2YAU-TR-screen/docked/2697_out.pdbqt
+2705,tolterodine,-6.8,runs/full-2YAU-TR-screen/docked/2705_out.pdbqt
+2709,toremifene,-6.8,runs/full-2YAU-TR-screen/docked/2709_out.pdbqt
+276,azithromycin,-6.8,runs/full-2YAU-TR-screen/docked/276_out.pdbqt
+2801,valganciclovir,-6.8,runs/full-2YAU-TR-screen/docked/2801_out.pdbqt
+284,balsalazide,-6.8,runs/full-2YAU-TR-screen/docked/284_out.pdbqt
+313,diphenidol,-6.8,runs/full-2YAU-TR-screen/docked/313_out.pdbqt
+3279,homosalate,-6.8,runs/full-2YAU-TR-screen/docked/3279_out.pdbqt
+3558,sulfabenzamide,-6.8,runs/full-2YAU-TR-screen/docked/3558_out.pdbqt
+371,bimatoprost,-6.8,runs/full-2YAU-TR-screen/docked/371_out.pdbqt
+3862,alitretinoin,-6.8,runs/full-2YAU-TR-screen/docked/3862_out.pdbqt
+4152,permethrin,-6.8,runs/full-2YAU-TR-screen/docked/4152_out.pdbqt
+4303,eslicarbazepine acetate,-6.8,runs/full-2YAU-TR-screen/docked/4303_out.pdbqt
+4504,hydrocortisone valerate,-6.8,runs/full-2YAU-TR-screen/docked/4504_out.pdbqt
+4749,ospemifene,-6.8,runs/full-2YAU-TR-screen/docked/4749_out.pdbqt
+4809,macitentan,-6.8,runs/full-2YAU-TR-screen/docked/4809_out.pdbqt
+4882,istradefylline,-6.8,runs/full-2YAU-TR-screen/docked/4882_out.pdbqt
+525,cefaclor,-6.8,runs/full-2YAU-TR-screen/docked/525_out.pdbqt
+528,cefamandole nafate,-6.8,runs/full-2YAU-TR-screen/docked/528_out.pdbqt
+5324,brexanolone,-6.8,runs/full-2YAU-TR-screen/docked/5324_out.pdbqt
+538,cefmenoxime,-6.8,runs/full-2YAU-TR-screen/docked/538_out.pdbqt
+576,cefradine,-6.8,runs/full-2YAU-TR-screen/docked/576_out.pdbqt
+593,chlorcyclizine,-6.8,runs/full-2YAU-TR-screen/docked/593_out.pdbqt
+623,chlorprothixene,-6.8,runs/full-2YAU-TR-screen/docked/623_out.pdbqt
+659,ciprofloxacin,-6.8,runs/full-2YAU-TR-screen/docked/659_out.pdbqt
+660,cisapride,-6.8,runs/full-2YAU-TR-screen/docked/660_out.pdbqt
+671,clemastine,-6.8,runs/full-2YAU-TR-screen/docked/671_out.pdbqt
+682,clobazam,-6.8,runs/full-2YAU-TR-screen/docked/682_out.pdbqt
+842,dextromethorphan,-6.8,runs/full-2YAU-TR-screen/docked/842_out.pdbqt
+88,adefovir dipivoxil,-6.8,runs/full-2YAU-TR-screen/docked/88_out.pdbqt
+908,dimethyltubocurarinium,-6.8,runs/full-2YAU-TR-screen/docked/908_out.pdbqt
+920,diphenylpyraline,-6.8,runs/full-2YAU-TR-screen/docked/920_out.pdbqt
+925,dirithromycin,-6.8,runs/full-2YAU-TR-screen/docked/925_out.pdbqt
+983,econazole,-6.8,runs/full-2YAU-TR-screen/docked/983_out.pdbqt
+101,alacepril,-6.7,runs/full-2YAU-TR-screen/docked/101_out.pdbqt
+1053,escitalopram,-6.7,runs/full-2YAU-TR-screen/docked/1053_out.pdbqt
+1055,esomeprazole,-6.7,runs/full-2YAU-TR-screen/docked/1055_out.pdbqt
+1103,etodolac,-6.7,runs/full-2YAU-TR-screen/docked/1103_out.pdbqt
+1116,etretinate,-6.7,runs/full-2YAU-TR-screen/docked/1116_out.pdbqt
+1137,febuxostat,-6.7,runs/full-2YAU-TR-screen/docked/1137_out.pdbqt
+114,alfentanil,-6.7,runs/full-2YAU-TR-screen/docked/114_out.pdbqt
+119,aliskiren,-6.7,runs/full-2YAU-TR-screen/docked/119_out.pdbqt
+1353,haloperidol,-6.7,runs/full-2YAU-TR-screen/docked/1353_out.pdbqt
+1511,isradipine,-6.7,runs/full-2YAU-TR-screen/docked/1511_out.pdbqt
+1531,labetalol,-6.7,runs/full-2YAU-TR-screen/docked/1531_out.pdbqt
+1551,latanoprost,-6.7,runs/full-2YAU-TR-screen/docked/1551_out.pdbqt
+1574,levorphanol,-6.7,runs/full-2YAU-TR-screen/docked/1574_out.pdbqt
+1587,lisinopril,-6.7,runs/full-2YAU-TR-screen/docked/1587_out.pdbqt
+1736,methanthelinium,-6.7,runs/full-2YAU-TR-screen/docked/1736_out.pdbqt
+1749,metofoline,-6.7,runs/full-2YAU-TR-screen/docked/1749_out.pdbqt
+1819,mitomycin,-6.7,runs/full-2YAU-TR-screen/docked/1819_out.pdbqt
+1827,moexipril,-6.7,runs/full-2YAU-TR-screen/docked/1827_out.pdbqt
+1860,mycophenolic acid,-6.7,runs/full-2YAU-TR-screen/docked/1860_out.pdbqt
+1862,nabilone,-6.7,runs/full-2YAU-TR-screen/docked/1862_out.pdbqt
+1899,nepafenac,-6.7,runs/full-2YAU-TR-screen/docked/1899_out.pdbqt
+1937,nimodipine,-6.7,runs/full-2YAU-TR-screen/docked/1937_out.pdbqt
+1988,olsalazine,-6.7,runs/full-2YAU-TR-screen/docked/1988_out.pdbqt
+2036,oxyphenbutazone,-6.7,runs/full-2YAU-TR-screen/docked/2036_out.pdbqt
+210,anastrozole,-6.7,runs/full-2YAU-TR-screen/docked/210_out.pdbqt
+2152,phenytoin,-6.7,runs/full-2YAU-TR-screen/docked/2152_out.pdbqt
+2183,pipecuronium,-6.7,runs/full-2YAU-TR-screen/docked/2183_out.pdbqt
+2303,propranolol,-6.7,runs/full-2YAU-TR-screen/docked/2303_out.pdbqt
+2340,quinapril,-6.7,runs/full-2YAU-TR-screen/docked/2340_out.pdbqt
+2474,spirapril,-6.7,runs/full-2YAU-TR-screen/docked/2474_out.pdbqt
+2491,sufentanil,-6.7,runs/full-2YAU-TR-screen/docked/2491_out.pdbqt
+2609,tetrabenazine,-6.7,runs/full-2YAU-TR-screen/docked/2609_out.pdbqt
+260,atropine,-6.7,runs/full-2YAU-TR-screen/docked/260_out.pdbqt
+2616,thalidomide,-6.7,runs/full-2YAU-TR-screen/docked/2616_out.pdbqt
+2680,tirofiban,-6.7,runs/full-2YAU-TR-screen/docked/2680_out.pdbqt
+2690,tocopherol succinate,-6.7,runs/full-2YAU-TR-screen/docked/2690_out.pdbqt
+2861,zidovudine,-6.7,runs/full-2YAU-TR-screen/docked/2861_out.pdbqt
+3395,octocrylene,-6.7,runs/full-2YAU-TR-screen/docked/3395_out.pdbqt
+342,bepridil,-6.7,runs/full-2YAU-TR-screen/docked/342_out.pdbqt
+34,abacavir,-6.7,runs/full-2YAU-TR-screen/docked/34_out.pdbqt
+3502,prucalopride,-6.7,runs/full-2YAU-TR-screen/docked/3502_out.pdbqt
+4138,gentian violet,-6.7,runs/full-2YAU-TR-screen/docked/4138_out.pdbqt
+4242,avobenzone,-6.7,runs/full-2YAU-TR-screen/docked/4242_out.pdbqt
+4634,teriflunomide,-6.7,runs/full-2YAU-TR-screen/docked/4634_out.pdbqt
+4653,chloramphenicol succinate,-6.7,runs/full-2YAU-TR-screen/docked/4653_out.pdbqt
+4682,panobinostat,-6.7,runs/full-2YAU-TR-screen/docked/4682_out.pdbqt
+4816,umeclidinium,-6.7,runs/full-2YAU-TR-screen/docked/4816_out.pdbqt
+520,carteolol,-6.7,runs/full-2YAU-TR-screen/docked/520_out.pdbqt
+5288,cannabidiol,-6.7,runs/full-2YAU-TR-screen/docked/5288_out.pdbqt
+533,cefdinir,-6.7,runs/full-2YAU-TR-screen/docked/533_out.pdbqt
+5356,voxelotor,-6.7,runs/full-2YAU-TR-screen/docked/5356_out.pdbqt
+546,cefotaxime,-6.7,runs/full-2YAU-TR-screen/docked/546_out.pdbqt
+548,cefotiam,-6.7,runs/full-2YAU-TR-screen/docked/548_out.pdbqt
+610,chlorotrianisene,-6.7,runs/full-2YAU-TR-screen/docked/610_out.pdbqt
+663,citalopram,-6.7,runs/full-2YAU-TR-screen/docked/663_out.pdbqt
+674,clevidipine,-6.7,runs/full-2YAU-TR-screen/docked/674_out.pdbqt
+897,diltiazem,-6.7,runs/full-2YAU-TR-screen/docked/897_out.pdbqt
+922,dipivefrine,-6.7,runs/full-2YAU-TR-screen/docked/922_out.pdbqt
+1006,enalaprilat,-6.6,runs/full-2YAU-TR-screen/docked/1006_out.pdbqt
+1371,hexocyclium,-6.6,runs/full-2YAU-TR-screen/docked/1371_out.pdbqt
+1500,isopropamide,-6.6,runs/full-2YAU-TR-screen/docked/1500_out.pdbqt
+1528,ketoprofen,-6.6,runs/full-2YAU-TR-screen/docked/1528_out.pdbqt
+1529,ketorolac,-6.6,runs/full-2YAU-TR-screen/docked/1529_out.pdbqt
+1637,masoprocol,-6.6,runs/full-2YAU-TR-screen/docked/1637_out.pdbqt
+1742,methdilazine,-6.6,runs/full-2YAU-TR-screen/docked/1742_out.pdbqt
+1757,methscopolamine,-6.6,runs/full-2YAU-TR-screen/docked/1757_out.pdbqt
+1865,nadolol,-6.6,runs/full-2YAU-TR-screen/docked/1865_out.pdbqt
+1884,naratriptan,-6.6,runs/full-2YAU-TR-screen/docked/1884_out.pdbqt
+2098,pentostatin,-6.6,runs/full-2YAU-TR-screen/docked/2098_out.pdbqt
+2105,pergolide,-6.6,runs/full-2YAU-TR-screen/docked/2105_out.pdbqt
+2108,perindopril,-6.6,runs/full-2YAU-TR-screen/docked/2108_out.pdbqt
+2179,pioglitazone,-6.6,runs/full-2YAU-TR-screen/docked/2179_out.pdbqt
+2276,procyclidine,-6.6,runs/full-2YAU-TR-screen/docked/2276_out.pdbqt
+2282,proguanil,-6.6,runs/full-2YAU-TR-screen/docked/2282_out.pdbqt
+2298,propiomazine,-6.6,runs/full-2YAU-TR-screen/docked/2298_out.pdbqt
+2320,protriptyline,-6.6,runs/full-2YAU-TR-screen/docked/2320_out.pdbqt
+2350,rabeprazole,-6.6,runs/full-2YAU-TR-screen/docked/2350_out.pdbqt
+2355,ramelteon,-6.6,runs/full-2YAU-TR-screen/docked/2355_out.pdbqt
+2397,rofecoxib,-6.6,runs/full-2YAU-TR-screen/docked/2397_out.pdbqt
+2436,sertraline,-6.6,runs/full-2YAU-TR-screen/docked/2436_out.pdbqt
+2499,sulfacytine,-6.6,runs/full-2YAU-TR-screen/docked/2499_out.pdbqt
+2502,sulfadimidine,-6.6,runs/full-2YAU-TR-screen/docked/2502_out.pdbqt
+2585,temazepam,-6.6,runs/full-2YAU-TR-screen/docked/2585_out.pdbqt
+2706,topiramate,-6.6,runs/full-2YAU-TR-screen/docked/2706_out.pdbqt
+2712,trandolapril,-6.6,runs/full-2YAU-TR-screen/docked/2712_out.pdbqt
+2733,trichlormethiazide,-6.6,runs/full-2YAU-TR-screen/docked/2733_out.pdbqt
+2843,phytomenadione,-6.6,runs/full-2YAU-TR-screen/docked/2843_out.pdbqt
+3572,sulisobenzone,-6.6,runs/full-2YAU-TR-screen/docked/3572_out.pdbqt
+3739,etoxazene,-6.6,runs/full-2YAU-TR-screen/docked/3739_out.pdbqt
+4124,vorinostat,-6.6,runs/full-2YAU-TR-screen/docked/4124_out.pdbqt
+43,aceclofenac,-6.6,runs/full-2YAU-TR-screen/docked/43_out.pdbqt
+444,butenafine,-6.6,runs/full-2YAU-TR-screen/docked/444_out.pdbqt
+4666,betiatide,-6.6,runs/full-2YAU-TR-screen/docked/4666_out.pdbqt
+4713,tofacitinib,-6.6,runs/full-2YAU-TR-screen/docked/4713_out.pdbqt
+5202,baricitinib,-6.6,runs/full-2YAU-TR-screen/docked/5202_out.pdbqt
+5342,relebactam,-6.6,runs/full-2YAU-TR-screen/docked/5342_out.pdbqt
+647,cinacalcet,-6.6,runs/full-2YAU-TR-screen/docked/647_out.pdbqt
+701,clomipramine,-6.6,runs/full-2YAU-TR-screen/docked/701_out.pdbqt
+912,dinoprost,-6.6,runs/full-2YAU-TR-screen/docked/912_out.pdbqt
+926,disopyramide,-6.6,runs/full-2YAU-TR-screen/docked/926_out.pdbqt
+956,doxepin,-6.6,runs/full-2YAU-TR-screen/docked/956_out.pdbqt
+999,emedastine,-6.6,runs/full-2YAU-TR-screen/docked/999_out.pdbqt
+1013,enoxacin,-6.5,runs/full-2YAU-TR-screen/docked/1013_out.pdbqt
+1034,epoprostenol,-6.5,runs/full-2YAU-TR-screen/docked/1034_out.pdbqt
+1086,profenamine,-6.5,runs/full-2YAU-TR-screen/docked/1086_out.pdbqt
+1142,felodipine,-6.5,runs/full-2YAU-TR-screen/docked/1142_out.pdbqt
+1154,fenoprofen,-6.5,runs/full-2YAU-TR-screen/docked/1154_out.pdbqt
+1223,flutamide,-6.5,runs/full-2YAU-TR-screen/docked/1223_out.pdbqt
+1427,imipramine,-6.5,runs/full-2YAU-TR-screen/docked/1427_out.pdbqt
+1552,leflunomide,-6.5,runs/full-2YAU-TR-screen/docked/1552_out.pdbqt
+1556,letrozole,-6.5,runs/full-2YAU-TR-screen/docked/1556_out.pdbqt
+1634,maprotiline,-6.5,runs/full-2YAU-TR-screen/docked/1634_out.pdbqt
+1648,mecillinam,-6.5,runs/full-2YAU-TR-screen/docked/1648_out.pdbqt
+1650,meclofenamic acid,-6.5,runs/full-2YAU-TR-screen/docked/1650_out.pdbqt
+1663,mefenamic acid,-6.5,runs/full-2YAU-TR-screen/docked/1663_out.pdbqt
+1967,norfloxacin,-6.5,runs/full-2YAU-TR-screen/docked/1967_out.pdbqt
+2017,oxcarbazepine,-6.5,runs/full-2YAU-TR-screen/docked/2017_out.pdbqt
+2039,oxyphenonium,-6.5,runs/full-2YAU-TR-screen/docked/2039_out.pdbqt
+2082,benzylpenicillin,-6.5,runs/full-2YAU-TR-screen/docked/2082_out.pdbqt
+2090,pentamidine,-6.5,runs/full-2YAU-TR-screen/docked/2090_out.pdbqt
+209,anagrelide,-6.5,runs/full-2YAU-TR-screen/docked/209_out.pdbqt
+2291,propafenone,-6.5,runs/full-2YAU-TR-screen/docked/2291_out.pdbqt
+2343,quinethazone,-6.5,runs/full-2YAU-TR-screen/docked/2343_out.pdbqt
+2363,remifentanil,-6.5,runs/full-2YAU-TR-screen/docked/2363_out.pdbqt
+2403,ropivacaine,-6.5,runs/full-2YAU-TR-screen/docked/2403_out.pdbqt
+2407,rotigotine,-6.5,runs/full-2YAU-TR-screen/docked/2407_out.pdbqt
+2656,ticarcillin,-6.5,runs/full-2YAU-TR-screen/docked/2656_out.pdbqt
+2677,tiotropium bromide,-6.5,runs/full-2YAU-TR-screen/docked/2677_out.pdbqt
+2720,treprostinil,-6.5,runs/full-2YAU-TR-screen/docked/2720_out.pdbqt
+2758,trimipramine,-6.5,runs/full-2YAU-TR-screen/docked/2758_out.pdbqt
+2794,unoprostone isopropyl,-6.5,runs/full-2YAU-TR-screen/docked/2794_out.pdbqt
+2798,valaciclovir,-6.5,runs/full-2YAU-TR-screen/docked/2798_out.pdbqt
+2827,vinorelbine,-6.5,runs/full-2YAU-TR-screen/docked/2827_out.pdbqt
+3325,lodoxamide,-6.5,runs/full-2YAU-TR-screen/docked/3325_out.pdbqt
+4119,romidepsin,-6.5,runs/full-2YAU-TR-screen/docked/4119_out.pdbqt
+4151,silodosin,-6.5,runs/full-2YAU-TR-screen/docked/4151_out.pdbqt
+4189,hydroxyprogesterone caproate,-6.5,runs/full-2YAU-TR-screen/docked/4189_out.pdbqt
+4195,alpha-tocopherol acetate,-6.5,runs/full-2YAU-TR-screen/docked/4195_out.pdbqt
+431,levobunolol,-6.5,runs/full-2YAU-TR-screen/docked/431_out.pdbqt
+432,bupivacaine,-6.5,runs/full-2YAU-TR-screen/docked/432_out.pdbqt
+4745,glycerol phenylbutyrate,-6.5,runs/full-2YAU-TR-screen/docked/4745_out.pdbqt
+5029,uridine triacetate,-6.5,runs/full-2YAU-TR-screen/docked/5029_out.pdbqt
+522,carvedilol,-6.5,runs/full-2YAU-TR-screen/docked/522_out.pdbqt
+5461,sotorasib,-6.5,runs/full-2YAU-TR-screen/docked/5461_out.pdbqt
+563,ceftizoxime,-6.5,runs/full-2YAU-TR-screen/docked/563_out.pdbqt
+565,cefuroxime,-6.5,runs/full-2YAU-TR-screen/docked/565_out.pdbqt
+574,cefalotin,-6.5,runs/full-2YAU-TR-screen/docked/574_out.pdbqt
+691,clofarabine,-6.5,runs/full-2YAU-TR-screen/docked/691_out.pdbqt
+749,cyclizine,-6.5,runs/full-2YAU-TR-screen/docked/749_out.pdbqt
+78,acitretin,-6.5,runs/full-2YAU-TR-screen/docked/78_out.pdbqt
+812,desipramine,-6.5,runs/full-2YAU-TR-screen/docked/812_out.pdbqt
+813,deslanoside,-6.5,runs/full-2YAU-TR-screen/docked/813_out.pdbqt
+868,dicycloverine,-6.5,runs/full-2YAU-TR-screen/docked/868_out.pdbqt
+972,duloxetine,-6.5,runs/full-2YAU-TR-screen/docked/972_out.pdbqt
+1184,floxuridine,-6.4,runs/full-2YAU-TR-screen/docked/1184_out.pdbqt
+1187,fluconazole,-6.4,runs/full-2YAU-TR-screen/docked/1187_out.pdbqt
+1331,griseofulvin,-6.4,runs/full-2YAU-TR-screen/docked/1331_out.pdbqt
+1364,hexachlorophene,-6.4,runs/full-2YAU-TR-screen/docked/1364_out.pdbqt
+1392,hydroflumethiazide,-6.4,runs/full-2YAU-TR-screen/docked/1392_out.pdbqt
+1472,ioxaglic acid,-6.4,runs/full-2YAU-TR-screen/docked/1472_out.pdbqt
+179,amisulpride,-6.4,runs/full-2YAU-TR-screen/docked/179_out.pdbqt
+1872,naftifine,-6.4,runs/full-2YAU-TR-screen/docked/1872_out.pdbqt
+1881,nandrolone decanoate,-6.4,runs/full-2YAU-TR-screen/docked/1881_out.pdbqt
+1943,nitazoxanide,-6.4,runs/full-2YAU-TR-screen/docked/1943_out.pdbqt
+1990,omeprazole,-6.4,runs/full-2YAU-TR-screen/docked/1990_out.pdbqt
+2026,oxyphencyclimine,-6.4,runs/full-2YAU-TR-screen/docked/2026_out.pdbqt
+2032,oxymetazoline,-6.4,runs/full-2YAU-TR-screen/docked/2032_out.pdbqt
+2130,phenindione,-6.4,runs/full-2YAU-TR-screen/docked/2130_out.pdbqt
+222,anisindione,-6.4,runs/full-2YAU-TR-screen/docked/222_out.pdbqt
+224,antazoline,-6.4,runs/full-2YAU-TR-screen/docked/224_out.pdbqt
+245,artemether,-6.4,runs/full-2YAU-TR-screen/docked/245_out.pdbqt
+2533,aldesulfone,-6.4,runs/full-2YAU-TR-screen/docked/2533_out.pdbqt
+2562,tamsulosin,-6.4,runs/full-2YAU-TR-screen/docked/2562_out.pdbqt
+2646,levothyroxine,-6.4,runs/full-2YAU-TR-screen/docked/2646_out.pdbqt
+2675,tioconazole,-6.4,runs/full-2YAU-TR-screen/docked/2675_out.pdbqt
+2699,tolmetin,-6.4,runs/full-2YAU-TR-screen/docked/2699_out.pdbqt
+2734,triclabendazole,-6.4,runs/full-2YAU-TR-screen/docked/2734_out.pdbqt
+2769,troleandomycin,-6.4,runs/full-2YAU-TR-screen/docked/2769_out.pdbqt
+2831,retinol,-6.4,runs/full-2YAU-TR-screen/docked/2831_out.pdbqt
+2869,zolmitriptan,-6.4,runs/full-2YAU-TR-screen/docked/2869_out.pdbqt
+3301,inosine,-6.4,runs/full-2YAU-TR-screen/docked/3301_out.pdbqt
+3312,ivabradine,-6.4,runs/full-2YAU-TR-screen/docked/3312_out.pdbqt
+3369,naphazoline,-6.4,runs/full-2YAU-TR-screen/docked/3369_out.pdbqt
+4135,lisdexamfetamine,-6.4,runs/full-2YAU-TR-screen/docked/4135_out.pdbqt
+4302,glycopyrronium bromide,-6.4,runs/full-2YAU-TR-screen/docked/4302_out.pdbqt
+4444,meradimate,-6.4,runs/full-2YAU-TR-screen/docked/4444_out.pdbqt
+4501,armodafinil,-6.4,runs/full-2YAU-TR-screen/docked/4501_out.pdbqt
+4505,choline fenofibrate,-6.4,runs/full-2YAU-TR-screen/docked/4505_out.pdbqt
+4602,diethylamino hydroxybenzoyl hexyl benzoate,-6.4,runs/full-2YAU-TR-screen/docked/4602_out.pdbqt
+4,levobupivacaine,-6.4,runs/full-2YAU-TR-screen/docked/4_out.pdbqt
+530,cefazolin,-6.4,runs/full-2YAU-TR-screen/docked/530_out.pdbqt
+5462,ibrexafungerp,-6.4,runs/full-2YAU-TR-screen/docked/5462_out.pdbqt
+550,cefoxitin,-6.4,runs/full-2YAU-TR-screen/docked/550_out.pdbqt
+575,cefapirin,-6.4,runs/full-2YAU-TR-screen/docked/575_out.pdbqt
+589,chloramphenicol,-6.4,runs/full-2YAU-TR-screen/docked/589_out.pdbqt
+622,chlorpropamide,-6.4,runs/full-2YAU-TR-screen/docked/622_out.pdbqt
+678,clindamycin,-6.4,runs/full-2YAU-TR-screen/docked/678_out.pdbqt
+801,demecarium,-6.4,runs/full-2YAU-TR-screen/docked/801_out.pdbqt
+846,dextrothyroxine,-6.4,runs/full-2YAU-TR-screen/docked/846_out.pdbqt
+847,dezocine,-6.4,runs/full-2YAU-TR-screen/docked/847_out.pdbqt
+859,cinchocaine,-6.4,runs/full-2YAU-TR-screen/docked/859_out.pdbqt
+865,diclofenac,-6.4,runs/full-2YAU-TR-screen/docked/865_out.pdbqt
+880,diflunisal,-6.4,runs/full-2YAU-TR-screen/docked/880_out.pdbqt
+90,adenosine,-6.4,runs/full-2YAU-TR-screen/docked/90_out.pdbqt
+1005,enalapril,-6.3,runs/full-2YAU-TR-screen/docked/1005_out.pdbqt
+1219,flurbiprofen,-6.3,runs/full-2YAU-TR-screen/docked/1219_out.pdbqt
+1239,formoterol,-6.3,runs/full-2YAU-TR-screen/docked/1239_out.pdbqt
+128,almotriptan,-6.3,runs/full-2YAU-TR-screen/docked/128_out.pdbqt
+1343,guanfacine,-6.3,runs/full-2YAU-TR-screen/docked/1343_out.pdbqt
+1373,hexylcaine,-6.3,runs/full-2YAU-TR-screen/docked/1373_out.pdbqt
+1379,homatropine,-6.3,runs/full-2YAU-TR-screen/docked/1379_out.pdbqt
+1434,indecainide,-6.3,runs/full-2YAU-TR-screen/docked/1434_out.pdbqt
+1461,iohexol,-6.3,runs/full-2YAU-TR-screen/docked/1461_out.pdbqt
+1464,iopamidol,-6.3,runs/full-2YAU-TR-screen/docked/1464_out.pdbqt
+1475,ipratropium,-6.3,runs/full-2YAU-TR-screen/docked/1475_out.pdbqt
+1573,levopropoxyphene,-6.3,runs/full-2YAU-TR-screen/docked/1573_out.pdbqt
+158,amiloride,-6.3,runs/full-2YAU-TR-screen/docked/158_out.pdbqt
+1672,melatonin,-6.3,runs/full-2YAU-TR-screen/docked/1672_out.pdbqt
+1728,methadone,-6.3,runs/full-2YAU-TR-screen/docked/1728_out.pdbqt
+1822,mivacurium,-6.3,runs/full-2YAU-TR-screen/docked/1822_out.pdbqt
+183,amlodipine,-6.3,runs/full-2YAU-TR-screen/docked/183_out.pdbqt
+1857,mupirocin,-6.3,runs/full-2YAU-TR-screen/docked/1857_out.pdbqt
+1892,nelarabine,-6.3,runs/full-2YAU-TR-screen/docked/1892_out.pdbqt
+1904,nevirapine,-6.3,runs/full-2YAU-TR-screen/docked/1904_out.pdbqt
+1929,nifurtimox,-6.3,runs/full-2YAU-TR-screen/docked/1929_out.pdbqt
+1958,nomifensine,-6.3,runs/full-2YAU-TR-screen/docked/1958_out.pdbqt
+2056,papaverine,-6.3,runs/full-2YAU-TR-screen/docked/2056_out.pdbqt
+2120,phenazopyridine,-6.3,runs/full-2YAU-TR-screen/docked/2120_out.pdbqt
+2173,pinacidil,-6.3,runs/full-2YAU-TR-screen/docked/2173_out.pdbqt
+2176,pindolol,-6.3,runs/full-2YAU-TR-screen/docked/2176_out.pdbqt
+2420,salsalate,-6.3,runs/full-2YAU-TR-screen/docked/2420_out.pdbqt
+2510,sulfamerazine,-6.3,runs/full-2YAU-TR-screen/docked/2510_out.pdbqt
+2511,sulfameter,-6.3,runs/full-2YAU-TR-screen/docked/2511_out.pdbqt
+2529,sulfafurazole,-6.3,runs/full-2YAU-TR-screen/docked/2529_out.pdbqt
+2759,trioxsalen,-6.3,runs/full-2YAU-TR-screen/docked/2759_out.pdbqt
+2862,zileuton,-6.3,runs/full-2YAU-TR-screen/docked/2862_out.pdbqt
+322,benznidazole,-6.3,runs/full-2YAU-TR-screen/docked/322_out.pdbqt
+331,benzquinamide,-6.3,runs/full-2YAU-TR-screen/docked/331_out.pdbqt
+3534,rufinamide,-6.3,runs/full-2YAU-TR-screen/docked/3534_out.pdbqt
+3631,triclosan,-6.3,runs/full-2YAU-TR-screen/docked/3631_out.pdbqt
+3966,iodoxamic acid,-6.3,runs/full-2YAU-TR-screen/docked/3966_out.pdbqt
+40,acebutolol,-6.3,runs/full-2YAU-TR-screen/docked/40_out.pdbqt
+4197,vitamin A palmitate,-6.3,runs/full-2YAU-TR-screen/docked/4197_out.pdbqt
+4799,vilanterol,-6.3,runs/full-2YAU-TR-screen/docked/4799_out.pdbqt
+4943,arformoterol,-6.3,runs/full-2YAU-TR-screen/docked/4943_out.pdbqt
+502,carboprost,-6.3,runs/full-2YAU-TR-screen/docked/502_out.pdbqt
+5032,menadiol sodium diphosphate,-6.3,runs/full-2YAU-TR-screen/docked/5032_out.pdbqt
+5226,deutetrabenazine,-6.3,runs/full-2YAU-TR-screen/docked/5226_out.pdbqt
+5243,glecaprevir,-6.3,runs/full-2YAU-TR-screen/docked/5243_out.pdbqt
+621,chlorpromazine,-6.3,runs/full-2YAU-TR-screen/docked/621_out.pdbqt
+667,cladribine,-6.3,runs/full-2YAU-TR-screen/docked/667_out.pdbqt
+708,clopidogrel,-6.3,runs/full-2YAU-TR-screen/docked/708_out.pdbqt
+881,digitoxin,-6.3,runs/full-2YAU-TR-screen/docked/881_out.pdbqt
+1018,entacapone,-6.2,runs/full-2YAU-TR-screen/docked/1018_out.pdbqt
+1129,famotidine,-6.2,runs/full-2YAU-TR-screen/docked/1129_out.pdbqt
+1258,furosemide,-6.2,runs/full-2YAU-TR-screen/docked/1258_out.pdbqt
+1283,gemcitabine,-6.2,runs/full-2YAU-TR-screen/docked/1283_out.pdbqt
+1385,hydrochlorothiazide,-6.2,runs/full-2YAU-TR-screen/docked/1385_out.pdbqt
+1585,liothyronine,-6.2,runs/full-2YAU-TR-screen/docked/1585_out.pdbqt
+1700,mepivacaine,-6.2,runs/full-2YAU-TR-screen/docked/1700_out.pdbqt
+1752,levomepromazine,-6.2,runs/full-2YAU-TR-screen/docked/1752_out.pdbqt
+1759,methylclothiazide,-6.2,runs/full-2YAU-TR-screen/docked/1759_out.pdbqt
+1830,molindone,-6.2,runs/full-2YAU-TR-screen/docked/1830_out.pdbqt
+1922,nifedipine,-6.2,runs/full-2YAU-TR-screen/docked/1922_out.pdbqt
+1949,nitrofurantoin,-6.2,runs/full-2YAU-TR-screen/docked/1949_out.pdbqt
+2009,oxamniquine,-6.2,runs/full-2YAU-TR-screen/docked/2009_out.pdbqt
+2074,pemirolast,-6.2,runs/full-2YAU-TR-screen/docked/2074_out.pdbqt
+2143,fenamisal,-6.2,runs/full-2YAU-TR-screen/docked/2143_out.pdbqt
+2440,sibutramine,-6.2,runs/full-2YAU-TR-screen/docked/2440_out.pdbqt
+2514,sulfamethoxazole,-6.2,runs/full-2YAU-TR-screen/docked/2514_out.pdbqt
+2737,tridihexethyl,-6.2,runs/full-2YAU-TR-screen/docked/2737_out.pdbqt
+2818,vidarabine,-6.2,runs/full-2YAU-TR-screen/docked/2818_out.pdbqt
+2859,zanamivir,-6.2,runs/full-2YAU-TR-screen/docked/2859_out.pdbqt
+3248,fosfestrol,-6.2,runs/full-2YAU-TR-screen/docked/3248_out.pdbqt
+3429,perflexane,-6.2,runs/full-2YAU-TR-screen/docked/3429_out.pdbqt
+4267,arbutin,-6.2,runs/full-2YAU-TR-screen/docked/4267_out.pdbqt
+4310,lacosamide,-6.2,runs/full-2YAU-TR-screen/docked/4310_out.pdbqt
+4382,mirabegron,-6.2,runs/full-2YAU-TR-screen/docked/4382_out.pdbqt
+4823,peramivir,-6.2,runs/full-2YAU-TR-screen/docked/4823_out.pdbqt
+4832,naloxegol,-6.2,runs/full-2YAU-TR-screen/docked/4832_out.pdbqt
+5384,osilodrostat,-6.2,runs/full-2YAU-TR-screen/docked/5384_out.pdbqt
+5402,inqovi,-6.2,runs/full-2YAU-TR-screen/docked/5402_out.pdbqt
+763,cycrimine,-6.2,runs/full-2YAU-TR-screen/docked/763_out.pdbqt
+870,dienestrol,-6.2,runs/full-2YAU-TR-screen/docked/870_out.pdbqt
+875,diethylstilbestrol,-6.2,runs/full-2YAU-TR-screen/docked/875_out.pdbqt
+1285,gemfibrozil,-6.1,runs/full-2YAU-TR-screen/docked/1285_out.pdbqt
+1313,glutethimide,-6.1,runs/full-2YAU-TR-screen/docked/1313_out.pdbqt
+1339,guanadrel,-6.1,runs/full-2YAU-TR-screen/docked/1339_out.pdbqt
+1342,guanethidine,-6.1,runs/full-2YAU-TR-screen/docked/1342_out.pdbqt
+1395,hydroxychloroquine,-6.1,runs/full-2YAU-TR-screen/docked/1395_out.pdbqt
+1468,iopromide,-6.1,runs/full-2YAU-TR-screen/docked/1468_out.pdbqt
+1473,ioxilan,-6.1,runs/full-2YAU-TR-screen/docked/1473_out.pdbqt
+1571,levomethadyl acetate,-6.1,runs/full-2YAU-TR-screen/docked/1571_out.pdbqt
+1779,metipranolol,-6.1,runs/full-2YAU-TR-screen/docked/1779_out.pdbqt
+1942,nisoldipine,-6.1,runs/full-2YAU-TR-screen/docked/1942_out.pdbqt
+1996,orlistat,-6.1,runs/full-2YAU-TR-screen/docked/1996_out.pdbqt
+2079,penciclovir,-6.1,runs/full-2YAU-TR-screen/docked/2079_out.pdbqt
+2265,prilocaine,-6.1,runs/full-2YAU-TR-screen/docked/2265_out.pdbqt
+2478,stavudine,-6.1,runs/full-2YAU-TR-screen/docked/2478_out.pdbqt
+2503,sulfadoxine,-6.1,runs/full-2YAU-TR-screen/docked/2503_out.pdbqt
+2512,sulfamethizole,-6.1,runs/full-2YAU-TR-screen/docked/2512_out.pdbqt
+2546,suprofen,-6.1,runs/full-2YAU-TR-screen/docked/2546_out.pdbqt
+2572,tazobactam,-6.1,runs/full-2YAU-TR-screen/docked/2572_out.pdbqt
+2749,alimemazine,-6.1,runs/full-2YAU-TR-screen/docked/2749_out.pdbqt
+2754,trimethobenzamide,-6.1,runs/full-2YAU-TR-screen/docked/2754_out.pdbqt
+2813,venlafaxine,-6.1,runs/full-2YAU-TR-screen/docked/2813_out.pdbqt
+2815,verapamil,-6.1,runs/full-2YAU-TR-screen/docked/2815_out.pdbqt
+3018,benzethonium,-6.1,runs/full-2YAU-TR-screen/docked/3018_out.pdbqt
+328,benzoyl peroxide,-6.1,runs/full-2YAU-TR-screen/docked/328_out.pdbqt
+3302,iodixanol,-6.1,runs/full-2YAU-TR-screen/docked/3302_out.pdbqt
+3332,mebrofenin,-6.1,runs/full-2YAU-TR-screen/docked/3332_out.pdbqt
+3591,tetryzoline,-6.1,runs/full-2YAU-TR-screen/docked/3591_out.pdbqt
+427,bumetanide,-6.1,runs/full-2YAU-TR-screen/docked/427_out.pdbqt
+4820,tasimelteon,-6.1,runs/full-2YAU-TR-screen/docked/4820_out.pdbqt
+496,carbidopa,-6.1,runs/full-2YAU-TR-screen/docked/496_out.pdbqt
+5261,latanoprostene bunod,-6.1,runs/full-2YAU-TR-screen/docked/5261_out.pdbqt
+539,cefmetazole,-6.1,runs/full-2YAU-TR-screen/docked/539_out.pdbqt
+679,clindamycin palmitate,-6.1,runs/full-2YAU-TR-screen/docked/679_out.pdbqt
+844,dextropropoxyphene,-6.1,runs/full-2YAU-TR-screen/docked/844_out.pdbqt
+974,dyclonine,-6.1,runs/full-2YAU-TR-screen/docked/974_out.pdbqt
+1040,eptifibatide,-6.0,runs/full-2YAU-TR-screen/docked/1040_out.pdbqt
+1128,famciclovir,-6.0,runs/full-2YAU-TR-screen/docked/1128_out.pdbqt
+138,alprostadil,-6.0,runs/full-2YAU-TR-screen/docked/138_out.pdbqt
+1417,idoxuridine,-6.0,runs/full-2YAU-TR-screen/docked/1417_out.pdbqt
+1429,imiquimod,-6.0,runs/full-2YAU-TR-screen/docked/1429_out.pdbqt
+1448,iobenguane (123I),-6.0,runs/full-2YAU-TR-screen/docked/1448_out.pdbqt
+164,aminoglutethimide,-6.0,runs/full-2YAU-TR-screen/docked/164_out.pdbqt
+1722,metaxalone,-6.0,runs/full-2YAU-TR-screen/docked/1722_out.pdbqt
+1826,modafinil,-6.0,runs/full-2YAU-TR-screen/docked/1826_out.pdbqt
+1863,nabumetone,-6.0,runs/full-2YAU-TR-screen/docked/1863_out.pdbqt
+1883,naproxen,-6.0,runs/full-2YAU-TR-screen/docked/1883_out.pdbqt
+1999,orphenadrine,-6.0,runs/full-2YAU-TR-screen/docked/1999_out.pdbqt
+226,dithranol,-6.0,runs/full-2YAU-TR-screen/docked/226_out.pdbqt
+2277,proflavine,-6.0,runs/full-2YAU-TR-screen/docked/2277_out.pdbqt
+2284,promazine,-6.0,runs/full-2YAU-TR-screen/docked/2284_out.pdbqt
+2286,promethazine,-6.0,runs/full-2YAU-TR-screen/docked/2286_out.pdbqt
+2405,rosiglitazone,-6.0,runs/full-2YAU-TR-screen/docked/2405_out.pdbqt
+2551,tacrine,-6.0,runs/full-2YAU-TR-screen/docked/2551_out.pdbqt
+2593,tenofovir disoproxil,-6.0,runs/full-2YAU-TR-screen/docked/2593_out.pdbqt
+2658,tienilic acid,-6.0,runs/full-2YAU-TR-screen/docked/2658_out.pdbqt
+2780,tryptophan,-6.0,runs/full-2YAU-TR-screen/docked/2780_out.pdbqt
+2808,varenicline,-6.0,runs/full-2YAU-TR-screen/docked/2808_out.pdbqt
+302,bendamustine,-6.0,runs/full-2YAU-TR-screen/docked/302_out.pdbqt
+3159,dioxybenzone,-6.0,runs/full-2YAU-TR-screen/docked/3159_out.pdbqt
+335,benzyl benzoate,-6.0,runs/full-2YAU-TR-screen/docked/335_out.pdbqt
+3658,xylometazoline,-6.0,runs/full-2YAU-TR-screen/docked/3658_out.pdbqt
+3952,guanabenz,-6.0,runs/full-2YAU-TR-screen/docked/3952_out.pdbqt
+4123,lubiprostone,-6.0,runs/full-2YAU-TR-screen/docked/4123_out.pdbqt
+4230,Ioflupane I-123,-6.0,runs/full-2YAU-TR-screen/docked/4230_out.pdbqt
+4577,iobenguane (131I),-6.0,runs/full-2YAU-TR-screen/docked/4577_out.pdbqt
+4619,levomenol,-6.0,runs/full-2YAU-TR-screen/docked/4619_out.pdbqt
+4893,tipiracil,-6.0,runs/full-2YAU-TR-screen/docked/4893_out.pdbqt
+494,pentoxyverine,-6.0,runs/full-2YAU-TR-screen/docked/494_out.pdbqt
+5130,oxiglutatione,-6.0,runs/full-2YAU-TR-screen/docked/5130_out.pdbqt
+5349,tenapanor,-6.0,runs/full-2YAU-TR-screen/docked/5349_out.pdbqt
+5445,melphalan flufenamide,-6.0,runs/full-2YAU-TR-screen/docked/5445_out.pdbqt
+607,chloroquine,-6.0,runs/full-2YAU-TR-screen/docked/607_out.pdbqt
+645,cimetidine,-6.0,runs/full-2YAU-TR-screen/docked/645_out.pdbqt
+792,deferoxamine,-6.0,runs/full-2YAU-TR-screen/docked/792_out.pdbqt
+839,dexrazoxane,-6.0,runs/full-2YAU-TR-screen/docked/839_out.pdbqt
+103,albendazole,-5.9,runs/full-2YAU-TR-screen/docked/103_out.pdbqt
+1051,erythromycin ethyl succinate,-5.9,runs/full-2YAU-TR-screen/docked/1051_out.pdbqt
+105,salbutamol,-5.9,runs/full-2YAU-TR-screen/docked/105_out.pdbqt
+1540,lamotrigine,-5.9,runs/full-2YAU-TR-screen/docked/1540_out.pdbqt
+1575,levosalbutamol,-5.9,runs/full-2YAU-TR-screen/docked/1575_out.pdbqt
+1679,memantine,-5.9,runs/full-2YAU-TR-screen/docked/1679_out.pdbqt
+1748,methohexital,-5.9,runs/full-2YAU-TR-screen/docked/1748_out.pdbqt
+1763,methylthioninium chloride,-5.9,runs/full-2YAU-TR-screen/docked/1763_out.pdbqt
+1809,milrinone,-5.9,runs/full-2YAU-TR-screen/docked/1809_out.pdbqt
+1817,misoprostol,-5.9,runs/full-2YAU-TR-screen/docked/1817_out.pdbqt
+1820,mitotane,-5.9,runs/full-2YAU-TR-screen/docked/1820_out.pdbqt
+1950,nitrofurazone,-5.9,runs/full-2YAU-TR-screen/docked/1950_out.pdbqt
+2001,oseltamivir,-5.9,runs/full-2YAU-TR-screen/docked/2001_out.pdbqt
+2114,phenacemide,-5.9,runs/full-2YAU-TR-screen/docked/2114_out.pdbqt
+2199,pirbuterol,-5.9,runs/full-2YAU-TR-screen/docked/2199_out.pdbqt
+2267,primidone,-5.9,runs/full-2YAU-TR-screen/docked/2267_out.pdbqt
+2332,pyrimethamine,-5.9,runs/full-2YAU-TR-screen/docked/2332_out.pdbqt
+2393,rizatriptan,-5.9,runs/full-2YAU-TR-screen/docked/2393_out.pdbqt
+2402,ropinirole,-5.9,runs/full-2YAU-TR-screen/docked/2402_out.pdbqt
+2500,sulfadiazine,-5.9,runs/full-2YAU-TR-screen/docked/2500_out.pdbqt
+2524,sulfapyridine,-5.9,runs/full-2YAU-TR-screen/docked/2524_out.pdbqt
+256,atomoxetine,-5.9,runs/full-2YAU-TR-screen/docked/256_out.pdbqt
+25,azacitidine,-5.9,runs/full-2YAU-TR-screen/docked/25_out.pdbqt
+2621,thiabendazole,-5.9,runs/full-2YAU-TR-screen/docked/2621_out.pdbqt
+2683,tizanidine,-5.9,runs/full-2YAU-TR-screen/docked/2683_out.pdbqt
+2711,tramadol,-5.9,runs/full-2YAU-TR-screen/docked/2711_out.pdbqt
+2755,trimethoprim,-5.9,runs/full-2YAU-TR-screen/docked/2755_out.pdbqt
+2785,tyropanoate,-5.9,runs/full-2YAU-TR-screen/docked/2785_out.pdbqt
+2832,thiamine,-5.9,runs/full-2YAU-TR-screen/docked/2832_out.pdbqt
+3412,oxybenzone,-5.9,runs/full-2YAU-TR-screen/docked/3412_out.pdbqt
+3462,phenyl salicylate,-5.9,runs/full-2YAU-TR-screen/docked/3462_out.pdbqt
+396,brinzolamide,-5.9,runs/full-2YAU-TR-screen/docked/396_out.pdbqt
+404,bromazine,-5.9,runs/full-2YAU-TR-screen/docked/404_out.pdbqt
+4458,sulfisoxazole acetyl,-5.9,runs/full-2YAU-TR-screen/docked/4458_out.pdbqt
+4610,sucrose,-5.9,runs/full-2YAU-TR-screen/docked/4610_out.pdbqt
+5150,chloramphenicol palmitate,-5.9,runs/full-2YAU-TR-screen/docked/5150_out.pdbqt
+585,clofedanol,-5.9,runs/full-2YAU-TR-screen/docked/585_out.pdbqt
+603,chlormezanone,-5.9,runs/full-2YAU-TR-screen/docked/603_out.pdbqt
+616,chlorphenamine,-5.9,runs/full-2YAU-TR-screen/docked/616_out.pdbqt
+657,cinoxacin,-5.9,runs/full-2YAU-TR-screen/docked/657_out.pdbqt
+854,diazoxide,-5.9,runs/full-2YAU-TR-screen/docked/854_out.pdbqt
+916,diphenhydramine,-5.9,runs/full-2YAU-TR-screen/docked/916_out.pdbqt
+937,dobutamine,-5.9,runs/full-2YAU-TR-screen/docked/937_out.pdbqt
+942,dofetilide,-5.9,runs/full-2YAU-TR-screen/docked/942_out.pdbqt
+949,dorzolamide,-5.9,runs/full-2YAU-TR-screen/docked/949_out.pdbqt
+962,doxylamine,-5.9,runs/full-2YAU-TR-screen/docked/962_out.pdbqt
+1097,etidocaine,-5.8,runs/full-2YAU-TR-screen/docked/1097_out.pdbqt
+1325,glycyrrhizic acid,-5.8,runs/full-2YAU-TR-screen/docked/1325_out.pdbqt
+1384,hydralazine,-5.8,runs/full-2YAU-TR-screen/docked/1384_out.pdbqt
+1471,ioversol,-5.8,runs/full-2YAU-TR-screen/docked/1471_out.pdbqt
+1491,isoetarine,-5.8,runs/full-2YAU-TR-screen/docked/1491_out.pdbqt
+1499,isoprenaline,-5.8,runs/full-2YAU-TR-screen/docked/1499_out.pdbqt
+1579,lidocaine,-5.8,runs/full-2YAU-TR-screen/docked/1579_out.pdbqt
+1834,monobenzone,-5.8,runs/full-2YAU-TR-screen/docked/1834_out.pdbqt
+1875,nalidixic acid,-5.8,runs/full-2YAU-TR-screen/docked/1875_out.pdbqt
+2099,pentoxifylline,-5.8,runs/full-2YAU-TR-screen/docked/2099_out.pdbqt
+2223,plicamycin,-5.8,runs/full-2YAU-TR-screen/docked/2223_out.pdbqt
+2268,probenecid,-5.8,runs/full-2YAU-TR-screen/docked/2268_out.pdbqt
+2272,procarbazine,-5.8,runs/full-2YAU-TR-screen/docked/2272_out.pdbqt
+2331,mepyramine,-5.8,runs/full-2YAU-TR-screen/docked/2331_out.pdbqt
+2373,ribavirin,-5.8,runs/full-2YAU-TR-screen/docked/2373_out.pdbqt
+2543,sumatriptan,-5.8,runs/full-2YAU-TR-screen/docked/2543_out.pdbqt
+2657,ticlopidine,-5.8,runs/full-2YAU-TR-screen/docked/2657_out.pdbqt
+2686,tocainide,-5.8,runs/full-2YAU-TR-screen/docked/2686_out.pdbqt
+269,azathioprine,-5.8,runs/full-2YAU-TR-screen/docked/269_out.pdbqt
+2762,tripelennamine,-5.8,runs/full-2YAU-TR-screen/docked/2762_out.pdbqt
+2774,tropicamide,-5.8,runs/full-2YAU-TR-screen/docked/2774_out.pdbqt
+3483,posaconazole,-5.8,runs/full-2YAU-TR-screen/docked/3483_out.pdbqt
+3976,kinetin,-5.8,runs/full-2YAU-TR-screen/docked/3976_out.pdbqt
+4061,timolol,-5.8,runs/full-2YAU-TR-screen/docked/4061_out.pdbqt
+408,brompheniramine,-5.8,runs/full-2YAU-TR-screen/docked/408_out.pdbqt
+4177,gabapentin enacarbil,-5.8,runs/full-2YAU-TR-screen/docked/4177_out.pdbqt
+4220,telbivudine,-5.8,runs/full-2YAU-TR-screen/docked/4220_out.pdbqt
+4236,octinoxate,-5.8,runs/full-2YAU-TR-screen/docked/4236_out.pdbqt
+4241,octisalate,-5.8,runs/full-2YAU-TR-screen/docked/4241_out.pdbqt
+4380,desvenlafaxine,-5.8,runs/full-2YAU-TR-screen/docked/4380_out.pdbqt
+4481,N-Acetyltyrosine,-5.8,runs/full-2YAU-TR-screen/docked/4481_out.pdbqt
+4500,amiloxate,-5.8,runs/full-2YAU-TR-screen/docked/4500_out.pdbqt
+4550,fluorodopa (18F),-5.8,runs/full-2YAU-TR-screen/docked/4550_out.pdbqt
+4618,linolenic acid,-5.8,runs/full-2YAU-TR-screen/docked/4618_out.pdbqt
+4649,dipyrithione,-5.8,runs/full-2YAU-TR-screen/docked/4649_out.pdbqt
+614,chlorphenesin carbamate,-5.8,runs/full-2YAU-TR-screen/docked/614_out.pdbqt
+636,ciclopirox,-5.8,runs/full-2YAU-TR-screen/docked/636_out.pdbqt
+817,desmopressin,-5.8,runs/full-2YAU-TR-screen/docked/817_out.pdbqt
+1003,emtricitabine,-5.7,runs/full-2YAU-TR-screen/docked/1003_out.pdbqt
+1054,esmolol,-5.7,runs/full-2YAU-TR-screen/docked/1054_out.pdbqt
+1071,ethacrynic acid,-5.7,runs/full-2YAU-TR-screen/docked/1071_out.pdbqt
+1273,gallamine,-5.7,runs/full-2YAU-TR-screen/docked/1273_out.pdbqt
+1549,arginine,-5.7,runs/full-2YAU-TR-screen/docked/1549_out.pdbqt
+1593,lofexidine,-5.7,runs/full-2YAU-TR-screen/docked/1593_out.pdbqt
+1695,mephenytoin,-5.7,runs/full-2YAU-TR-screen/docked/1695_out.pdbqt
+1791,metyrapone,-5.7,runs/full-2YAU-TR-screen/docked/1791_out.pdbqt
+1814,minoxidil,-5.7,runs/full-2YAU-TR-screen/docked/1814_out.pdbqt
+184,amobarbital,-5.7,runs/full-2YAU-TR-screen/docked/184_out.pdbqt
+2095,pentobarbital,-5.7,runs/full-2YAU-TR-screen/docked/2095_out.pdbqt
+2132,pheniramine,-5.7,runs/full-2YAU-TR-screen/docked/2132_out.pdbqt
+223,octatropine methylbromide,-5.7,runs/full-2YAU-TR-screen/docked/223_out.pdbqt
+2294,proparacaine,-5.7,runs/full-2YAU-TR-screen/docked/2294_out.pdbqt
+229,apraclonidine,-5.7,runs/full-2YAU-TR-screen/docked/229_out.pdbqt
+2382,riluzole,-5.7,runs/full-2YAU-TR-screen/docked/2382_out.pdbqt
+255,atenolol,-5.7,runs/full-2YAU-TR-screen/docked/255_out.pdbqt
+2633,thiopental,-5.7,runs/full-2YAU-TR-screen/docked/2633_out.pdbqt
+2666,tiludronic acid,-5.7,runs/full-2YAU-TR-screen/docked/2666_out.pdbqt
+2856,zalcitabine,-5.7,runs/full-2YAU-TR-screen/docked/2856_out.pdbqt
+3016,oxybuprocaine,-5.7,runs/full-2YAU-TR-screen/docked/3016_out.pdbqt
+3174,eicosapentaenoic acid,-5.7,runs/full-2YAU-TR-screen/docked/3174_out.pdbqt
+395,brimonidine,-5.7,runs/full-2YAU-TR-screen/docked/395_out.pdbqt
+4218,methyldopate,-5.7,runs/full-2YAU-TR-screen/docked/4218_out.pdbqt
+435,bupropion,-5.7,runs/full-2YAU-TR-screen/docked/435_out.pdbqt
+4411,dexchlorpheniramine,-5.7,runs/full-2YAU-TR-screen/docked/4411_out.pdbqt
+4946,avibactam,-5.7,runs/full-2YAU-TR-screen/docked/4946_out.pdbqt
+499,carbinoxamine,-5.7,runs/full-2YAU-TR-screen/docked/499_out.pdbqt
+5048,pitolisant,-5.7,runs/full-2YAU-TR-screen/docked/5048_out.pdbqt
+5355,cenobamate,-5.7,runs/full-2YAU-TR-screen/docked/5355_out.pdbqt
+5399,triheptanoin,-5.7,runs/full-2YAU-TR-screen/docked/5399_out.pdbqt
+5403,abametapir,-5.7,runs/full-2YAU-TR-screen/docked/5403_out.pdbqt
+609,chlorothiazide,-5.7,runs/full-2YAU-TR-screen/docked/609_out.pdbqt
+611,chloroxine,-5.7,runs/full-2YAU-TR-screen/docked/611_out.pdbqt
+757,cyclopentolate,-5.7,runs/full-2YAU-TR-screen/docked/757_out.pdbqt
+770,cytarabine,-5.7,runs/full-2YAU-TR-screen/docked/770_out.pdbqt
+830,dexbrompheniramine,-5.7,runs/full-2YAU-TR-screen/docked/830_out.pdbqt
+85,acyclovir,-5.7,runs/full-2YAU-TR-screen/docked/85_out.pdbqt
+971,droxidopa,-5.7,runs/full-2YAU-TR-screen/docked/971_out.pdbqt
+976,diprophylline,-5.7,runs/full-2YAU-TR-screen/docked/976_out.pdbqt
+1089,ethoxzolamide,-5.6,runs/full-2YAU-TR-screen/docked/1089_out.pdbqt
+1109,etomidate,-5.6,runs/full-2YAU-TR-screen/docked/1109_out.pdbqt
+1140,felbamate,-5.6,runs/full-2YAU-TR-screen/docked/1140_out.pdbqt
+1230,fluvoxamine,-5.6,runs/full-2YAU-TR-screen/docked/1230_out.pdbqt
+1277,ganciclovir,-5.6,runs/full-2YAU-TR-screen/docked/1277_out.pdbqt
+1523,ketamine,-5.6,runs/full-2YAU-TR-screen/docked/1523_out.pdbqt
+165,aminohippuric acid,-5.6,runs/full-2YAU-TR-screen/docked/165_out.pdbqt
+1747,methocarbamol,-5.6,runs/full-2YAU-TR-screen/docked/1747_out.pdbqt
+1758,methsuximide,-5.6,runs/full-2YAU-TR-screen/docked/1758_out.pdbqt
+1762,methyldopa,-5.6,runs/full-2YAU-TR-screen/docked/1762_out.pdbqt
+1782,metoclopramide,-5.6,runs/full-2YAU-TR-screen/docked/1782_out.pdbqt
+1803,midodrine,-5.6,runs/full-2YAU-TR-screen/docked/1803_out.pdbqt
+2027,oxprenolol,-5.6,runs/full-2YAU-TR-screen/docked/2027_out.pdbqt
+2150,phenyltoloxamine,-5.6,runs/full-2YAU-TR-screen/docked/2150_out.pdbqt
+2266,primaquine,-5.6,runs/full-2YAU-TR-screen/docked/2266_out.pdbqt
+2270,procainamide,-5.6,runs/full-2YAU-TR-screen/docked/2270_out.pdbqt
+2390,ritodrine,-5.6,runs/full-2YAU-TR-screen/docked/2390_out.pdbqt
+2419,salmeterol,-5.6,runs/full-2YAU-TR-screen/docked/2419_out.pdbqt
+2464,sotalol,-5.6,runs/full-2YAU-TR-screen/docked/2464_out.pdbqt
+2527,sulfathiazole,-5.6,runs/full-2YAU-TR-screen/docked/2527_out.pdbqt
+2820,viloxazine,-5.6,runs/full-2YAU-TR-screen/docked/2820_out.pdbqt
+3070,articaine,-5.6,runs/full-2YAU-TR-screen/docked/3070_out.pdbqt
+3249,fospropofol,-5.6,runs/full-2YAU-TR-screen/docked/3249_out.pdbqt
+3521,rasagiline,-5.6,runs/full-2YAU-TR-screen/docked/3521_out.pdbqt
+373,biotin,-5.6,runs/full-2YAU-TR-screen/docked/373_out.pdbqt
+439,secbutabarbital,-5.6,runs/full-2YAU-TR-screen/docked/439_out.pdbqt
+441,butalbital,-5.6,runs/full-2YAU-TR-screen/docked/441_out.pdbqt
+4468,esketamine,-5.6,runs/full-2YAU-TR-screen/docked/4468_out.pdbqt
+4605,tonzonium,-5.6,runs/full-2YAU-TR-screen/docked/4605_out.pdbqt
+4615,N-Acetylglucosamine,-5.6,runs/full-2YAU-TR-screen/docked/4615_out.pdbqt
+4650,dimyristoylphosphatidylglycerol,-5.6,runs/full-2YAU-TR-screen/docked/4650_out.pdbqt
+4663,benzoin,-5.6,runs/full-2YAU-TR-screen/docked/4663_out.pdbqt
+588,chlorambucil,-5.6,runs/full-2YAU-TR-screen/docked/588_out.pdbqt
+639,cidofovir,-5.6,runs/full-2YAU-TR-screen/docked/639_out.pdbqt
+704,clonidine,-5.6,runs/full-2YAU-TR-screen/docked/704_out.pdbqt
+730,colfosceril palmitate,-5.6,runs/full-2YAU-TR-screen/docked/730_out.pdbqt
+782,dapsone,-5.6,runs/full-2YAU-TR-screen/docked/782_out.pdbqt
+790,decitabine,-5.6,runs/full-2YAU-TR-screen/docked/790_out.pdbqt
+869,didanosine,-5.6,runs/full-2YAU-TR-screen/docked/869_out.pdbqt
+913,dinoprostone,-5.6,runs/full-2YAU-TR-screen/docked/913_out.pdbqt
+1088,ethotoin,-5.5,runs/full-2YAU-TR-screen/docked/1088_out.pdbqt
+1404,ibandronic acid,-5.5,runs/full-2YAU-TR-screen/docked/1404_out.pdbqt
+1407,ibuprofen,-5.5,runs/full-2YAU-TR-screen/docked/1407_out.pdbqt
+1444,inositol,-5.5,runs/full-2YAU-TR-screen/docked/1444_out.pdbqt
+1470,iotrolan,-5.5,runs/full-2YAU-TR-screen/docked/1470_out.pdbqt
+1534,lactitol,-5.5,runs/full-2YAU-TR-screen/docked/1534_out.pdbqt
+1567,levodopa,-5.5,runs/full-2YAU-TR-screen/docked/1567_out.pdbqt
+1683,menadione,-5.5,runs/full-2YAU-TR-screen/docked/1683_out.pdbqt
+1690,pethidine,-5.5,runs/full-2YAU-TR-screen/docked/1690_out.pdbqt
+1720,orciprenaline,-5.5,runs/full-2YAU-TR-screen/docked/1720_out.pdbqt
+1786,metoprolol,-5.5,runs/full-2YAU-TR-screen/docked/1786_out.pdbqt
+2047,pamabrom,-5.5,runs/full-2YAU-TR-screen/docked/2047_out.pdbqt
+2383,rimantadine,-5.5,runs/full-2YAU-TR-screen/docked/2383_out.pdbqt
+2387,risedronic acid,-5.5,runs/full-2YAU-TR-screen/docked/2387_out.pdbqt
+2428,secobarbital,-5.5,runs/full-2YAU-TR-screen/docked/2428_out.pdbqt
+2480,stiripentol,-5.5,runs/full-2YAU-TR-screen/docked/2480_out.pdbqt
+2492,sulbactam,-5.5,runs/full-2YAU-TR-screen/docked/2492_out.pdbqt
+2556,talbutal,-5.5,runs/full-2YAU-TR-screen/docked/2556_out.pdbqt
+2592,tenofovir,-5.5,runs/full-2YAU-TR-screen/docked/2592_out.pdbqt
+2598,terbutaline,-5.5,runs/full-2YAU-TR-screen/docked/2598_out.pdbqt
+3064,capsaicin,-5.5,runs/full-2YAU-TR-screen/docked/3064_out.pdbqt
+3487,pramocaine,-5.5,runs/full-2YAU-TR-screen/docked/3487_out.pdbqt
+3496,propoxycaine,-5.5,runs/full-2YAU-TR-screen/docked/3496_out.pdbqt
+356,betaxolol,-5.5,runs/full-2YAU-TR-screen/docked/356_out.pdbqt
+4224,pirfenidone,-5.5,runs/full-2YAU-TR-screen/docked/4224_out.pdbqt
+4268,allantoin,-5.5,runs/full-2YAU-TR-screen/docked/4268_out.pdbqt
+4289,doconexent,-5.5,runs/full-2YAU-TR-screen/docked/4289_out.pdbqt
+4651,dimyristoylphosphatidylcholine,-5.5,runs/full-2YAU-TR-screen/docked/4651_out.pdbqt
+835,dexmedetomidine,-5.5,runs/full-2YAU-TR-screen/docked/835_out.pdbqt
+1257,furazolidone,-5.4,runs/full-2YAU-TR-screen/docked/1257_out.pdbqt
+1413,icosapent ethyl,-5.4,runs/full-2YAU-TR-screen/docked/1413_out.pdbqt
+1426,imipenem,-5.4,runs/full-2YAU-TR-screen/docked/1426_out.pdbqt
+144,amantadine,-5.4,runs/full-2YAU-TR-screen/docked/144_out.pdbqt
+1451,iocetamic acid,-5.4,runs/full-2YAU-TR-screen/docked/1451_out.pdbqt
+1452,iodamide,-5.4,runs/full-2YAU-TR-screen/docked/1452_out.pdbqt
+1561,levamisole,-5.4,runs/full-2YAU-TR-screen/docked/1561_out.pdbqt
+1646,mecamylamine,-5.4,runs/full-2YAU-TR-screen/docked/1646_out.pdbqt
+1678,melphalan,-5.4,runs/full-2YAU-TR-screen/docked/1678_out.pdbqt
+1885,natamycin,-5.4,runs/full-2YAU-TR-screen/docked/1885_out.pdbqt
+201,amrinone,-5.4,runs/full-2YAU-TR-screen/docked/201_out.pdbqt
+2075,pemoline,-5.4,runs/full-2YAU-TR-screen/docked/2075_out.pdbqt
+2122,phendimetrazine,-5.4,runs/full-2YAU-TR-screen/docked/2122_out.pdbqt
+2133,phenmetrazine,-5.4,runs/full-2YAU-TR-screen/docked/2133_out.pdbqt
+2136,phenoxybenzamine,-5.4,runs/full-2YAU-TR-screen/docked/2136_out.pdbqt
+2302,propofol,-5.4,runs/full-2YAU-TR-screen/docked/2302_out.pdbqt
+2392,rivastigmine,-5.4,runs/full-2YAU-TR-screen/docked/2392_out.pdbqt
+2483,streptozocin,-5.4,runs/full-2YAU-TR-screen/docked/2483_out.pdbqt
+2497,sulfacetamide,-5.4,runs/full-2YAU-TR-screen/docked/2497_out.pdbqt
+2626,thiamylal,-5.4,runs/full-2YAU-TR-screen/docked/2626_out.pdbqt
+2872,zonisamide,-5.4,runs/full-2YAU-TR-screen/docked/2872_out.pdbqt
+30,methoxsalen,-5.4,runs/full-2YAU-TR-screen/docked/30_out.pdbqt
+3314,lapyrium chloride,-5.4,runs/full-2YAU-TR-screen/docked/3314_out.pdbqt
+4270,Padimate O,-5.4,runs/full-2YAU-TR-screen/docked/4270_out.pdbqt
+4276,piperonyl butoxide,-5.4,runs/full-2YAU-TR-screen/docked/4276_out.pdbqt
+4374,lorcaserin,-5.4,runs/full-2YAU-TR-screen/docked/4374_out.pdbqt
+4508,racepinefrine,-5.4,runs/full-2YAU-TR-screen/docked/4508_out.pdbqt
+4864,levomilnacipran,-5.4,runs/full-2YAU-TR-screen/docked/4864_out.pdbqt
+4913,paritaprevir,-5.4,runs/full-2YAU-TR-screen/docked/4913_out.pdbqt
+5068,brivaracetam,-5.4,runs/full-2YAU-TR-screen/docked/5068_out.pdbqt
+851,diatrizoate,-5.4,runs/full-2YAU-TR-screen/docked/851_out.pdbqt
+864,dichlorphenamide,-5.4,runs/full-2YAU-TR-screen/docked/864_out.pdbqt
+1028,epinephrine,-5.3,runs/full-2YAU-TR-screen/docked/1028_out.pdbqt
+1081,ethinamate,-5.3,runs/full-2YAU-TR-screen/docked/1081_out.pdbqt
+1355,haloprogin,-5.3,runs/full-2YAU-TR-screen/docked/1355_out.pdbqt
+1412,ibutilide,-5.3,runs/full-2YAU-TR-screen/docked/1412_out.pdbqt
+1469,iotalamic acid,-5.3,runs/full-2YAU-TR-screen/docked/1469_out.pdbqt
+1474,iopodic acid,-5.3,runs/full-2YAU-TR-screen/docked/1474_out.pdbqt
+1539,lamivudine,-5.3,runs/full-2YAU-TR-screen/docked/1539_out.pdbqt
+1740,metharbital,-5.3,runs/full-2YAU-TR-screen/docked/1740_out.pdbqt
+1767,methylphenidate,-5.3,runs/full-2YAU-TR-screen/docked/1767_out.pdbqt
+1806,miglitol,-5.3,runs/full-2YAU-TR-screen/docked/1806_out.pdbqt
+1808,milnacipran,-5.3,runs/full-2YAU-TR-screen/docked/1808_out.pdbqt
+2042,oxytocin,-5.3,runs/full-2YAU-TR-screen/docked/2042_out.pdbqt
+2139,phensuximide,-5.3,runs/full-2YAU-TR-screen/docked/2139_out.pdbqt
+2610,tetracaine,-5.3,runs/full-2YAU-TR-screen/docked/2610_out.pdbqt
+2868,zoledronic acid,-5.3,runs/full-2YAU-TR-screen/docked/2868_out.pdbqt
+3103,citrulline,-5.3,runs/full-2YAU-TR-screen/docked/3103_out.pdbqt
+3506,pyridoxal phosphate,-5.3,runs/full-2YAU-TR-screen/docked/3506_out.pdbqt
+380,bisoprolol,-5.3,runs/full-2YAU-TR-screen/docked/380_out.pdbqt
+4167,fingolimod,-5.3,runs/full-2YAU-TR-screen/docked/4167_out.pdbqt
+4285,Florbetapir F-18,-5.3,runs/full-2YAU-TR-screen/docked/4285_out.pdbqt
+4482,corbadrine,-5.3,runs/full-2YAU-TR-screen/docked/4482_out.pdbqt
+4638,Padimate A,-5.3,runs/full-2YAU-TR-screen/docked/4638_out.pdbqt
+4752,levobetaxolol,-5.3,runs/full-2YAU-TR-screen/docked/4752_out.pdbqt
+509,carisoprodol,-5.3,runs/full-2YAU-TR-screen/docked/509_out.pdbqt
+5325,solriamfetol,-5.3,runs/full-2YAU-TR-screen/docked/5325_out.pdbqt
+5382,bempedoic acid,-5.3,runs/full-2YAU-TR-screen/docked/5382_out.pdbqt
+605,chloroprocaine,-5.3,runs/full-2YAU-TR-screen/docked/605_out.pdbqt
+640,cilastatin,-5.3,runs/full-2YAU-TR-screen/docked/640_out.pdbqt
+669,clavulanic acid,-5.3,runs/full-2YAU-TR-screen/docked/669_out.pdbqt
+681,clioquinol,-5.3,runs/full-2YAU-TR-screen/docked/681_out.pdbqt
+836,dexmethylphenidate,-5.3,runs/full-2YAU-TR-screen/docked/836_out.pdbqt
+112,alendronic acid,-5.2,runs/full-2YAU-TR-screen/docked/112_out.pdbqt
+1307,glucosamine,-5.2,runs/full-2YAU-TR-screen/docked/1307_out.pdbqt
+1624,mafenide,-5.2,runs/full-2YAU-TR-screen/docked/1624_out.pdbqt
+1721,metaraminol,-5.2,runs/full-2YAU-TR-screen/docked/1721_out.pdbqt
+1789,metrizoic acid,-5.2,runs/full-2YAU-TR-screen/docked/1789_out.pdbqt
+1807,miglustat,-5.2,runs/full-2YAU-TR-screen/docked/1807_out.pdbqt
+2123,phenelzine,-5.2,runs/full-2YAU-TR-screen/docked/2123_out.pdbqt
+2233,pramipexole,-5.2,runs/full-2YAU-TR-screen/docked/2233_out.pdbqt
+2271,procaine,-5.2,runs/full-2YAU-TR-screen/docked/2271_out.pdbqt
+2306,propyliodone,-5.2,runs/full-2YAU-TR-screen/docked/2306_out.pdbqt
+2358,ranitidine,-5.2,runs/full-2YAU-TR-screen/docked/2358_out.pdbqt
+2589,temozolomide,-5.2,runs/full-2YAU-TR-screen/docked/2589_out.pdbqt
+2620,theophylline,-5.2,runs/full-2YAU-TR-screen/docked/2620_out.pdbqt
+359,betanidine,-5.2,runs/full-2YAU-TR-screen/docked/359_out.pdbqt
+4283,tapentadol,-5.2,runs/full-2YAU-TR-screen/docked/4283_out.pdbqt
+4455,fludeoxyglucose (18F),-5.2,runs/full-2YAU-TR-screen/docked/4455_out.pdbqt
+4818,florbetaben F18,-5.2,runs/full-2YAU-TR-screen/docked/4818_out.pdbqt
+579,ceruletide,-5.2,runs/full-2YAU-TR-screen/docked/579_out.pdbqt
+941,docusate sodium,-5.2,runs/full-2YAU-TR-screen/docked/941_out.pdbqt
+1596,lomustine,-5.1,runs/full-2YAU-TR-screen/docked/1596_out.pdbqt
+1644,mebutamate,-5.1,runs/full-2YAU-TR-screen/docked/1644_out.pdbqt
+1704,meprobamate,-5.1,runs/full-2YAU-TR-screen/docked/1704_out.pdbqt
+1774,methyprylon,-5.1,runs/full-2YAU-TR-screen/docked/1774_out.pdbqt
+1792,metirosine,-5.1,runs/full-2YAU-TR-screen/docked/1792_out.pdbqt
+1794,mexiletine,-5.1,runs/full-2YAU-TR-screen/docked/1794_out.pdbqt
+1897,neostigmine,-5.1,runs/full-2YAU-TR-screen/docked/1897_out.pdbqt
+1960,norepinephrine,-5.1,runs/full-2YAU-TR-screen/docked/1960_out.pdbqt
+2096,pentolonium,-5.1,runs/full-2YAU-TR-screen/docked/2096_out.pdbqt
+2146,phenylephrine,-5.1,runs/full-2YAU-TR-screen/docked/2146_out.pdbqt
+2308,propylthiouracil,-5.1,runs/full-2YAU-TR-screen/docked/2308_out.pdbqt
+2326,pseudoephedrine,-5.1,runs/full-2YAU-TR-screen/docked/2326_out.pdbqt
+2786,tyrosine,-5.1,runs/full-2YAU-TR-screen/docked/2786_out.pdbqt
+2795,uracil mustard,-5.1,runs/full-2YAU-TR-screen/docked/2795_out.pdbqt
+282,baclofen,-5.1,runs/full-2YAU-TR-screen/docked/282_out.pdbqt
+3068,carglumic acid,-5.1,runs/full-2YAU-TR-screen/docked/3068_out.pdbqt
+3269,glycol salicylate,-5.1,runs/full-2YAU-TR-screen/docked/3269_out.pdbqt
+3417,pantethine,-5.1,runs/full-2YAU-TR-screen/docked/3417_out.pdbqt
+4072,ascorbic acid,-5.1,runs/full-2YAU-TR-screen/docked/4072_out.pdbqt
+4156,edaravone,-5.1,runs/full-2YAU-TR-screen/docked/4156_out.pdbqt
+463,caffeine,-5.1,runs/full-2YAU-TR-screen/docked/463_out.pdbqt
+584,cevimeline,-5.1,runs/full-2YAU-TR-screen/docked/584_out.pdbqt
+744,crotamiton,-5.1,runs/full-2YAU-TR-screen/docked/744_out.pdbqt
+74,acetylsalicylic acid,-5.1,runs/full-2YAU-TR-screen/docked/74_out.pdbqt
+773,dacarbazine,-5.1,runs/full-2YAU-TR-screen/docked/773_out.pdbqt
+845,glucose,-5.1,runs/full-2YAU-TR-screen/docked/845_out.pdbqt
+1024,ephedrine,-5.0,runs/full-2YAU-TR-screen/docked/1024_out.pdbqt
+1083,ethionamide,-5.0,runs/full-2YAU-TR-screen/docked/1083_out.pdbqt
+1264,gabapentin,-5.0,runs/full-2YAU-TR-screen/docked/1264_out.pdbqt
+1465,iopanoic acid,-5.0,runs/full-2YAU-TR-screen/docked/1465_out.pdbqt
+1497,isoniazid,-5.0,runs/full-2YAU-TR-screen/docked/1497_out.pdbqt
+1710,mesalazine,-5.0,runs/full-2YAU-TR-screen/docked/1710_out.pdbqt
+1741,methazolamide,-5.0,runs/full-2YAU-TR-screen/docked/1741_out.pdbqt
+1753,methoxamine,-5.0,runs/full-2YAU-TR-screen/docked/1753_out.pdbqt
+2048,pamidronic acid,-5.0,runs/full-2YAU-TR-screen/docked/2048_out.pdbqt
+2050,aminosalicylic acid,-5.0,runs/full-2YAU-TR-screen/docked/2050_out.pdbqt
+2055,calcium pantothenate,-5.0,runs/full-2YAU-TR-screen/docked/2055_out.pdbqt
+2144,phenylalanine,-5.0,runs/full-2YAU-TR-screen/docked/2144_out.pdbqt
+2149,phenylpropanolamine,-5.0,runs/full-2YAU-TR-screen/docked/2149_out.pdbqt
+2192,pipobroman,-5.0,runs/full-2YAU-TR-screen/docked/2192_out.pdbqt
+2713,tranexamic acid,-5.0,runs/full-2YAU-TR-screen/docked/2713_out.pdbqt
+2959,lypressin,-5.0,runs/full-2YAU-TR-screen/docked/2959_out.pdbqt
+3017,benzalkonium,-5.0,runs/full-2YAU-TR-screen/docked/3017_out.pdbqt
+3083,cetylpyridinium,-5.0,runs/full-2YAU-TR-screen/docked/3083_out.pdbqt
+3290,oxyquinoline,-5.0,runs/full-2YAU-TR-screen/docked/3290_out.pdbqt
+329,benzphetamine,-5.0,runs/full-2YAU-TR-screen/docked/329_out.pdbqt
+3550,sodium tetradecyl sulfate,-5.0,runs/full-2YAU-TR-screen/docked/3550_out.pdbqt
+4418,diethyltoluamide,-5.0,runs/full-2YAU-TR-screen/docked/4418_out.pdbqt
+4626,trinitrophenol,-5.0,runs/full-2YAU-TR-screen/docked/4626_out.pdbqt
+4648,eugenol,-5.0,runs/full-2YAU-TR-screen/docked/4648_out.pdbqt
+5144,gluconolactone,-5.0,runs/full-2YAU-TR-screen/docked/5144_out.pdbqt
+56,acetazolamide,-5.0,runs/full-2YAU-TR-screen/docked/56_out.pdbqt
+626,chlorzoxazone,-5.0,runs/full-2YAU-TR-screen/docked/626_out.pdbqt
+694,clofibrate,-5.0,runs/full-2YAU-TR-screen/docked/694_out.pdbqt
+947,dopamine,-5.0,runs/full-2YAU-TR-screen/docked/947_out.pdbqt
+1252,fructose,-4.9,runs/full-2YAU-TR-screen/docked/1252_out.pdbqt
+1377,histidine,-4.9,runs/full-2YAU-TR-screen/docked/1377_out.pdbqt
+1394,hydroxyamfetamine,-4.9,runs/full-2YAU-TR-screen/docked/1394_out.pdbqt
+1457,diiodohydroxyquinoline,-4.9,runs/full-2YAU-TR-screen/docked/1457_out.pdbqt
+1505,isosorbide dinitrate,-4.9,runs/full-2YAU-TR-screen/docked/1505_out.pdbqt
+1506,isosorbide mononitrate,-4.9,runs/full-2YAU-TR-screen/docked/1506_out.pdbqt
+1583,lindane,-4.9,runs/full-2YAU-TR-screen/docked/1583_out.pdbqt
+1694,mephentermine,-4.9,runs/full-2YAU-TR-screen/docked/1694_out.pdbqt
+1725,metformin,-4.9,runs/full-2YAU-TR-screen/docked/1725_out.pdbqt
+2166,pilocarpine,-4.9,runs/full-2YAU-TR-screen/docked/2166_out.pdbqt
+2305,propylhexedrine,-4.9,runs/full-2YAU-TR-screen/docked/2305_out.pdbqt
+2415,salicylamide,-4.9,runs/full-2YAU-TR-screen/docked/2415_out.pdbqt
+2429,selegiline,-4.9,runs/full-2YAU-TR-screen/docked/2429_out.pdbqt
+24,phenylbutanoic acid,-4.9,runs/full-2YAU-TR-screen/docked/24_out.pdbqt
+2521,sulfanilamide,-4.9,runs/full-2YAU-TR-screen/docked/2521_out.pdbqt
+2632,thioguanine,-4.9,runs/full-2YAU-TR-screen/docked/2632_out.pdbqt
+2695,tolazoline,-4.9,runs/full-2YAU-TR-screen/docked/2695_out.pdbqt
+270,azelaic acid,-4.9,runs/full-2YAU-TR-screen/docked/270_out.pdbqt
+2825,vincristine,-4.9,runs/full-2YAU-TR-screen/docked/2825_out.pdbqt
+2974,doxacurium,-4.9,runs/full-2YAU-TR-screen/docked/2974_out.pdbqt
+3364,monoctanoin,-4.9,runs/full-2YAU-TR-screen/docked/3364_out.pdbqt
+3400,oleic acid,-4.9,runs/full-2YAU-TR-screen/docked/3400_out.pdbqt
+4258,thymol,-4.9,runs/full-2YAU-TR-screen/docked/4258_out.pdbqt
+4259,cineole,-4.9,runs/full-2YAU-TR-screen/docked/4259_out.pdbqt
+4611,stearic acid,-4.9,runs/full-2YAU-TR-screen/docked/4611_out.pdbqt
+470,camphor,-4.9,runs/full-2YAU-TR-screen/docked/470_out.pdbqt
+4750,cetyl alcohol,-4.9,runs/full-2YAU-TR-screen/docked/4750_out.pdbqt
+618,chlorphentermine,-4.9,runs/full-2YAU-TR-screen/docked/618_out.pdbqt
+63,acetrizoic acid,-4.9,runs/full-2YAU-TR-screen/docked/63_out.pdbqt
+1087,ethosuximide,-4.8,runs/full-2YAU-TR-screen/docked/1087_out.pdbqt
+1236,fondaparinux,-4.8,runs/full-2YAU-TR-screen/docked/1236_out.pdbqt
+1336,guaifenesin,-4.8,runs/full-2YAU-TR-screen/docked/1336_out.pdbqt
+2104,perflutren,-4.8,runs/full-2YAU-TR-screen/docked/2104_out.pdbqt
+2255,pregabalin,-4.8,runs/full-2YAU-TR-screen/docked/2255_out.pdbqt
+2715,tranylcypromine,-4.8,runs/full-2YAU-TR-screen/docked/2715_out.pdbqt
+323,benzocaine,-4.8,runs/full-2YAU-TR-screen/docked/323_out.pdbqt
+4624,phenylacetic acid,-4.8,runs/full-2YAU-TR-screen/docked/4624_out.pdbqt
+5110,migalastat,-4.8,runs/full-2YAU-TR-screen/docked/5110_out.pdbqt
+5194,meglumine,-4.8,runs/full-2YAU-TR-screen/docked/5194_out.pdbqt
+52,paracetamol,-4.8,runs/full-2YAU-TR-screen/docked/52_out.pdbqt
+874,diethylpropion,-4.8,runs/full-2YAU-TR-screen/docked/874_out.pdbqt
+928,disulfiram,-4.8,runs/full-2YAU-TR-screen/docked/928_out.pdbqt
+934,levomenthol,-4.8,runs/full-2YAU-TR-screen/docked/934_out.pdbqt
+988,edrophonium,-4.8,runs/full-2YAU-TR-screen/docked/988_out.pdbqt
+990,eflornithine,-4.8,runs/full-2YAU-TR-screen/docked/990_out.pdbqt
+1098,etidronic acid,-4.7,runs/full-2YAU-TR-screen/docked/1098_out.pdbqt
+1374,hexylresorcinol,-4.7,runs/full-2YAU-TR-screen/docked/1374_out.pdbqt
+1496,isometheptene,-4.7,runs/full-2YAU-TR-screen/docked/1496_out.pdbqt
+1732,methamphetamine,-4.7,runs/full-2YAU-TR-screen/docked/1732_out.pdbqt
+2092,pentetic acid,-4.7,runs/full-2YAU-TR-screen/docked/2092_out.pdbqt
+2140,phentermine,-4.7,runs/full-2YAU-TR-screen/docked/2140_out.pdbqt
+2671,tinidazole,-4.7,runs/full-2YAU-TR-screen/docked/2671_out.pdbqt
+2836,pyridoxine,-4.7,runs/full-2YAU-TR-screen/docked/2836_out.pdbqt
+3051,butamben,-4.7,runs/full-2YAU-TR-screen/docked/3051_out.pdbqt
+3094,chloroxylenol,-4.7,runs/full-2YAU-TR-screen/docked/3094_out.pdbqt
+3592,tetrofosmin,-4.7,runs/full-2YAU-TR-screen/docked/3592_out.pdbqt
+38,acamprosate,-4.7,runs/full-2YAU-TR-screen/docked/38_out.pdbqt
+4245,methyl salicylate,-4.7,runs/full-2YAU-TR-screen/docked/4245_out.pdbqt
+4612,protocatechualdehyde,-4.7,runs/full-2YAU-TR-screen/docked/4612_out.pdbqt
+4641,levmetamfetamine,-4.7,runs/full-2YAU-TR-screen/docked/4641_out.pdbqt
+4732,thioctic acid,-4.7,runs/full-2YAU-TR-screen/docked/4732_out.pdbqt
+484,captopril,-4.7,runs/full-2YAU-TR-screen/docked/484_out.pdbqt
+873,diethylcarbamazine,-4.7,runs/full-2YAU-TR-screen/docked/873_out.pdbqt
+987,edetic acid,-4.7,runs/full-2YAU-TR-screen/docked/987_out.pdbqt
+1009,enflurane,-4.6,runs/full-2YAU-TR-screen/docked/1009_out.pdbqt
+1073,ethambutol,-4.6,runs/full-2YAU-TR-screen/docked/1073_out.pdbqt
+124,allopurinol,-4.6,runs/full-2YAU-TR-screen/docked/124_out.pdbqt
+1311,glutamine,-4.6,runs/full-2YAU-TR-screen/docked/1311_out.pdbqt
+1421,ifosfamide,-4.6,runs/full-2YAU-TR-screen/docked/1421_out.pdbqt
+1626,malathion,-4.6,runs/full-2YAU-TR-screen/docked/1626_out.pdbqt
+167,5-aminolevulinic acid hexyl ester,-4.6,runs/full-2YAU-TR-screen/docked/167_out.pdbqt
+1708,mercaptopurine,-4.6,runs/full-2YAU-TR-screen/docked/1708_out.pdbqt
+1810,miltefosine,-4.6,runs/full-2YAU-TR-screen/docked/1810_out.pdbqt
+1920,nicotine,-4.6,runs/full-2YAU-TR-screen/docked/1920_out.pdbqt
+2330,pyridostigmine,-4.6,runs/full-2YAU-TR-screen/docked/2330_out.pdbqt
+2439,sevoflurane,-4.6,runs/full-2YAU-TR-screen/docked/2439_out.pdbqt
+2462,sorbitol,-4.6,runs/full-2YAU-TR-screen/docked/2462_out.pdbqt
+4642,dodecanoic acid,-4.6,runs/full-2YAU-TR-screen/docked/4642_out.pdbqt
+4664,benzoic acid,-4.6,runs/full-2YAU-TR-screen/docked/4664_out.pdbqt
+4668,1-Octacosanol,-4.6,runs/full-2YAU-TR-screen/docked/4668_out.pdbqt
+666,citric acid,-4.6,runs/full-2YAU-TR-screen/docked/666_out.pdbqt
+758,cyclophosphamide,-4.6,runs/full-2YAU-TR-screen/docked/758_out.pdbqt
+811,desflurane,-4.6,runs/full-2YAU-TR-screen/docked/811_out.pdbqt
+838,dexpanthenol,-4.6,runs/full-2YAU-TR-screen/docked/838_out.pdbqt
+841,dexamfetamine,-4.6,runs/full-2YAU-TR-screen/docked/841_out.pdbqt
+935,mannitol,-4.6,runs/full-2YAU-TR-screen/docked/935_out.pdbqt
+141,altretamine,-4.5,runs/full-2YAU-TR-screen/docked/141_out.pdbqt
+1563,levetiracetam,-4.5,runs/full-2YAU-TR-screen/docked/1563_out.pdbqt
+1955,nizatidine,-4.5,runs/full-2YAU-TR-screen/docked/1955_out.pdbqt
+195,amfetamine,-4.5,runs/full-2YAU-TR-screen/docked/195_out.pdbqt
+2059,paramethadione,-4.5,runs/full-2YAU-TR-screen/docked/2059_out.pdbqt
+2065,pargyline,-4.5,runs/full-2YAU-TR-screen/docked/2065_out.pdbqt
+2231,pralidoxime,-4.5,runs/full-2YAU-TR-screen/docked/2231_out.pdbqt
+2854,xylose,-4.5,runs/full-2YAU-TR-screen/docked/2854_out.pdbqt
+3446,undecylenic acid,-4.5,runs/full-2YAU-TR-screen/docked/3446_out.pdbqt
+394,bretylium,-4.5,runs/full-2YAU-TR-screen/docked/394_out.pdbqt
+89,adenine,-4.5,runs/full-2YAU-TR-screen/docked/89_out.pdbqt
+1078,ethchlorvynol,-4.4,runs/full-2YAU-TR-screen/docked/1078_out.pdbqt
+1188,flucytosine,-4.4,runs/full-2YAU-TR-screen/docked/1188_out.pdbqt
+1493,isoflurane,-4.4,runs/full-2YAU-TR-screen/docked/1493_out.pdbqt
+1501,isosorbide,-4.4,runs/full-2YAU-TR-screen/docked/1501_out.pdbqt
+156,amifostine,-4.4,runs/full-2YAU-TR-screen/docked/156_out.pdbqt
+1906,nicotinamide,-4.4,runs/full-2YAU-TR-screen/docked/1906_out.pdbqt
+2427,secnidazole,-4.4,runs/full-2YAU-TR-screen/docked/2427_out.pdbqt
+2489,suxamethonium,-4.4,runs/full-2YAU-TR-screen/docked/2489_out.pdbqt
+2835,nicotinic acid,-4.4,runs/full-2YAU-TR-screen/docked/2835_out.pdbqt
+3409,oxidronic acid,-4.4,runs/full-2YAU-TR-screen/docked/3409_out.pdbqt
+3442,phenoxyethanol,-4.4,runs/full-2YAU-TR-screen/docked/3442_out.pdbqt
+4125,proline,-4.4,runs/full-2YAU-TR-screen/docked/4125_out.pdbqt
+4272,hydroxyproline,-4.4,runs/full-2YAU-TR-screen/docked/4272_out.pdbqt
+1310,glutamic acid,-4.3,runs/full-2YAU-TR-screen/docked/1310_out.pdbqt
+1334,guaiacol,-4.3,runs/full-2YAU-TR-screen/docked/1334_out.pdbqt
+1494,fluostigmine,-4.3,runs/full-2YAU-TR-screen/docked/1494_out.pdbqt
+1557,leucine,-4.3,runs/full-2YAU-TR-screen/docked/1557_out.pdbqt
+163,aminocaproic acid,-4.3,runs/full-2YAU-TR-screen/docked/163_out.pdbqt
+1790,metronidazole,-4.3,runs/full-2YAU-TR-screen/docked/1790_out.pdbqt
+2676,tiopronin,-4.3,runs/full-2YAU-TR-screen/docked/2676_out.pdbqt
+26,fluorouracil,-4.3,runs/full-2YAU-TR-screen/docked/26_out.pdbqt
+2738,trientine,-4.3,runs/full-2YAU-TR-screen/docked/2738_out.pdbqt
+2751,trimethadione,-4.3,runs/full-2YAU-TR-screen/docked/2751_out.pdbqt
+2803,valproic acid,-4.3,runs/full-2YAU-TR-screen/docked/2803_out.pdbqt
+334,benzyl alcohol,-4.3,runs/full-2YAU-TR-screen/docked/334_out.pdbqt
+3355,methyl nicotinate,-4.3,runs/full-2YAU-TR-screen/docked/3355_out.pdbqt
+3524,resorcinol,-4.3,runs/full-2YAU-TR-screen/docked/3524_out.pdbqt
+4039,sulfur hexafluoride,-4.3,runs/full-2YAU-TR-screen/docked/4039_out.pdbqt
+4188,deferiprone,-4.3,runs/full-2YAU-TR-screen/docked/4188_out.pdbqt
+4221,mequinol,-4.3,runs/full-2YAU-TR-screen/docked/4221_out.pdbqt
+4661,creatine,-4.3,runs/full-2YAU-TR-screen/docked/4661_out.pdbqt
+5153,fluciclovine (18F),-4.3,runs/full-2YAU-TR-screen/docked/5153_out.pdbqt
+789,decamethonium,-4.3,runs/full-2YAU-TR-screen/docked/789_out.pdbqt
+940,docosanol,-4.3,runs/full-2YAU-TR-screen/docked/940_out.pdbqt
+982,echothiophate,-4.3,runs/full-2YAU-TR-screen/docked/982_out.pdbqt
+166,aminolevulinic acid,-4.2,runs/full-2YAU-TR-screen/docked/166_out.pdbqt
+168,methyl aminolevulinate,-4.2,runs/full-2YAU-TR-screen/docked/168_out.pdbqt
+2566,tartaric acid,-4.2,runs/full-2YAU-TR-screen/docked/2566_out.pdbqt
+2819,vigabatrin,-4.2,runs/full-2YAU-TR-screen/docked/2819_out.pdbqt
+3282,hydroquinone,-4.2,runs/full-2YAU-TR-screen/docked/3282_out.pdbqt
+357,betazole,-4.2,runs/full-2YAU-TR-screen/docked/357_out.pdbqt
+4129,isoleucine,-4.2,runs/full-2YAU-TR-screen/docked/4129_out.pdbqt
+438,busulfan,-4.2,runs/full-2YAU-TR-screen/docked/438_out.pdbqt
+512,carmustine,-4.2,runs/full-2YAU-TR-screen/docked/512_out.pdbqt
+1375,histamine,-4.1,runs/full-2YAU-TR-screen/docked/1375_out.pdbqt
+1550,aspartic acid,-4.1,runs/full-2YAU-TR-screen/docked/1550_out.pdbqt
+1622,lysine,-4.1,runs/full-2YAU-TR-screen/docked/1622_out.pdbqt
+1726,methacholine,-4.1,runs/full-2YAU-TR-screen/docked/1726_out.pdbqt
+2735,triclofos,-4.1,runs/full-2YAU-TR-screen/docked/2735_out.pdbqt
+358,bethanechol,-4.1,runs/full-2YAU-TR-screen/docked/358_out.pdbqt
+4128,valine,-4.1,runs/full-2YAU-TR-screen/docked/4128_out.pdbqt
+66,acetylcysteine,-4.1,runs/full-2YAU-TR-screen/docked/66_out.pdbqt
+1754,methoxyflurane,-4.0,runs/full-2YAU-TR-screen/docked/1754_out.pdbqt
+1952,glyceryl trinitrate,-4.0,runs/full-2YAU-TR-screen/docked/1952_out.pdbqt
+2328,pyrazinamide,-4.0,runs/full-2YAU-TR-screen/docked/2328_out.pdbqt
+4266,phenol,-4.0,runs/full-2YAU-TR-screen/docked/4266_out.pdbqt
+4336,amifampridine,-4.0,runs/full-2YAU-TR-screen/docked/4336_out.pdbqt
+4604,xylitol,-4.0,runs/full-2YAU-TR-screen/docked/4604_out.pdbqt
+488,carbachol,-4.0,runs/full-2YAU-TR-screen/docked/488_out.pdbqt
+1399,hydroxycarbamide,-3.9,runs/full-2YAU-TR-screen/docked/1399_out.pdbqt
+2771,trometamol,-3.9,runs/full-2YAU-TR-screen/docked/2771_out.pdbqt
+3344,methenamine,-3.9,runs/full-2YAU-TR-screen/docked/3344_out.pdbqt
+3347,methionine,-3.9,runs/full-2YAU-TR-screen/docked/3347_out.pdbqt
+513,levocarnitine,-3.9,runs/full-2YAU-TR-screen/docked/513_out.pdbqt
+1241,foscarnet,-3.8,runs/full-2YAU-TR-screen/docked/1241_out.pdbqt
+1356,halothane,-3.8,runs/full-2YAU-TR-screen/docked/1356_out.pdbqt
+2081,penicillamine,-3.8,runs/full-2YAU-TR-screen/docked/2081_out.pdbqt
+2810,vasopressin,-3.8,runs/full-2YAU-TR-screen/docked/2810_out.pdbqt
+4254,threonine,-3.8,runs/full-2YAU-TR-screen/docked/4254_out.pdbqt
+4633,trabectedin,-3.8,runs/full-2YAU-TR-screen/docked/4633_out.pdbqt
+4757,dimethyl fumarate,-3.8,runs/full-2YAU-TR-screen/docked/4757_out.pdbqt
+668,clarithromycin,-3.8,runs/full-2YAU-TR-screen/docked/668_out.pdbqt
+1243,fosfomycin,-3.7,runs/full-2YAU-TR-screen/docked/1243_out.pdbqt
+2486,succimer,-3.7,runs/full-2YAU-TR-screen/docked/2486_out.pdbqt
+2638,thiotepa,-3.7,runs/full-2YAU-TR-screen/docked/2638_out.pdbqt
+2977,caspofungin,-3.7,runs/full-2YAU-TR-screen/docked/2977_out.pdbqt
+4163,fampridine,-3.7,runs/full-2YAU-TR-screen/docked/4163_out.pdbqt
+5081,grazoprevir,-3.7,runs/full-2YAU-TR-screen/docked/5081_out.pdbqt
+5242,voxilaprevir,-3.7,runs/full-2YAU-TR-screen/docked/5242_out.pdbqt
+759,cycloserine,-3.7,runs/full-2YAU-TR-screen/docked/759_out.pdbqt
+1262,aminobutyric acid,-3.6,runs/full-2YAU-TR-screen/docked/1262_out.pdbqt
+65,acetylcholine,-3.6,runs/full-2YAU-TR-screen/docked/65_out.pdbqt
+1344,guanidine,-3.5,runs/full-2YAU-TR-screen/docked/1344_out.pdbqt
+1745,thiamazole,-3.5,runs/full-2YAU-TR-screen/docked/1745_out.pdbqt
+2768,trolamine,-3.5,runs/full-2YAU-TR-screen/docked/2768_out.pdbqt
+3627,trichloroacetic acid,-3.5,runs/full-2YAU-TR-screen/docked/3627_out.pdbqt
+4127,serine,-3.5,runs/full-2YAU-TR-screen/docked/4127_out.pdbqt
+4486,taurine,-3.5,runs/full-2YAU-TR-screen/docked/4486_out.pdbqt
+58,acetohydroxamic acid,-3.5,runs/full-2YAU-TR-screen/docked/58_out.pdbqt
+1233,fomepizole,-3.4,runs/full-2YAU-TR-screen/docked/1233_out.pdbqt
+1533,lactic acid,-3.4,runs/full-2YAU-TR-screen/docked/1533_out.pdbqt
+4255,alanine,-3.3,runs/full-2YAU-TR-screen/docked/4255_out.pdbqt
+4264,carbamide,-3.3,runs/full-2YAU-TR-screen/docked/4264_out.pdbqt
+4323,UREA C-13,-3.3,runs/full-2YAU-TR-screen/docked/4323_out.pdbqt
+5147,UREA C 14,-3.3,runs/full-2YAU-TR-screen/docked/5147_out.pdbqt
+769,cysteine,-3.3,runs/full-2YAU-TR-screen/docked/769_out.pdbqt
+1316,glycerol,-3.2,runs/full-2YAU-TR-screen/docked/1316_out.pdbqt
+1319,glycine,-3.2,runs/full-2YAU-TR-screen/docked/1319_out.pdbqt
+4244,magnesium hydroxide,-3.2,runs/full-2YAU-TR-screen/docked/4244_out.pdbqt
+4645,glycolic acid,-3.2,runs/full-2YAU-TR-screen/docked/4645_out.pdbqt
+1647,mechlorethamine,-3.1,runs/full-2YAU-TR-screen/docked/1647_out.pdbqt
+2188,piperazine,-3.1,runs/full-2YAU-TR-screen/docked/2188_out.pdbqt
+3097,choline,-3.1,runs/full-2YAU-TR-screen/docked/3097_out.pdbqt
+347,betaine,-3.1,runs/full-2YAU-TR-screen/docked/347_out.pdbqt
+4024,propylene glycol,-3.1,runs/full-2YAU-TR-screen/docked/4024_out.pdbqt
+4635,Choline C-11,-3.1,runs/full-2YAU-TR-screen/docked/4635_out.pdbqt
+1711,mesna,-3.0,runs/full-2YAU-TR-screen/docked/1711_out.pdbqt
+4329,pasireotide,-3.0,runs/full-2YAU-TR-screen/docked/4329_out.pdbqt
+4478,phosphoric acid,-3.0,runs/full-2YAU-TR-screen/docked/4478_out.pdbqt
+4443,ferric oxide,-2.9,runs/full-2YAU-TR-screen/docked/4443_out.pdbqt
+3150,dimercaprol,-2.8,runs/full-2YAU-TR-screen/docked/3150_out.pdbqt
+4215,isopropanol,-2.8,runs/full-2YAU-TR-screen/docked/4215_out.pdbqt
+3281,hydrogen peroxide,-2.7,runs/full-2YAU-TR-screen/docked/3281_out.pdbqt
+3495,propiolactone,-2.7,runs/full-2YAU-TR-screen/docked/3495_out.pdbqt
+4211,acetic acid,-2.7,runs/full-2YAU-TR-screen/docked/4211_out.pdbqt
+778,dalfopristin,-2.6,runs/full-2YAU-TR-screen/docked/778_out.pdbqt
+4875,daclatasvir,-2.5,runs/full-2YAU-TR-screen/docked/4875_out.pdbqt
+768,mercaptamine,-2.4,runs/full-2YAU-TR-screen/docked/768_out.pdbqt
+1076,ethanol,-2.3,runs/full-2YAU-TR-screen/docked/1076_out.pdbqt
+906,dimethyl sulfoxide,-2.1,runs/full-2YAU-TR-screen/docked/906_out.pdbqt
+4180,fidaxomicin,-2.0,runs/full-2YAU-TR-screen/docked/4180_out.pdbqt
+4238,nitrous oxide,-1.8,runs/full-2YAU-TR-screen/docked/4238_out.pdbqt
+4293,magnesium oxide,-1.8,runs/full-2YAU-TR-screen/docked/4293_out.pdbqt
+4240,zinc oxide,-1.7,runs/full-2YAU-TR-screen/docked/4240_out.pdbqt
+4256,carbon dioxide,-1.7,runs/full-2YAU-TR-screen/docked/4256_out.pdbqt
+3244,formaldehyde,-1.5,runs/full-2YAU-TR-screen/docked/3244_out.pdbqt
+4235,oxygen,-1.5,runs/full-2YAU-TR-screen/docked/4235_out.pdbqt
+4446,iodine,-1.5,runs/full-2YAU-TR-screen/docked/4446_out.pdbqt
+4472,AMMONIA N-13,-1.5,runs/full-2YAU-TR-screen/docked/4472_out.pdbqt
+4625,ammonia,-1.5,runs/full-2YAU-TR-screen/docked/4625_out.pdbqt
+1948,nitric oxide,-1.4,runs/full-2YAU-TR-screen/docked/1948_out.pdbqt
+4251,nitrogen,-1.4,runs/full-2YAU-TR-screen/docked/4251_out.pdbqt
+4277,iron,-1.4,runs/full-2YAU-TR-screen/docked/4277_out.pdbqt
+5244,pibrentasvir,-1.4,runs/full-2YAU-TR-screen/docked/5244_out.pdbqt
+5398,lurbinectedin,-1.2,runs/full-2YAU-TR-screen/docked/5398_out.pdbqt
+4499,hydrofluoric acid,-1.1,runs/full-2YAU-TR-screen/docked/4499_out.pdbqt
+5416,setmelanotide,-1.1,runs/full-2YAU-TR-screen/docked/5416_out.pdbqt
+4260,sulfur,-0.8,runs/full-2YAU-TR-screen/docked/4260_out.pdbqt
+1980,octreotide,-0.1,runs/full-2YAU-TR-screen/docked/1980_out.pdbqt
+1546,lanreotide,0.2,runs/full-2YAU-TR-screen/docked/1546_out.pdbqt
+4171,eribulin,1.8,runs/full-2YAU-TR-screen/docked/4171_out.pdbqt
+4817,rifamycin,3.5,runs/full-2YAU-TR-screen/docked/4817_out.pdbqt
+5329,bremelanotide,3.8,runs/full-2YAU-TR-screen/docked/5329_out.pdbqt
+4899,ledipasvir,4.0,runs/full-2YAU-TR-screen/docked/4899_out.pdbqt
+2378,rifapentine,4.1,runs/full-2YAU-TR-screen/docked/2378_out.pdbqt
+2377,rifampicin,4.4,runs/full-2YAU-TR-screen/docked/2377_out.pdbqt
+4912,ombitasvir,4.6,runs/full-2YAU-TR-screen/docked/4912_out.pdbqt
+5080,elbasvir,4.6,runs/full-2YAU-TR-screen/docked/5080_out.pdbqt
+2376,rifabutin,5.3,runs/full-2YAU-TR-screen/docked/2376_out.pdbqt
+2168,pimecrolimus,5.7,runs/full-2YAU-TR-screen/docked/2168_out.pdbqt
+4617,lycopene,5.8,runs/full-2YAU-TR-screen/docked/4617_out.pdbqt
+5154,velpatasvir,5.8,runs/full-2YAU-TR-screen/docked/5154_out.pdbqt
+2552,tacrolimus,7.4,runs/full-2YAU-TR-screen/docked/2552_out.pdbqt
+2349,quinupristin,8.2,runs/full-2YAU-TR-screen/docked/2349_out.pdbqt
+345,betacarotene,11.6,runs/full-2YAU-TR-screen/docked/345_out.pdbqt
+2379,rifaximin,13.1,runs/full-2YAU-TR-screen/docked/2379_out.pdbqt
+4145,lutein,16.1,runs/full-2YAU-TR-screen/docked/4145_out.pdbqt
+1118,everolimus,18.3,runs/full-2YAU-TR-screen/docked/1118_out.pdbqt
+4357,anidulafungin,22.0,runs/full-2YAU-TR-screen/docked/4357_out.pdbqt
+4161,temsirolimus,23.6,runs/full-2YAU-TR-screen/docked/4161_out.pdbqt
+2446,sirolimus,24.3,runs/full-2YAU-TR-screen/docked/2446_out.pdbqt
+2807,vancomycin,27.5,runs/full-2YAU-TR-screen/docked/2807_out.pdbqt
+774,dactinomycin,30.0,runs/full-2YAU-TR-screen/docked/774_out.pdbqt
+1798,micafungin,32.3,runs/full-2YAU-TR-screen/docked/1798_out.pdbqt
+4366,voclosporin,36.8,runs/full-2YAU-TR-screen/docked/4366_out.pdbqt
+1977,nystatin,37.4,runs/full-2YAU-TR-screen/docked/1977_out.pdbqt
+197,amphotericin B,39.8,runs/full-2YAU-TR-screen/docked/197_out.pdbqt
+760,ciclosporin,40.2,runs/full-2YAU-TR-screen/docked/760_out.pdbqt
+4424,candicidin,40.5,runs/full-2YAU-TR-screen/docked/4424_out.pdbqt
+3217,evans blue,40.9,runs/full-2YAU-TR-screen/docked/3217_out.pdbqt
+4608,trypan blue,47.1,runs/full-2YAU-TR-screen/docked/4608_out.pdbqt
+4622,linaclotide,52.6,runs/full-2YAU-TR-screen/docked/4622_out.pdbqt

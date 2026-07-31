@@ -1,0 +1,46 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.1209
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.6890
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4864
+HEADER 5  - Mean B-factor of pocket residues  : 0.2245
+HEADER 6  - Hydrophobicity Score              : 30.8000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 321.0472
+HEADER 10 - Pocket volume (convex hull)       : 23.0809
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0385
+HETATM 7569  O3X NDP B 550       3.976 -21.265 -15.282  0.86  1.07           O 0
+ATOM   5515   CG ARG B 228       4.107 -24.844 -15.225  0.00  0.00           C 0
+HETATM 7561  O2X NDP B 550       5.820 -19.819 -14.157  0.00  0.00           O 1
+HETATM 7580  O5B NDP B 550       3.147 -20.088  -9.647  0.00  0.00           O 0
+ATOM   5516   CD ARG B 228       5.097 -24.016 -16.041  0.00  0.00           C 0
+ATOM   5524    O GLY B 229       1.492 -30.087 -11.894  0.27  5.36           O 0
+ATOM   5533  CE1 PHE B 230      -2.246 -29.124  -9.191  0.00  0.00           C 0
+ATOM   6620  OG1 THR B 374      -1.454 -33.523  -8.085  0.32  5.36           O 0
+ATOM   5287   OH TYR B 198       0.597 -27.480  -5.616  0.00  0.00           O 0
+ATOM   6550   SG CYS B 364      -0.506 -30.865  -4.370  0.00  0.00           S 0
+HETATM 7562  C3B NDP B 550       2.652 -19.456 -12.423  0.00  0.00           C 0
+ATOM   5514   CB ARG B 228       2.720 -24.197 -15.171  0.00  0.00           C 0
+ATOM   5535   CZ PHE B 230      -1.752 -27.844  -9.035  0.00  0.00           C 0
+ATOM   5273   CA GLY B 197      -0.895 -20.587  -9.459  0.00  0.00           C 0
+ATOM   5513    O ARG B 228       1.965 -25.937 -12.672  0.00  0.00           O 0
+ATOM   5271    O GLY B 196      -1.770 -21.147 -12.055  0.00  0.00           O 0
+HETATM 7550  O1A NDP B 550       1.911 -21.751  -8.092  0.70  7.50           O 1
+HETATM 7567  O3B NDP B 550       1.597 -20.068 -13.199  0.00  0.00           O 0
+ATOM   5510    N ARG B 228       0.409 -24.373 -14.406  0.00  0.00           N 0
+HETATM 7557  O2A NDP B 550       4.176 -20.573  -7.365  0.00  0.00           O 0
+ATOM   5509  CD2 LEU B 227      -3.167 -23.682 -10.546  0.00  0.00           C 0
+ATOM   5534  CE2 PHE B 230      -1.373 -27.111 -10.143  0.00  0.00           C 0
+ATOM   5284  CE1 TYR B 198       0.416 -25.152  -6.110  0.00  0.00           C 0
+ATOM   5503   CA LEU B 227      -1.757 -24.028 -13.413  0.00  0.00           C 0
+TER
+END

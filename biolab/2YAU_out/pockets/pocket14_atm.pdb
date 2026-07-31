@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0892
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8656
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6443
+HEADER 5  - Mean B-factor of pocket residues  : 0.3826
+HEADER 6  - Hydrophobicity Score              : -23.1667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 181.8132
+HEADER 10 - Pocket volume (convex hull)       : 2.9028
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2222
+ATOM   5923  OD2 ASP B 279     -15.260  -1.509  -6.755  0.49  7.50           O 1
+ATOM   5922  OD1 ASP B 279     -14.595  -1.251  -8.845  0.00  0.00           O 0
+ATOM   5234  NH2 ARG B 190     -15.988   0.720 -10.896  0.30  4.37           N 0
+ATOM   5794  OD2 ASP B 263     -15.084   4.897  -9.604  0.36  6.43           O 1
+ATOM   5931  NE2 GLN B 280      -9.451  -2.359  -3.421  0.48  7.66           N 0
+ATOM   5797    C GLY B 264     -10.022   4.067  -7.200  0.00  0.00           C 0
+ATOM   5798    O GLY B 264      -8.995   3.435  -6.971  0.00  0.00           O 0
+ATOM   5919    O ASP B 279      -9.853  -1.564  -6.999  0.29  1.07           O 0
+ATOM   5920   CB ASP B 279     -13.126  -2.386  -7.333  0.00  0.00           C 0
+ATOM   5799    N SER B 265     -10.984   3.615  -8.009  0.72  1.09           N 0
+ATOM   5800   CA SER B 265     -10.871   2.340  -8.742  0.00  0.00           C 0
+ATOM   5917   CA ASP B 279     -11.927  -1.892  -8.153  0.00  0.00           C 0
+ATOM   5921   CG ASP B 279     -14.416  -1.659  -7.671  0.00  0.00           C 0
+ATOM   5803   CB SER B 265     -12.143   2.052  -9.557  0.00  0.00           C 0
+ATOM   5790    O ASP B 263     -12.961   5.783  -6.037  0.00  0.00           O 0
+TER
+END

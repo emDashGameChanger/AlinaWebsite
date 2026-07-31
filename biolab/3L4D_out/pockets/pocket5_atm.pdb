@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0285
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6957
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4831
+HEADER 5  - Mean B-factor of pocket residues  : 0.1738
+HEADER 6  - Hydrophobicity Score              : -9.8571
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.0901
+HEADER 10 - Pocket volume (convex hull)       : 8.4428
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   2983    O ARG A 403      25.503  -9.667  13.674  0.49  6.43           O 0
+ATOM   2505   CD GLN A 343      28.039 -13.346  18.535  0.00  0.00           C 0
+ATOM   2504   CG GLN A 343      28.346 -14.306  17.405  0.00  0.00           C 0
+ATOM   2967    O PRO A 401      29.134 -10.441  15.920  0.00  0.00           O 0
+ATOM   2506  NE2 GLN A 343      26.974 -13.628  19.279  0.62  5.47           N 0
+ATOM   2974    O GLU A 402      26.083  -7.535  15.937  0.00  0.00           O 0
+ATOM   2507  OE1 GLN A 343      28.750 -12.363  18.741  0.66  3.21           O 0
+ATOM   2978  OE1 GLU A 402      28.520  -8.034  19.288  0.00  0.00           O 0
+ATOM   3006   CE MET A 405      27.723 -12.824  10.900  0.00  0.00           C 0
+ATOM   2503   CB GLN A 343      29.737 -14.110  16.820  0.00  0.00           C 0
+ATOM   2523   CB ARG A 346      29.211 -17.074  12.066  0.00  0.00           C 0
+ATOM   2500   CA GLN A 343      30.157 -15.224  15.858  0.00  0.00           C 0
+ATOM   2525   CD ARG A 346      26.791 -17.750  12.217  0.00  0.00           C 0
+ATOM   3004   CG MET A 405      25.015 -13.257  11.210  0.00  0.00           C 0
+ATOM   2999    N MET A 405      23.002 -11.116  11.569  0.33  6.56           N 0
+ATOM   2992   CA ASN A 404      22.926  -9.043  12.828  0.00  0.00           C 0
+ATOM   2998  OD1 ASN A 404      20.468 -10.315  12.658  0.50  6.43           O 0
+TER
+END

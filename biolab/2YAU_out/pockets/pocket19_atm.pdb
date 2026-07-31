@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : 0.0566
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7680
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6299
+HEADER 5  - Mean B-factor of pocket residues  : 0.3912
+HEADER 6  - Hydrophobicity Score              : 18.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 268.8672
+HEADER 10 - Pocket volume (convex hull)       : 11.4199
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   5883   CG GLU B 275      -6.052   1.578 -21.550  0.00  0.00           C 0
+ATOM   5884   CD GLU B 275      -6.184   3.006 -22.036  0.00  0.00           C 0
+ATOM   5886  OE2 GLU B 275      -5.129   3.627 -22.298  0.00  0.00           O 1
+ATOM   5870    O GLY B 273      -4.801  -2.025 -26.052  0.00  0.00           O 0
+ATOM   5837  ND1 HIS B 269      -2.800   1.622 -20.516  0.70  5.47           N 0
+ATOM   5878    N GLU B 275      -7.203  -1.220 -22.216  0.51  1.09           N 0
+ATOM   5881    O GLU B 275      -9.715  -0.932 -20.949  0.00  0.00           O 0
+ATOM   5882   CB GLU B 275      -7.386   0.975 -21.144  0.00  0.00           C 0
+ATOM   5885  OE1 GLU B 275      -7.334   3.503 -22.166  0.00  0.00           O 0
+ATOM   5876  CG2 THR B 274      -7.627  -4.365 -25.113  0.00  0.00           C 0
+ATOM   5875   CB THR B 274      -7.378  -3.771 -23.760  0.00  0.00           C 0
+ATOM   5868   CA GLY B 273      -2.850  -3.244 -25.424  0.00  0.00           C 0
+ATOM   5843    O PHE B 270      -1.162  -4.261 -22.613  0.00  0.00           O 0
+ATOM   5834   CB HIS B 269      -1.660  -0.388 -19.491  0.00  0.00           C 0
+ATOM   5872   CA THR B 274      -6.242  -2.720 -23.831  0.00  0.00           C 0
+ATOM   5869    C GLY B 273      -4.286  -2.795 -25.244  0.00  0.00           C 0
+ATOM   5874    O THR B 274      -5.146  -2.086 -21.781  0.00  0.00           O 0
+TER
+END
