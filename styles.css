@@ -242,3 +242,23 @@ a{
 .poseCaption span:last-child{
   color: #b9b3d6;
 }
+.tableWrap{
+  overflow-x: auto;
+  margin: 15px 0;
+}
+.dataTable{
+  width: 100%;
+  border-collapse: collapse;
+}
+.dataTable th, .dataTable td{
+  border: 1px solid #6b5cae;
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.dataTable th{
+  background: #0000006F;
+}
+.dataTable tr:hover{
+  background: #0000004F;
+}

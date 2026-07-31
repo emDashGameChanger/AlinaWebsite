@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles.css">
+  <title>Research Summary: VL Repurposing Candidates</title>
+</head>
+<body>
+  <!-- Intentionally not linked from index.html or MolecularDocking.html — direct-URL only, aimed at researchers, not the tutorial-reading audience. -->
+  <div class="mainDiv">
+    <div class="titleDiv">
+      <h1>Looking for a Wet-Lab Collaborator</h1>
+      <h2>Computational drug-repurposing candidates for visceral leishmaniasis, from a high schooler's docking pipeline — a research summary for anyone who could take these hits to an actual assay.</h2>
+    </div>
+
+    <div class="topLinksDiv">
+      <div class="links">
+        <a href="../index.html">BioMedBound Landing Page</a>
+      </div>
+      <div class="links">
+        <a href="../toys.html">Educational Toy Reviews</a>
+      </div>
+      <div class="links">
+        <a href="../books.html">Science Book Reviews</a>
+      </div>
+      <div class="links">
+        <a href="../MolecularDocking.html">Molecular Docking</a>
+      </div>
+    </div>
+
+    <div class="topSplashDiv">
+      I'm Alina Ren, a high school student who wants to be a doctor. This page is a standalone summary written for
+      researchers, not part of the site's regular tutorial flow — if you landed here from an email, that's exactly
+      where I meant to send you. It lays out what I found, how confident I am in each piece, and what I'm actually
+      asking for.
+    </div>
+
+    <div class="pageBodyDiv">
+      <h3>The short version</h3>
+      <p>I screened ~1,800 FDA-approved drugs (AutoDock Vina-GPU + fpocket) against three <em>Leishmania</em> drug
+      targets — pteridine reductase 1 (PTR1), trypanothione reductase (TR), and sterol 14&alpha;-demethylase
+      (CYP51) — looking for repurposing candidates for visceral leishmaniasis. Six hits below combine a strong
+      docking score with either independent biological evidence or a specificity signal suggesting the interaction
+      is real rather than an artifact of Vina's scoring function. <strong>None of this is proof of efficacy.</strong>
+      It's a prioritized, reproducible set of hypotheses that I don't have the means to test further myself — no
+      wet lab, no cell culture, no assay access. If any of this is worth a day in an actual lab, I'd like to talk.</p>
+
+      <h3>Method, briefly</h3>
+      <ul>
+        <li>Receptors: PTR1 (PDB 1E92, <em>L. major</em>, NADP+ cofactor retained), TR (PDB 2YAU, full A+B homodimer
+        — its main pocket is inter-subunit), CYP51 (PDB 3L4D, chain A, heme retained).</li>
+        <li>Library: 1,795–1,859 FDA-approved drugs (DrugCentral), docked with AutoDock-Vina-GPU-2.1.</li>
+        <li>Pocket selection cross-checked against literature-reported binding-site residues where available (PTR1:
+        matched 2 of 6 published key residues directly, the other 4 in adjacent fPocket fragments).</li>
+        <li>Every top-10 hit per target got a rendered pose check against the known pocket, not just a raw score.</li>
+        <li><strong>Cross-target specificity analysis:</strong> since the same 1,795 drugs were screened against all
+        three unrelated pockets, I z-scored each drug's affinity per target and computed a "specificity gap" —
+        how much better a drug scores on its best target versus its own baseline on the other two. This separates
+        drugs Vina genuinely favors for one pocket's shape from drugs it just scores well everywhere (a real
+        confound with big, flexible, generically "sticky" molecules). Full method:
+        <a href="https://github.com/emDashGameChanger/AlinaWebsite/blob/main/biolab/cross-target-specificity-analysis.md">cross-target-specificity-analysis.md</a>.</li>
+      </ul>
+
+      <h3>Six candidates worth a closer look</h3>
+      <div class="tableWrap">
+        <table class="dataTable">
+          <thead>
+            <tr>
+              <th>Candidate</th>
+              <th>Target</th>
+              <th>Docking score</th>
+              <th>Independent evidence</th>
+              <th>Practical notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Digitoxin</td>
+              <td>CYP51</td>
+              <td>&minus;13.0 kcal/mol</td>
+              <td>Digitoxigenin (its aglycone) confirmed IC50 = 6.9 &micro;g/mL against <em>L. infantum</em>
+              itself, selectivity index 42.8; &beta;-acetyl-digitoxin reduced parasite load in vivo in mice.
+              Specificity gap 2.47 (pocket-specific, not a generic sticky binder).</td>
+              <td>Not commercially available in the US — availability may differ by jurisdiction.</td>
+            </tr>
+            <tr>
+              <td>Irinotecan</td>
+              <td>CYP51</td>
+              <td>&minus;12.5 kcal/mol</td>
+              <td>Confirmed active against <em>L. infantum</em> promastigotes and infected splenocytes via
+              topoisomerase IB poisoning — a different mechanism than CYP51, so this corroborates the drug
+              generally, not the docking hit specifically. Specificity gap 1.65.</td>
+              <td>Cheap per vial (~$11/2&nbsp;mL), but IV chemotherapy — requires infusion-center administration,
+              real hematologic/GI toxicity.</td>
+            </tr>
+            <tr>
+              <td>Alectinib</td>
+              <td>PTR1</td>
+              <td>&minus;12.1 kcal/mol</td>
+              <td>No direct <em>Leishmania</em> precedent found. Specificity gap 1.47 — genuinely pocket-specific,
+              not just a strong binder everywhere.</td>
+              <td>Expensive oncology drug: ~$12,500&ndash;19,000/month brand (~$70/month via patient assistance).</td>
+            </tr>
+            <tr>
+              <td>Bexarotene</td>
+              <td>PTR1</td>
+              <td>&minus;11.4 kcal/mol</td>
+              <td>No direct precedent found. Specificity gap 1.28, and the single best ligand efficiency in the
+              entire 1,795-compound dataset (0.438, from only 26 heavy atoms) — a small molecule fitting the
+              pocket precisely rather than a big one racking up contacts.</td>
+              <td>Retinoid, teratogenic; ~$9,469/month average retail (as low as ~$168 with a coupon).</td>
+            </tr>
+            <tr>
+              <td>Saquinavir</td>
+              <td>TR</td>
+              <td>&minus;9.9 kcal/mol</td>
+              <td>Confirmed active against <em>L. major</em> (IC50 7.0 &micro;M) and, more weakly, <em>L.
+              infantum</em>, via proteasome inhibition (Savoia, Allice &amp; Tovo, <em>Int J Antimicrob Agents</em>,
+              2005) — a different mechanism than TR, so real but not a confirmation of this specific hit.</td>
+              <td>~$344+/bottle, no generic available.</td>
+            </tr>
+            <tr>
+              <td>Dutasteride</td>
+              <td>CYP51</td>
+              <td>&minus;12.6 kcal/mol</td>
+              <td>No direct precedent found, but mechanistically the most plausible novel hit on this list — it's
+              itself a steroid-pathway enzyme inhibitor, chemically close to CYP51's substrate class.</td>
+              <td>Cheap generic, ~$8&ndash;40/month, no black-box warning — the best cost/safety profile the whole
+              project has produced.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Full docking results, pose renders, literature checks, and pricing/safety sourcing for all three screens
+      (not just these six) are public:
+      <a href="https://github.com/emDashGameChanger/AlinaWebsite/tree/main/biolab/runs">biolab/runs/</a> in the
+      project repo.</p>
+
+      <h3>What I'm asking</h3>
+      <p>I'm looking for a lab that can take any of these candidates one step further than a docking score — a
+      recombinant PTR1/TR/CYP51 enzyme-inhibition assay, or a <em>Leishmania</em> promastigote/amastigote
+      growth-inhibition assay, would both be a real answer to a question I can't currently answer myself. Everything
+      I have is public and reproducible: receptor prep files, docking configs, full result sets, and the specificity
+      analysis are all in the repo linked above. Happy to share anything else that would help someone evaluate
+      whether this is worth their bench time.</p>
+
+      <h3>Scope note</h3>
+      <p>This is computational hypothesis-generation, not a therapeutic or clinical claim. Docking scores and
+      cross-target specificity are evidence a drug's interaction with a pocket is physically plausible and probably
+      not a scoring-function artifact — they are not evidence of biological activity, and none of the pricing or
+      safety information above describes anything about how these drugs would behave if actually tested against
+      <em>Leishmania</em>.</p>
+
+      <h3>A note on how this was built</h3>
+      <p>I work with Claude Code on this project — the docking pipeline, the target research, and the drafting of
+      this page itself all had AI assistance, and I'd rather say so plainly than leave it quiet. The target
+      selection, the specificity-gap method's design, and every interpretive call above are mine; Claude Code
+      helped me move faster, not made the decisions.</p>
+    </div>
+
+    <div class="footer">
+      Contact: <a class="link" href="mailto: alinaren@biomedbound.com">AlinaRen@biomedbound.com</a>
+    </div>
+  </div>
+</body>
+</html>
