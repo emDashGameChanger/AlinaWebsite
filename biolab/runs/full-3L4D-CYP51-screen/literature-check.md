@@ -16,9 +16,12 @@ lines of evidence:
 - Digitoxigenin (digitoxin's aglycone, i.e. digitoxin with its sugars
   removed) showed antileishmanial IC50 = 6.9 ± 1.5 μg/mL against
   *L. infantum*, with a selectivity index of 42.8 (good separation from
-  host-cell toxicity).
+  host-cell toxicity). Source: Freitas CS, et al. *Parasitol Res.* 2021;120(1):289–301.
+  DOI: [10.1007/s00436-020-06971-2](https://doi.org/10.1007/s00436-020-06971-2), PMID [33191446](https://pubmed.ncbi.nlm.nih.gov/33191446/).
 - β-acetyl-digitoxin (a digitoxin derivative) showed activity against
   infected macrophages *and* reduced parasite load in vivo in mice.
+  Source: Freitas CS, et al. *Parasite*. 2021;28:36.
+  DOI: [10.1051/parasite/2021036](https://doi.org/10.1051/parasite/2021036), PMID [33851916](https://pubmed.ncbi.nlm.nih.gov/33851916/).
 
 This is a stronger, more direct hit than anything either PTR1 or TR
 produced (those checks found precedent against a *different* species —
@@ -30,7 +33,9 @@ commercially available in the US anymore.
 **Irinotecan** also has a real, specific *L. infantum* precedent: it and
 its active metabolite SN-38 act as DNA topoisomerase IB poisons in
 *L. infantum* promastigotes, confirmed both in vitro and ex vivo on
-infected splenocytes. This is the same "real but mechanistically separate"
+infected splenocytes. Source: Prada CF, et al. *Biochem Pharmacol.* 2013;85(10):1433–1440.
+DOI: [10.1016/j.bcp.2013.02.024](https://doi.org/10.1016/j.bcp.2013.02.024), PMID [23466420](https://pubmed.ncbi.nlm.nih.gov/23466420/).
+This is the same "real but mechanistically separate"
 relationship as digitoxin-vs-CYP51 — irinotecan's confirmed activity is via
 topoisomerase IB, not sterol biosynthesis, so it doesn't validate the
 CYP51 docking score specifically. It is a direct, interesting callback to
