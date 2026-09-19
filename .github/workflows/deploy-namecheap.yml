@@ -26,3 +26,4 @@ jobs:
             .github/**
             CLAUDE.md
             README.md
+            **/*.md
