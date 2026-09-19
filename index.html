@@ -37,38 +37,38 @@
   <!-- put the newest three projects here -->
    <div class="cardContainer">
      <!-- first card -->
-      <a href="molecularDocking/Hello2.html">
+      <a href="molecularDocking/TRScreen.html">
         <div id="projectCard2" class="indexCard">
           <h3>Molecular Docking</h3>
-          <h4>Hello Tools Part 2</h4>
-          <img id="test" class="cardImage" src="molecularDocking/images/fPocket1.png" alt="Docked with pocket shown">
+          <h4>Screening Trypanothione Reductase: The Pivot Away from Specialty Drugs</h4>
+          <img id="test" class="cardImage" src="molecularDocking/images/trScreenResults.svg" alt="Bar chart of the top 10 predicted binding affinities against trypanothione reductase">
           <div id="project1Summary" class="summary">
-          <p>Bringing in fPocket to actually find a binding site instead of guessing at one — and watching the
-          predicted affinity jump from -5.1 to -7.8 kcal/mol because of it.</p>
+          <p>PTR1's top hits were all very expensive cancer drugs, so I switched to a completely different
+          <em>Leishmania</em> target — trypanothione reductase — instead of giving up on cheap repurposing.</p>
           </div>
         </div>
      </a>
      <!-- end of card -->
-      <a href="molecularDocking/DrugLibrary.html">
+      <a href="molecularDocking/CYP51Screen.html">
         <div id="projectCard3" class="indexCard">
           <h3>Molecular Docking</h3>
-          <h4>Building an FDA-Approved Drug Library</h4>
-          <img id="test" class="cardImage" src="molecularDocking/images/drugLibraryResults.svg" alt="Bar chart of top predicted binding affinities">
+          <h4>Screening CYP51: A Pipeline Sanity Check</h4>
+          <img id="test" class="cardImage" src="molecularDocking/images/cyp51ScreenResults.svg" alt="Bar chart of the top 10 predicted binding affinities against CYP51">
           <div id="project1Summary" class="summary">
-          <p>Scaling up from one ligand at a time to screening almost two thousand real FDA-approved drugs in a
-          single run — the library, the ligand-prep pipeline, and a first pipeline smoke test.</p>
+          <p>A third <em>Leishmania</em> target, picked partly to test the pipeline against a class of drug I already
+          know the answer for — and it produced the strongest literature-backed hit of the project so far.</p>
           </div>
         </div>
      </a>
      <!-- end of card -->
-      <a href="molecularDocking/PTR1Screen.html">
+      <a href="molecularDocking/SpecificityAnalysis.html">
         <div id="projectCard4" class="indexCard">
           <h3>Molecular Docking</h3>
-          <h4>Screening PTR1: A Real Target for Visceral Leishmaniasis</h4>
-          <img id="test" class="cardImage" src="molecularDocking/images/ptr1ScreenResults.svg" alt="Bar chart of top predicted binding affinities against PTR1">
+          <h4>Sticky vs. Specific: Cross-Checking Three Screens</h4>
+          <img id="test" class="cardImage" src="molecularDocking/images/cyp51ScreenResults.svg" alt="Bar chart from the CYP51 screen, one of the three screens compared">
           <div id="project1Summary" class="summary">
-          <p>The library and the pipeline finally meet an actual disease target — pteridine reductase 1, from the
-          parasite behind visceral leishmaniasis. First real screening result of the project.</p>
+          <p>The same drugs kept showing up near the top of more than one target's results. Is that a real signal, or is
+          Vina's scoring just enthusiastic about certain molecules?</p>
           </div>
         </div>
      </a>
