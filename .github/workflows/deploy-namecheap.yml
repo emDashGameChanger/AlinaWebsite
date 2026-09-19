@@ -10,6 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Allowlist: only HTML, CSS and page resources reach the public host.
+      # See .github/scripts/stage-site.sh for the exact file types.
+      - name: Stage allowlisted site files
+        run: bash .github/scripts/stage-site.sh _site
+
       - name: FTP deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -18,12 +23,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           server-dir: ./
-          local-dir: ./
-          exclude: |
-            biolab/**
-            .git*
-            .git/**
-            .github/**
-            CLAUDE.md
-            README.md
-            **/*.md
+          local-dir: ./_site/

@@ -24,3 +24,6 @@ biolab/runs/
 # OS/editor cruft
 .DS_Store
 *.swp
+
+# Deploy staging folder (built by .github/scripts/stage-site.sh)
+_site/
