@@ -11,7 +11,7 @@ see those files.
 
 | Drug | Current approved use | Approx. US price | Key safety concerns |
 |---|---|---|---|
-| Digitoxin | Heart failure, arrhythmia (historically) | **Not commercially available in the US** — withdrawn from the market; digoxin (its still-marketed cousin) runs ~$24+/month generic | Narrow therapeutic index, cardiac glycoside toxicity; N/A for current US prescribing |
+| Digitoxin | Heart failure, arrhythmia (historically) | **Not marketed in the US** (FDA: no longer manufactured there); still sold in a few European countries, see availability notes below; digoxin (its still-marketed cousin) runs ~$24+/month generic | Narrow therapeutic index, cardiac glycoside toxicity; N/A for current US prescribing |
 | Dutasteride (Avodart) | Benign prostatic hyperplasia | ~$8-40/month generic; $350-450 brand | Sexual dysfunction, gynecomastia — no black box, comparatively mild |
 | Irinotecan (Camptosar) | Colorectal/pancreatic cancer chemotherapy | ~$11/2 mL vial, generic available | Severe diarrhea, bone-marrow suppression/infection risk — IV chemo, requires infusion-center administration |
 | Vibegron (Gemtesa) | Overactive bladder | ~$500-700/month, no generic; ~$95/month w/ copay card | Urinary retention (rare); mostly mild GI/UTI-type side effects |
@@ -22,6 +22,12 @@ see those files.
 
 **Digitoxin**
 - Availability: [Davis's Drug Guide](https://www.drugguide.com/ddo/view/Davis-Drug-Guide/109117/all/digitoxin), [ScienceDirect overview](https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/digitoxin)
+- Availability outside the US (researched 2026-09-18, full log in `~/Projects/Alina/digitoxin-availability.md`, outside this repo):
+  - US: [IARC monograph, NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/NBK350386/): FDA reported digitoxin no longer manufactured in the USA; "only seven licensed products containing digitoxin in Germany, Austria, Hungary, and Norway" (date of that list not verified).
+  - Germany: [apotheke adhoc](https://www.apotheke-adhoc.de/nachrichten/detail/pharmazie/verpackung-eingestellt-digitoxin-fehlt-bis-2027/): Digitoxin AWD 0.07 (Teva) is the only oral product left; supply shortage 1 July to expected 29 January 2027.
+  - Canada: [Health Canada DPD record](https://health-products.canada.ca/dpd-bdpp/info?lang=eng&code=1932): Digitaline Welcker 0.1 mg tablets, status "Cancelled Post Market", 5 September 2001; the only digitoxin product in the database.
+  - Visceral-leishmaniasis-endemic countries searched (India, Bangladesh, Sudan, Ethiopia, Kenya, Brazil): **not found**; Nepal, South Sudan, Somalia, Uganda and Yemen not searched. Most national registries could not be queried, so this is "not found," not "confirmed absent."
+  - Research reagent: [Cayman Chemical item 27825](https://www.caymanchem.com/product/27825/digitoxin), purity ≥98%, "not for human or veterinary use."
 - Digoxin price (as the practical modern proxy): [GoodRx](https://www.goodrx.com/digoxin)
 
 **Dutasteride (Avodart)**
@@ -46,11 +52,12 @@ see those files.
 
 ## Bottom line
 
-**Digitoxin is a real letdown on the practicality axis, despite being both
+**Digitoxin is the awkward one on the practicality axis, despite being both
 the single best docking score of the whole project (-13.0 kcal/mol) and
 the strongest literature precedent found so far** (confirmed *L. infantum*
-activity, see `literature-check.md`) — it's simply not something that can
-be prescribed in the US today. Its still-marketed cousin digoxin is cheap
+activity, see `literature-check.md`) — it isn't marketed in the US today, and
+elsewhere it is a small market (see availability notes above). Being off the
+market is not a barrier to lab testing, since it is sold as a research chemical. Its still-marketed cousin digoxin is cheap
 and widely available, but digoxin wasn't the drug that scored well here or
 the drug tested in the antileishmanial literature — it would need its own
 independent check (docking + literature) before leaning on it as a
