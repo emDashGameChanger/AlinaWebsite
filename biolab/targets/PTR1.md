@@ -52,8 +52,8 @@ defining the binding pocket.
 ## Directly relevant precedent: in-silico benzothiazole screen against LmPTR1
 
 Found a close methodological match — an in-silico study screening
-benzothiazole-core compounds against LmPTR1 (Bittencourt-Cunha et al.-style
-virtual screening/QSAR paper, PMC11740253, 2024/2025):
+benzothiazole-core compounds against LmPTR1 (Viana et al. / Barbosa lab
+virtual screening/QSAR paper, ACS Omega 2025, PMC11740253):
 
 - **Receptor**: PDB **5L4N** (LmPTR1 apo-ish structure), prepared in UCSF
   Chimera (solvent deletion, added hydrogens/charges, incomplete side chains
