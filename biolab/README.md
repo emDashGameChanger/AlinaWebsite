@@ -87,5 +87,5 @@ python3 scripts/batch_dock.py --run-name <name> [--limit N]
   smoke-test on a small subset before committing to a full-library run.
 
 See the `docking-run` and `target-research` Claude Code skills
-(`~/.claude/skills/`) for the conventions around actually using this for a
+(`~/Projects/Alina/.claude/skills/`) for the conventions around actually using this for a
 real screening campaign once a disease target is picked.

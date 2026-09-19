@@ -121,10 +121,14 @@ Match the tone already in `molecularDocking/softwareInstall.html`,
 
 ## Skills
 
-Claude Code skills for this project live at `~/.claude/skills/` (cloned from
-`emDashGameChanger/AlinaSkills`, applies globally on this machine):
-`docking-run`, `website-tutorial-page`, `target-research`, `lab-notebook`.
-Use them for the workflows they cover instead of improvising each time.
+Claude Code skills for this project live at `~/Projects/Alina/.claude/skills/`
+(one level above this repo): `docking-run`, `website-tutorial-page`,
+`target-research`, `lab-notebook`. They only load when a session is started
+from `~/Projects/Alina`; a session started inside `AlinaWebsite/` won't see
+them, so start there or read the `SKILL.md` files directly. (`~/.claude/skills/`
+is a separate clone of `emDashGameChanger/AlinaSkills` holding only global
+skills such as `project-docs`.) Use the project skills for the workflows they
+cover instead of improvising each time.
 
 ## Safety / scope
 
