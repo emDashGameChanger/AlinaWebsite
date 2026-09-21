@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Alina Ren: Docking research summary</title>
+<!-- Source for site-v2/downloads/alina-ren-docking-summary.pdf.
+     Build: python3 biolab/outreach/build_summary_pdf.py   (headless Chromium, Letter, 1 page)
+     Every claim below is copied from a page already on the site; keep it that way. -->
+<style>
+@font-face { font-family: "Inter Variable"; src: url("../../site-v2/fonts/inter-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; }
+@font-face { font-family: "Source Serif 4 Variable"; src: url("../../site-v2/fonts/source-serif-4-latin-wght-normal.woff2") format("woff2"); font-weight: 200 900; }
+@page { size: Letter; margin: 0.5in 0.55in; }
+:root { --ink:#2b2640; --ink-soft:#575170; --wash-50:#f5f2fc; --wash-100:#ece6f8; --wash-200:#ddd4f0; --lav-500:#8b78c6; --lav-700:#5b4b8a; --lav-900:#392f60; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 9.2pt/1.42 "Inter Variable", system-ui, sans-serif; color: var(--ink); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+h1, h2 { font-family: "Source Serif 4 Variable", Georgia, serif; color: var(--lav-900); margin: 0; }
+header { display: flex; justify-content: space-between; align-items: flex-end; border-bottom: 2px solid var(--lav-700); padding-bottom: 8pt; position: relative; }
+header::after { content: ""; position: absolute; left: 0; bottom: -9pt; width: 84pt; height: 7pt; background: url("../../site-v2/images/motifs/fret.svg") repeat-x left center / auto 7pt; opacity: .8; }
+h1 { font-size: 21pt; line-height: 1.1; }
+.sub { color: var(--ink-soft); font-size: 9.5pt; margin-top: 3pt; }
+.by { text-align: right; font-size: 8.5pt; color: var(--ink-soft); line-height: 1.5; }
+.by strong { color: var(--ink); font-size: 10.5pt; }
+h2 { font-size: 11.5pt; margin: 13pt 0 3pt; }
+p { margin: 0 0 4pt; }
+ul { margin: 2pt 0 0; padding-left: 13pt; } li { margin-bottom: 2pt; }
+table { width: 100%; border-collapse: collapse; margin-top: 4pt; font-size: 8.4pt; }
+th { text-align: left; background: var(--wash-100); color: var(--lav-900); font-size: 7.6pt; letter-spacing: .03em; padding: 3.5pt 5pt; }
+td { padding: 3.5pt 5pt; border-bottom: 1px solid var(--wash-100); vertical-align: top; }
+tr:nth-child(even) td { background: var(--wash-50); }
+td.n, th.n { text-align: right; white-space: nowrap; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 14pt; }
+.note { background: var(--wash-50); border: 1px solid var(--wash-200); border-left: 3pt solid var(--lav-500); padding: 6pt 8pt; margin-top: 6pt; border-radius: 3pt; }
+.note h2 { font-family: "Inter Variable", sans-serif; font-size: 7.6pt; letter-spacing: .1em; text-transform: uppercase; color: var(--lav-700); margin: 0 0 2pt; }
+footer { margin-top: 10pt; padding-top: 6pt; border-top: 1px solid var(--wash-200); display: flex; justify-content: space-between; font-size: 8.4pt; color: var(--ink-soft); }
+footer strong { color: var(--ink); }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Screening FDA-approved drugs against<br>three <em>Leishmania</em> targets</h1>
+    <div class="sub">A student research project in computational drug repurposing</div>
+  </div>
+  <div class="by"><strong>Alina Ren</strong><br>biomedbound.com<br>alinaren@biomedbound.com</div>
+</header>
+
+<h2>The question</h2>
+<p>I am a high school student who wants to be a doctor. I used molecular docking to look for repurposing candidates for visceral leishmaniasis among ~1,800 FDA-approved drugs, focusing on a disease that gets little research attention.</p>
+
+<h2>Method</h2>
+<ul>
+  <li>Docking with <strong>AutoDock Vina-GPU-2.1</strong>; binding pockets found with <strong>fpocket</strong>; drug library from <strong>DrugCentral</strong>.</li>
+  <li>Three receptors: PTR1 (PDB 1E92), trypanothione reductase (TR, PDB 2YAU) and CYP51 (PDB 3L4D).</li>
+  <li>Pocket selection cross-checked against literature-reported binding-site residues where available.</li>
+  <li>Every top-10 hit per target got a rendered pose check against the known pocket, not just a raw score.</li>
+</ul>
+
+<h2>Top predicted hit per target</h2>
+<table>
+  <tr><th>Target</th><th>Top hit</th><th class="n">Predicted affinity</th><th>What the site records about it</th></tr>
+  <tr><td>CYP51</td><td>Digitoxin</td><td class="n">&minus;13.0 kcal/mol</td><td>Its aglycone digitoxigenin has a confirmed IC50 = 6.9 &micro;g/mL against <em>L. infantum</em> itself (selectivity index 42.8). Specificity gap 2.47.</td></tr>
+  <tr><td>PTR1</td><td>Alectinib</td><td class="n">&minus;12.1 kcal/mol</td><td>No direct <em>Leishmania</em> precedent found. Specificity gap 1.47.</td></tr>
+  <tr><td>TR</td><td>Ergotamine</td><td class="n">&minus;10.5 kcal/mol</td><td>Strong on all three targets, clearest on TR; classed &ldquo;mixed, leaning sticky&rdquo; (gap 0.97).</td></tr>
+</table>
+
+<div class="two">
+<div>
+<h2>A check on the method</h2>
+<p>The same drugs kept appearing near the top of more than one target&rsquo;s results. To tell a real fit from a scoring function that likes a molecule everywhere, I z-scored each drug&rsquo;s affinity per target and computed a <strong>specificity gap</strong> across the three unrelated pockets.</p>
+<p>Of 25 drugs examined, 8 were confirmed generically &ldquo;sticky&rdquo; and 4 were genuinely pocket-specific. That analysis also made me walk back my own earlier claim about ergotamine, and the correction is on the site.</p>
+</div>
+<div>
+<h2>What this does and does not show</h2>
+<p>These are <strong>computational hypotheses</strong>. A docking score is evidence that an interaction is physically plausible; it is not evidence that a drug works or is safe, and nothing here is medical advice.</p>
+<p>I have no wet lab, cell culture or assay access, so the natural next step is an enzyme-inhibition or parasite growth-inhibition assay run by someone who does.</p>
+</div>
+</div>
+
+<div class="note">
+  <h2>How AI was used</h2>
+  <p style="margin:0">I build this project with Claude Code, and say so on every page. It helped with the docking scaffolding, the statistics pipeline and the write-ups. Choosing the targets, designing the specificity-gap method and every interpretation are mine. If I can run 3 miles on my own, a bike lets me ride 30, and the bike is worth writing about.</p>
+</div>
+
+<footer>
+  <span><strong>Full write-ups, charts and pose renders:</strong> biomedbound.com &rarr; Molecular Docking</span>
+  <span>Data, receptor prep files and docking configs available on request</span>
+</footer>
+</body>
+</html>

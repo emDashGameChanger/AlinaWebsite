@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Style guide | BioMedBound</title>
+  <meta name="description" content="Every component of the BioMedBound design system, rendered live with copy-paste markup. Internal reference; not linked from the site.">
+  <meta name="theme-color" content="#5b4b8a">
+  <link rel="preload" href="../../fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../../fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../../index.html"><span class="brand__name">BioMedBound</span><span class="brand__by">Alina Ren</span></a>
+      <nav class="nav" aria-label="Main">
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../MolecularDocking.html">Molecular Docking</a></li>
+      </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-header">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="../../index.html">Home</a></li><li aria-current="page">Style guide</li></ol></nav>
+        <h1>Style guide</h1>
+        <p class="lede">The single reference for how every BioMedBound page is built. Internal: this page is not linked from the site and is removed from the deploy at cutover.</p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="wrap sg">
+        <nav class="sg-toc" aria-label="On this page"><ol>
+<li><a href="#colour">Colour</a></li><li><a href="#type">Type</a></li><li><a href="#motifs">Chinese motifs</a></li>
+<li><a href="#buttons">Buttons</a></li>
+<li><a href="#stats">Stat strip</a></li>
+<li><a href="#pipeline">Pipeline steps</a></li>
+<li><a href="#cards">Card grid</a></li>
+<li><a href="#breadcrumb">Breadcrumb and page header</a></li>
+<li><a href="#prose">Article text</a></li>
+<li><a href="#figure">Figure</a></li>
+<li><a href="#table">Data table</a></li>
+<li><a href="#callout">Callout</a></li>
+<li><a href="#code">Code block</a></li>
+<li><a href="#pose">Pose card</a></li>
+<li><a href="#pager">Pager</a></li>
+        </ol></nav>
+        <div class="sg-body">
+        <section class="sg-component" id="colour" aria-labelledby="colour-h">
+          <h2 id="colour-h">Colour</h2>
+          <p class="sg-use">Lavender is a wash and an accent, never a wallpaper. Text is always <code>--ink</code>, <code>--ink-soft</code> or a dark lavender. Use the token, never the hex, in CSS.</p>
+          <ul class="sg-swatches">
+<li class="sg-swatch"><span class="sg-chip sg-chip--paper"></span><span class="sg-name">--paper</span><span class="sg-hex">#fbfaff</span><span class="sg-role">Page background</span></li>
+<li class="sg-swatch"><span class="sg-chip sg-chip--surface"></span><span class="sg-name">--surface</span><span class="sg-hex">#ffffff</span><span class="sg-role">Cards, tables</span></li>
+<li class="sg-swatch"><span class="sg-chip sg-chip--ink"></span><span class="sg-name">--ink</span><span class="sg-hex">#2b2640</span><span class="sg-role">Body text</span></li>
+<li class="sg-swatch"><span class="sg-chip sg-chip--ink-soft"></span><span class="sg-name">--ink-soft</span><span class="sg-hex">#575170</span><span class="sg-role">Secondary text</span></li>
+<li class="sg-swatch"><span class="sg-chip sg-chip--wash-50"></span><span class="sg-name">--wash-50</span><span class="sg-hex">#f5f2fc</span><span class="sg-role">Bands, zebra rows</span></li>
+<li class="sg-swatch"><span class="sg-chip sg-chip--wash-100"></span><span class="sg-name">--wash-100</span><span class="sg-hex">#ece6f8</span><span class="sg-role">Tinted panels, code</span></li>
+<li class="sg-swatch"><span class="sg-chip sg-chip--wash-200"></span><span class="sg-name">--wash-200</span><span class="sg-hex">#ddd4f0</span><span class="sg-role">Hairlines, borders</span></li>
+<li class="sg-swatch"><span class="sg-chip sg-chip--lav-300"></span><span class="sg-name">--lav-300</span><span class="sg-hex">#b8a9dc</span><span class="sg-role">Decorative strokes</span></li>
+<li class="sg-swatch"><span class="sg-chip sg-chip--lav-500"></span><span class="sg-name">--lav-500</span><span class="sg-hex">#8b78c6</span><span class="sg-role">Motifs, chart bars</span></li>
+<li class="sg-swatch"><span class="sg-chip sg-chip--lav-700"></span><span class="sg-name">--lav-700</span><span class="sg-hex">#5b4b8a</span><span class="sg-role">Links, accents</span></li>
+<li class="sg-swatch"><span class="sg-chip sg-chip--lav-900"></span><span class="sg-name">--lav-900</span><span class="sg-hex">#392f60</span><span class="sg-role">Headings</span></li>
+          </ul>
+        </section>
+
+        <section class="sg-component" id="type" aria-labelledby="type-h">
+          <h2 id="type-h">Type</h2>
+          <p class="sg-use">Source Serif 4 for headings, stats and the article intro; Inter for everything else; system monospace for code.</p>
+          <div class="sg-demo sg-type">
+            <p class="sg-h1">Heading one, Source Serif 4</p>
+            <p class="sg-h2">Heading two, Source Serif 4</p>
+            <p class="sg-h3">Heading three, Source Serif 4</p>
+            <p>Body copy is Inter at 1rem with a 1.65 line height and a 46rem measure, so lines stay readable on a large screen.</p>
+            <p class="sg-small">Small and secondary text in the muted ink colour, for captions and footnotes.</p>
+          </div>
+        </section>
+
+        <section class="sg-component" id="motifs" aria-labelledby="motifs-h">
+          <h2 id="motifs-h">Chinese motifs</h2>
+          <p class="sg-use">Decorative only: never behind body text, always low contrast, always <code>aria-hidden</code> or a CSS background. At most one large motif and two small ones per page. All four are generated by <code>site-design-system/scripts/make_motifs.py</code>.</p>
+          <div class="sg-demo sg-motifs">
+            <figure><div class="rule-fret" aria-hidden="true"></div><figcaption><strong>Fret (huiwen)</strong>: section rules and card top edges. <code>.rule-fret</code></figcaption></figure>
+            <figure><div class="ornament-cloud" aria-hidden="true"></div><figcaption><strong>Xiangyun cloud</strong>: small section marker, footer band. <code>.ornament-cloud</code></figcaption></figure>
+            <figure><div class="sg-lattice" aria-hidden="true"></div><figcaption><strong>Ice-ray lattice</strong>: faint corner of hero and page headers (CSS <code>::before/::after</code>).</figcaption></figure>
+            <figure><div class="sg-mist" aria-hidden="true"></div><figcaption><strong>Ink-wash mist mountains</strong>: bottom edge of the hero only.</figcaption></figure>
+          </div>
+        </section>
+
+        <section class="sg-component" id="buttons" aria-labelledby="buttons-h">
+          <h2 id="buttons-h">Buttons</h2>
+          <p class="sg-use">One primary button per view; the ghost style for the secondary action.</p>
+          <div class="sg-demo">
+<div class="btn-row">
+  <a class="btn" href="../../MolecularDocking.html">Explore the research</a>
+  <a class="btn btn--ghost" href="../../downloads/alina-ren-docking-summary.pdf">One-page summary (PDF)</a>
+</div>
+          </div>
+          <details class="sg-source"><summary>HTML</summary><pre class="code">&lt;div class=&quot;btn-row&quot;&gt;
+  &lt;a class=&quot;btn&quot; href=&quot;MolecularDocking.html&quot;&gt;Explore the research&lt;/a&gt;
+  &lt;a class=&quot;btn btn--ghost&quot; href=&quot;downloads/alina-ren-docking-summary.pdf&quot;&gt;One-page summary (PDF)&lt;/a&gt;
+&lt;/div&gt;</pre></details>
+        </section>
+        <section class="sg-component" id="stats" aria-labelledby="stats-h">
+          <h2 id="stats-h">Stat strip</h2>
+          <p class="sg-use">Landing only. Every number must be traceable to a page on the site.</p>
+          <div class="sg-demo">
+<dl class="stats">
+  <div class="stat"><dt>parasite protein targets screened</dt><dd>3</dd></div>
+  <div class="stat"><dt>cross-check comparing all three screens</dt><dd>1</dd></div>
+  <div class="stat"><dt>drugs docked in each full screen</dt><dd>1,795</dd></div>
+</dl>
+          </div>
+          <details class="sg-source"><summary>HTML</summary><pre class="code">&lt;dl class=&quot;stats&quot;&gt;
+  &lt;div class=&quot;stat&quot;&gt;&lt;dt&gt;parasite protein targets screened&lt;/dt&gt;&lt;dd&gt;3&lt;/dd&gt;&lt;/div&gt;
+  &lt;div class=&quot;stat&quot;&gt;&lt;dt&gt;cross-check comparing all three screens&lt;/dt&gt;&lt;dd&gt;1&lt;/dd&gt;&lt;/div&gt;
+  &lt;div class=&quot;stat&quot;&gt;&lt;dt&gt;drugs docked in each full screen&lt;/dt&gt;&lt;dd&gt;1,795&lt;/dd&gt;&lt;/div&gt;
+&lt;/dl&gt;</pre></details>
+        </section>
+        <section class="sg-component" id="pipeline" aria-labelledby="pipeline-h">
+          <h2 id="pipeline-h">Pipeline steps</h2>
+          <p class="sg-use">Numbered steps; numbering is automatic (CSS counter), do not type it.</p>
+          <div class="sg-demo">
+<ol class="pipeline">
+  <li><strong>Library</strong>FDA-approved drugs from DrugCentral</li>
+  <li><strong>Prepare</strong>Convert each drug into a 3D structure</li>
+  <li><strong>Dock</strong>AutoDock Vina-GPU scores every drug</li>
+</ol>
+          </div>
+          <details class="sg-source"><summary>HTML</summary><pre class="code">&lt;ol class=&quot;pipeline&quot;&gt;
+  &lt;li&gt;&lt;strong&gt;Library&lt;/strong&gt;FDA-approved drugs from DrugCentral&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Prepare&lt;/strong&gt;Convert each drug into a 3D structure&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dock&lt;/strong&gt;AutoDock Vina-GPU scores every drug&lt;/li&gt;
+&lt;/ol&gt;</pre></details>
+        </section>
+        <section class="sg-component" id="cards" aria-labelledby="cards-h">
+          <h2 id="cards-h">Card grid</h2>
+          <p class="sg-use">Use .cards--2 for four or fewer, .cards--feature for three. Every card links to a page and has a kicker, a title and one or two sentences. Image needs alt and width/height.</p>
+          <div class="sg-demo">
+<ul class="cards cards--2">
+  <li><a class="card" href="../../molecularDocking/CYP51Screen.html">
+    <div class="card__media"><img src="../../molecularDocking/images/cyp51ScreenResults.svg" alt="Bar chart of the top 10 predicted binding affinities against CYP51" width="680" height="420" loading="lazy"></div>
+    <div class="card__body">
+      <p class="card__kicker">Screen 3 &middot; CYP51</p>
+      <h3 class="card__title">Screening CYP51: A Pipeline Sanity Check</h3>
+      <p class="card__text">One or two sentences, no more.</p>
+      <span class="card__more">Read the write-up</span>
+    </div>
+  </a></li>
+</ul>
+          </div>
+          <details class="sg-source"><summary>HTML</summary><pre class="code">&lt;ul class=&quot;cards cards--2&quot;&gt;
+  &lt;li&gt;&lt;a class=&quot;card&quot; href=&quot;molecularDocking/CYP51Screen.html&quot;&gt;
+    &lt;div class=&quot;card__media&quot;&gt;&lt;img src=&quot;molecularDocking/images/cyp51ScreenResults.svg&quot; alt=&quot;Bar chart of the top 10 predicted binding affinities against CYP51&quot; width=&quot;680&quot; height=&quot;420&quot; loading=&quot;lazy&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;card__body&quot;&gt;
+      &lt;p class=&quot;card__kicker&quot;&gt;Screen 3 &amp;middot; CYP51&lt;/p&gt;
+      &lt;h3 class=&quot;card__title&quot;&gt;Screening CYP51: A Pipeline Sanity Check&lt;/h3&gt;
+      &lt;p class=&quot;card__text&quot;&gt;One or two sentences, no more.&lt;/p&gt;
+      &lt;span class=&quot;card__more&quot;&gt;Read the write-up&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</pre></details>
+        </section>
+        <section class="sg-component" id="breadcrumb" aria-labelledby="breadcrumb-h">
+          <h2 id="breadcrumb-h">Breadcrumb and page header</h2>
+          <p class="sg-use">Top of every page below the landing. The h1 is the page title and .lede is the one-sentence subtitle.</p>
+          <div class="sg-demo">
+<div class="page-header sg-inline">
+  <div class="wrap">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><ol>
+      <li><a href="../../index.html">Home</a></li>
+      <li><a href="../../MolecularDocking.html">Molecular Docking</a></li>
+      <li aria-current="page">Screening CYP51</li>
+    </ol></nav>
+    <h1>Page title goes here</h1>
+    <p class="lede">One-sentence subtitle that says what the reader gets.</p>
+  </div>
+</div>
+          </div>
+          <details class="sg-source"><summary>HTML</summary><pre class="code">&lt;div class=&quot;page-header sg-inline&quot;&gt;
+  &lt;div class=&quot;wrap&quot;&gt;
+    &lt;nav class=&quot;breadcrumb&quot; aria-label=&quot;Breadcrumb&quot;&gt;&lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;MolecularDocking.html&quot;&gt;Molecular Docking&lt;/a&gt;&lt;/li&gt;
+      &lt;li aria-current=&quot;page&quot;&gt;Screening CYP51&lt;/li&gt;
+    &lt;/ol&gt;&lt;/nav&gt;
+    &lt;h1&gt;Page title goes here&lt;/h1&gt;
+    &lt;p class=&quot;lede&quot;&gt;One-sentence subtitle that says what the reader gets.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</pre></details>
+        </section>
+        <section class="sg-component" id="prose" aria-labelledby="prose-h">
+          <h2 id="prose-h">Article text</h2>
+          <p class="sg-use">Inside article.prose. First paragraph gets .intro. Steps are h2 (the fret ornament is added automatically); use h3 only inside a step.</p>
+          <div class="sg-demo">
+<article class="prose sg-inline">
+  <p class="intro">Opening paragraph in the serif, a little larger than the body.</p>
+  <h2>Step 1: A heading</h2>
+  <p>Body text in Inter at a comfortable measure, with <a href="#prose">a link</a>, <strong>bold</strong> and <em>italic</em>.</p>
+  <ul><li>Lists keep the same rhythm.</li><li>Second item.</li></ul>
+</article>
+          </div>
+          <details class="sg-source"><summary>HTML</summary><pre class="code">&lt;article class=&quot;prose sg-inline&quot;&gt;
+  &lt;p class=&quot;intro&quot;&gt;Opening paragraph in the serif, a little larger than the body.&lt;/p&gt;
+  &lt;h2&gt;Step 1: A heading&lt;/h2&gt;
+  &lt;p&gt;Body text in Inter at a comfortable measure, with &lt;a href=&quot;#prose&quot;&gt;a link&lt;/a&gt;, &lt;strong&gt;bold&lt;/strong&gt; and &lt;em&gt;italic&lt;/em&gt;.&lt;/p&gt;
+  &lt;ul&gt;&lt;li&gt;Lists keep the same rhythm.&lt;/li&gt;&lt;li&gt;Second item.&lt;/li&gt;&lt;/ul&gt;
+&lt;/article&gt;</pre></details>
+        </section>
+        <section class="sg-component" id="figure" aria-labelledby="figure-h">
+          <h2 id="figure-h">Figure</h2>
+          <p class="sg-use">Charts and screenshots. Always alt text; add a figcaption when the picture needs explaining.</p>
+          <div class="sg-demo">
+<figure class="figure">
+  <img src="../../molecularDocking/images/trScreenResults.svg" alt="Bar chart of the top 10 predicted binding affinities against TR" width="680" height="420" loading="lazy">
+  <figcaption>Optional caption in the muted colour.</figcaption>
+</figure>
+          </div>
+          <details class="sg-source"><summary>HTML</summary><pre class="code">&lt;figure class=&quot;figure&quot;&gt;
+  &lt;img src=&quot;molecularDocking/images/trScreenResults.svg&quot; alt=&quot;Bar chart of the top 10 predicted binding affinities against TR&quot; width=&quot;680&quot; height=&quot;420&quot; loading=&quot;lazy&quot;&gt;
+  &lt;figcaption&gt;Optional caption in the muted colour.&lt;/figcaption&gt;
+&lt;/figure&gt;</pre></details>
+        </section>
+        <section class="sg-component" id="table" aria-labelledby="table-h">
+          <h2 id="table-h">Data table</h2>
+          <p class="sg-use">Always inside .table-wrap (scrolls on phones, keyboard-focusable). th scope=col. Add class num to numeric columns.</p>
+          <div class="sg-demo">
+<div class="table-wrap" role="region" tabindex="0" aria-label="Example table">
+  <table class="data-table">
+    <thead><tr><th scope="col">Drug</th><th scope="col" class="num">Predicted affinity</th></tr></thead>
+    <tbody>
+      <tr><td>digitoxin</td><td class="num">-13.0 kcal/mol</td></tr>
+      <tr><td>dutasteride</td><td class="num">-12.6 kcal/mol</td></tr>
+    </tbody>
+  </table>
+</div>
+          </div>
+          <details class="sg-source"><summary>HTML</summary><pre class="code">&lt;div class=&quot;table-wrap&quot; role=&quot;region&quot; tabindex=&quot;0&quot; aria-label=&quot;Example table&quot;&gt;
+  &lt;table class=&quot;data-table&quot;&gt;
+    &lt;thead&gt;&lt;tr&gt;&lt;th scope=&quot;col&quot;&gt;Drug&lt;/th&gt;&lt;th scope=&quot;col&quot; class=&quot;num&quot;&gt;Predicted affinity&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;&lt;td&gt;digitoxin&lt;/td&gt;&lt;td class=&quot;num&quot;&gt;-13.0 kcal/mol&lt;/td&gt;&lt;/tr&gt;
+      &lt;tr&gt;&lt;td&gt;dutasteride&lt;/td&gt;&lt;td class=&quot;num&quot;&gt;-12.6 kcal/mol&lt;/td&gt;&lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;</pre></details>
+        </section>
+        <section class="sg-component" id="callout" aria-labelledby="callout-h">
+          <h2 id="callout-h">Callout</h2>
+          <p class="sg-use">For the AI-use note (last section of every write-up) and for scope/safety notes. Not for decoration.</p>
+          <div class="sg-demo">
+<aside class="callout" aria-labelledby="built-title">
+  <h2 id="built-title">A quick note on how this got built</h2>
+  <p>Say plainly where Claude Code did the work and which decisions were Alina's.</p>
+</aside>
+          </div>
+          <details class="sg-source"><summary>HTML</summary><pre class="code">&lt;aside class=&quot;callout&quot; aria-labelledby=&quot;built-title&quot;&gt;
+  &lt;h2 id=&quot;built-title&quot;&gt;A quick note on how this got built&lt;/h2&gt;
+  &lt;p&gt;Say plainly where Claude Code did the work and which decisions were Alina&#x27;s.&lt;/p&gt;
+&lt;/aside&gt;</pre></details>
+        </section>
+        <section class="sg-component" id="code" aria-labelledby="code-h">
+          <h2 id="code-h">Code block</h2>
+          <p class="sg-use">Commands the reader will copy. Plain text inside pre.code; no syntax colours.</p>
+          <div class="sg-demo">
+<pre class="code">export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin</pre>
+          </div>
+          <details class="sg-source"><summary>HTML</summary><pre class="code">&lt;pre class=&quot;code&quot;&gt;export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin&lt;/pre&gt;</pre></details>
+        </section>
+        <section class="sg-component" id="pose" aria-labelledby="pose-h">
+          <h2 id="pose-h">Pose card</h2>
+          <p class="sg-use">Pairs of renders that link to the full-size image. Wrap the grid in .pose-grid.wide so it breaks out of the reading column.</p>
+          <div class="sg-demo">
+<div class="pose-grid wide">
+  <figure class="pose-card">
+    <div class="pose-pair">
+      <a href="../../molecularDocking/images/ptr1poses/alectinib.png" target="_blank" rel="noopener"><img src="../../molecularDocking/images/ptr1poses/alectinib.png" alt="Alectinib docked pose, stick representation" width="900" height="700" loading="lazy"></a>
+      <a href="../../molecularDocking/images/ptr1posesSurface/alectinib.png" target="_blank" rel="noopener"><img src="../../molecularDocking/images/ptr1posesSurface/alectinib.png" alt="Alectinib docked pose, surface representation" width="900" height="700" loading="lazy"></a>
+    </div>
+    <figcaption class="pose-caption"><strong>alectinib</strong> &middot; -12.1 kcal/mol</figcaption>
+  </figure>
+</div>
+          </div>
+          <details class="sg-source"><summary>HTML</summary><pre class="code">&lt;div class=&quot;pose-grid wide&quot;&gt;
+  &lt;figure class=&quot;pose-card&quot;&gt;
+    &lt;div class=&quot;pose-pair&quot;&gt;
+      &lt;a href=&quot;molecularDocking/images/ptr1poses/alectinib.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;molecularDocking/images/ptr1poses/alectinib.png&quot; alt=&quot;Alectinib docked pose, stick representation&quot; width=&quot;900&quot; height=&quot;700&quot; loading=&quot;lazy&quot;&gt;&lt;/a&gt;
+      &lt;a href=&quot;molecularDocking/images/ptr1posesSurface/alectinib.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;molecularDocking/images/ptr1posesSurface/alectinib.png&quot; alt=&quot;Alectinib docked pose, surface representation&quot; width=&quot;900&quot; height=&quot;700&quot; loading=&quot;lazy&quot;&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;figcaption class=&quot;pose-caption&quot;&gt;&lt;strong&gt;alectinib&lt;/strong&gt; &amp;middot; -12.1 kcal/mol&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;</pre></details>
+        </section>
+        <section class="sg-component" id="pager" aria-labelledby="pager-h">
+          <h2 id="pager-h">Pager</h2>
+          <p class="sg-use">Last element of an article: a way back to the hub.</p>
+          <div class="sg-demo">
+<nav class="pager" aria-label="Page navigation"><a href="../../MolecularDocking.html">&larr; Back to Molecular Docking</a></nav>
+          </div>
+          <details class="sg-source"><summary>HTML</summary><pre class="code">&lt;nav class=&quot;pager&quot; aria-label=&quot;Page navigation&quot;&gt;&lt;a href=&quot;MolecularDocking.html&quot;&gt;&amp;larr; Back to Molecular Docking&lt;/a&gt;&lt;/nav&gt;</pre></details>
+        </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <p><strong>Alina Ren</strong> &middot; BioMedBound</p>
+        <p>A student research project in computational drug repurposing.</p>
+        <p>Contact: <a href="mailto:alinaren@biomedbound.com">alinaren@biomedbound.com</a></p>
+      </div>
+      <div>
+        <p><strong>Please note</strong></p>
+        <p>Docking scores are computational predictions, not evidence that a drug works or is safe, and nothing here is medical advice. This project is built with AI assistance (Claude Code), and each page says where.</p>
+      </div>
+      <p class="fineprint">Typefaces: Inter and Source Serif 4, used under the SIL Open Font License.</p>
+    </div>
+  </footer>
+</body>
+</html>
