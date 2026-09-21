@@ -1,18 +1,20 @@
 # BioMedBound
 
 Alina Ren's science blog/portfolio: molecular docking and drug-repurposing
-research (finding novel uses for FDA-approved drugs), plus toy and book
-reviews. Written as tutorials, from basic tool setup through fpocket-guided
-targeted docking.
+research (finding novel uses for FDA-approved drugs): screening write-ups
+and tutorials, from basic tool setup through fpocket-guided targeted docking.
 
 - Live site: https://biomedbound.com
 - Also mirrored via GitHub Pages: https://emdashgamechanger.github.io/AlinaWebsite/
 
 ## Contents
 
-- `index.html`, `MolecularDocking.html`, `books.html`, `toys.html` — site pages
-- `molecularDocking/` — docking tutorials (software setup, first docking run,
-  fpocket-guided targeted docking)
+- `index.html`, `MolecularDocking.html` — landing page and docking hub
+- `molecularDocking/` — research write-ups (screens against PTR1, TR, CYP51,
+  specificity analysis) and docking tutorials (software setup, first docking
+  run, fpocket-guided targeted docking)
+- `styles.css`, `fonts/`, `images/`, `downloads/` — shared stylesheet, self-hosted
+  fonts, decorative motifs, and the one-page research summary (PDF)
 - `biolab/` — the actual docking tooling: config, example receptor/ligand,
   fpocket output, and a `setup.sh` to reproduce the environment from scratch
 

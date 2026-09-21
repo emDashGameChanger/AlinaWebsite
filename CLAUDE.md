@@ -2,8 +2,10 @@
 
 ## Project purpose & audience
 
-BioMedBound is Alina Ren's personal science blog/portfolio (high school
-student, aspiring doctor). It documents a molecular docking / drug-repurposing
+BioMedBound is Alina Ren's personal science portfolio (high school
+student, aspiring doctor). Its readers are college admissions officers and
+wet-lab researchers, so the site is calm, scholarly and credible (see the
+`site-design-system` skill). It documents a molecular docking / drug-repurposing
 research project: using AutoDock-Vina-GPU-2.1 (GPU-accelerated docking) and
 fpocket (binding-pocket detection) to search for novel (repurposed) uses of
 existing FDA-approved drugs, with a focus on rare or under-studied diseases
@@ -11,8 +13,9 @@ that don't get much research attention. The site is written as tutorials for
 fellow students, teachers, and anyone learning docking basics — audience is
 smart but not necessarily expert, so explain jargon rather than assuming it.
 
-The site also has non-docking sections (toy reviews, book reviews) — same
-voice, lower priority than the docking content.
+The site has two areas: the landing page and Molecular Docking (a hub plus
+its sub-pages). The old toy and book reviews were dropped in the 2026-09
+redesign.
 
 ## AI use & transparency
 
@@ -33,10 +36,13 @@ history to make the work look more "manual" than it is.
 ## Repo layout
 
 ```
-index.html, MolecularDocking.html, books.html, toys.html   # top-level pages
-styles.css                                                   # shared stylesheet
-images/, books/, toys/, molecularDocking/                    # page assets + subsections
+index.html, MolecularDocking.html      # top-level pages (landing, docking hub)
+molecularDocking/                      # sub-pages (research write-ups + tutorials) and their images/
+styles.css                             # the only stylesheet (tokens, components); no JS, no build step
+fonts/, images/motifs/, downloads/     # self-hosted fonts, Chinese-motif SVGs, one-page summary PDF
 biolab/                                                       # docking tooling, config, example run
+  styleguide/styleguide.html  # component reference page (internal, never deployed)
+  outreach/        # summary-source.html + build_summary_pdf.py (make downloads/*.pdf), cover-email template
   setup.sh, environment.yml, README.md
   config.txt, receptor.pdbqt, ligand.*, 3I3R.pdb, 3I3R_out/, ...
   runs/            # (created as needed) per-experiment logs, see docking-run skill
@@ -98,18 +104,23 @@ receptor/box before committing to a full-library run.
 
 - **Relative paths only.** Never use a leading `/` in `href`/`src` — it
   breaks on GitHub Pages' subpath URL. Root pages use `styles.css`,
-  `index.html`, etc.; pages one level deep (`toys/`, `molecularDocking/`) use
+  `index.html`, etc.; pages one level deep (`molecularDocking/`) use
   `../styles.css`, `../index.html`, etc., and same-folder assets stay
   unprefixed (`images/foo.png`).
-- Reuse existing structure/classes rather than inventing new markup: a page
-  is built from `mainDiv` > `titleDiv` + `topLinksDiv` (nav) + `topSplashDiv`
-  (intro) + content (`pageBodyDiv`, `.code` for command blocks, `.pageImage`
-  for images, `reviewCardDiv`/`indexCard` for card layouts) + `.footer`
-  (contact mailto).
-- The `topLinksDiv` nav block is duplicated across every page — if you add a
-  new top-level page, update the nav in *all* existing pages to keep them in
-  sync. All nav links (including "Science Book Reviews" → `books.html`) are
-  correct sitewide as of this writing.
+- Use the skills instead of hand-writing markup: `site-page-scaffold` to add
+  a page (it copies the shared header/footer, which must stay identical on
+  every page), `site-design-system` for classes, colours and motifs, and
+  `site-consistency-check` before committing (run it on a staged copy:
+  `bash .github/scripts/stage-site.sh /tmp/stage`, then `check_site.py /tmp/stage`;
+  zero errors and zero warnings).
+- Pages are `header` / `main` / `footer` built from the components in
+  `styles.css` (`.page-header`, `.prose`, `.figure`, `.data-table`,
+  `.callout`, `.card`, ...). Don't add inline styles or hard-coded colours;
+  add a token to `:root` instead.
+- Don't reword scientific text, numbers or citations while restyling; flag
+  inconsistencies to the user instead.
+- `molecularDocking/ResearchOutreach.html` is deliberately unlisted (nothing
+  has been sent to PIs yet); don't link it from the nav or hub without asking.
 - Contact footer always uses `alinaren@biomedbound.com`.
 
 ## House style / tone
@@ -122,8 +133,9 @@ Match the tone already in `molecularDocking/softwareInstall.html`,
 ## Skills
 
 Claude Code skills for this project live at `~/Projects/Alina/.claude/skills/`
-(one level above this repo): `docking-run`, `website-tutorial-page`,
-`target-research`, `lab-notebook`. They only load when a session is started
+(one level above this repo): `docking-run`, `site-design-system`,
+`site-page-scaffold`, `site-consistency-check`, `website-tutorial-page`
+(voice notes; points to the site-* skills), `target-research`, `lab-notebook`. They only load when a session is started
 from `~/Projects/Alina`; a session started inside `AlinaWebsite/` won't see
 them, so start there or read the `SKILL.md` files directly. (`~/.claude/skills/`
 is a separate clone of `emDashGameChanger/AlinaSkills` holding only global
