@@ -3,82 +3,130 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BioMedBound</title>
+  <title>Alina Ren | BioMedBound: student research in computational drug repurposing</title>
+  <meta name="description" content="Alina Ren is a high school student researching new uses for FDA-approved drugs with molecular docking, starting with the parasite behind visceral leishmaniasis.">
+  <meta name="theme-color" content="#5b4b8a">
+  <link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- This is where the title goes -->
-  <div id="mainDiv" class="mainDiv">
-    <div id="titleDiv" class="titleDiv">
-      <h2>BioMedBound</h2>
-  </div>
-  <!-- This is where the links go -->
-  <div id="links" class="topLinksDiv">
-    <div class="links">
-      <a href="index.html">BioMedBound Landing Page</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="brand__name">BioMedBound</span><span class="brand__by">Alina Ren</span></a>
+      <nav class="nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="MolecularDocking.html">Molecular Docking</a></li>
+      </ul>
+      </nav>
     </div>
-    <div class="links">
-      <a href="toys.html">Educational Toy Reviews</a>
-    </div>
-    <div class="links">
-      <a href="books.html">Science Book Reviews</a>
-    </div>
-    <div class="links">
-      <a href="MolecularDocking.html">Molecular Docking</a>
-    </div>
-  </div>
-  <!-- This is where the description/introduction goes -->
-   <div id="mainSplash" class="topSplashDiv">
-    <h3>Hi, I'm Alina Ren — a high school student who wants to be a doctor, and in the meantime I'm teaching
-    myself molecular docking to go looking for new uses of drugs that are already FDA approved. This site is
-    where I document that, along with the toy and book reviews I do for fun on the side. Below are cards linking
-    to my three most recent updates; use the nav bar above for the full sections.</h3>
-   </div>
-  <!-- put the newest three projects here -->
-   <div class="cardContainer">
-     <!-- first card -->
-      <a href="molecularDocking/TRScreen.html">
-        <div id="projectCard2" class="indexCard">
-          <h3>Molecular Docking</h3>
-          <h4>Screening Trypanothione Reductase: The Pivot Away from Specialty Drugs</h4>
-          <img id="test" class="cardImage" src="molecularDocking/images/trScreenResults.svg" alt="Bar chart of the top 10 predicted binding affinities against trypanothione reductase">
-          <div id="project1Summary" class="summary">
-          <p>PTR1's top hits were all very expensive cancer drugs, so I switched to a completely different
-          <em>Leishmania</em> target — trypanothione reductase — instead of giving up on cheap repurposing.</p>
-          </div>
-        </div>
-     </a>
-     <!-- end of card -->
-      <a href="molecularDocking/CYP51Screen.html">
-        <div id="projectCard3" class="indexCard">
-          <h3>Molecular Docking</h3>
-          <h4>Screening CYP51: A Pipeline Sanity Check</h4>
-          <img id="test" class="cardImage" src="molecularDocking/images/cyp51ScreenResults.svg" alt="Bar chart of the top 10 predicted binding affinities against CYP51">
-          <div id="project1Summary" class="summary">
-          <p>A third <em>Leishmania</em> target, picked partly to test the pipeline against a class of drug I already
-          know the answer for — and it produced the strongest literature-backed hit of the project so far.</p>
-          </div>
-        </div>
-     </a>
-     <!-- end of card -->
-      <a href="molecularDocking/SpecificityAnalysis.html">
-        <div id="projectCard4" class="indexCard">
-          <h3>Molecular Docking</h3>
-          <h4>Sticky vs. Specific: Cross-Checking Three Screens</h4>
-          <img id="test" class="cardImage" src="molecularDocking/images/cyp51ScreenResults.svg" alt="Bar chart from the CYP51 screen, one of the three screens compared">
-          <div id="project1Summary" class="summary">
-          <p>The same drugs kept showing up near the top of more than one target's results. Is that a real signal, or is
-          Vina's scoring just enthusiastic about certain molecules?</p>
-          </div>
-        </div>
-     </a>
-     <!-- end of card -->
+  </header>
 
-   </div>
-   <div class="footer">
-    Contact: <a class="link" href="mailto: alinaren@biomedbound.com">AlinaRen@biomedbound.com</a>
-   </div>
-  </div>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <div class="hero__text">
+          <p class="eyebrow">Student research portfolio</p>
+          <h1 id="hero-title">Alina Ren</h1>
+          <p class="hero__lede">I&rsquo;m a high school student who wants to be a doctor. In the meantime, I&rsquo;m teaching myself molecular docking to look for new uses of drugs that are already FDA approved.</p>
+          <p>My project screens approved drugs against proteins from <em>Leishmania</em>, the parasite behind visceral leishmaniasis, a disease that gets very little research attention. Every step is written up here, including the parts that didn&rsquo;t go to plan.</p>
+          <div class="btn-row">
+            <a class="btn" href="MolecularDocking.html">Explore the research</a>
+            <a class="btn btn--ghost" href="downloads/alina-ren-docking-summary.pdf">One-page summary (PDF)</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="section" aria-labelledby="glance-title">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 id="glance-title">The project at a glance</h2>
+          <p>Docking predicts how tightly a drug molecule might fit into a protein. It generates hypotheses, not answers, and I treat it that way.</p>
+        </div>
+        <dl class="stats">
+          <div class="stat"><dt>parasite protein targets screened</dt><dd>3</dd></div>
+          <div class="stat"><dt>FDA-approved drugs in my screening library</dt><dd>1,859</dd></div>
+          <div class="stat"><dt>drugs docked in each full screen (of 1,808 attempted)</dt><dd>1,795</dd></div>
+          <div class="stat"><dt>cross-check comparing all three screens</dt><dd>1</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section section--wash" aria-labelledby="featured-title">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 id="featured-title">Featured research</h2>
+          <p>The three most recent findings. Each write-up shows the method, the result, and what I checked before trusting it.</p>
+        </div>
+        <ul class="cards cards--feature">
+        <li><a class="card" href="molecularDocking/SpecificityAnalysis.html">
+          <div class="card__media"><img src="molecularDocking/images/cyp51ScreenResults.svg" alt="Bar chart from the CYP51 screen, one of the three screens compared" width="680" height="420" loading="lazy"></div>
+          <div class="card__body">
+            <p class="card__kicker">Cross-screen analysis</p>
+            <h3 class="card__title">Sticky vs. Specific: Cross-Checking Three Screens</h3>
+            <p class="card__text">The same drugs kept showing up near the top of more than one target&rsquo;s results. Is that a real signal, or is Vina&rsquo;s scoring just enthusiastic about certain molecules?</p>
+            <span class="card__more">Read the write-up</span>
+          </div>
+        </a></li>
+        <li><a class="card" href="molecularDocking/CYP51Screen.html">
+          <div class="card__media"><img src="molecularDocking/images/cyp51ScreenResults.svg" alt="Bar chart of the top 10 predicted binding affinities against CYP51" width="680" height="420" loading="lazy"></div>
+          <div class="card__body">
+            <p class="card__kicker">Screen 3 of 3</p>
+            <h3 class="card__title">Screening CYP51: A Pipeline Sanity Check</h3>
+            <p class="card__text">A third <em>Leishmania</em> target, picked partly to test the pipeline against a class of drug I already know the answer for, and it produced the strongest literature-backed hit of the project so far.</p>
+            <span class="card__more">Read the write-up</span>
+          </div>
+        </a></li>
+        <li><a class="card" href="molecularDocking/TRScreen.html">
+          <div class="card__media"><img src="molecularDocking/images/trScreenResults.svg" alt="Bar chart of the top 10 predicted binding affinities against trypanothione reductase" width="680" height="420" loading="lazy"></div>
+          <div class="card__body">
+            <p class="card__kicker">Screen 2 of 3</p>
+            <h3 class="card__title">Screening Trypanothione Reductase: The Pivot Away from Specialty Drugs</h3>
+            <p class="card__text">PTR1&rsquo;s top hits were all very expensive cancer drugs, so I switched to a completely different <em>Leishmania</em> target, trypanothione reductase, instead of giving up on cheap repurposing.</p>
+            <span class="card__more">Read the write-up</span>
+          </div>
+        </a></li>
+        </ul>
+        <p class="more-link"><a href="MolecularDocking.html"><strong>See all research and methods &rarr;</strong></a></p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 id="about-title">About me and how I work</h2>
+        </div>
+        <div class="about">
+          <!-- TODO(Alina): add school and graduation year here if wanted; approve or edit this bio before launch. -->
+          <div>
+          <p>I plan to become a doctor, and this project is how I&rsquo;m learning what real computational research feels like. I run the docking calculations on my own GPU workstation, read the published literature to check what the results mean, and write up each step so other students can follow along.</p>
+          <p>Questions, feedback and collaboration ideas are welcome at <a href="mailto:alinaren@biomedbound.com">alinaren@biomedbound.com</a>.</p>
+          </div>
+          <div class="callout">
+            <h3>Using AI, openly</h3>
+            <p>I build this project with AI tools, mainly Claude Code, and I say so on every page. The way I think about it: if I can run 3 miles on my own, a bike lets me ride 30. The bike is worth writing about, not hiding. The decisions about what to run and how to read the results are mine to understand and defend, and I&rsquo;ve included the corrections along the way.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <p><strong>Alina Ren</strong> &middot; BioMedBound</p>
+        <p>A student research project in computational drug repurposing.</p>
+        <p>Contact: <a href="mailto:alinaren@biomedbound.com">alinaren@biomedbound.com</a></p>
+      </div>
+      <div>
+        <p><strong>Please note</strong></p>
+        <p>Docking scores are computational predictions, not evidence that a drug works or is safe, and nothing here is medical advice. This project is built with AI assistance (Claude Code), and each page says where.</p>
+      </div>
+      <p class="fineprint">Typefaces: Inter and Source Serif 4, used under the SIL Open Font License.</p>
+    </div>
+  </footer>
 </body>
 </html>

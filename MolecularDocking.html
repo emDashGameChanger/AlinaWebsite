@@ -3,132 +3,160 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Molecular Docking | BioMedBound</title>
+  <meta name="description" content="Research findings and methods from Alina Ren's molecular docking project: screening FDA-approved drugs against Leishmania proteins.">
+  <meta name="theme-color" content="#5b4b8a">
+  <link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
-  <title>Molecular Docking</title>
 </head>
 <body>
-  <div id="toyMainDiv" class="mainDiv">
-    <!-- This is where the title goes -->
-    <div id="toyTitleDiv" class="titleDiv">
-      <h1>Molecular Docking</h1>
-      <h2>Tools and techniques for evaluating how strongly a ligand binds to a protein — the foundation of my drug-repurposing research.</h2>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="brand__name">BioMedBound</span><span class="brand__by">Alina Ren</span></a>
+      <nav class="nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="MolecularDocking.html" aria-current="page">Molecular Docking</a></li>
+      </ul>
+      </nav>
     </div>
-    <div class="topLinksDiv">
-    <!-- This is where the links go -->
-      <div class="links">
-        <a href="index.html">BioMedBound Landing Page</a>
-      </div>
-      <div class="links">
-        <a href="toys.html">Educational Toy Reviews</a>
-      </div>
-      <div class="links">
-        <a href="books.html">Science Book Reviews</a>
-      </div>
-      <div class="links">
-        <a href="MolecularDocking.html">Molecular Docking</a>
+  </header>
+
+  <main id="main">
+    <div class="page-header">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Molecular Docking</li></ol></nav>
+        <h1>Molecular Docking</h1>
+        <p class="lede">Tools and techniques for evaluating how strongly a ligand binds to a protein &mdash; the foundation of my drug-repurposing research.</p>
       </div>
     </div>
-    <div id="toyDiv" class="topSplashDiv">
-      <h3></h3>
-      <div class="reviewDiv">
-        <!-- first card -->
-        <a href="molecularDocking/SpecificityAnalysis.html">
-            <div class="reviewCardDiv">
-              <h4>Sticky vs. Specific: Cross-Checking Three Screens</h4>
-              <img src="molecularDocking/images/cyp51ScreenResults.svg" alt="" class="reviewCardImage">
-              <div class="reviewSummaryDiv">
-                <p>The same drugs kept showing up near the top of more than one target's results. Is that a real signal, or is
-                Vina's scoring just enthusiastic about certain molecules?</p>
-              </div>
-            </div>
-          </a>
-        <!-- End of card -->
-        <a href="molecularDocking/CYP51Screen.html">
-            <div class="reviewCardDiv">
-              <h4>Screening CYP51: A Pipeline Sanity Check</h4>
-              <img src="molecularDocking/images/cyp51ScreenResults.svg" alt="" class="reviewCardImage">
-              <div class="reviewSummaryDiv">
-                <p>A third <em>Leishmania</em> target, picked partly to test the pipeline against a class of drug I already
-                know the answer for — and it produced the strongest literature-backed hit of the project so far.</p>
-              </div>
-            </div>
-          </a>
-        <!-- End of card -->
-        <a href="molecularDocking/TRScreen.html">
-            <div class="reviewCardDiv">
-              <h4>Screening Trypanothione Reductase: The Pivot Away from Specialty Drugs</h4>
-              <img src="molecularDocking/images/trScreenResults.svg" alt="" class="reviewCardImage">
-              <div class="reviewSummaryDiv">
-                <p>PTR1's top hits were all very expensive cancer drugs, so I switched to a completely different
-                <em>Leishmania</em> target — trypanothione reductase — instead of giving up on cheap repurposing.</p>
-              </div>
-            </div>
-          </a>
-        <!-- End of card -->
-        <a href="molecularDocking/PTR1Screen.html">
-            <div class="reviewCardDiv">
-              <h4>Screening PTR1: A Real Target for Visceral Leishmaniasis</h4>
-              <img src="molecularDocking/images/ptr1ScreenResults.svg" alt="" class="reviewCardImage">
-              <div class="reviewSummaryDiv">
-                <p>The library and the pipeline finally meet an actual disease target — pteridine reductase 1, from
-                the parasite behind visceral leishmaniasis. First real screening result of the project.</p>
-              </div>
-            </div>
-          </a>
-        <!-- End of card -->
-        <a href="molecularDocking/DrugLibrary.html">
-            <div class="reviewCardDiv">
-              <h4>Building an FDA-Approved Drug Library</h4>
-              <img src="molecularDocking/images/drugLibraryResults.svg" alt="" class="reviewCardImage">
-              <div class="reviewSummaryDiv">
-                <p>Scaling up from docking one ligand at a time to screening almost two thousand real
-                FDA-approved drugs in a single run — building the library, the ligand-prep pipeline, and a
-                first pipeline smoke test.</p>
-              </div>
-            </div>
-          </a>
-        <!-- End of card -->
-        <a href="molecularDocking/Hello2.html">
-            <div class="reviewCardDiv">
-              <h4>Hello Tools 2</h4>
-              <img src="molecularDocking/images/fPocket1.png" alt="" class="reviewCardImage">
-              <div class="reviewSummaryDiv">
-                <p>Continuing with step 2, demonstrate fPocket, basic work flow, and explination of a few
-            of the stats generated by the tools.</p>
-              </div>
-            </div>
-          </a>
-        <!-- End of card -->    
-        <a href="molecularDocking/Hello1.html">
-          <div class="reviewCardDiv">
-            <h4>Hello Tools 1</h4>
-            <img src="molecularDocking/images/HSA2.jpg" alt="" class="reviewCardImage">
-            <div class="reviewSummaryDiv">
-             <p>Step two is making sure the software works at the most basic level. Here we will us PyMol to view Human Serum Albumin and Wafarin before and after docking. We use Open Babel to convert the file format to a format AutoDockVina-GPU can use. Then we use AutoDockVina-GPU to perform the docking calculations.</p>
-            </div>
+
+    <section class="section" aria-labelledby="pipeline-title">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 id="pipeline-title">How the pipeline works</h2>
+          <p>Every screen in this project follows the same five stages. The methods tutorials below walk through the software; the research write-ups show it applied to real targets.</p>
+        </div>
+        <ol class="pipeline">
+          <li><strong>Library</strong>FDA-approved drugs from DrugCentral</li>
+          <li><strong>Prepare</strong>Convert each drug into a 3D structure Vina can dock</li>
+          <li><strong>Find the pocket</strong>fpocket detects cavities on the protein</li>
+          <li><strong>Dock</strong>AutoDock Vina-GPU scores every drug</li>
+          <li><strong>Check</strong>Inspect poses, search the literature, look up price</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section--wash" aria-labelledby="research-title">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 id="research-title">Research findings</h2>
+          <p>Screens against three <em>Leishmania</em> targets, and a cross-check of the three. Newest first.</p>
+        </div>
+        <ul class="cards cards--2">
+        <li><a class="card" href="molecularDocking/SpecificityAnalysis.html">
+          <div class="card__media"><img src="molecularDocking/images/cyp51ScreenResults.svg" alt="Bar chart from the CYP51 screen, one of the three screens compared" width="680" height="420" loading="lazy"></div>
+          <div class="card__body">
+            <p class="card__kicker">Cross-screen analysis</p>
+            <h3 class="card__title">Sticky vs. Specific: Cross-Checking Three Screens</h3>
+            <p class="card__text">The same drugs kept showing up near the top of more than one target&rsquo;s results. Is that a real signal, or is Vina&rsquo;s scoring just enthusiastic about certain molecules?</p>
+            <span class="card__more">Read the write-up</span>
           </div>
-        </a>
-        <!-- End of card --> 
-        <a href="molecularDocking/softwareInstall.html">
-          <div class="reviewCardDiv">
-            <h4>Installing the software</h4>
-            <img src="molecularDocking/images/SanityCheck2.jpg" alt="" class="reviewCardImage">
-            <div class="reviewSummaryDiv">
-               Step one is getting software installed. I'm using the following software: <br>
-               fPocket - Used to detect cavities in a molecular structure <br>
-                PyMOL - Used to visualize the structure of the molecules <br>
-                AutoDock Vina - This is the software that actually calculates the docking strength. <br>
-                Open Babel - Used to convert between different file formats
-            </div>
+        </a></li>
+        <li><a class="card" href="molecularDocking/CYP51Screen.html">
+          <div class="card__media"><img src="molecularDocking/images/cyp51ScreenResults.svg" alt="Bar chart of the top 10 predicted binding affinities against CYP51" width="680" height="420" loading="lazy"></div>
+          <div class="card__body">
+            <p class="card__kicker">Screen 3 &middot; CYP51</p>
+            <h3 class="card__title">Screening CYP51: A Pipeline Sanity Check</h3>
+            <p class="card__text">A third <em>Leishmania</em> target, picked partly to test the pipeline against a class of drug I already know the answer for &mdash; and it produced the strongest literature-backed hit of the project so far.</p>
+            <span class="card__more">Read the write-up</span>
           </div>
-        </a>
-        <!-- End of card -->
+        </a></li>
+        <li><a class="card" href="molecularDocking/TRScreen.html">
+          <div class="card__media"><img src="molecularDocking/images/trScreenResults.svg" alt="Bar chart of the top 10 predicted binding affinities against trypanothione reductase" width="680" height="420" loading="lazy"></div>
+          <div class="card__body">
+            <p class="card__kicker">Screen 2 &middot; Trypanothione reductase</p>
+            <h3 class="card__title">Screening Trypanothione Reductase: The Pivot Away from Specialty Drugs</h3>
+            <p class="card__text">PTR1&rsquo;s top hits were all very expensive cancer drugs, so I switched to a completely different <em>Leishmania</em> target &mdash; trypanothione reductase &mdash; instead of giving up on cheap repurposing.</p>
+            <span class="card__more">Read the write-up</span>
+          </div>
+        </a></li>
+        <li><a class="card" href="molecularDocking/PTR1Screen.html">
+          <div class="card__media"><img src="molecularDocking/images/ptr1ScreenResults.svg" alt="Bar chart of the top 10 predicted binding affinities against PTR1" width="680" height="420" loading="lazy"></div>
+          <div class="card__body">
+            <p class="card__kicker">Screen 1 &middot; PTR1</p>
+            <h3 class="card__title">Screening PTR1: A Real Target for Visceral Leishmaniasis</h3>
+            <p class="card__text">The library and the pipeline finally meet an actual disease target &mdash; pteridine reductase 1, from the parasite behind visceral leishmaniasis. First real screening result of the project.</p>
+            <span class="card__more">Read the write-up</span>
+          </div>
+        </a></li>
+        </ul>
       </div>
-      <!-- footer -->
-      <div class="footer">
-        Contact: <a class="link" href="mailto: alinaren@biomedbound.com">AlinaRen@biomedbound.com</a>
-      </div>  
+    </section>
+
+    <section class="section" aria-labelledby="methods-title">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 id="methods-title">Methods and tutorials</h2>
+          <p>The setup, in the order I did it. Written for other students learning docking, so jargon is explained.</p>
+        </div>
+        <ul class="cards cards--2">
+        <li><a class="card" href="molecularDocking/softwareInstall.html">
+          <div class="card__media"><img src="molecularDocking/images/card-install.jpg" alt="PyMOL surface rendering of a protein structure" width="900" height="675" loading="lazy"></div>
+          <div class="card__body">
+            <p class="card__kicker">Setup &middot; Installing the software</p>
+            <h3 class="card__title">Installing the software</h3>
+            <p class="card__text">Step one is getting the software installed: fpocket to detect cavities, PyMOL to visualize molecules, AutoDock Vina to calculate docking strength, and Open Babel to convert between file formats.</p>
+            <span class="card__more">Read the tutorial</span>
+          </div>
+        </a></li>
+        <li><a class="card" href="molecularDocking/Hello1.html">
+          <div class="card__media"><img src="molecularDocking/images/card-hello1.jpg" alt="PyMOL surface rendering of human serum albumin with a ligand highlighted in blue" width="900" height="675" loading="lazy"></div>
+          <div class="card__body">
+            <p class="card__kicker">Setup &middot; Hello Tools 1</p>
+            <h3 class="card__title">Hello Tools 1</h3>
+            <p class="card__text">Step two is making sure the software works at the most basic level: using PyMOL to view human serum albumin and warfarin before and after docking, Open Babel to convert the file format, and AutoDock Vina-GPU to run the docking calculation.</p>
+            <span class="card__more">Read the tutorial</span>
+          </div>
+        </a></li>
+        <li><a class="card" href="molecularDocking/Hello2.html">
+          <div class="card__media"><img src="molecularDocking/images/card-hello2.jpg" alt="PyMOL surface rendering of a protein with a detected pocket highlighted in green and a ligand in blue" width="900" height="675" loading="lazy"></div>
+          <div class="card__body">
+            <p class="card__kicker">Setup &middot; Hello Tools 2</p>
+            <h3 class="card__title">Hello Tools 2</h3>
+            <p class="card__text">Demonstrates fpocket, the basic workflow, and an explanation of a few of the stats the tool generates.</p>
+            <span class="card__more">Read the tutorial</span>
+          </div>
+        </a></li>
+        <li><a class="card" href="molecularDocking/DrugLibrary.html">
+          <div class="card__media"><img src="molecularDocking/images/drugLibraryResults.svg" alt="Bar chart of results from the first pipeline smoke test" width="680" height="420" loading="lazy"></div>
+          <div class="card__body">
+            <p class="card__kicker">Setup &middot; Drug library</p>
+            <h3 class="card__title">Building an FDA-Approved Drug Library</h3>
+            <p class="card__text">Scaling up from docking one ligand at a time to screening almost two thousand real FDA-approved drugs in a single run &mdash; building the library, the ligand-prep pipeline, and a first pipeline smoke test.</p>
+            <span class="card__more">Read the tutorial</span>
+          </div>
+        </a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <p><strong>Alina Ren</strong> &middot; BioMedBound</p>
+        <p>A student research project in computational drug repurposing.</p>
+        <p>Contact: <a href="mailto:alinaren@biomedbound.com">alinaren@biomedbound.com</a></p>
+      </div>
+      <div>
+        <p><strong>Please note</strong></p>
+        <p>Docking scores are computational predictions, not evidence that a drug works or is safe, and nothing here is medical advice. This project is built with AI assistance (Claude Code), and each page says where.</p>
+      </div>
+      <p class="fineprint">Typefaces: Inter and Source Serif 4, used under the SIL Open Font License.</p>
     </div>
-  </div>
+  </footer>
 </body>
 </html>

@@ -3,70 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PyMOL & AutoDock Vina-GPU Hello World | BioMedBound</title>
+  <meta name="description" content="Show how to use fPocket to find locations to dock the ligands">
+  <meta name="theme-color" content="#5b4b8a">
+  <link rel="preload" href="../fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../styles.css">
-  <title>PyMOL & AutoDock Vina-GPU Hello World</title>
 </head>
 <body>
-  <div class="mainDiv">
-    <div class="titleDiv">
-      <h1>Hello fPocket</h1>
-      <h2>Show how to use fPocket to find locations to dock the ligands</h2>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html"><span class="brand__name">BioMedBound</span><span class="brand__by">Alina Ren</span></a>
+      <nav class="nav" aria-label="Main">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../MolecularDocking.html" aria-current="page">Molecular Docking</a></li>
+      </ul>
+      </nav>
     </div>
-
-    <div class="topLinksDiv">
-      <!-- Navigation Links -->
-      <div class="links">
-        <a href="../index.html">BioMedBound Landing Page</a>
-      </div>
-      <div class="links">
-        <a href="../toys.html">Educational Toy Reviews</a>
-      </div>
-      <div class="links">
-        <a href="../books.html">Science Book Reviews</a>
-      </div>
-      <div class="links">
-        <a href="../MolecularDocking.html">Molecular Docking</a>
+  </header>
+  <main id="main">
+    <div class="page-header">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="../index.html">Home</a></li><li><a href="../MolecularDocking.html">Molecular Docking</a></li><li aria-current="page">Hello fPocket</li></ol></nav>
+        <h1>Hello fPocket</h1>
+        <p class="lede">Show how to use fPocket to find locations to dock the ligands</p>
       </div>
     </div>
-
-    <div id="helloWorldSplash" class="topSplashDiv">
-      Continuing the basic sanity checks from the last page, this time using fPocket to find better docking targets
-      instead of guessing at a binding site. <br>
-      fPocket - finds candidate locations to dock the ligand<br>
-    </div>
-    <div class="pageBodyDiv">
-      <h3>Step 1: Get back into your lab environment.</h3>
-       <p>
+    <div class="section">
+      <div class="wrap">
+        <article class="prose">
+<p class="intro">Continuing the basic sanity checks from the last page, this time using fPocket to find better docking targets
+      instead of guessing at a binding site. <br/>
+      fPocket - finds candidate locations to dock the ligand<br/></p>
+<h2>Step 1: Get back into your lab environment.</h2>
+<p>
            Using the terminal, change to the directory with your target protein and activate your biolab conda
             environment. You may need to change the cd command below depending on your folder structure.
        </p>
-      <pre class="code">
+<pre class="code">
         cd Documents/MolecularDocking/locks/
         conda activate biolab
       </pre>
-      <h3>Step 2: Run fPocket on the same protein from the previous lesson, 1H9Z.</h3>
-      <pre class="code">
+<h2>Step 2: Run fPocket on the same protein from the previous lesson, 1H9Z.</h2>
+<pre class="code">
         fpocket -f 1H9Z.pdb
       </pre>
-      <p>The output text is underwhelming, the magic is in the files fPocket creates.</p>
-      <pre class="code">
+<p>The output text is underwhelming, the magic is in the files fPocket creates.</p>
+<pre class="code">
         ***** POCKET HUNTING BEGINS ***** 
         ***** POCKET HUNTING ENDS *****
       </pre>
-      <p>
-          fPocket has now created a folder called 1H9Z_out. This folder contains the following: <br>
-          1H9Z_info.txt - Lists every pocket fPocket found, along with the stats for each one.<br>
-          1H9Z_out.pdb - The original protein file, annotated with the pocket information so PyMOL can color the pockets. <br>
-          1H9Z_pockets.pqr - The alpha spheres: the virtual marbles fPocket uses to fill each cavity. <br>
-          1H9Z_PYMOL.sh - A script that, when run, opens PyMOL and loads the protein and ligand with some preset styling. <br>
+<p>
+          fPocket has now created a folder called 1H9Z_out. This folder contains the following: <br/>
+          1H9Z_info.txt - Lists every pocket fPocket found, along with the stats for each one.<br/>
+          1H9Z_out.pdb - The original protein file, annotated with the pocket information so PyMOL can color the pockets. <br/>
+          1H9Z_pockets.pqr - The alpha spheres: the virtual marbles fPocket uses to fill each cavity. <br/>
+          1H9Z_PYMOL.sh - A script that, when run, opens PyMOL and loads the protein and ligand with some preset styling. <br/>
           pockets - A folder containing detailed information about every pocket it found.
       </p>
-
-      <h3>Step 3: Evaluating the output</h3>
-      <p>Open 1H9Z_info.txt in a text editor to see its contents. Below is what fPocket found for the first pocket.
+<h2>Step 3: Evaluating the output</h2>
+<p>Open 1H9Z_info.txt in a text editor to see its contents. Below is what fPocket found for the first pocket.
         fPocket ranks its best candidates at the top, so Pocket 1 is considered a stronger candidate than Pocket 40.
       </p>
-      <pre class="code">
+<pre class="code">
         Pocket 1 :
             Score : 	2.370
             Druggability Score : 	0.996
@@ -88,39 +89,39 @@
             Cent. of mass - Alpha Sphere max dist: 	40.507
             Flexibility : 	0.12
       </pre>
-      <p>
-        These are the most important stats: <br>
-        Score - Overall score, higher is usually better <br>
-        Druggability Score - Scale is 0 - 1. Higher is better, .5 and above is considered "druggable". <br>
-        Volume - Volume of the cavity/pocket. It must be big enough so the ligand can fit into it. <br>
+<p>
+        These are the most important stats: <br/>
+        Score - Overall score, higher is usually better <br/>
+        Druggability Score - Scale is 0 - 1. Higher is better, .5 and above is considered "druggable". <br/>
+        Volume - Volume of the cavity/pocket. It must be big enough so the ligand can fit into it. <br/>
         Hydrophobicity - Higher numbers are often better, because of the hydrophobic effect.
       </p>
-      <h3>Step 4: Put the data generated by fPocket to use.</h3>
-      <p>We will take the top candidate, Pocket 1, and find its center. We will then try to dock the ligand to see
-        how well of a bond it makes, then view the results with PyMOL. <br>
+<h2>Step 4: Put the data generated by fPocket to use.</h2>
+<p>We will take the top candidate, Pocket 1, and find its center. We will then try to dock the ligand to see
+        how well of a bond it makes, then view the results with PyMOL. <br/>
         Switch to the pocket folder and open PyMOL:
       </p>
-      <pre class="code">
+<pre class="code">
         cd ~/Documents/MolecularDocking/locks/1H9Z_out/pockets
         pymol
       </pre>
-      <p>Enter these commands into PyMOL's terminal</p>
-      <pre class="code">
+<p>Enter these commands into PyMOL's terminal</p>
+<pre class="code">
         load pocket1_vert.pqr
         pseudoatom pocket_center, pocket1_vert
         print cmd.get_coords('pocket_center')
       </pre>
-      <p>You will get some output that looks like this:</p>
-      <pre class="code">
-        PyMOL>pseudoatom pocket_center, pocket1_vert
+<p>You will get some output that looks like this:</p>
+<pre class="code">
+        PyMOL&gt;pseudoatom pocket_center, pocket1_vert
         ObjMol: created pocket_center/PSDO/P/PSD`1 /PS1
-        PyMOL>print cmd.get_coords('pocket_center')
+        PyMOL&gt;print cmd.get_coords('pocket_center')
         [[23.093771  8.962    14.027454]]
       </pre>
-      <p>Update your config file with the new x, y, z coordinates. My config file is located here: <br>
+<p>Update your config file with the new x, y, z coordinates. My config file is located here: <br/>
         ~/Documents/MolecularDocking/config.txt
       </p>
-      <pre class="code">
+<pre class="code">
         receptor = ./locks/receptor.pdbqt
         ligand = ./keys/warfarin.pdbqt
 
@@ -137,15 +138,12 @@
 
         energy_range = 4
       </pre>
-
-        
-     
-      <h3>Step 5: Run AutoDock-Vina-GPU-2</h3>
-      <pre class="code">
+<h2>Step 5: Run AutoDock-Vina-GPU-2</h2>
+<pre class="code">
         ~/software/Vina-GPU-2.1/AutoDock-Vina-GPU-2.1/AutoDock-Vina-GPU-2-1 --config config.txt
       </pre>
-      <p>Here is the output from AutoDock</p>
-      <pre class="code">
+<p>Here is the output from AutoDock</p>
+<pre class="code">
         #################################################################
         # If you used AutoDockVina-GPU 2.1 in your work, please cite:   #
         #                                                               #
@@ -210,45 +208,55 @@
         AutoDockVina-GPU3 total runtime = 6.150 s
 
       </pre>
-
-      <h3>Step 6: Compare results.</h3>
-      <p>And there's the payoff: candidate Pocket 1 gives a much stronger ligand affinity than the pocket I guessed
+<h2>Step 6: Compare results.</h2>
+<p>And there's the payoff: candidate Pocket 1 gives a much stronger ligand affinity than the pocket I guessed
         at on the last page (-7.8 kcal/mol vs -5.1 kcal/mol). Letting fPocket actually find the binding site instead
         of eyeballing it made a real difference.
       </p>
-      <h3>Step 7: Use PyMol to view the results.</h3>
-      <p>Open up PyMol, play around with the "show" settings and make it pretty. Using the terminal inside PyMol, 
+<h2>Step 7: Use PyMol to view the results.</h2>
+<p>Open up PyMol, play around with the "show" settings and make it pretty. Using the terminal inside PyMol, 
         enter the following:
       </p>
-      <pre class="code">
+<pre class="code">
         load ~/Documents/MolecularDocking/locks/1H9Z.pdb, protein
         load ~/Documents/MolecularDocking/keys/warfarin_out.pdbqt, targeted_dock
         load ~/Documents/MolecularDocking/locks/1H9Z_out/pockets/pocket1_vert.pqr, pocket1_cloud
       </pre>
-      <P>
-        <img src="images/fPocket1.png" alt="" class="pageImage">
-        The transparent white/gray area is the protein. <br>
-        The transparent green area is Pocket 1. <br>
-        The blue area is the ligand, warfarin.
-      </P>
-      <p><strong>Summary:</strong></p>
-      <p>We have shown how to use the tools, the basic work flow, and the meaning and importance of the stats given
+<figure class="figure"><img alt="PyMOL surface view of a protein in translucent gray with fPocket's Pocket 1 in green and the docked warfarin in blue inside it" height="1468" loading="lazy" src="images/fPocket1.png" width="1957"/>
+<figcaption>The transparent white/gray area is the protein. <br/>
+        The transparent green area is Pocket 1. <br/>
+        The blue area is the ligand, warfarin.</figcaption></figure>
+<p><strong>Summary:</strong></p>
+<p>We have shown how to use the tools, the basic work flow, and the meaning and importance of the stats given
         by the tools.
       </p>
-      <ul>
-        <li>Using <strong>PyMOL</strong> to visualize molecular structures.</li>
-        <li>Using <strong>Open Babel</strong> to convert file formats (SDF to PDBQT).</li>
-        <li>Using <strong>AutoDock Vina-GPU</strong> to perform molecular docking.</li>
-        <li>Using <strong>conda</strong> to manage software environments.</li>
-        <li>Using <strong>fPocket</strong> to find candidate locations for docking.</li>
-      </ul>
+<ul>
+<li>Using <strong>PyMOL</strong> to visualize molecular structures.</li>
+<li>Using <strong>Open Babel</strong> to convert file formats (SDF to PDBQT).</li>
+<li>Using <strong>AutoDock Vina-GPU</strong> to perform molecular docking.</li>
+<li>Using <strong>conda</strong> to manage software environments.</li>
+<li>Using <strong>fPocket</strong> to find candidate locations for docking.</li>
+</ul>
+<p>Next we will cover more of the theory of how and why.</p>
 
-      <p>Next we will cover more of the theory of how and why.</p>
-    </div>
-      <div class="footer">
-        Contact: <a class="link" href="mailto: alinaren@biomedbound.com">AlinaRen@biomedbound.com</a>
+          <nav class="pager" aria-label="Page navigation"><a href="../MolecularDocking.html">&larr; Back to Molecular Docking</a></nav>
+        </article>
       </div>
     </div>
-  </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <p><strong>Alina Ren</strong> &middot; BioMedBound</p>
+        <p>A student research project in computational drug repurposing.</p>
+        <p>Contact: <a href="mailto:alinaren@biomedbound.com">alinaren@biomedbound.com</a></p>
+      </div>
+      <div>
+        <p><strong>Please note</strong></p>
+        <p>Docking scores are computational predictions, not evidence that a drug works or is safe, and nothing here is medical advice. This project is built with AI assistance (Claude Code), and each page says where.</p>
+      </div>
+      <p class="fineprint">Typefaces: Inter and Source Serif 4, used under the SIL Open Font License.</p>
+    </div>
+  </footer>
 </body>
 </html>

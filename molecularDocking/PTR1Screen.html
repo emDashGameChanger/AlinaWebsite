@@ -3,98 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screening PTR1 | BioMedBound</title>
+  <meta name="description" content="The library and the pipeline finally meet an actual disease target — the first real screening result of the project.">
+  <meta name="theme-color" content="#5b4b8a">
+  <link rel="preload" href="../fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../styles.css">
-  <title>Screening PTR1</title>
 </head>
 <body>
-  <div class="mainDiv">
-    <div class="titleDiv">
-      <h1>Screening PTR1: A Real Target for Visceral Leishmaniasis</h1>
-      <h2>The library and the pipeline finally meet an actual disease target — the first real screening result of the project.</h2>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html"><span class="brand__name">BioMedBound</span><span class="brand__by">Alina Ren</span></a>
+      <nav class="nav" aria-label="Main">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../MolecularDocking.html" aria-current="page">Molecular Docking</a></li>
+      </ul>
+      </nav>
     </div>
-
-    <div class="topLinksDiv">
-      <!-- Navigation Links -->
-      <div class="links">
-        <a href="../index.html">BioMedBound Landing Page</a>
-      </div>
-      <div class="links">
-        <a href="../toys.html">Educational Toy Reviews</a>
-      </div>
-      <div class="links">
-        <a href="../books.html">Science Book Reviews</a>
-      </div>
-      <div class="links">
-        <a href="../MolecularDocking.html">Molecular Docking</a>
+  </header>
+  <main id="main">
+    <div class="page-header">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="../index.html">Home</a></li><li><a href="../MolecularDocking.html">Molecular Docking</a></li><li aria-current="page">Screening PTR1</li></ol></nav>
+        <h1>Screening PTR1: A Real Target for Visceral Leishmaniasis</h1>
+        <p class="lede">The library and the pipeline finally meet an actual disease target — the first real screening result of the project.</p>
       </div>
     </div>
-
-    <div id="ptr1Splash" class="topSplashDiv">
-      Everything up to this point — Hello Tools 1 and 2, the drug library, the pipeline smoke test — was proving the
+    <div class="section">
+      <div class="wrap">
+        <article class="prose">
+<p class="intro">Everything up to this point — Hello Tools 1 and 2, the drug library, the pipeline smoke test — was proving the
       tools work. This post is the first time all of it points at a real disease target instead of a demo receptor.
       That target is <strong>pteridine reductase 1 (PTR1)</strong>, and the disease behind it is visceral
-      leishmaniasis.
-    </div>
-
-    <div class="pageBodyDiv">
-      <h3>Step 1: The target</h3>
-      <p>Visceral leishmaniasis ("kala-azar") is a WHO-classified neglected tropical disease, fatal if untreated,
-      with 200,000&#8211;400,000 new cases a year. What makes it a good drug-repurposing candidate is that
+      leishmaniasis.</p>
+<h2>Step 1: The target</h2>
+<p>Visceral leishmaniasis ("kala-azar") is a WHO-classified neglected tropical disease, fatal if untreated,
+      with 200,000–400,000 new cases a year. What makes it a good drug-repurposing candidate is that
       <em>nothing</em> about the current treatment options is both cheap and safe: liposomal amphotericin B works
       well but is expensive and hard on the kidneys, meglumine antimoniate is cheaper but more toxic, and
       miltefosine — the only oral option — is teratogenic. There's no option that's simultaneously cheap, safe, and
       easy to take.</p>
-      <p><strong>PTR1</strong> is an NADPH-dependent reductase the parasite uses to salvage pterins/folate — it's a
+<p><strong>PTR1</strong> is an NADPH-dependent reductase the parasite uses to salvage pterins/folate — it's a
       validated resistance-relevant target because it lets the parasite bypass the main folate pathway when that
       pathway gets blocked. I compared it against a couple of other candidates (Chagas disease's cruzain, mainly)
       before settling on PTR1, since the repurposing angle here is less picked-over in the published literature.</p>
-
-      <h3>Step 2: Getting a real receptor</h3>
-      <p>I used PDB <strong>1E92</strong> — pteridine reductase 1 from <em>Leishmania major</em>, crystallized with
-      its NADP+ cofactor and its natural substrate, dihydrobiopterin, at 2.20 &Aring; resolution. That last part
+<h2>Step 2: Getting a real receptor</h2>
+<p>I used PDB <strong>1E92</strong> — pteridine reductase 1 from <em>Leishmania major</em>, crystallized with
+      its NADP+ cofactor and its natural substrate, dihydrobiopterin, at 2.20 Å resolution. That last part
       matters: an earlier candidate structure (2XOX, from <em>L. donovani</em>) turned out to be an apo structure
       with just a stray sulfate ion sitting in the cofactor slot — not usable for defining a real binding pocket.</p>
-      <p>1E92 is a homotetramer (four identical copies of the protein bundled together), but each copy has its own
+<p>1E92 is a homotetramer (four identical copies of the protein bundled together), but each copy has its own
       independent binding site, so I only needed one. I used PyMOL to strip it down to chain A, keeping the NADP+
       cofactor (the pocket only has the right shape with it in place) and removing the bound dihydrobiopterin —
       that's the substrate slot I actually want to dock my drug library into — along with waters and a
       cryoprotectant molecule that don't belong in the docking model.</p>
-
-      <h3>Step 3: Finding the pocket with fPocket</h3>
-      <p>Running fPocket on the full tetramer turned up <strong>71 candidate pockets</strong> — four-fold more than
+<h2>Step 3: Finding the pocket with fPocket</h2>
+<p>Running fPocket on the full tetramer turned up <strong>71 candidate pockets</strong> — four-fold more than
       you'd expect for a single active site, because fPocket finds (roughly) the same pocket once per identical
       chain, and sometimes splits one real pocket into a couple of smaller fragments. Chain A's top-scoring pocket
       (druggability score 0.886) was the clear pick: it directly touches the crystallized dihydrobiopterin, and its
       lining residues include Ser111 and Phe113.</p>
-      <p>Those two residue numbers aren't arbitrary — they turned up in a 2024/2025 published in-silico screen that
+<p>Those two residue numbers aren't arbitrary — they turned up in a 2024/2025 published in-silico screen that
       targeted this exact protein with a different compound library, which named Ser111, Phe113, Met183, Leu188,
       Leu226, and His241 as the key pocket residues. Finding two of those six sitting right in fPocket's top pick
       for chain A was a genuinely satisfying sanity check — a sign the pocket-detection step landed on the real
       binding site instead of a random surface dimple. (The other four showed up in two smaller, lower-ranked
       fPocket fragments right next door — consistent with fPocket splitting up one continuous pocket rather than
       missing it.)</p>
-
-      <h3>Step 4: A smoke test before trusting the real thing</h3>
-      <p>Same rule as always: test small before committing to the whole library. I built a docking box centered on
+<h2>Step 4: A smoke test before trusting the real thing</h2>
+<p>Same rule as always: test small before committing to the whole library. I built a docking box centered on
       the crystallized ligand position, sized to cover both the main pocket and the residues next door, and ran 25
       drugs through it. 24 dockable, no errors, affinities from -8.4 to -11.0 kcal/mol. Top hit: ergotamine.</p>
-
-      <h3>Step 5: The real screen</h3>
-      <p>With the receptor and box validated, I ran the full library — 1,840 FDA-approved drugs, 1,808 of them small
+<h2>Step 5: The real screen</h2>
+<p>With the receptor and box validated, I ran the full library — 1,840 FDA-approved drugs, 1,808 of them small
       enough for Vina-GPU to handle, against PTR1. It took about four hours on the GPU (power-capped to 75% of its
       default limit, which turned out not to even matter here — this workload never got close to the cap).
       <strong>1,795 drugs docked successfully.</strong></p>
-      <img src="images/ptr1ScreenResults.svg" alt="Bar chart of the top 10 predicted binding affinities against PTR1" class="pageImage">
-      <p>A couple of things jumped out. <strong>Dihydroergotamine</strong> landed in the top 10 — it's from the same
+<figure class="figure"><img alt="Bar chart of the top 10 predicted binding affinities against PTR1" height="420" loading="lazy" src="images/ptr1ScreenResults.svg" width="680"/></figure>
+<p>A couple of things jumped out. <strong>Dihydroergotamine</strong> landed in the top 10 — it's from the same
       ergot-alkaloid family as ergotamine, which was the top hit in the smoke test on a completely different subset
       of the library. Seeing a related compound score well in two independent runs is a small but real consistency
       signal. On the other end, several top hits — <strong>alectinib, entrectinib, capmatinib</strong> — are kinase
       inhibitors used in cancer treatment, chemically unrelated to the pterin-mimetic and benzothiazole compounds
       known from the published PTR1-inhibitor literature. That's not a red flag by itself; it just means these
       would be novel-scaffold candidates rather than "expected" ones, if they hold up to closer scrutiny.</p>
-
-      <h3>Step 6: Do the poses actually make sense?</h3>
-      <p>A predicted affinity score by itself doesn't mean much — Vina can hand back a great-looking number for a
+<h2>Step 6: Do the poses actually make sense?</h2>
+<p>A predicted affinity score by itself doesn't mean much — Vina can hand back a great-looking number for a
       pose that's actually nonsense (a ligand clipping through the protein, or sitting half outside the pocket).
       So before trusting this list at all, I rendered the best docked pose for all 10 top hits in PyMOL, using the
       exact same camera angle and pocket view for every one, so they're directly comparable side by side. Gray is
@@ -102,142 +98,115 @@
       side: a stick view (magenta) and a surface/"blob" view (pink, #E03FD8) in the same solid style as the pocket
       itself, so you can see both the atom-level detail and the overall shape the drug fills. Click any image to
       open the full-size render in a new tab.</p>
-      <div class="poseGrid">
-        <div class="poseCard">
-          <div class="posePair">
-            <a href="images/ptr1poses/alectinib.png" target="_blank">
-              <img src="images/ptr1poses/alectinib.png" alt="Alectinib docked pose, stick representation" class="poseCardImage">
-            </a>
-            <a href="images/ptr1posesSurface/alectinib.png" target="_blank">
-              <img src="images/ptr1posesSurface/alectinib.png" alt="Alectinib docked pose, surface representation" class="poseCardImage">
-            </a>
-          </div>
-          <div class="poseCaption"><span>alectinib</span><span>-12.1 kcal/mol</span></div>
-        </div>
-        <div class="poseCard">
-          <div class="posePair">
-            <a href="images/ptr1poses/risdiplam.png" target="_blank">
-              <img src="images/ptr1poses/risdiplam.png" alt="Risdiplam docked pose, stick representation" class="poseCardImage">
-            </a>
-            <a href="images/ptr1posesSurface/risdiplam.png" target="_blank">
-              <img src="images/ptr1posesSurface/risdiplam.png" alt="Risdiplam docked pose, surface representation" class="poseCardImage">
-            </a>
-          </div>
-          <div class="poseCaption"><span>risdiplam</span><span>-11.7 kcal/mol</span></div>
-        </div>
-        <div class="poseCard">
-          <div class="posePair">
-            <a href="images/ptr1poses/eltrombopag.png" target="_blank">
-              <img src="images/ptr1poses/eltrombopag.png" alt="Eltrombopag docked pose, stick representation" class="poseCardImage">
-            </a>
-            <a href="images/ptr1posesSurface/eltrombopag.png" target="_blank">
-              <img src="images/ptr1posesSurface/eltrombopag.png" alt="Eltrombopag docked pose, surface representation" class="poseCardImage">
-            </a>
-          </div>
-          <div class="poseCaption"><span>eltrombopag</span><span>-11.6 kcal/mol</span></div>
-        </div>
-        <div class="poseCard">
-          <div class="posePair">
-            <a href="images/ptr1poses/conivaptan.png" target="_blank">
-              <img src="images/ptr1poses/conivaptan.png" alt="Conivaptan docked pose, stick representation" class="poseCardImage">
-            </a>
-            <a href="images/ptr1posesSurface/conivaptan.png" target="_blank">
-              <img src="images/ptr1posesSurface/conivaptan.png" alt="Conivaptan docked pose, surface representation" class="poseCardImage">
-            </a>
-          </div>
-          <div class="poseCaption"><span>conivaptan</span><span>-11.6 kcal/mol</span></div>
-        </div>
-        <div class="poseCard">
-          <div class="posePair">
-            <a href="images/ptr1poses/entrectinib.png" target="_blank">
-              <img src="images/ptr1poses/entrectinib.png" alt="Entrectinib docked pose, stick representation" class="poseCardImage">
-            </a>
-            <a href="images/ptr1posesSurface/entrectinib.png" target="_blank">
-              <img src="images/ptr1posesSurface/entrectinib.png" alt="Entrectinib docked pose, surface representation" class="poseCardImage">
-            </a>
-          </div>
-          <div class="poseCaption"><span>entrectinib</span><span>-11.5 kcal/mol</span></div>
-        </div>
-        <div class="poseCard">
-          <div class="posePair">
-            <a href="images/ptr1poses/dihydroergotamine.png" target="_blank">
-              <img src="images/ptr1poses/dihydroergotamine.png" alt="Dihydroergotamine docked pose, stick representation" class="poseCardImage">
-            </a>
-            <a href="images/ptr1posesSurface/dihydroergotamine.png" target="_blank">
-              <img src="images/ptr1posesSurface/dihydroergotamine.png" alt="Dihydroergotamine docked pose, surface representation" class="poseCardImage">
-            </a>
-          </div>
-          <div class="poseCaption"><span>dihydroergotamine</span><span>-11.5 kcal/mol</span></div>
-        </div>
-        <div class="poseCard">
-          <div class="posePair">
-            <a href="images/ptr1poses/bexarotene.png" target="_blank">
-              <img src="images/ptr1poses/bexarotene.png" alt="Bexarotene docked pose, stick representation" class="poseCardImage">
-            </a>
-            <a href="images/ptr1posesSurface/bexarotene.png" target="_blank">
-              <img src="images/ptr1posesSurface/bexarotene.png" alt="Bexarotene docked pose, surface representation" class="poseCardImage">
-            </a>
-          </div>
-          <div class="poseCaption"><span>bexarotene</span><span>-11.4 kcal/mol</span></div>
-        </div>
-        <div class="poseCard">
-          <div class="posePair">
-            <a href="images/ptr1poses/capmatinib.png" target="_blank">
-              <img src="images/ptr1poses/capmatinib.png" alt="Capmatinib docked pose, stick representation" class="poseCardImage">
-            </a>
-            <a href="images/ptr1posesSurface/capmatinib.png" target="_blank">
-              <img src="images/ptr1posesSurface/capmatinib.png" alt="Capmatinib docked pose, surface representation" class="poseCardImage">
-            </a>
-          </div>
-          <div class="poseCaption"><span>capmatinib</span><span>-11.4 kcal/mol</span></div>
-        </div>
-        <div class="poseCard">
-          <div class="posePair">
-            <a href="images/ptr1poses/tolvaptan.png" target="_blank">
-              <img src="images/ptr1poses/tolvaptan.png" alt="Tolvaptan docked pose, stick representation" class="poseCardImage">
-            </a>
-            <a href="images/ptr1posesSurface/tolvaptan.png" target="_blank">
-              <img src="images/ptr1posesSurface/tolvaptan.png" alt="Tolvaptan docked pose, surface representation" class="poseCardImage">
-            </a>
-          </div>
-          <div class="poseCaption"><span>tolvaptan</span><span>-11.3 kcal/mol</span></div>
-        </div>
-        <div class="poseCard">
-          <div class="posePair">
-            <a href="images/ptr1poses/olaparib.png" target="_blank">
-              <img src="images/ptr1poses/olaparib.png" alt="Olaparib docked pose, stick representation" class="poseCardImage">
-            </a>
-            <a href="images/ptr1posesSurface/olaparib.png" target="_blank">
-              <img src="images/ptr1posesSurface/olaparib.png" alt="Olaparib docked pose, surface representation" class="poseCardImage">
-            </a>
-          </div>
-          <div class="poseCaption"><span>olaparib</span><span>-11.3 kcal/mol</span></div>
-        </div>
-      </div>
-      <p>This is exactly the sanity check I wanted to see: <strong>every single one of the top 10 lands in the same
+<div class="pose-grid wide">
+<figure class="pose-card">
+<div class="pose-pair">
+<a href="images/ptr1poses/alectinib.png" target="_blank" rel="noopener"><img src="images/ptr1poses/alectinib.png" alt="Alectinib docked pose, stick representation" width="900" height="700" loading="lazy"></a>
+<a href="images/ptr1posesSurface/alectinib.png" target="_blank" rel="noopener"><img src="images/ptr1posesSurface/alectinib.png" alt="Alectinib docked pose, surface representation" width="900" height="700" loading="lazy"></a>
+</div>
+<figcaption class="pose-caption"><strong>alectinib</strong> &middot; -12.1 kcal/mol</figcaption>
+</figure>
+<figure class="pose-card">
+<div class="pose-pair">
+<a href="images/ptr1poses/risdiplam.png" target="_blank" rel="noopener"><img src="images/ptr1poses/risdiplam.png" alt="Risdiplam docked pose, stick representation" width="900" height="700" loading="lazy"></a>
+<a href="images/ptr1posesSurface/risdiplam.png" target="_blank" rel="noopener"><img src="images/ptr1posesSurface/risdiplam.png" alt="Risdiplam docked pose, surface representation" width="900" height="700" loading="lazy"></a>
+</div>
+<figcaption class="pose-caption"><strong>risdiplam</strong> &middot; -11.7 kcal/mol</figcaption>
+</figure>
+<figure class="pose-card">
+<div class="pose-pair">
+<a href="images/ptr1poses/eltrombopag.png" target="_blank" rel="noopener"><img src="images/ptr1poses/eltrombopag.png" alt="Eltrombopag docked pose, stick representation" width="900" height="700" loading="lazy"></a>
+<a href="images/ptr1posesSurface/eltrombopag.png" target="_blank" rel="noopener"><img src="images/ptr1posesSurface/eltrombopag.png" alt="Eltrombopag docked pose, surface representation" width="900" height="700" loading="lazy"></a>
+</div>
+<figcaption class="pose-caption"><strong>eltrombopag</strong> &middot; -11.6 kcal/mol</figcaption>
+</figure>
+<figure class="pose-card">
+<div class="pose-pair">
+<a href="images/ptr1poses/conivaptan.png" target="_blank" rel="noopener"><img src="images/ptr1poses/conivaptan.png" alt="Conivaptan docked pose, stick representation" width="900" height="700" loading="lazy"></a>
+<a href="images/ptr1posesSurface/conivaptan.png" target="_blank" rel="noopener"><img src="images/ptr1posesSurface/conivaptan.png" alt="Conivaptan docked pose, surface representation" width="900" height="700" loading="lazy"></a>
+</div>
+<figcaption class="pose-caption"><strong>conivaptan</strong> &middot; -11.6 kcal/mol</figcaption>
+</figure>
+<figure class="pose-card">
+<div class="pose-pair">
+<a href="images/ptr1poses/entrectinib.png" target="_blank" rel="noopener"><img src="images/ptr1poses/entrectinib.png" alt="Entrectinib docked pose, stick representation" width="900" height="700" loading="lazy"></a>
+<a href="images/ptr1posesSurface/entrectinib.png" target="_blank" rel="noopener"><img src="images/ptr1posesSurface/entrectinib.png" alt="Entrectinib docked pose, surface representation" width="900" height="700" loading="lazy"></a>
+</div>
+<figcaption class="pose-caption"><strong>entrectinib</strong> &middot; -11.5 kcal/mol</figcaption>
+</figure>
+<figure class="pose-card">
+<div class="pose-pair">
+<a href="images/ptr1poses/dihydroergotamine.png" target="_blank" rel="noopener"><img src="images/ptr1poses/dihydroergotamine.png" alt="Dihydroergotamine docked pose, stick representation" width="900" height="700" loading="lazy"></a>
+<a href="images/ptr1posesSurface/dihydroergotamine.png" target="_blank" rel="noopener"><img src="images/ptr1posesSurface/dihydroergotamine.png" alt="Dihydroergotamine docked pose, surface representation" width="900" height="700" loading="lazy"></a>
+</div>
+<figcaption class="pose-caption"><strong>dihydroergotamine</strong> &middot; -11.5 kcal/mol</figcaption>
+</figure>
+<figure class="pose-card">
+<div class="pose-pair">
+<a href="images/ptr1poses/bexarotene.png" target="_blank" rel="noopener"><img src="images/ptr1poses/bexarotene.png" alt="Bexarotene docked pose, stick representation" width="900" height="700" loading="lazy"></a>
+<a href="images/ptr1posesSurface/bexarotene.png" target="_blank" rel="noopener"><img src="images/ptr1posesSurface/bexarotene.png" alt="Bexarotene docked pose, surface representation" width="900" height="700" loading="lazy"></a>
+</div>
+<figcaption class="pose-caption"><strong>bexarotene</strong> &middot; -11.4 kcal/mol</figcaption>
+</figure>
+<figure class="pose-card">
+<div class="pose-pair">
+<a href="images/ptr1poses/capmatinib.png" target="_blank" rel="noopener"><img src="images/ptr1poses/capmatinib.png" alt="Capmatinib docked pose, stick representation" width="900" height="700" loading="lazy"></a>
+<a href="images/ptr1posesSurface/capmatinib.png" target="_blank" rel="noopener"><img src="images/ptr1posesSurface/capmatinib.png" alt="Capmatinib docked pose, surface representation" width="900" height="700" loading="lazy"></a>
+</div>
+<figcaption class="pose-caption"><strong>capmatinib</strong> &middot; -11.4 kcal/mol</figcaption>
+</figure>
+<figure class="pose-card">
+<div class="pose-pair">
+<a href="images/ptr1poses/tolvaptan.png" target="_blank" rel="noopener"><img src="images/ptr1poses/tolvaptan.png" alt="Tolvaptan docked pose, stick representation" width="900" height="700" loading="lazy"></a>
+<a href="images/ptr1posesSurface/tolvaptan.png" target="_blank" rel="noopener"><img src="images/ptr1posesSurface/tolvaptan.png" alt="Tolvaptan docked pose, surface representation" width="900" height="700" loading="lazy"></a>
+</div>
+<figcaption class="pose-caption"><strong>tolvaptan</strong> &middot; -11.3 kcal/mol</figcaption>
+</figure>
+<figure class="pose-card">
+<div class="pose-pair">
+<a href="images/ptr1poses/olaparib.png" target="_blank" rel="noopener"><img src="images/ptr1poses/olaparib.png" alt="Olaparib docked pose, stick representation" width="900" height="700" loading="lazy"></a>
+<a href="images/ptr1posesSurface/olaparib.png" target="_blank" rel="noopener"><img src="images/ptr1posesSurface/olaparib.png" alt="Olaparib docked pose, surface representation" width="900" height="700" loading="lazy"></a>
+</div>
+<figcaption class="pose-caption"><strong>olaparib</strong> &middot; -11.3 kcal/mol</figcaption>
+</figure>
+</div>
+<p>This is exactly the sanity check I wanted to see: <strong>every single one of the top 10 lands in the same
       pocket</strong>, right up against the NADP+ cofactor, instead of being scattered randomly across the protein
       surface. That's a real, physically-grounded reason to trust these scores a bit more than the number alone
       would justify — Vina consistently found the known biopterin-binding site as the best place to put a
       completely different set of drug-sized molecules, run after run.</p>
-
-      <h3>What's next</h3>
-      <p>The remaining open item is a literature check for any existing antiparasitic activity on the top hits —
+<h2>What's next</h2>
+<p>The remaining open item is a literature check for any existing antiparasitic activity on the top hits —
       the pose sanity check says these are physically plausible binders, not that they're already known to work.
       <em>None of this is a therapeutic claim</em> — these are computational predictions worth investigating
       further, not proof that any of these drugs actually work against leishmaniasis.</p>
-
-      <h3>A quick note on how this got built</h3>
-      <p>I built this target research and the docking run working with Claude Code, same as the rest of the
+<aside class="callout" aria-labelledby="built-title">
+<h2 id="built-title">A quick note on how this got built</h2>
+<p>I built this target research and the docking run working with Claude Code, same as the rest of the
       pipeline, and I'd rather say that outright than leave it quiet. The point of testing how far AI tooling can
       stretch a high schooler's reach only works if I actually talk about where it helped — the target research, the
       pocket cross-checking against published literature, and the receptor prep all moved a lot faster with it than
       they would have solo. The decisions — which target, which structure, what counts as a good enough validation —
       are still mine.</p>
+</aside>
+          <nav class="pager" aria-label="Page navigation"><a href="../MolecularDocking.html">&larr; Back to Molecular Docking</a></nav>
+        </article>
+      </div>
     </div>
-
-    <div class="footer">
-      Contact: <a class="link" href="mailto: alinaren@biomedbound.com">AlinaRen@biomedbound.com</a>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <p><strong>Alina Ren</strong> &middot; BioMedBound</p>
+        <p>A student research project in computational drug repurposing.</p>
+        <p>Contact: <a href="mailto:alinaren@biomedbound.com">alinaren@biomedbound.com</a></p>
+      </div>
+      <div>
+        <p><strong>Please note</strong></p>
+        <p>Docking scores are computational predictions, not evidence that a drug works or is safe, and nothing here is medical advice. This project is built with AI assistance (Claude Code), and each page says where.</p>
+      </div>
+      <p class="fineprint">Typefaces: Inter and Source Serif 4, used under the SIL Open Font License.</p>
     </div>
-  </div>
+  </footer>
 </body>
 </html>

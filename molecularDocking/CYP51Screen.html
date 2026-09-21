@@ -3,148 +3,145 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screening CYP51 | BioMedBound</title>
+  <meta name="description" content="A third Leishmania target, picked partly to test the pipeline itself against a class of drug I
+      already know the answer for — and it produced the strongest confirmed hit the project has found.">
+  <meta name="theme-color" content="#5b4b8a">
+  <link rel="preload" href="../fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../styles.css">
-  <title>Screening CYP51</title>
 </head>
 <body>
-  <div class="mainDiv">
-    <div class="titleDiv">
-      <h1>Screening CYP51: A Pipeline Sanity Check &#8212; and the Project's Best Literature Hit</h1>
-      <h2>A third <em>Leishmania</em> target, picked partly to test the pipeline itself against a class of drug I
-      already know the answer for &#8212; and it produced the strongest confirmed hit the project has found.</h2>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html"><span class="brand__name">BioMedBound</span><span class="brand__by">Alina Ren</span></a>
+      <nav class="nav" aria-label="Main">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../MolecularDocking.html" aria-current="page">Molecular Docking</a></li>
+      </ul>
+      </nav>
     </div>
-
-    <div class="topLinksDiv">
-      <div class="links">
-        <a href="../index.html">BioMedBound Landing Page</a>
-      </div>
-      <div class="links">
-        <a href="../toys.html">Educational Toy Reviews</a>
-      </div>
-      <div class="links">
-        <a href="../books.html">Science Book Reviews</a>
-      </div>
-      <div class="links">
-        <a href="../MolecularDocking.html">Molecular Docking</a>
+  </header>
+  <main id="main">
+    <div class="page-header">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="../index.html">Home</a></li><li><a href="../MolecularDocking.html">Molecular Docking</a></li><li aria-current="page">Screening CYP51</li></ol></nav>
+        <h1>Screening CYP51: A Pipeline Sanity Check — and the Project's Best Literature Hit</h1>
+        <p class="lede">A third <em>Leishmania</em> target, picked partly to test the pipeline itself against a class of drug I
+      already know the answer for — and it produced the strongest confirmed hit the project has found.</p>
       </div>
     </div>
-
-    <div class="topSplashDiv">
-      This is the third target the project has screened, following <a href="TRScreen.html">the pivot to
+    <div class="section">
+      <div class="wrap">
+        <article class="prose">
+<p class="intro">This is the third target the project has screened, following <a href="TRScreen.html">the pivot to
       trypanothione reductase</a>. CYP51 was picked partly because I already know, roughly, what a correct answer
-      should look like &#8212; which makes it a real test of whether the pipeline is doing what I think it's doing.
-    </div>
-
-    <div class="pageBodyDiv">
-      <h3>Step 1: Why this target is a built-in test</h3>
-      <p><strong>CYP51 (sterol 14&alpha;-demethylase)</strong> performs one step of ergosterol biosynthesis &#8212;
+      should look like — which makes it a real test of whether the pipeline is doing what I think it's doing.</p>
+<h2>Step 1: Why this target is a built-in test</h2>
+<p><strong>CYP51 (sterol 14α-demethylase)</strong> performs one step of ergosterol biosynthesis —
       the parasite's version of building its own cell membrane. Block it and the membrane fails, a completely
       different "kill it" mechanism from PTR1's folate salvage or TR's redox defense. The reason this target
       doubles as a pipeline check: azole antifungals (fluconazole, itraconazole, ketoconazole, posaconazole,
       voriconazole) are well-documented CYP51 inhibitors with real published antileishmanial activity, and they're
-      also <strong>dirt-cheap generics</strong> &#8212; fluconazole runs a few dollars a month. If the receptor prep
+      also <strong>dirt-cheap generics</strong> — fluconazole runs a few dollars a month. If the receptor prep
       and pocket detection are working correctly, the known azoles should land somewhere near the top of the
       results. If they don't show up at all, that's a real warning sign about the setup, not just an
       uninteresting result.</p>
-
-      <h3>Step 2: Receptor prep</h3>
-      <p>PDB <strong>3L4D</strong>, CYP51 from <em>Leishmania infantum</em>, solved with fluconazole already
-      sitting in the pocket &#8212; the same advantage 1E92's bound dihydrobiopterin gave PTR1: the real ligand
+<h2>Step 2: Receptor prep</h2>
+<p>PDB <strong>3L4D</strong>, CYP51 from <em>Leishmania infantum</em>, solved with fluconazole already
+      sitting in the pocket — the same advantage 1E92's bound dihydrobiopterin gave PTR1: the real ligand
       pose defines the box with no guesswork. Unlike TR, CYP51 (like all cytochrome P450 enzymes) is monomeric, so
       I only kept chain A. The heme cofactor stayed in (the pocket only has the right shape and chemistry with it
       present), fluconazole and waters were stripped out.</p>
-
-      <h3>Step 3: Finding the pocket</h3>
-      <p>fpocket's top hit on chain A was druggability 0.993 &#8212; the sharpest, most well-defined pocket of all
-      three targets prepped so far &#8212; sitting directly above the heme iron, exactly where the substrate
-      channel should be. Docking box centered on (33.192, &minus;24.058, &minus;7.177), sized
-      20&times;28&times;28&nbsp;&Aring; (asymmetric on purpose &#8212; the real substrate channel is elongated, not
+<h2>Step 3: Finding the pocket</h2>
+<p>fpocket's top hit on chain A was druggability 0.993 — the sharpest, most well-defined pocket of all
+      three targets prepped so far — sitting directly above the heme iron, exactly where the substrate
+      channel should be. Docking box centered on (33.192, −24.058, −7.177), sized
+      20×28×28 Å (asymmetric on purpose — the real substrate channel is elongated, not
       cubic), search_depth 100.</p>
-
-      <h3>Step 4: The real screen</h3>
-      <p>Same 1,840-drug library, 1,795 of 1,808 attempted drugs docked successfully.</p>
-      <img src="images/cyp51ScreenResults.svg" alt="Bar chart of the top 10 predicted binding affinities against CYP51" class="pageImage">
-
-      <h3>Step 5: The azole question &#8212; this is the important part</h3>
-      <p>Here's the real result, and it's a nuanced one rather than a clean pass/fail: <strong>no azole broke into
-      the top 10.</strong> The best of them, itraconazole, ranked <strong>42nd of 1,795</strong> (&minus;11.1
-      kcal/mol) &#8212; comfortably in the top 2.5% of the whole library, a genuinely strong positive signal, just
+<h2>Step 4: The real screen</h2>
+<p>Same 1,840-drug library, 1,795 of 1,808 attempted drugs docked successfully.</p>
+<figure class="figure"><img alt="Bar chart of the top 10 predicted binding affinities against CYP51" height="420" loading="lazy" src="images/cyp51ScreenResults.svg" width="680"/></figure>
+<h2>Step 5: The azole question — this is the important part</h2>
+<p>Here's the real result, and it's a nuanced one rather than a clean pass/fail: <strong>no azole broke into
+      the top 10.</strong> The best of them, itraconazole, ranked <strong>42nd of 1,795</strong> (−11.1
+      kcal/mol) — comfortably in the top 2.5% of the whole library, a genuinely strong positive signal, just
       not a #1 crown. The rest of the azole class clustered together right behind it in a coherent block:
-      posaconazole (&minus;10.5), terconazole (&minus;10.4), ketoconazole (&minus;10.0), oxiconazole (&minus;9.5),
-      sertaconazole/voriconazole (&minus;9.4), down through miconazole (&minus;8.5) and fluconazole (&minus;8.2).</p>
-      <p>The one result worth being completely upfront about: <strong>fluconazole itself &#8212; the exact drug
+      posaconazole (−10.5), terconazole (−10.4), ketoconazole (−10.0), oxiconazole (−9.5),
+      sertaconazole/voriconazole (−9.4), down through miconazole (−8.5) and fluconazole (−8.2).</p>
+<p>The one result worth being completely upfront about: <strong>fluconazole itself — the exact drug
       crystallized in this receptor structure, the one whose bound position literally defined the docking
-      box &#8212; ranked only 854th of 1,795</strong>, roughly median. That's not a mistake in the receptor prep.
+      box — ranked only 854th of 1,795</strong>, roughly median. That's not a mistake in the receptor prep.
       It's a known, documented limitation of Vina's scoring function: the score correlates a fair amount with
       ligand size (more atoms generally means more possible favorable contacts), and fluconazole is one of the
-      smallest, most polar molecules in the whole azole class &#8212; exactly the profile Vina's function tends to
+      smallest, most polar molecules in the whole azole class — exactly the profile Vina's function tends to
       underscore, independent of whether the real binding mode is correct. It's also, not coincidentally, the
-      <em>cheapest</em> azole (~$4&#8211;20/month) &#8212; so the one drug this project would most want to rank
+      <em>cheapest</em> azole (~$4–20/month) — so the one drug this project would most want to rank
       well is the one the scoring function is least kind to. Worth remembering for reading any future screen's raw
       top-10 list: it has a real, systematic bias toward bigger molecules that has nothing to do with how good a
       real inhibitor they are.</p>
-      <p><strong>Bottom line on the sanity check</strong>: a real, class-coherent signal for azoles as a group,
-      with itraconazole specifically landing convincingly in the strong-hit range &#8212; but not the clean "the
+<p><strong>Bottom line on the sanity check</strong>: a real, class-coherent signal for azoles as a group,
+      with itraconazole specifically landing convincingly in the strong-hit range — but not the clean "the
       cheap known drug reaches the very top" result that would have been the ideal outcome. Partial validation,
       with a real and useful lesson about the tool's limits attached.</p>
-      <p>On the actual top 10: several repeat "sticky binder" names show up again &#8212; conivaptan (a third
+<p>On the actual top 10: several repeat "sticky binder" names show up again — conivaptan (a third
       appearance, after PTR1 and TR), nilotinib and rimegepant (second appearances, from TR), eltrombopag (second,
       from PTR1). Four of ten repeat hits across three chemically unrelated pockets is a stronger signal that
       these are just large, flexible, generically high-affinity molecules by Vina's scoring function, not
-      genuinely CYP51-specific binders &#8212; the exact question the <a href="SpecificityAnalysis.html">next
+      genuinely CYP51-specific binders — the exact question the <a href="SpecificityAnalysis.html">next
       post</a> checks rigorously with real numbers instead of just noting it. Digitoxin and dutasteride are the
       two new top hits actually worth a closer look.</p>
-
-      <h3>Step 6: Does the pose make sense?</h3>
-      <p>Same quantitative approach as the TR screen &#8212; centroid distance to the box center, plus distance to
+<h2>Step 6: Does the pose make sense?</h2>
+<p>Same quantitative approach as the TR screen — centroid distance to the box center, plus distance to
       the heme iron specifically this time, since that's the chemically meaningful landmark for this pocket.</p>
-      <div class="tableWrap">
-        <table class="dataTable">
-          <thead>
-            <tr><th>Drug</th><th>Distance to box center</th><th>Closest atom to heme Fe</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>digitoxin</td><td>1.3 &Aring;</td><td>4.45 &Aring;</td></tr>
-            <tr><td>dutasteride</td><td>2.8 &Aring;</td><td>5.44 &Aring;</td></tr>
-            <tr><td>irinotecan</td><td>1.5 &Aring;</td><td>5.93 &Aring;</td></tr>
-            <tr><td>rimegepant</td><td>1.5 &Aring;</td><td>5.67 &Aring;</td></tr>
-            <tr><td>vibegron</td><td>2.6 &Aring;</td><td>3.17 &Aring;</td></tr>
-            <tr><td>conivaptan</td><td>2.0 &Aring;</td><td>3.18 &Aring;</td></tr>
-            <tr><td>nilotinib</td><td>2.0 &Aring;</td><td>4.92 &Aring;</td></tr>
-            <tr><td>ubrogepant</td><td>0.4 &Aring;</td><td>5.54 &Aring;</td></tr>
-            <tr><td>tepotinib</td><td>1.1 &Aring;</td><td>5.62 &Aring;</td></tr>
-            <tr><td>eltrombopag</td><td>2.7 &Aring;</td><td>5.76 &Aring;</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p>All 10 land within 0.4&#8211;2.8&nbsp;&Aring; of the box center &#8212; even tighter clustering than
+<div class="table-wrap" role="region" tabindex="0" aria-label="Data table">
+<table class="data-table">
+<thead>
+<tr><th scope="col">Drug</th><th class="num" scope="col">Distance to box center</th><th class="num" scope="col">Closest atom to heme Fe</th></tr>
+</thead>
+<tbody>
+<tr><td>digitoxin</td><td class="num">1.3 Å</td><td class="num">4.45 Å</td></tr>
+<tr><td>dutasteride</td><td class="num">2.8 Å</td><td class="num">5.44 Å</td></tr>
+<tr><td>irinotecan</td><td class="num">1.5 Å</td><td class="num">5.93 Å</td></tr>
+<tr><td>rimegepant</td><td class="num">1.5 Å</td><td class="num">5.67 Å</td></tr>
+<tr><td>vibegron</td><td class="num">2.6 Å</td><td class="num">3.17 Å</td></tr>
+<tr><td>conivaptan</td><td class="num">2.0 Å</td><td class="num">3.18 Å</td></tr>
+<tr><td>nilotinib</td><td class="num">2.0 Å</td><td class="num">4.92 Å</td></tr>
+<tr><td>ubrogepant</td><td class="num">0.4 Å</td><td class="num">5.54 Å</td></tr>
+<tr><td>tepotinib</td><td class="num">1.1 Å</td><td class="num">5.62 Å</td></tr>
+<tr><td>eltrombopag</td><td class="num">2.7 Å</td><td class="num">5.76 Å</td></tr>
+</tbody>
+</table>
+</div>
+<p>All 10 land within 0.4–2.8 Å of the box center — even tighter clustering than
       either PTR1 or TR produced, which tracks with this being the most sharply defined pocket of the three
-      (druggability 0.993). All 10 also sit within 3.2&#8211;5.9&nbsp;&Aring; of the heme iron, genuinely occupying
-      the substrate-access channel above it rather than somewhere else in the box. None sit at the ~2.0&#8211;2.2
-      &Aring; distance real azole nitrogens use to directly coordinate the iron &#8212; expected, since Vina's
+      (druggability 0.993). All 10 also sit within 3.2–5.9 Å of the heme iron, genuinely occupying
+      the substrate-access channel above it rather than somewhere else in the box. None sit at the ~2.0–2.2
+      Å distance real azole nitrogens use to directly coordinate the iron — expected, since Vina's
       scoring function has no dative-bond/metal-coordination term at all, so it structurally can't reward that
       specific interaction. Another honest pipeline limitation specific to heme-containing targets, not a flaw in
       this particular run.</p>
-
-      <h3>Step 7: Has anyone already tested these against a parasite? &#8212; the best hit of the project</h3>
-      <p><strong>Digitoxin has direct, confirmed activity against <em>Leishmania infantum</em> itself</strong>
-      &#8212; the exact species this whole project targets, not a related species like PTR1's and TR's precedents
-      turned up. Two independent lines of evidence: digitoxigenin (digitoxin's aglycone &#8212; digitoxin with its
-      sugars removed) showed antileishmanial IC50 = 6.9 &plusmn; 1.5 &micro;g/mL against <em>L. infantum</em>, with
-      a selectivity index of 42.8 (good separation from toxicity to the host's own cells) &#8212; better than the
+<h2>Step 7: Has anyone already tested these against a parasite? — the best hit of the project</h2>
+<p><strong>Digitoxin has direct, confirmed activity against <em>Leishmania infantum</em> itself</strong>
+      — the exact species this whole project targets, not a related species like PTR1's and TR's precedents
+      turned up. Two independent lines of evidence: digitoxigenin (digitoxin's aglycone — digitoxin with its
+      sugars removed) showed antileishmanial IC50 = 6.9 ± 1.5 µg/mL against <em>L. infantum</em>, with
+      a selectivity index of 42.8 (good separation from toxicity to the host's own cells) — better than the
       same study's amphotericin B control (SI 6.1).
       <a href="https://pubmed.ncbi.nlm.nih.gov/33191446/">Freitas CS, et al. "Digitoxigenin presents an effective
       and selective antileishmanial action against <em>Leishmania infantum</em> and is a potential therapeutic
-      agent for visceral leishmaniasis." <em>Parasitol Res.</em> 2021;120(1):289&#8211;301. PMID 33191446.</a> Separately,
-      &beta;-acetyl-digitoxin (a digitoxin derivative) showed activity against infected macrophages <em>and</em>
+      agent for visceral leishmaniasis." <em>Parasitol Res.</em> 2021;120(1):289–301. PMID 33191446.</a> Separately,
+      β-acetyl-digitoxin (a digitoxin derivative) showed activity against infected macrophages <em>and</em>
       reduced parasite load in vivo in mice.
       <a href="https://pubmed.ncbi.nlm.nih.gov/33851916/">Freitas CS, et al. "In vitro and in vivo antileishmanial activity of
-      &beta;-acetyl-digitoxin, a cardenolide of <em>Digitalis lanata</em> potentially useful to treat visceral
+      β-acetyl-digitoxin, a cardenolide of <em>Digitalis lanata</em> potentially useful to treat visceral
       leishmaniasis." <em>Parasite.</em> 2021;28:36. PMID 33851916.</a> This is a stronger, more direct hit than anything PTR1 or TR produced
-      &#8212; those found precedent against a different species (saquinavir vs. <em>L. major</em>) or a different
+      — those found precedent against a different species (saquinavir vs. <em>L. major</em>) or a different
       target entirely (nilotinib vs. <em>T. cruzi</em>), never the exact <em>L. infantum</em> target this project
       is actually built around.</p>
-      <p><strong>Irinotecan</strong> also has a real, specific <em>L. infantum</em> precedent: it and its active
+<p><strong>Irinotecan</strong> also has a real, specific <em>L. infantum</em> precedent: it and its active
       metabolite SN-38 act as DNA topoisomerase IB poisons in <em>L. infantum</em> promastigotes, confirmed both
       in vitro and in an ex vivo infected-splenocyte model.
       <a href="https://pubmed.ncbi.nlm.nih.gov/23466420/">Prada CF, et al. "Gimatecan and other camptothecin
@@ -152,69 +149,68 @@
       <em>Biochem Pharmacol.</em> 2013. PMID 23466420.</a> Same relationship as digitoxin-vs-CYP51: real, confirmed
       activity, but via a completely different mechanism (DNA intercalation, not sterol biosynthesis) than what
       this screen actually tests for. It's also a direct callback to the topoisomerase IB attack-vector candidate
-      deprioritized back on the TR post &#8212; a real-world illustration of exactly the DNA-intercalation
+      deprioritized back on the TR post — a real-world illustration of exactly the DNA-intercalation
       mechanism that made it a poor fit for this pipeline's normal docking approach, showing up here as a side
       effect of screening a different target entirely.</p>
-      <p>Dutasteride, vibegron, ubrogepant, and tepotinib have no published antiparasitic activity found &#8212;
+<p>Dutasteride, vibegron, ubrogepant, and tepotinib have no published antiparasitic activity found —
       the expected novel-scaffold outcome. Dutasteride is the most mechanistically plausible of the four on
       priors alone: it's itself a steroid-pathway enzyme inhibitor, chemically closer to CYP51's actual sterol
       substrates than any of the others.</p>
-
-      <h3>Step 8: Does the price make sense? &#8212; the catch</h3>
-      <div class="tableWrap">
-        <table class="dataTable">
-          <thead>
-            <tr><th>Drug</th><th>Current approved use</th><th>Approx. US price</th><th>Key safety concerns</th></tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Digitoxin</td>
-              <td>Heart failure/arrhythmia (historically)</td>
-              <td><strong>Not marketed in the US</strong> (FDA reports it is no longer manufactured there) or Canada;
-              in Europe, currently only Germany, and it is in short supply &#8212; see the availability note below</td>
-              <td>Narrow therapeutic index, cardiac glycoside toxicity</td>
-            </tr>
-            <tr>
-              <td><a href="https://www.goodrx.com/dutasteride">Dutasteride</a> (Avodart)</td>
-              <td>Benign prostatic hyperplasia</td>
-              <td>~$8&#8211;40/month generic</td>
-              <td>Sexual dysfunction, gynecomastia &#8212; no black box, comparatively mild</td>
-            </tr>
-            <tr>
-              <td><a href="https://www.goodrx.com/irinotecan">Irinotecan</a> (Camptosar)</td>
-              <td>Colorectal/pancreatic cancer chemo</td>
-              <td>~$11/2&nbsp;mL vial, generic available</td>
-              <td>Severe diarrhea, bone-marrow suppression &#8212; IV chemo, infusion-center administration</td>
-            </tr>
-            <tr>
-              <td><a href="https://www.goodrx.com/gemtesa/gemtesa-cost-without-insurance">Vibegron</a> (Gemtesa)</td>
-              <td>Overactive bladder</td>
-              <td>~$500&#8211;700/month, no generic</td>
-              <td>Rare urinary retention; mostly mild GI/UTI-type effects</td>
-            </tr>
-            <tr>
-              <td><a href="https://www.goodrx.com/ubrelvy/what-is">Ubrogepant</a> (Ubrelvy)</td>
-              <td>Acute migraine</td>
-              <td>~$1,100&#8211;1,450/10 tablets, no generic</td>
-              <td>Hypersensitivity reactions; capped at 8 uses/month</td>
-            </tr>
-            <tr>
-              <td><a href="https://www.drugs.com/price-guide/tepmetko">Tepotinib</a> (Tepmetko)</td>
-              <td>MET exon 14-mutant NSCLC</td>
-              <td>~$9,340&#8211;12,900/month</td>
-              <td>Interstitial lung disease/pneumonitis, hepatotoxicity</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <p>The repeat hits are already priced on the <a href="TRScreen.html">TR</a> and PTR1 posts.</p>
-      <p><strong>Digitoxin is the awkward one here on the practicality axis</strong>, despite being both the single
-      best docking score of the whole project (&minus;13.0 kcal/mol) and the strongest literature precedent found
-      so far &#8212; it isn't something that can be prescribed in the US today. Its still-marketed cousin digoxin
+<h2>Step 8: Does the price make sense? — the catch</h2>
+<div class="table-wrap" role="region" tabindex="0" aria-label="Data table">
+<table class="data-table">
+<thead>
+<tr><th scope="col">Drug</th><th scope="col">Current approved use</th><th scope="col">Approx. US price</th><th scope="col">Key safety concerns</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>Digitoxin</td>
+<td>Heart failure/arrhythmia (historically)</td>
+<td><strong>Not marketed in the US</strong> (FDA reports it is no longer manufactured there) or Canada;
+              in Europe, currently only Germany, and it is in short supply — see the availability note below</td>
+<td>Narrow therapeutic index, cardiac glycoside toxicity</td>
+</tr>
+<tr>
+<td><a href="https://www.goodrx.com/dutasteride">Dutasteride</a> (Avodart)</td>
+<td>Benign prostatic hyperplasia</td>
+<td>~$8–40/month generic</td>
+<td>Sexual dysfunction, gynecomastia — no black box, comparatively mild</td>
+</tr>
+<tr>
+<td><a href="https://www.goodrx.com/irinotecan">Irinotecan</a> (Camptosar)</td>
+<td>Colorectal/pancreatic cancer chemo</td>
+<td>~$11/2 mL vial, generic available</td>
+<td>Severe diarrhea, bone-marrow suppression — IV chemo, infusion-center administration</td>
+</tr>
+<tr>
+<td><a href="https://www.goodrx.com/gemtesa/gemtesa-cost-without-insurance">Vibegron</a> (Gemtesa)</td>
+<td>Overactive bladder</td>
+<td>~$500–700/month, no generic</td>
+<td>Rare urinary retention; mostly mild GI/UTI-type effects</td>
+</tr>
+<tr>
+<td><a href="https://www.goodrx.com/ubrelvy/what-is">Ubrogepant</a> (Ubrelvy)</td>
+<td>Acute migraine</td>
+<td>~$1,100–1,450/10 tablets, no generic</td>
+<td>Hypersensitivity reactions; capped at 8 uses/month</td>
+</tr>
+<tr>
+<td><a href="https://www.drugs.com/price-guide/tepmetko">Tepotinib</a> (Tepmetko)</td>
+<td>MET exon 14-mutant NSCLC</td>
+<td>~$9,340–12,900/month</td>
+<td>Interstitial lung disease/pneumonitis, hepatotoxicity</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The repeat hits are already priced on the <a href="TRScreen.html">TR</a> and PTR1 posts.</p>
+<p><strong>Digitoxin is the awkward one here on the practicality axis</strong>, despite being both the single
+      best docking score of the whole project (−13.0 kcal/mol) and the strongest literature precedent found
+      so far — it isn't something that can be prescribed in the US today. Its still-marketed cousin digoxin
       is cheap and widely available, but digoxin wasn't the drug that scored well here or the drug tested in the
       antileishmanial literature, so it would need its own independent check before leaning on it as a
-      substitute &#8212; not something this project can just assume.</p>
-      <p><strong>Is digitoxin available anywhere else?</strong> I originally wrote it off as "withdrawn," then
+      substitute — not something this project can just assume.</p>
+<p><strong>Is digitoxin available anywhere else?</strong> I originally wrote it off as "withdrawn," then
       checked, with Claude Code helping search and Gemini double-checking the results. What I could confirm: an
       <a href="https://www.ncbi.nlm.nih.gov/books/NBK350386/">IARC monograph</a> (published 2016, citing a 2013
       list) says FDA reported digitoxin is no longer manufactured in the US and that licensed digitoxin products
@@ -235,33 +231,46 @@
       veterinary use). The 2025 <a href="https://pubmed.ncbi.nlm.nih.gov/40879434/">DIGIT-HF heart-failure
       trial</a> has renewed interest in digitoxin, but that is about heart failure, not leishmaniasis, and this
       project makes no treatment claims.</p>
-      <p><strong>Dutasteride is the best practical candidate this screen
+<p><strong>Dutasteride is the best practical candidate this screen
       produced</strong>: cheap generic, no black box, decades of safety data, and mechanistically the most
       plausible novel hit here.</p>
-
-      <h3>What's next</h3>
-      <p>Three screens are now done, against three chemically unrelated pockets on two different proteins &#8212;
+<h2>What's next</h2>
+<p>Three screens are now done, against three chemically unrelated pockets on two different proteins —
       and several drugs (conivaptan, nilotinib, rimegepant, eltrombopag) have now shown up near the top of more
       than one of them. That's worth answering properly instead of just flagging anecdotally: is a repeat top-10
       appearance real evidence of pocket complementarity, or is Vina's scoring function just consistently
       rewarding certain molecules no matter what pocket they're put in? Three screens is also the minimum needed
-      to actually answer that question &#8212; two targets can't distinguish "consistently good" from
+      to actually answer that question — two targets can't distinguish "consistently good" from
       "coincidence." That's the whole subject of the next post:
       <a href="SpecificityAnalysis.html">Sticky vs. Specific</a>. <em>None of this is a therapeutic claim</em>
-      &#8212; confirmed activity of digitoxigenin (an aglycone/derivative) doesn't automatically transfer to
+      — confirmed activity of digitoxigenin (an aglycone/derivative) doesn't automatically transfer to
       digitoxin itself at approved cardiac doses, and nothing here says anything about CYP51 specifically as the
       mechanism for any hit.</p>
-
-      <h3>A quick note on how this got built</h3>
-      <p>Same as the last two posts &#8212; the receptor prep, the docking run, and the literature/pricing research
+<aside class="callout" aria-labelledby="built-title">
+<h2 id="built-title">A quick note on how this got built</h2>
+<p>Same as the last two posts — the receptor prep, the docking run, and the literature/pricing research
       here were all done working with Claude Code, and I want to keep saying so plainly rather than letting it go
       quiet. The read on what the azole result actually means, which candidates are worth flagging, and every
       interpretive call above are mine.</p>
+</aside>
+          <nav class="pager" aria-label="Page navigation"><a href="../MolecularDocking.html">&larr; Back to Molecular Docking</a></nav>
+        </article>
+      </div>
     </div>
-
-    <div class="footer">
-      Contact: <a class="link" href="mailto: alinaren@biomedbound.com">AlinaRen@biomedbound.com</a>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <p><strong>Alina Ren</strong> &middot; BioMedBound</p>
+        <p>A student research project in computational drug repurposing.</p>
+        <p>Contact: <a href="mailto:alinaren@biomedbound.com">alinaren@biomedbound.com</a></p>
+      </div>
+      <div>
+        <p><strong>Please note</strong></p>
+        <p>Docking scores are computational predictions, not evidence that a drug works or is safe, and nothing here is medical advice. This project is built with AI assistance (Claude Code), and each page says where.</p>
+      </div>
+      <p class="fineprint">Typefaces: Inter and Source Serif 4, used under the SIL Open Font License.</p>
     </div>
-  </div>
+  </footer>
 </body>
 </html>

@@ -3,177 +3,189 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky vs. Specific | BioMedBound</title>
+  <meta name="description" content="The same drugs kept reappearing near the top of more than one target's results. Is that a real signal,
+      or is Vina's scoring function just consistently enthusiastic about certain molecules?">
+  <meta name="theme-color" content="#5b4b8a">
+  <link rel="preload" href="../fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../styles.css">
-  <title>Sticky vs. Specific</title>
 </head>
 <body>
-  <div class="mainDiv">
-    <div class="titleDiv">
-      <h1>Sticky vs. Specific: Cross-Checking Three Screens Against Each Other</h1>
-      <h2>The same drugs kept reappearing near the top of more than one target's results. Is that a real signal,
-      or is Vina's scoring function just consistently enthusiastic about certain molecules?</h2>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html"><span class="brand__name">BioMedBound</span><span class="brand__by">Alina Ren</span></a>
+      <nav class="nav" aria-label="Main">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../MolecularDocking.html" aria-current="page">Molecular Docking</a></li>
+      </ul>
+      </nav>
     </div>
-
-    <div class="topLinksDiv">
-      <div class="links">
-        <a href="../index.html">BioMedBound Landing Page</a>
-      </div>
-      <div class="links">
-        <a href="../toys.html">Educational Toy Reviews</a>
-      </div>
-      <div class="links">
-        <a href="../books.html">Science Book Reviews</a>
-      </div>
-      <div class="links">
-        <a href="../MolecularDocking.html">Molecular Docking</a>
+  </header>
+  <main id="main">
+    <div class="page-header">
+      <div class="wrap">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="../index.html">Home</a></li><li><a href="../MolecularDocking.html">Molecular Docking</a></li><li aria-current="page">Sticky vs. specific</li></ol></nav>
+        <h1>Sticky vs. Specific: Cross-Checking Three Screens Against Each Other</h1>
+        <p class="lede">The same drugs kept reappearing near the top of more than one target's results. Is that a real signal,
+      or is Vina's scoring function just consistently enthusiastic about certain molecules?</p>
       </div>
     </div>
-
-    <div class="topSplashDiv">
-      Three full-library screens now exist &#8212; <a href="PTR1Screen.html">PTR1</a>,
-      <a href="TRScreen.html">TR</a>, and <a href="CYP51Screen.html">CYP51</a> &#8212; three chemically unrelated
+    <div class="section">
+      <div class="wrap">
+        <article class="prose">
+<p class="intro">Three full-library screens now exist — <a href="PTR1Screen.html">PTR1</a>,
+      <a href="TRScreen.html">TR</a>, and <a href="CYP51Screen.html">CYP51</a> — three chemically unrelated
       pockets on two different <em>Leishmania</em> proteins. Conivaptan, nilotinib, rimegepant, and eltrombopag
       all showed up near the top of more than one of them. That's worth actually checking with numbers instead of
-      just noting it in passing.
-    </div>
-
-    <div class="pageBodyDiv">
-      <h3>Step 1: The question</h3>
-      <p>A drug that scores well against one pocket might genuinely fit that pocket's shape and chemistry &#8212;
+      just noting it in passing.</p>
+<h2>Step 1: The question</h2>
+<p>A drug that scores well against one pocket might genuinely fit that pocket's shape and chemistry —
       or it might just be a large, flexible molecule with lots of hydrogen-bond donors that Vina's scoring
       function rewards more or less everywhere it's placed, regardless of whether the fit means anything. With
       only one or two screens, there's no way to tell those two cases apart. With three, there is: a drug that's
       dramatically better on one target than its own baseline performance on the other two has a real reason to
       be there. A drug that's equally strong (or weak) on all three unrelated pockets is showing the signature of
       a generically "sticky" molecule instead.</p>
-
-      <h3>Step 2: Method</h3>
-      <p>All three screens docked the exact same 1,795 successfully-prepared drugs (the only thing that excludes a
+<h2>Step 2: Method</h2>
+<p>All three screens docked the exact same 1,795 successfully-prepared drugs (the only thing that excludes a
       drug is a ligand-size limit, independent of which receptor it's docked against), so every drug already has
-      three directly comparable scores sitting in the existing data &#8212; no new docking needed for this
+      three directly comparable scores sitting in the existing data — no new docking needed for this
       analysis.</p>
-      <ul>
-        <li><strong>Data-quality filter first.</strong> A positive Vina affinity means the pose failed or clashed
-        &#8212; it's not a real weak binder, it's noise. PTR1 had 2 of 1,795 positive-score drugs, CYP51 had 12,
-        and <strong>TR had 33</strong> &#8212; meaningfully more, plausibly because TR's larger, more sterically
+<ul>
+<li><strong>Data-quality filter first.</strong> A positive Vina affinity means the pose failed or clashed
+        — it's not a real weak binder, it's noise. PTR1 had 2 of 1,795 positive-score drugs, CYP51 had 12,
+        and <strong>TR had 33</strong> — meaningfully more, plausibly because TR's larger, more sterically
         complex A+B dimer interface is a harder receptor for some bulkier ligands to fit into cleanly than PTR1's
         or CYP51's single-chain pockets. Excluded any drug with a positive score on any target, leaving 1,762 of
         1,795 with three clean numbers to compare.</li>
-        <li><strong>Per-target z-scores.</strong> Standardized each target's affinity distribution (PTR1 mean
-        &minus;7.80&plusmn;1.65, TR mean &minus;6.53&plusmn;1.46, CYP51 mean &minus;7.97&plusmn;1.81) so "how good
+<li><strong>Per-target z-scores.</strong> Standardized each target's affinity distribution (PTR1 mean
+        −7.80±1.65, TR mean −6.53±1.46, CYP51 mean −7.97±1.81) so "how good
         is this score" is comparable across targets with different absolute scales.</li>
-        <li><strong>Specificity gap</strong> = (average z-score on the two <em>weaker</em> targets) &minus;
+<li><strong>Specificity gap</strong> = (average z-score on the two <em>weaker</em> targets) −
         (z-score on the <em>best</em> target). A large positive gap is real evidence a drug's best result isn't
-        just its baseline performance everywhere &#8212; something about that specific pocket is doing extra
+        just its baseline performance everywhere — something about that specific pocket is doing extra
         work. A gap near zero means the drug is equally strong (or weak) against all three unrelated pockets, the
         signature of a molecule Vina just likes in general.</li>
-        <li><strong>Ligand efficiency (LE)</strong> = |best affinity| &divide; heavy-atom count (counted via
-        RDKit from each drug's SMILES) &#8212; a standard med-chem sanity check, since Vina's raw score is known
+<li><strong>Ligand efficiency (LE)</strong> = |best affinity| ÷ heavy-atom count (counted via
+        RDKit from each drug's SMILES) — a standard med-chem sanity check, since Vina's raw score is known
         to correlate with molecular size. A big molecule racking up a good score mostly by being big should show
         unremarkable LE even with an impressive raw number; a small molecule matching a pocket precisely shows
         high LE.</li>
-      </ul>
-
-      <h3>Step 3: Every drug discussed across the three screens so far</h3>
-      <div class="tableWrap">
-        <table class="dataTable">
-          <thead>
-            <tr>
-              <th>Drug</th><th>Heavy atoms</th><th>z (PTR1 / TR / CYP51)</th><th>Best target</th>
-              <th>Specificity gap</th><th>LE</th><th>Read</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>digitoxin</td><td>54</td><td>&minus;0.79 / +0.15 / <strong>&minus;2.78</strong></td><td>CYP51</td><td><strong>2.47</strong></td><td>0.241</td><td><strong>SPECIFIC</strong></td></tr>
-            <tr><td>irinotecan</td><td>43</td><td>&minus;0.97 / &minus;0.74 / <strong>&minus;2.51</strong></td><td>CYP51</td><td><strong>1.65</strong></td><td>0.291</td><td><strong>SPECIFIC</strong></td></tr>
-            <tr><td>alectinib</td><td>36</td><td><strong>&minus;2.61</strong> / &minus;1.22 / &minus;1.07</td><td>PTR1</td><td><strong>1.47</strong></td><td>0.336</td><td><strong>SPECIFIC</strong></td></tr>
-            <tr><td>bexarotene</td><td>26</td><td><strong>&minus;2.19</strong> / &minus;0.81 / &minus;1.01</td><td>PTR1</td><td><strong>1.28</strong></td><td>0.438</td><td><strong>SPECIFIC</strong></td></tr>
-            <tr><td>naldemedine</td><td>42</td><td>&minus;0.67 / <strong>&minus;2.32</strong> / &minus;1.84</td><td>TR</td><td>1.06</td><td>0.236</td><td>mixed</td></tr>
-            <tr><td>vibegron</td><td>33</td><td>&minus;1.28 / &minus;1.08 / <strong>&minus;2.29</strong></td><td>CYP51</td><td>1.11</td><td>0.367</td><td>mixed</td></tr>
-            <tr><td>berotralstat</td><td>41</td><td>&minus;1.34 / <strong>&minus;2.45</strong> / &minus;1.40</td><td>TR</td><td>1.09</td><td>0.246</td><td>mixed</td></tr>
-            <tr><td>ubrogepant</td><td>40</td><td>&minus;0.85 / &minus;1.49 / <strong>&minus;2.23</strong></td><td>CYP51</td><td>1.06</td><td>0.300</td><td>mixed</td></tr>
-            <tr><td>dutasteride</td><td>37</td><td>&minus;1.09 / &minus;2.04 / <strong>&minus;2.56</strong></td><td>CYP51</td><td>0.99</td><td>0.341</td><td>mixed</td></tr>
-            <tr><td>ergotamine</td><td>43</td><td>&minus;1.94 / <strong>&minus;2.73</strong> / &minus;1.57</td><td>TR</td><td>0.97</td><td>0.244</td><td>mixed (leans sticky)</td></tr>
-            <tr><td>saquinavir</td><td>49</td><td>&minus;1.28 / <strong>&minus;2.32</strong> / &minus;1.57</td><td>TR</td><td>0.90</td><td>0.202</td><td>mixed</td></tr>
-            <tr><td>risdiplam</td><td>30</td><td><strong>&minus;2.37</strong> / &minus;1.15 / &minus;1.84</td><td>PTR1</td><td>0.87</td><td>0.390</td><td>mixed</td></tr>
-            <tr><td>bisoctrizole</td><td>49</td><td>&minus;1.09 / <strong>&minus;2.25</strong> / &minus;1.68</td><td>TR</td><td>0.86</td><td>0.200</td><td>mixed</td></tr>
-            <tr><td>capmatinib</td><td>31</td><td><strong>&minus;2.19</strong> / &minus;1.49 / &minus;1.35</td><td>PTR1</td><td>0.77</td><td>0.368</td><td>mixed</td></tr>
-            <tr><td>lomitapide</td><td>50</td><td>&minus;2.07 / <strong>&minus;2.39</strong> / &minus;1.35</td><td>TR</td><td>0.68</td><td>0.200</td><td>mixed</td></tr>
-            <tr><td>rimegepant</td><td>39</td><td>&minus;1.03 / &minus;2.32 / <strong>&minus;2.34</strong></td><td>CYP51</td><td>0.67</td><td>0.313</td><td>mixed</td></tr>
-            <tr><td>midostaurin</td><td>43</td><td>&minus;1.64 / <strong>&minus;2.39</strong> / &minus;1.84</td><td>TR</td><td>0.64</td><td>0.233</td><td>mixed</td></tr>
-            <tr><td>entrectinib</td><td>41</td><td><strong>&minus;2.25</strong> / &minus;1.97 / &minus;1.73</td><td>PTR1</td><td>0.39</td><td>0.280</td><td>STICKY</td></tr>
-            <tr><td>dihydroergotamine</td><td>43</td><td><strong>&minus;2.25</strong> / &minus;2.11 / &minus;1.73</td><td>PTR1</td><td>0.33</td><td>0.267</td><td>STICKY</td></tr>
-            <tr><td>olaparib</td><td>32</td><td><strong>&minus;2.13</strong> / &minus;1.84 / &minus;1.79</td><td>PTR1</td><td>0.31</td><td>0.353</td><td>STICKY</td></tr>
-            <tr><td>eltrombopag</td><td>33</td><td><strong>&minus;2.31</strong> / &minus;1.84 / &minus;2.18</td><td>PTR1</td><td>0.30</td><td>0.352</td><td>STICKY</td></tr>
-            <tr><td>nilotinib</td><td>39</td><td>&minus;2.00 / <strong>&minus;2.39</strong> / &minus;2.23</td><td>TR</td><td>0.27</td><td>0.256</td><td>STICKY</td></tr>
-            <tr><td>tolvaptan</td><td>32</td><td><strong>&minus;2.13</strong> / &minus;1.70 / &minus;2.12</td><td>PTR1</td><td>0.22</td><td>0.353</td><td>STICKY</td></tr>
-            <tr><td>tepotinib</td><td>37</td><td>&minus;2.07 / &minus;2.04 / <strong>&minus;2.23</strong></td><td>CYP51</td><td>0.18</td><td>0.324</td><td>STICKY</td></tr>
-            <tr><td>conivaptan</td><td>38</td><td>&minus;2.31 / <strong>&minus;2.32</strong> / &minus;2.29</td><td>TR</td><td>0.02</td><td>0.261</td><td>STICKY</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p><strong>Bold</strong> z-scores mark each drug's best target. Read thresholds: gap &gt; 1.2 = SPECIFIC,
+</ul>
+<h2>Step 3: Every drug discussed across the three screens so far</h2>
+<div class="table-wrap" role="region" tabindex="0" aria-label="Data table">
+<table class="data-table">
+<thead>
+<tr>
+<th scope="col">Drug</th><th class="num" scope="col">Heavy atoms</th><th scope="col">z (PTR1 / TR / CYP51)</th><th scope="col">Best target</th>
+<th class="num" scope="col">Specificity gap</th><th class="num" scope="col">LE</th><th scope="col">Read</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>digitoxin</td><td class="num">54</td><td>−0.79 / +0.15 / <strong>−2.78</strong></td><td>CYP51</td><td class="num"><strong>2.47</strong></td><td class="num">0.241</td><td><strong>SPECIFIC</strong></td></tr>
+<tr><td>irinotecan</td><td class="num">43</td><td>−0.97 / −0.74 / <strong>−2.51</strong></td><td>CYP51</td><td class="num"><strong>1.65</strong></td><td class="num">0.291</td><td><strong>SPECIFIC</strong></td></tr>
+<tr><td>alectinib</td><td class="num">36</td><td><strong>−2.61</strong> / −1.22 / −1.07</td><td>PTR1</td><td class="num"><strong>1.47</strong></td><td class="num">0.336</td><td><strong>SPECIFIC</strong></td></tr>
+<tr><td>bexarotene</td><td class="num">26</td><td><strong>−2.19</strong> / −0.81 / −1.01</td><td>PTR1</td><td class="num"><strong>1.28</strong></td><td class="num">0.438</td><td><strong>SPECIFIC</strong></td></tr>
+<tr><td>naldemedine</td><td class="num">42</td><td>−0.67 / <strong>−2.32</strong> / −1.84</td><td>TR</td><td class="num">1.06</td><td class="num">0.236</td><td>mixed</td></tr>
+<tr><td>vibegron</td><td class="num">33</td><td>−1.28 / −1.08 / <strong>−2.29</strong></td><td>CYP51</td><td class="num">1.11</td><td class="num">0.367</td><td>mixed</td></tr>
+<tr><td>berotralstat</td><td class="num">41</td><td>−1.34 / <strong>−2.45</strong> / −1.40</td><td>TR</td><td class="num">1.09</td><td class="num">0.246</td><td>mixed</td></tr>
+<tr><td>ubrogepant</td><td class="num">40</td><td>−0.85 / −1.49 / <strong>−2.23</strong></td><td>CYP51</td><td class="num">1.06</td><td class="num">0.300</td><td>mixed</td></tr>
+<tr><td>dutasteride</td><td class="num">37</td><td>−1.09 / −2.04 / <strong>−2.56</strong></td><td>CYP51</td><td class="num">0.99</td><td class="num">0.341</td><td>mixed</td></tr>
+<tr><td>ergotamine</td><td class="num">43</td><td>−1.94 / <strong>−2.73</strong> / −1.57</td><td>TR</td><td class="num">0.97</td><td class="num">0.244</td><td>mixed (leans sticky)</td></tr>
+<tr><td>saquinavir</td><td class="num">49</td><td>−1.28 / <strong>−2.32</strong> / −1.57</td><td>TR</td><td class="num">0.90</td><td class="num">0.202</td><td>mixed</td></tr>
+<tr><td>risdiplam</td><td class="num">30</td><td><strong>−2.37</strong> / −1.15 / −1.84</td><td>PTR1</td><td class="num">0.87</td><td class="num">0.390</td><td>mixed</td></tr>
+<tr><td>bisoctrizole</td><td class="num">49</td><td>−1.09 / <strong>−2.25</strong> / −1.68</td><td>TR</td><td class="num">0.86</td><td class="num">0.200</td><td>mixed</td></tr>
+<tr><td>capmatinib</td><td class="num">31</td><td><strong>−2.19</strong> / −1.49 / −1.35</td><td>PTR1</td><td class="num">0.77</td><td class="num">0.368</td><td>mixed</td></tr>
+<tr><td>lomitapide</td><td class="num">50</td><td>−2.07 / <strong>−2.39</strong> / −1.35</td><td>TR</td><td class="num">0.68</td><td class="num">0.200</td><td>mixed</td></tr>
+<tr><td>rimegepant</td><td class="num">39</td><td>−1.03 / −2.32 / <strong>−2.34</strong></td><td>CYP51</td><td class="num">0.67</td><td class="num">0.313</td><td>mixed</td></tr>
+<tr><td>midostaurin</td><td class="num">43</td><td>−1.64 / <strong>−2.39</strong> / −1.84</td><td>TR</td><td class="num">0.64</td><td class="num">0.233</td><td>mixed</td></tr>
+<tr><td>entrectinib</td><td class="num">41</td><td><strong>−2.25</strong> / −1.97 / −1.73</td><td>PTR1</td><td class="num">0.39</td><td class="num">0.280</td><td>STICKY</td></tr>
+<tr><td>dihydroergotamine</td><td class="num">43</td><td><strong>−2.25</strong> / −2.11 / −1.73</td><td>PTR1</td><td class="num">0.33</td><td class="num">0.267</td><td>STICKY</td></tr>
+<tr><td>olaparib</td><td class="num">32</td><td><strong>−2.13</strong> / −1.84 / −1.79</td><td>PTR1</td><td class="num">0.31</td><td class="num">0.353</td><td>STICKY</td></tr>
+<tr><td>eltrombopag</td><td class="num">33</td><td><strong>−2.31</strong> / −1.84 / −2.18</td><td>PTR1</td><td class="num">0.30</td><td class="num">0.352</td><td>STICKY</td></tr>
+<tr><td>nilotinib</td><td class="num">39</td><td>−2.00 / <strong>−2.39</strong> / −2.23</td><td>TR</td><td class="num">0.27</td><td class="num">0.256</td><td>STICKY</td></tr>
+<tr><td>tolvaptan</td><td class="num">32</td><td><strong>−2.13</strong> / −1.70 / −2.12</td><td>PTR1</td><td class="num">0.22</td><td class="num">0.353</td><td>STICKY</td></tr>
+<tr><td>tepotinib</td><td class="num">37</td><td>−2.07 / −2.04 / <strong>−2.23</strong></td><td>CYP51</td><td class="num">0.18</td><td class="num">0.324</td><td>STICKY</td></tr>
+<tr><td>conivaptan</td><td class="num">38</td><td>−2.31 / <strong>−2.32</strong> / −2.29</td><td>TR</td><td class="num">0.02</td><td class="num">0.261</td><td>STICKY</td></tr>
+</tbody>
+</table>
+</div>
+<p><strong>Bold</strong> z-scores mark each drug's best target. Read thresholds: gap &gt; 1.2 = SPECIFIC,
       gap &lt; 0.6 = STICKY, in between = mixed.</p>
-
-      <h3>Step 4: What this changes</h3>
-      <p><strong>8 of 25 are confirmed generically sticky</strong> &#8212; conivaptan, tepotinib, tolvaptan,
+<h2>Step 4: What this changes</h2>
+<p><strong>8 of 25 are confirmed generically sticky</strong> — conivaptan, tepotinib, tolvaptan,
       nilotinib, eltrombopag, olaparib, dihydroergotamine, entrectinib. Consistently strong across all three
       chemically unrelated pockets, essentially the same z-score no matter which target you look at. Their good
       raw scores are real, but the evidence points to "Vina likes this molecule in general," not "this molecule
       fits this specific pocket." This confirms the informal suspicion flagged after the CYP51 screen (conivaptan
-      showing up a third time, nilotinib a second) &#8212; it wasn't a fluke, it's the majority pattern for repeat
+      showing up a third time, nilotinib a second) — it wasn't a fluke, it's the majority pattern for repeat
       hits.</p>
-      <p><strong>4 of 25 are genuinely pocket-specific</strong> &#8212; and this is the part worth paying real
+<p><strong>4 of 25 are genuinely pocket-specific</strong> — and this is the part worth paying real
       attention to: <strong>they're also exactly the four drugs with the strongest independent literature
       corroboration found across all three screens.</strong> Digitoxin and irinotecan both have confirmed activity
       against <em>L. infantum</em> itself (see the <a href="CYP51Screen.html">CYP51 post</a>), and alectinib was
-      PTR1's original #1 hit. That's a real, independent cross-check on this whole method &#8212; it's picking out
+      PTR1's original #1 hit. That's a real, independent cross-check on this whole method — it's picking out
       the same drugs the literature separately flags as most biologically plausible, not just re-describing the
       docking scores in different language. Bexarotene has no literature precedent yet, but posts the single best
-      ligand efficiency in the entire table (0.438, from only 26 heavy atoms) &#8212; a small molecule fitting the
-      pocket precisely rather than a big one racking up contacts by sheer size &#8212; worth a second look for
+      ligand efficiency in the entire table (0.438, from only 26 heavy atoms) — a small molecule fitting the
+      pocket precisely rather than a big one racking up contacts by sheer size — worth a second look for
       that reason alone.</p>
-
-      <h3>Step 5: A correction to the TR post's framing</h3>
-      <p>The <a href="TRScreen.html">TR post</a> called ergotamine the project's most promising lead, and that
+<h2>Step 5: A correction to the TR post's framing</h2>
+<p>The <a href="TRScreen.html">TR post</a> called ergotamine the project's most promising lead, and that
       framing needs walking back a little: <strong>ergotamine is "mixed, leaning sticky" (gap 0.97), not cleanly
-      pocket-specific.</strong> It's a strong binder on all three targets, just clearly strongest on TR &#8212;
+      pocket-specific.</strong> It's a strong binder on all three targets, just clearly strongest on TR —
       real signal, but weaker specificity evidence than "novel, pocket-matched scaffold" implied.</p>
-      <p>This is actually unsurprising once you think about the chemistry: ergot alkaloids are famous for
-      promiscuous polypharmacology even against human receptors &#8212; dopamine, serotonin, and adrenergic
+<p>This is actually unsurprising once you think about the chemistry: ergot alkaloids are famous for
+      promiscuous polypharmacology even against human receptors — dopamine, serotonin, and adrenergic
       receptors are all real, well-documented ergotamine targets. A scaffold already known for hitting many
       unrelated binding sites in humans has no particular reason to suddenly become pocket-selective against a
-      novel parasite target instead. <strong>This doesn't disqualify ergotamine</strong> &#8212; it's still the
+      novel parasite target instead. <strong>This doesn't disqualify ergotamine</strong> — it's still the
       cheapest, most cross-run-consistent hit the project has found, and promiscuous compounds have a real (if
       less mechanistically tidy) history as antiparasitics. The honest story going forward is "consistently
       strong, likely non-selective binder, still worth the cost argument" rather than "novel, pocket-matched
       scaffold."</p>
-      <p>Ligand efficiency, for what it's worth, didn't cleanly separate the two groups on its own &#8212; sticky
-      and specific drugs both span roughly 0.2&#8211;0.35 LE, aside from the standout cases (bexarotene's 0.438;
-      digitoxin/irinotecan in the 0.24&#8211;0.29 range despite being fairly large molecules). The specificity gap
+<p>Ligand efficiency, for what it's worth, didn't cleanly separate the two groups on its own — sticky
+      and specific drugs both span roughly 0.2–0.35 LE, aside from the standout cases (bexarotene's 0.438;
+      digitoxin/irinotecan in the 0.24–0.29 range despite being fairly large molecules). The specificity gap
       is doing essentially all of the discriminating work here; LE is a useful secondary signal, not a standalone
       filter.</p>
-
-      <h3>What's next</h3>
-      <p>This is now a standing step for any future screen on this project: before getting excited about a
+<h2>What's next</h2>
+<p>This is now a standing step for any future screen on this project: before getting excited about a
       top-10 hit, check its score against the other targets already run. A drug that's merely "consistently good
       everywhere" is a weaker novel-mechanism claim than a drug that's dramatically better on the new target
-      specifically &#8212; and now there's a real, literature-cross-checked method for telling the difference
-      instead of just a hunch. <em>None of this is proof of mechanism</em> &#8212; a high specificity gap is
+      specifically — and now there's a real, literature-cross-checked method for telling the difference
+      instead of just a hunch. <em>None of this is proof of mechanism</em> — a high specificity gap is
       evidence consistent with genuine pocket complementarity, not confirmation of it, and a low gap doesn't
       prove a drug has no real antiparasitic activity via some other mechanism, only that this particular signal
       can't distinguish it from a generic strong binder.</p>
-
-      <h3>A quick note on how this got built</h3>
-      <p>The statistics pipeline (z-scoring, the specificity-gap formula, pulling heavy-atom counts via RDKit) was
+<aside class="callout" aria-labelledby="built-title">
+<h2 id="built-title">A quick note on how this got built</h2>
+<p>The statistics pipeline (z-scoring, the specificity-gap formula, pulling heavy-atom counts via RDKit) was
       built working with Claude Code, same as the rest of this project, and I want to say so plainly rather than
       let it go quiet. Designing what question the metric should actually answer, deciding on the gap thresholds,
       and every read on what the results mean are mine.</p>
+</aside>
+          <nav class="pager" aria-label="Page navigation"><a href="../MolecularDocking.html">&larr; Back to Molecular Docking</a></nav>
+        </article>
+      </div>
     </div>
-
-    <div class="footer">
-      Contact: <a class="link" href="mailto: alinaren@biomedbound.com">AlinaRen@biomedbound.com</a>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <p><strong>Alina Ren</strong> &middot; BioMedBound</p>
+        <p>A student research project in computational drug repurposing.</p>
+        <p>Contact: <a href="mailto:alinaren@biomedbound.com">alinaren@biomedbound.com</a></p>
+      </div>
+      <div>
+        <p><strong>Please note</strong></p>
+        <p>Docking scores are computational predictions, not evidence that a drug works or is safe, and nothing here is medical advice. This project is built with AI assistance (Claude Code), and each page says where.</p>
+      </div>
+      <p class="fineprint">Typefaces: Inter and Source Serif 4, used under the SIL Open Font License.</p>
     </div>
-  </div>
+  </footer>
 </body>
 </html>
